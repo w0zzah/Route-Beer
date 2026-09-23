@@ -1,0 +1,6946 @@
+[
+  {
+    "address": "155 Riccarton Road, Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/53831947",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5301811,
+    "longitude": 172.5960812
+  },
+  {
+    "address": "21 New Regent Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "way/101162363",
+    "name": "New Regent Chicken \u0026 Chips",
+    "latitude": -43.5293479,
+    "longitude": 172.6385308
+  },
+  {
+    "address": "248 Barbadoes Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/101450916",
+    "name": "Subway",
+    "latitude": -43.5328264,
+    "longitude": 172.645856
+  },
+  {
+    "address": "14 Washington Way, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/101546623",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5402041,
+    "longitude": 172.6434455
+  },
+  {
+    "address": "71 Riccarton Road, Riccarton",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/139070795",
+    "name": "KFC",
+    "latitude": -43.5297944,
+    "longitude": 172.604661
+  },
+  {
+    "address": "43-45 Lincoln Road, Hillmorton, Christchurch 8149, New Zealand",
+    "openingHours": null,
+    "locID": "way/143356261",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5510598,
+    "longitude": 172.5986805
+  },
+  {
+    "address": "1 Radcliffe Road, Belfast, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "way/151948743",
+    "name": "Subway",
+    "latitude": -43.460118,
+    "longitude": 172.6256533
+  },
+  {
+    "address": "346 Port Hills Road, Hillsborough, Christchurch 8241, New Zealand",
+    "openingHours": null,
+    "locID": "way/158300971",
+    "name": "Fryers Tuck",
+    "latitude": -43.563825,
+    "longitude": 172.6775993
+  },
+  {
+    "address": "77 Shirley Road, Shirley, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/168844587",
+    "name": "KFC",
+    "latitude": -43.5079528,
+    "longitude": 172.6620733
+  },
+  {
+    "address": "17A Bishopdale Court, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/206341529",
+    "name": "The Kebab Konnection",
+    "latitude": -43.4895417,
+    "longitude": 172.5867086
+  },
+  {
+    "address": "1/10 Bower Avenue, New Brighton, Christchurch 8083, New Zealand",
+    "openingHours": null,
+    "locID": "way/224191374",
+    "name": null,
+    "latitude": -43.5034218,
+    "longitude": 172.709787
+  },
+  {
+    "address": "512 Memorial Avenue, Christchurch Airport",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/230912312",
+    "name": "McDonald\u0027s",
+    "latitude": -43.4916548,
+    "longitude": 172.5485527
+  },
+  {
+    "address": "9 Chappie Place, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/294902763",
+    "name": "Wendy\u0027s",
+    "latitude": -43.5427362,
+    "longitude": 172.5287173
+  },
+  {
+    "address": "4 Rountree Street, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "locID": "way/295321009",
+    "name": "Captain Ben\u0027s",
+    "latitude": -43.526516,
+    "longitude": 172.5792185
+  },
+  {
+    "address": "366-376 Lincoln Road, Addington, Christchurch 8024, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/303413469",
+    "name": "Burger King",
+    "latitude": -43.5422321,
+    "longitude": 172.6144395
+  },
+  {
+    "address": "217 Papanui Road, Merivale",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/328701519",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5114916,
+    "longitude": 172.6205634
+  },
+  {
+    "address": "322 Harewood Road, Bishopdale",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "22:00"
+      ]
+    },
+    "locID": "way/329073607",
+    "name": "Hell",
+    "latitude": -43.4874178,
+    "longitude": 172.5876715
+  },
+  {
+    "address": "359b Lincoln Road, Addington, Spreydon-Cashmere Community 8024, New Zealand",
+    "openingHours": null,
+    "locID": "way/329824231",
+    "name": "Empire Chicken",
+    "latitude": -43.5411265,
+    "longitude": 172.6150932
+  },
+  {
+    "address": "326 Colombo Street, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/392401877",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5482747,
+    "longitude": 172.6372064
+  },
+  {
+    "address": "43 Nayland Street, Sumner 8081, New Zealand",
+    "openingHours": null,
+    "locID": "way/400537382",
+    "name": "Red Snapper",
+    "latitude": -43.5694557,
+    "longitude": 172.7591654
+  },
+  {
+    "address": "36 Nayland Street, Sumner",
+    "openingHours": {
+      "TUESDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "20:30"
+      ]
+    },
+    "locID": "way/400546149",
+    "name": "Burger Stop",
+    "latitude": -43.5697302,
+    "longitude": 172.759256
+  },
+  {
+    "address": "38 Nayland Street, Sumner",
+    "openingHours": null,
+    "locID": "way/400546150",
+    "name": "Cafe Lapines",
+    "latitude": -43.5698316,
+    "longitude": 172.7592159
+  },
+  {
+    "address": "477 Papanui Road, Papanui",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/441402588",
+    "name": "KFC",
+    "latitude": -43.4985645,
+    "longitude": 172.6090505
+  },
+  {
+    "address": "438 Main South Road, Hornby",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/441600125",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5432916,
+    "longitude": 172.5218794
+  },
+  {
+    "address": "252 Colombo Street, Sydenham, Christchurch 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "21:00"
+      ]
+    },
+    "locID": "way/443763446",
+    "name": "Jumbo Food Centre",
+    "latitude": -43.5519781,
+    "longitude": 172.6369928
+  },
+  {
+    "address": "258 Colombo Street, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/443763481",
+    "name": "KFC",
+    "latitude": -43.551777,
+    "longitude": 172.6369432
+  },
+  {
+    "address": "Wok Inn Chinese Takeaways, 64 Springs Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/475691798",
+    "name": "Wok Inn Fish \u0026 Chips",
+    "latitude": -43.5482928,
+    "longitude": 172.5403041
+  },
+  {
+    "address": "67 The Runway, Wigram",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/494787255",
+    "name": "Hell",
+    "latitude": -43.5522191,
+    "longitude": 172.5571059
+  },
+  {
+    "address": "1 Brynley Street, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/549685175",
+    "name": "Carl\u0027s Jr.",
+    "latitude": -43.5434279,
+    "longitude": 172.5276929
+  },
+  {
+    "address": "6 Cranley Street, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "way/551355047",
+    "name": "KFC",
+    "latitude": -43.5343622,
+    "longitude": 172.6755659
+  },
+  {
+    "address": "228 Linwood Avenue, Linwood, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/551355049",
+    "name": "Burger King",
+    "latitude": -43.5334058,
+    "longitude": 172.6725149
+  },
+  {
+    "address": "10 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "18:30"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "18:30"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "19:30"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "19:30"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "16:00"
+      ]
+    },
+    "locID": "way/557584085",
+    "name": "Chicking",
+    "latitude": -43.5307428,
+    "longitude": 172.5745382
+  },
+  {
+    "address": "1 Cutts Road, Russley",
+    "openingHours": null,
+    "locID": "way/606172985",
+    "name": "Russley Fish Supply",
+    "latitude": -43.5225795,
+    "longitude": 172.5422274
+  },
+  {
+    "address": "512 Memorial Avenue, Christchurch Airport 8053, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/657426049",
+    "name": "KFC",
+    "latitude": -43.4910925,
+    "longitude": 172.5486288
+  },
+  {
+    "address": "408 Marshland Road, Marshland 8083, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/657428590",
+    "name": "McDonald\u0027s",
+    "latitude": -43.4765033,
+    "longitude": 172.6601249
+  },
+  {
+    "address": "7 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "way/760408428",
+    "name": "Burger King",
+    "latitude": -43.5073072,
+    "longitude": 172.6625256
+  },
+  {
+    "address": "1 Sir John McKenzie Avenue, Yaldhurst 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/793372687",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5185065,
+    "longitude": 172.5267569
+  },
+  {
+    "address": "472 Blenheim Road, Sockburn, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/820117866",
+    "name": "Subway",
+    "latitude": -43.5388254,
+    "longitude": 172.5634606
+  },
+  {
+    "address": "Z Curletts Road, 68 Curletts Road, Sockburn, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/838854084",
+    "name": "Burger King",
+    "latitude": -43.5384593,
+    "longitude": 172.5678333
+  },
+  {
+    "address": "530B Sawyers Arms Road, Harewood, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "way/891829382",
+    "name": "Burger King",
+    "latitude": -43.4708935,
+    "longitude": 172.5704959
+  },
+  {
+    "address": "Hell, 322 Harewood Road, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "way/914892699",
+    "name": "Subway",
+    "latitude": -43.4874635,
+    "longitude": 172.5877671
+  },
+  {
+    "address": "580 Ferry Road, Woolston",
+    "openingHours": {
+      "MONDAY": [
+        "06:00",
+        "02:00"
+      ],
+      "TUESDAY": [
+        "06:00",
+        "02:00"
+      ],
+      "WEDNESDAY": [
+        "06:00",
+        "02:00"
+      ],
+      "THURSDAY": [
+        "06:00",
+        "02:00"
+      ],
+      "FRIDAY": [
+        "06:00",
+        "02:00"
+      ],
+      "SATURDAY": [
+        "06:00",
+        "02:00"
+      ],
+      "SUNDAY": [
+        "06:00",
+        "02:00"
+      ]
+    },
+    "locID": "way/975630948",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5486829,
+    "longitude": 172.6806937
+  },
+  {
+    "address": "418A Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/992080714",
+    "name": "KFC",
+    "latitude": -43.5431065,
+    "longitude": 172.525125
+  },
+  {
+    "address": "2-4 Cranley Street, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/1006840288",
+    "name": "Taco Bell",
+    "latitude": -43.5340684,
+    "longitude": 172.6750961
+  },
+  {
+    "address": "555 Colombo Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1012939215",
+    "name": "Pita Pit",
+    "latitude": -43.5384644,
+    "longitude": 172.6353407
+  },
+  {
+    "address": "555 Colombo Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1012939216",
+    "name": "Tank",
+    "latitude": -43.5383456,
+    "longitude": 172.6352773
+  },
+  {
+    "address": "334 Riccarton Road, Upper Riccarton",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/1018399097",
+    "name": "Subway",
+    "latitude": -43.5312776,
+    "longitude": 172.5763259
+  },
+  {
+    "address": "Bush Inn Shopping Centre, 20 Waimairi Road, Upper Riccarton 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "locID": "way/1018404154",
+    "name": "Kebab Inn",
+    "latitude": -43.5302461,
+    "longitude": 172.5747992
+  },
+  {
+    "address": "Roast-ease, 20 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "10:00"
+      ]
+    },
+    "locID": "way/1018404160",
+    "name": "Taco Bell",
+    "latitude": -43.5302535,
+    "longitude": 172.5752354
+  },
+  {
+    "address": "Roast-ease, 20 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "10:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "10:00"
+      ]
+    },
+    "locID": "way/1018404161",
+    "name": "Carl\u0027s Jr.",
+    "latitude": -43.530405,
+    "longitude": 172.5753893
+  },
+  {
+    "address": "364 Riccarton Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "WEDNESDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "20:30"
+      ]
+    },
+    "locID": "way/1018404163",
+    "name": "Noodle Canteen",
+    "latitude": -43.5305852,
+    "longitude": 172.5752455
+  },
+  {
+    "address": "Coffee Culture, 364 Riccarton Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/1018404165",
+    "name": "BurgerFuel",
+    "latitude": -43.5307504,
+    "longitude": 172.5754435
+  },
+  {
+    "address": "Bush Inn Shopping Centre, 20 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "way/1018404174",
+    "name": null,
+    "latitude": -43.5300872,
+    "longitude": 172.5749074
+  },
+  {
+    "address": "11B Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "way/1018404192",
+    "name": "Dubba Dubba",
+    "latitude": -43.530643,
+    "longitude": 172.5743041
+  },
+  {
+    "address": "8 Cashmere Road, Cashmere",
+    "openingHours": {
+      "TUESDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "20:00"
+      ]
+    },
+    "locID": "way/1053851007",
+    "name": "Cashmere Fish Supply",
+    "latitude": -43.5672116,
+    "longitude": 172.6343159
+  },
+  {
+    "address": "133C Riccarton Road, Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1078378499",
+    "name": "Shamiana",
+    "latitude": -43.530698,
+    "longitude": 172.5988223
+  },
+  {
+    "address": "87 Division Street, Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1078378500",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5307132,
+    "longitude": 172.5987013
+  },
+  {
+    "address": "87 Division Street, Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1078378501",
+    "name": "Hungry Wok",
+    "latitude": -43.5307155,
+    "longitude": 172.5986734
+  },
+  {
+    "address": "Kebab Land, Division Street, Riccarton, Halswell-Hornby-Riccarton Community 8149, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1078378502",
+    "name": "KFC",
+    "latitude": -43.530723,
+    "longitude": 172.5985843
+  },
+  {
+    "address": "Westpac, 129 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1078378503",
+    "name": "Seoul Mate",
+    "latitude": -43.5307317,
+    "longitude": 172.5984801
+  },
+  {
+    "address": "Katsubi, Division Street, Riccarton, Halswell-Hornby-Riccarton Community 8149, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1078378504",
+    "name": "Kebab Land",
+    "latitude": -43.5307244,
+    "longitude": 172.5985673
+  },
+  {
+    "address": "ANZ, 129 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "19:00"
+      ]
+    },
+    "locID": "way/1078378567",
+    "name": "Phat Phillip",
+    "latitude": -43.5311885,
+    "longitude": 172.5968382
+  },
+  {
+    "address": "Indian Springs Eatery, 11/4 Troup Drive, Addington, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "way/1116484327",
+    "name": "Zambrero",
+    "latitude": -43.5407437,
+    "longitude": 172.6051197
+  },
+  {
+    "address": "71N Main North Road, Christchurch 8052, New Zealand",
+    "openingHours": null,
+    "locID": "way/1183576488",
+    "name": "Tank",
+    "latitude": -43.4939847,
+    "longitude": 172.6089231
+  },
+  {
+    "address": "71E Main North Road, Northcote 8053, New Zealand",
+    "openingHours": null,
+    "locID": "way/1183576489",
+    "name": "McDonald\u0027s",
+    "latitude": -43.4942019,
+    "longitude": 172.608871
+  },
+  {
+    "address": "19 Langdons Road, Papanui, Christchurch 8052, New Zealand",
+    "openingHours": null,
+    "locID": "way/1183576502",
+    "name": "Sal\u0027s Pizza",
+    "latitude": -43.4941344,
+    "longitude": 172.6082203
+  },
+  {
+    "address": "Specsavers, Papanui Parallel Cycleway, Northcote, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": null,
+    "locID": "way/1183598491",
+    "name": "Phat Philips",
+    "latitude": -43.4914655,
+    "longitude": 172.6111733
+  },
+  {
+    "address": "593 Colombo Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "17:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "03:00"
+      ]
+    },
+    "locID": "way/1191334125",
+    "name": "D\u0026N Souvlaki",
+    "latitude": -43.5362811,
+    "longitude": 172.6363281
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/1239045858",
+    "name": "Shaka Bros Burgers",
+    "latitude": -43.5336991,
+    "longitude": 172.6337518
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239045860",
+    "name": "El Rancho",
+    "latitude": -43.5336981,
+    "longitude": 172.6339308
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "17:00"
+      ]
+    },
+    "locID": "way/1239045862",
+    "name": "Pretty Good Pizza",
+    "latitude": -43.5336973,
+    "longitude": 172.6340613
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239045863",
+    "name": "Dosa Kitchen",
+    "latitude": -43.5337316,
+    "longitude": 172.6340864
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "locID": "way/1239045874",
+    "name": "Empire Chicken",
+    "latitude": -43.5340677,
+    "longitude": 172.6338524
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239203892",
+    "name": "Pedro\u0027s Kitchen",
+    "latitude": -43.5340337,
+    "longitude": 172.6337564
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218123",
+    "name": "Herba Gourmet",
+    "latitude": -43.5339993,
+    "longitude": 172.633756
+  },
+  {
+    "address": "Riverside Market, 96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/1239218124",
+    "name": "Dimitris Greek Food",
+    "latitude": -43.5339203,
+    "longitude": 172.633755
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218125",
+    "name": "Fritz\u0027s Weiners",
+    "latitude": -43.5339201,
+    "longitude": 172.6338019
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218126",
+    "name": "Pure Pulp",
+    "latitude": -43.53392,
+    "longitude": 172.6338567
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "16:00"
+      ]
+    },
+    "locID": "way/1239218127",
+    "name": "The Dounut Dispensary",
+    "latitude": -43.5339446,
+    "longitude": 172.6338572
+  },
+  {
+    "address": "Riverside Market, 96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218128",
+    "name": "Cluck Cluck Slurp",
+    "latitude": -43.5339011,
+    "longitude": 172.6337537
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218129",
+    "name": "Malaysian Delights",
+    "latitude": -43.5339013,
+    "longitude": 172.6338334
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218130",
+    "name": "El Quincho",
+    "latitude": -43.5338746,
+    "longitude": 172.6337533
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218131",
+    "name": "Hanoi Alley",
+    "latitude": -43.5338171,
+    "longitude": 172.6338411
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218132",
+    "name": "Seoul Tiger",
+    "latitude": -43.5338173,
+    "longitude": 172.6337528
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218133",
+    "name": "Kathmandu Momo House",
+    "latitude": -43.5338171,
+    "longitude": 172.6338411
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218139",
+    "name": "Flash Browns",
+    "latitude": -43.5339471,
+    "longitude": 172.6339856
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "17:00"
+      ]
+    },
+    "locID": "way/1239218140",
+    "name": "Black Burger",
+    "latitude": -43.5339965,
+    "longitude": 172.6339857
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239218142",
+    "name": "Indo Tempeh",
+    "latitude": -43.5340426,
+    "longitude": 172.6339551
+  },
+  {
+    "address": "McDonald\u0027s, 18 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1263073645",
+    "name": "Shamiana",
+    "latitude": -43.5069947,
+    "longitude": 172.6648618
+  },
+  {
+    "address": "18 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1263073646",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5069634,
+    "longitude": 172.6648993
+  },
+  {
+    "address": "Golf Links Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1263073648",
+    "name": "Hungry Wok",
+    "latitude": -43.5068615,
+    "longitude": 172.6649245
+  },
+  {
+    "address": "Golf Links Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "way/1263073649",
+    "name": "Adana Grill",
+    "latitude": -43.5068073,
+    "longitude": 172.6650172
+  },
+  {
+    "address": "McDonald\u0027s, 18 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1263073650",
+    "name": "Mi Amor",
+    "latitude": -43.5067553,
+    "longitude": 172.6649197
+  },
+  {
+    "address": "Golf Links Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1263073651",
+    "name": "Pita Pit",
+    "latitude": -43.5067238,
+    "longitude": 172.6648596
+  },
+  {
+    "address": "Golf Links Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1263073652",
+    "name": "Tank",
+    "latitude": -43.5067244,
+    "longitude": 172.6648179
+  },
+  {
+    "address": "10/5 Prestons Park Drive, Marshland, Christchurch 8083, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/1274283227",
+    "name": "Domino\u0027s",
+    "latitude": -43.474399,
+    "longitude": 172.6696249
+  },
+  {
+    "address": "263 Burwood Road, Burwood",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "20:30"
+      ]
+    },
+    "locID": "way/1277680114",
+    "name": "Burwood Fish and Chips",
+    "latitude": -43.4834797,
+    "longitude": 172.6807018
+  },
+  {
+    "address": "257 Burwood Road, Burwood",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "14:30",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "14:30",
+        "21:00"
+      ]
+    },
+    "locID": "way/1277680116",
+    "name": "Cinnamon Spice",
+    "latitude": -43.4835658,
+    "longitude": 172.6807393
+  },
+  {
+    "address": "255 Burwood Road, Burwood",
+    "openingHours": null,
+    "locID": "way/1277680117",
+    "name": "Greenhaven Fish \u0026 Chips",
+    "latitude": -43.4836171,
+    "longitude": 172.6807407
+  },
+  {
+    "address": "134 Marshland Road, Shirley 8061, New Zealand",
+    "openingHours": null,
+    "locID": "way/1277685953",
+    "name": "Jade Chinese Takeaway",
+    "latitude": -43.49871,
+    "longitude": 172.6621966
+  },
+  {
+    "address": "251 Travis Road, New Brighton",
+    "openingHours": null,
+    "locID": "way/1288877564",
+    "name": "Gourmet Seafoods QEII",
+    "latitude": -43.4947731,
+    "longitude": 172.7102687
+  },
+  {
+    "address": "478 Cranford Street, Redwood",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/1317062285",
+    "name": "Burgers \u0026 Beers",
+    "latitude": -43.4903484,
+    "longitude": 172.6226438
+  },
+  {
+    "address": "478 Cranford Street, Redwood, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/1317062286",
+    "name": "Cluck\u0027IZ",
+    "latitude": -43.4902777,
+    "longitude": 172.6227131
+  },
+  {
+    "address": "60 Queenspark Drive, Parklands",
+    "openingHours": null,
+    "locID": "way/1326138692",
+    "name": "New Wok",
+    "latitude": -43.4807978,
+    "longitude": 172.7057797
+  },
+  {
+    "address": "Subway, 60 Queenspark Drive, Parklands, Christchurch 8083, New Zealand",
+    "openingHours": null,
+    "locID": "way/1326138694",
+    "name": "Silver Dolphin",
+    "latitude": -43.4812284,
+    "longitude": 172.7048559
+  },
+  {
+    "address": "60 Queenspark Drive, Parklands",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "19:30"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "21:30"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "21:30"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "21:00"
+      ]
+    },
+    "locID": "way/1326138695",
+    "name": "Subway",
+    "latitude": -43.481126,
+    "longitude": 172.704929
+  },
+  {
+    "address": "1/45 Nayland Street, Sumner, Christchurch 8081, New Zealand",
+    "openingHours": null,
+    "locID": "way/1348142775",
+    "name": "The Butchers Apron",
+    "latitude": -43.5693001,
+    "longitude": 172.7598667
+  },
+  {
+    "address": "Westpac, 129 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "way/1363809845",
+    "name": "Katsubi",
+    "latitude": -43.5306411,
+    "longitude": 172.5983899
+  },
+  {
+    "address": "129 Riccarton Road, Riccarton 8041, New Zealand",
+    "openingHours": null,
+    "locID": "way/1363809858",
+    "name": "Auntie Dai\u0027s Dumplings",
+    "latitude": -43.5307634,
+    "longitude": 172.6003337
+  },
+  {
+    "address": "3/124 Opawa Road, Opawa, Christchurch 8240, New Zealand",
+    "openingHours": null,
+    "locID": "node/357594805",
+    "name": "Opawa Seafood",
+    "latitude": -43.5531618,
+    "longitude": 172.6643966
+  },
+  {
+    "address": "234A Centaurus Road, Saint Martins, Christchurch 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/357678357",
+    "name": "Huntsbury Seafoods",
+    "latitude": -43.5629637,
+    "longitude": 172.6570214
+  },
+  {
+    "address": "1 Papanui Road, Merivale, Christchurch 8014, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/613346623",
+    "name": "Burger King",
+    "latitude": -43.520528,
+    "longitude": 172.627293
+  },
+  {
+    "address": "303 Colombo Street, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "22:00"
+      ]
+    },
+    "locID": "node/676230224",
+    "name": "Hell",
+    "latitude": -43.5492787,
+    "longitude": 172.6362715
+  },
+  {
+    "address": "303 Colombo Street, Sydenham, Christchurch 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/676230226",
+    "name": "Noodle Canteen",
+    "latitude": -43.5494055,
+    "longitude": 172.6362748
+  },
+  {
+    "address": "3 Walton Street, Sydenham, Linwood-Central-Heathcote Community 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/676281575",
+    "name": "Arjee Bhajee",
+    "latitude": -43.5491593,
+    "longitude": 172.6373034
+  },
+  {
+    "address": "300 Colombo Street, Sydenham",
+    "openingHours": null,
+    "locID": "node/676281576",
+    "name": "Spagalimis",
+    "latitude": -43.5492167,
+    "longitude": 172.6373034
+  },
+  {
+    "address": "Moorhouse Avenue, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/736447778",
+    "name": "Burger King",
+    "latitude": -43.539127,
+    "longitude": 172.6413852
+  },
+  {
+    "address": "12 Sheffield Crescent, Burnside, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/768257067",
+    "name": "Mega-Bites",
+    "latitude": -43.4913077,
+    "longitude": 172.5629011
+  },
+  {
+    "address": "13 Johns Road, Belfast, Fendalton-Waimari-Harewood Community 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/825410595",
+    "name": "Burger King",
+    "latitude": -43.451471,
+    "longitude": 172.62762
+  },
+  {
+    "address": "1 Cossar Street, Burwood, Christchurch 8083, New Zealand",
+    "openingHours": null,
+    "locID": "node/960912978",
+    "name": "Cossar Street Takeaways",
+    "latitude": -43.4954617,
+    "longitude": 172.688352
+  },
+  {
+    "address": "104 Staveley Street, Avonhead, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/987385353",
+    "name": "Staverly Fish Supply \u0026 Hamburger Bar",
+    "latitude": -43.5188561,
+    "longitude": 172.5524826
+  },
+  {
+    "address": "202 Hills Road, Edgeware, Papanui-Innes Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/1110924826",
+    "name": "Subway",
+    "latitude": -43.5087677,
+    "longitude": 172.6518953
+  },
+  {
+    "address": "205 Hills Road, Edgeware",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "01:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "01:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "01:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "01:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "01:00"
+      ]
+    },
+    "locID": "node/1110924829",
+    "name": "Heroes Burgers",
+    "latitude": -43.5083257,
+    "longitude": 172.6514632
+  },
+  {
+    "address": "7 Chalmers Street, Hornby",
+    "openingHours": null,
+    "locID": "node/1140727631",
+    "name": "Subway",
+    "latitude": -43.5429974,
+    "longitude": 172.5220397
+  },
+  {
+    "address": "481 Papanui Road, Papanui",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/1153759121",
+    "name": "Subway",
+    "latitude": -43.4982693,
+    "longitude": 172.6088015
+  },
+  {
+    "address": "63 Rutland Street, St Albans 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/1153970295",
+    "name": "Rutland Fish n\u0027 Chips",
+    "latitude": -43.5065703,
+    "longitude": 172.6286918
+  },
+  {
+    "address": "2 Buckleys Road, Linwood",
+    "openingHours": null,
+    "locID": "node/1352144359",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5334675,
+    "longitude": 172.6737788
+  },
+  {
+    "address": "24 Grampian Street, Casebrook, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/1661200459",
+    "name": "Grampian Fish \u0026 Chips",
+    "latitude": -43.4801723,
+    "longitude": 172.603394
+  },
+  {
+    "address": "335 Harewood Road, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/2163454941",
+    "name": "Domino\u0027s",
+    "latitude": -43.4883658,
+    "longitude": 172.5864935
+  },
+  {
+    "address": "18 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "18:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "18:00"
+      ]
+    },
+    "locID": "node/2170789105",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5069515,
+    "longitude": 172.6649652
+  },
+  {
+    "address": "17 Papanui Road, Merivale, Christchurch 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/2295281756",
+    "name": "Pedro\u0027s House of Lamb",
+    "latitude": -43.5195733,
+    "longitude": 172.6269082
+  },
+  {
+    "address": "1040 Colombo Street, St Albans",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "20:30"
+      ]
+    },
+    "locID": "node/2476106879",
+    "name": "1040 Takeaways",
+    "latitude": -43.514975,
+    "longitude": 172.6367323
+  },
+  {
+    "address": "1005C Ferry Road, Ferrymead, Christchurch 8241, New Zealand",
+    "openingHours": null,
+    "locID": "node/2481801526",
+    "name": "Subway",
+    "latitude": -43.5568078,
+    "longitude": 172.7001915
+  },
+  {
+    "address": "1/300A Lincoln Road, Addington, Spreydon-Cashmere Community 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/2692142807",
+    "name": "Domino\u0027s",
+    "latitude": -43.5437716,
+    "longitude": 172.6117277
+  },
+  {
+    "address": "29 Colombo Street, Cashmere",
+    "openingHours": null,
+    "locID": "node/2697092288",
+    "name": "Thorrington Chinese Takeaways",
+    "latitude": -43.5649309,
+    "longitude": 172.6369
+  },
+  {
+    "address": "85 Centaurus Road, Huntsbury, Christchurch 8022, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "04:00",
+        "08:00"
+      ],
+      "TUESDAY": [
+        "04:00",
+        "08:00"
+      ],
+      "WEDNESDAY": [
+        "04:00",
+        "08:30"
+      ],
+      "THURSDAY": [
+        "04:00",
+        "08:30"
+      ],
+      "FRIDAY": [
+        "04:00",
+        "08:30"
+      ],
+      "SATURDAY": [
+        "04:00",
+        "08:30"
+      ],
+      "SUNDAY": [
+        "04:00",
+        "08:00"
+      ]
+    },
+    "locID": "node/2697114932",
+    "name": "BB Vietnamese Takeaway Fish \u0026 Chips",
+    "latitude": -43.5671366,
+    "longitude": 172.6466389
+  },
+  {
+    "address": "137 Warrington Street, Mairehau",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "23:59"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "23:59"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "22:00"
+      ]
+    },
+    "locID": "node/3359197830",
+    "name": "Hell",
+    "latitude": -43.5079886,
+    "longitude": 172.651211
+  },
+  {
+    "address": "91 Brighton Mall, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/3369566917",
+    "name": "Subway",
+    "latitude": -43.5076155,
+    "longitude": 172.7284942
+  },
+  {
+    "address": "211A Waimairi Road, Ilam",
+    "openingHours": null,
+    "locID": "node/3370860038",
+    "name": "Ilam Seafoods",
+    "latitude": -43.5160917,
+    "longitude": 172.5717429
+  },
+  {
+    "address": "211 Waimairi Road, Ilam",
+    "openingHours": null,
+    "locID": "node/3370871843",
+    "name": "Ilam Barbecues",
+    "latitude": -43.5162624,
+    "longitude": 172.5717712
+  },
+  {
+    "address": "207A Waimairi Road, Ilam, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/3370890098",
+    "name": "Domino\u0027s",
+    "latitude": -43.5163972,
+    "longitude": 172.5718017
+  },
+  {
+    "address": "201 Waimairi Road, Ilam",
+    "openingHours": null,
+    "locID": "node/3370911483",
+    "name": "Sushi Ya",
+    "latitude": -43.5166495,
+    "longitude": 172.5718467
+  },
+  {
+    "address": "151 Blenheim Road, Riccarton",
+    "openingHours": {
+      "MONDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "06:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/4034012440",
+    "name": "Subway",
+    "latitude": -43.5379817,
+    "longitude": 172.5957419
+  },
+  {
+    "address": "120 Hereford Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4139951439",
+    "name": "Big Fat Souvlaki",
+    "latitude": -43.5321504,
+    "longitude": 172.6355518
+  },
+  {
+    "address": "120 Hereford Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "20:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "19:30"
+      ]
+    },
+    "locID": "node/4139955493",
+    "name": "Wendy\u0027s",
+    "latitude": -43.5321491,
+    "longitude": 172.6360462
+  },
+  {
+    "address": "256 Barrington Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "06:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "06:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "06:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "06:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "06:30",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "06:30",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "06:30",
+        "22:00"
+      ]
+    },
+    "locID": "node/4167356990",
+    "name": "Subway",
+    "latitude": -43.5559791,
+    "longitude": 172.6201252
+  },
+  {
+    "address": "124 Opawa Road, Opawa, Christchurch 8240, New Zealand",
+    "openingHours": {
+      "TUESDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "21:00"
+      ]
+    },
+    "locID": "node/4171208062",
+    "name": "Hardwok express",
+    "latitude": -43.5531136,
+    "longitude": 172.6644855
+  },
+  {
+    "address": "148 Cashmere Road, Hoon Hay",
+    "openingHours": {
+      "MONDAY": [
+        "10:30",
+        "19:30"
+      ],
+      "TUESDAY": [
+        "10:30",
+        "19:30"
+      ],
+      "WEDNESDAY": [
+        "10:30",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "10:30",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "10:30",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "20:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "19:30"
+      ]
+    },
+    "locID": "node/4295663689",
+    "name": "Cracroft Fresh Fried",
+    "latitude": -43.5737355,
+    "longitude": 172.6155058
+  },
+  {
+    "address": "118 The Runway, Wigram, Christchurch 8042, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/4318272859",
+    "name": "Subway",
+    "latitude": -43.5522863,
+    "longitude": 172.5574196
+  },
+  {
+    "address": "82 Barrington Street, Somerfield",
+    "openingHours": null,
+    "locID": "node/4474666090",
+    "name": "Sai Touch of Spice",
+    "latitude": -43.5635542,
+    "longitude": 172.6261594
+  },
+  {
+    "address": "80 Barrington Street, Somerfield",
+    "openingHours": null,
+    "locID": "node/4474666390",
+    "name": "Hillview Fish Supply",
+    "latitude": -43.5636325,
+    "longitude": 172.6262537
+  },
+  {
+    "address": "681 Ferry Road, Woolston, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/4548738490",
+    "name": "Domino\u0027s",
+    "latitude": -43.5488049,
+    "longitude": 172.6826308
+  },
+  {
+    "address": "332 Colombo Street, Sydenham 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/4553449802",
+    "name": "Subway",
+    "latitude": -43.5477055,
+    "longitude": 172.6369477
+  },
+  {
+    "address": "Foo Sing Chinese Takeway, 262 Hoon Hay Road, Hoon Hay, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/4574635491",
+    "name": "Royal Indian",
+    "latitude": -43.5694644,
+    "longitude": 172.6111321
+  },
+  {
+    "address": "355-357 Colombo Street, Sydenham, Christchurch 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/4589644692",
+    "name": "Burgers \u0026 Beers Inc.",
+    "latitude": -43.5466742,
+    "longitude": 172.6365257
+  },
+  {
+    "address": "20 Buckleys Road, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/4599235589",
+    "name": "Domino\u0027s",
+    "latitude": -43.5331361,
+    "longitude": 172.6753769
+  },
+  {
+    "address": "492 Tuam Street, Phillipstown, Linwood-Central-Heathcote Community 8240, New Zealand",
+    "openingHours": null,
+    "locID": "node/4605765332",
+    "name": "Tuam St Food Centre",
+    "latitude": -43.5355758,
+    "longitude": 172.6582229
+  },
+  {
+    "address": "161 Yaldhurst Road, Sockburn",
+    "openingHours": null,
+    "locID": "node/4700199578",
+    "name": "Coach Corner Takeaways",
+    "latitude": -43.5264992,
+    "longitude": 172.5537366
+  },
+  {
+    "address": "39 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/4735265325",
+    "name": "Subway",
+    "latitude": -43.5293297,
+    "longitude": 172.608078
+  },
+  {
+    "address": "91D Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/4758811424",
+    "name": "China Wok",
+    "latitude": -43.5299061,
+    "longitude": 172.6025672
+  },
+  {
+    "address": "91D Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/4758826537",
+    "name": "Korean Noodle Lounge",
+    "latitude": -43.529834,
+    "longitude": 172.6025668
+  },
+  {
+    "address": "113 Worcester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4759031750",
+    "name": "Burger Bonanza",
+    "latitude": -43.5308401,
+    "longitude": 172.6386857
+  },
+  {
+    "address": "93 Main North Road, Papanui, Christchurch 8052, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:30"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "20:30"
+      ]
+    },
+    "locID": "node/4759476232",
+    "name": "North Road Fish",
+    "latitude": -43.4914298,
+    "longitude": 172.6124119
+  },
+  {
+    "address": "384 Ferry Road, Woolston",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "23:00"
+      ]
+    },
+    "locID": "node/4760909322",
+    "name": "Hell",
+    "latitude": -43.5434812,
+    "longitude": 172.6666016
+  },
+  {
+    "address": "5/987 Ferry Road, Ferrymead, Christchurch 8241, New Zealand",
+    "openingHours": null,
+    "locID": "node/4760910421",
+    "name": "Pita Pit",
+    "latitude": -43.5560814,
+    "longitude": 172.6987562
+  },
+  {
+    "address": "392 Ferry Road, Woolston",
+    "openingHours": null,
+    "locID": "node/4760910523",
+    "name": "Wings Takeaway",
+    "latitude": -43.5434821,
+    "longitude": 172.6672429
+  },
+  {
+    "address": "258 St Asaph Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4760910526",
+    "name": "Steampunk Laboratory",
+    "latitude": -43.5364982,
+    "longitude": 172.6418994
+  },
+  {
+    "address": "8 Portman Street, Woolston, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/4760910621",
+    "name": "Fish \u0026 Chips on Ferry",
+    "latitude": -43.5485595,
+    "longitude": 172.6825318
+  },
+  {
+    "address": "544 Memorial Avenue, Christchurch Airport 8053, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/4820024022",
+    "name": "Subway",
+    "latitude": -43.4908561,
+    "longitude": 172.5480481
+  },
+  {
+    "address": "544 Memorial Avenue, Christchurch Airport 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/4820024821",
+    "name": "BurgerFuel",
+    "latitude": -43.4907999,
+    "longitude": 172.5481158
+  },
+  {
+    "address": "301 Montreal Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "14:30"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "14:30"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "14:30"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "14:30"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "14:30"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "14:30"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "14:30"
+      ]
+    },
+    "locID": "node/4907031822",
+    "name": "Zen Sushi \u0026 Dumplings",
+    "latitude": -43.531238,
+    "longitude": 172.6302578
+  },
+  {
+    "address": "255 Greers Road, Bryndwr",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/4927097962",
+    "name": "Waimairi Chinese Takeaway \u0026 Fish \u0026 Chips",
+    "latitude": -43.4999296,
+    "longitude": 172.5856612
+  },
+  {
+    "address": "138 Hereford Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "21:00"
+      ]
+    },
+    "locID": "node/4976916521",
+    "name": "Hell",
+    "latitude": -43.5321539,
+    "longitude": 172.6373175
+  },
+  {
+    "address": "181 High Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/4999156622",
+    "name": "Bacon Brothers",
+    "latitude": -43.535733,
+    "longitude": 172.6408651
+  },
+  {
+    "address": "7 Shakespeare Road, Waltham",
+    "openingHours": null,
+    "locID": "node/4999156625",
+    "name": "It\u0027s all Greek to me",
+    "latitude": -43.5449017,
+    "longitude": 172.6477406
+  },
+  {
+    "address": "292 Colombo Street, Sydenham, Linwood-Central-Heathcote Community 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/5006227301",
+    "name": "Pita Pit",
+    "latitude": -43.549864,
+    "longitude": 172.6370746
+  },
+  {
+    "address": "18 Walton Street, Sydenham, Linwood-Central-Heathcote Community 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/5006227310",
+    "name": "Pedro\u0027s House of Lamb",
+    "latitude": -43.5498584,
+    "longitude": 172.6375171
+  },
+  {
+    "address": "292 Colombo Street, Sydenham 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/5006227311",
+    "name": "BurgerFuel",
+    "latitude": -43.5498595,
+    "longitude": 172.6373775
+  },
+  {
+    "address": "280 Colombo Street, Sydenham, Christchurch 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/5006241318",
+    "name": "No Name Food Bar",
+    "latitude": -43.5506311,
+    "longitude": 172.6369316
+  },
+  {
+    "address": "6A Huxley Street, Sydenham, Linwood-Central-Heathcote Community 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/5006243221",
+    "name": "Red Elephant",
+    "latitude": -43.5504991,
+    "longitude": 172.6370887
+  },
+  {
+    "address": "10 Colombo Street, Cashmere",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "20:30"
+      ]
+    },
+    "locID": "node/5047759095",
+    "name": "Burger Wisconsin",
+    "latitude": -43.5670839,
+    "longitude": 172.6355367
+  },
+  {
+    "address": "108 Stanmore Road, North Linwood, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/5120833570",
+    "name": "Majors Takeaways Fish \u0026 Chip Burger",
+    "latitude": -43.5300263,
+    "longitude": 172.6571843
+  },
+  {
+    "address": "2A Lewis Street, Hoon Hay",
+    "openingHours": null,
+    "locID": "node/5120955022",
+    "name": "Lewis Street Food Bar",
+    "latitude": -43.559596,
+    "longitude": 172.6028978
+  },
+  {
+    "address": "166 Woodham Road, Linwood, Linwood-Central-Heathcote Community 8640, New Zealand",
+    "openingHours": null,
+    "locID": "node/5162395497",
+    "name": "Dallington Seafood Centre",
+    "latitude": -43.5253115,
+    "longitude": 172.6723062
+  },
+  {
+    "address": "399 Barrington Street, Spreydon",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/5192124970",
+    "name": "Brick and Crust",
+    "latitude": -43.5518608,
+    "longitude": 172.612629
+  },
+  {
+    "address": "148 Main South Road, Sockburn",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "20:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/5253229083",
+    "name": "Persian Delights",
+    "latitude": -43.5384061,
+    "longitude": 172.5547813
+  },
+  {
+    "address": "4 Charlcott Street, Burnside",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "20:00"
+      ]
+    },
+    "locID": "node/5256868574",
+    "name": "Kendal Fish \u0026 Chips",
+    "latitude": -43.4979938,
+    "longitude": 172.5721419
+  },
+  {
+    "address": "2E Trafford Street, Harewood",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "16:30",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "16:30",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "16:30",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "16:30",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "16:30",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "11:59"
+      ]
+    },
+    "locID": "node/5259302291",
+    "name": "Prime Kitchen Takeaways",
+    "latitude": -43.4836298,
+    "longitude": 172.5763986
+  },
+  {
+    "address": "2F Trafford Street, Harewood",
+    "openingHours": null,
+    "locID": "node/5259302405",
+    "name": "Ta Fish \u0026 Chips",
+    "latitude": -43.4836703,
+    "longitude": 172.576368
+  },
+  {
+    "address": "2B Trafford Street, Harewood",
+    "openingHours": null,
+    "locID": "node/5259302833",
+    "name": "Spellbound Souvlaki Caffe",
+    "latitude": -43.4835023,
+    "longitude": 172.5764926
+  },
+  {
+    "address": "21 Shands Road, Hornby",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "21:30"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "21:30"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:30"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "21:30"
+      ]
+    },
+    "locID": "node/5260979590",
+    "name": "Hell",
+    "latitude": -43.545428,
+    "longitude": 172.5247808
+  },
+  {
+    "address": "339 Cashel Street, Linwood",
+    "openingHours": null,
+    "locID": "node/5262792683",
+    "name": "Kebab \u0026 Grill Corner Linwood",
+    "latitude": -43.5329895,
+    "longitude": 172.6508774
+  },
+  {
+    "address": "53 Nancy Avenue, Mairehau",
+    "openingHours": null,
+    "locID": "node/5262815752",
+    "name": "Nancy Ave Fish \u0026 Chips",
+    "latitude": -43.4979913,
+    "longitude": 172.6364969
+  },
+  {
+    "address": "3 Milton Street, Somerfield",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/5264820597",
+    "name": "Milton Street Takeaways",
+    "latitude": -43.5579803,
+    "longitude": 172.6204028
+  },
+  {
+    "address": "83 Victoria Street, Christchurch Central, Linwood-Central-Heathcote Community 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/5265113016",
+    "name": "Mr Sushi",
+    "latitude": -43.5252325,
+    "longitude": 172.631436
+  },
+  {
+    "address": "88 Wainoni Road, Wainoni, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/5299891034",
+    "name": "Wainoni Fish Supply",
+    "latitude": -43.5163281,
+    "longitude": 172.6875685
+  },
+  {
+    "address": "457 Linwood Avenue, Bromley, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/5421404612",
+    "name": "Chicken To Go",
+    "latitude": -43.541889,
+    "longitude": 172.6875322
+  },
+  {
+    "address": "5 Memorial Avenue, Ilam, Fendalton-Waimari-Harewood Community 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/5421464025",
+    "name": "Fendalton Takeaways",
+    "latitude": -43.5183233,
+    "longitude": 172.5896089
+  },
+  {
+    "address": "108 Stanmore Road, Linwood",
+    "openingHours": null,
+    "locID": "node/5421479619",
+    "name": "Stanmore Fish \u0026 Chips",
+    "latitude": -43.5301399,
+    "longitude": 172.6571843
+  },
+  {
+    "address": "5/530-544 Memorial Avenue, Christchurch Airport, Christchurch 8053, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/5438527541",
+    "name": "Mexicali Fresh",
+    "latitude": -43.4907119,
+    "longitude": 172.5481912
+  },
+  {
+    "address": "Shop 09 Spitfire Square Memorial Avenue, Christchurch Airport, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/5438531076",
+    "name": "Authentic Turkish Doner Kebab",
+    "latitude": -43.4905037,
+    "longitude": 172.5482548
+  },
+  {
+    "address": "185 Shaw Avenue, New Brighton",
+    "openingHours": null,
+    "locID": "node/5517579499",
+    "name": "Domino\u0027s",
+    "latitude": -43.5076205,
+    "longitude": 172.7268015
+  },
+  {
+    "address": "108 Seaview Road, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/5706783665",
+    "name": "Seaview Rd Fisheries",
+    "latitude": -43.5078746,
+    "longitude": 172.7264056
+  },
+  {
+    "address": "109 Seaview Road, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/5706783666",
+    "name": "Hong Kong Taste Takeaway",
+    "latitude": -43.508132,
+    "longitude": 172.7263384
+  },
+  {
+    "address": "185A Shaw Avenue, New Brighton",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "22:30"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "22:30"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "21:00"
+      ]
+    },
+    "locID": "node/5706783667",
+    "name": "New Brighton Burger Bar",
+    "latitude": -43.5075553,
+    "longitude": 172.7267728
+  },
+  {
+    "address": "56 Hawke Street, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/5706783675",
+    "name": "Fish \u0027n\u0027 Chicken",
+    "latitude": -43.5068941,
+    "longitude": 172.7284464
+  },
+  {
+    "address": "258 St Asaph Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/5816684954",
+    "name": "Vietnam to go",
+    "latitude": -43.5366848,
+    "longitude": 172.6418884
+  },
+  {
+    "address": "258 St Asaph Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/5816684955",
+    "name": "Seoul Sandwich",
+    "latitude": -43.53656,
+    "longitude": 172.6418988
+  },
+  {
+    "address": "270 St Asaph Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/5816684957",
+    "name": "Chichi Kitchen",
+    "latitude": -43.5366654,
+    "longitude": 172.6421003
+  },
+  {
+    "address": "108 Stanmore Road, Linwood, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/5892687889",
+    "name": "Viti Takeaways",
+    "latitude": -43.5302321,
+    "longitude": 172.6573693
+  },
+  {
+    "address": "68 North Avon Road, Richmond, Linwood-Central-Heathcote Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/5905336137",
+    "name": "North Avon Fish Fry",
+    "latitude": -43.51804,
+    "longitude": 172.6558897
+  },
+  {
+    "address": "335A Stanmore Road, Richmond, Linwood-Central-Heathcote Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/5905336140",
+    "name": "The Silk Road Food Post",
+    "latitude": -43.5181757,
+    "longitude": 172.6561519
+  },
+  {
+    "address": "249 Stanmore Road, Richmond",
+    "openingHours": null,
+    "locID": "node/5905387753",
+    "name": "Mexigrill",
+    "latitude": -43.5225504,
+    "longitude": 172.6563186
+  },
+  {
+    "address": "569 Barbadoes Street, Edgeware, Christchurch 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/5910777488",
+    "name": "Super Wok",
+    "latitude": -43.5136856,
+    "longitude": 172.6457874
+  },
+  {
+    "address": "475 Papanui Road, Papanui, Christchurch 8052, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "16:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "16:30",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "16:30",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "17:00",
+        "20:30"
+      ]
+    },
+    "locID": "node/5912757839",
+    "name": "Burger Wisconsin",
+    "latitude": -43.4986428,
+    "longitude": 172.6091849
+  },
+  {
+    "address": "475B Papanui Road, Papanui",
+    "openingHours": null,
+    "locID": "node/5912757840",
+    "name": "Taste of Egypt",
+    "latitude": -43.4986707,
+    "longitude": 172.6092124
+  },
+  {
+    "address": "479B Papanui Road, Papanui, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": null,
+    "locID": "node/5912757845",
+    "name": "Egyptian Kebab House",
+    "latitude": -43.498358,
+    "longitude": 172.6089116
+  },
+  {
+    "address": "67 Bellvue Avenue, Papanui, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": null,
+    "locID": "node/5912757851",
+    "name": "BurgerFuel",
+    "latitude": -43.4981049,
+    "longitude": 172.6085718
+  },
+  {
+    "address": "235A Linwood Avenue, Linwood, Christchurch 8240, New Zealand",
+    "openingHours": null,
+    "locID": "node/5920213696",
+    "name": "Linwood Seafoods",
+    "latitude": -43.5331291,
+    "longitude": 172.6727502
+  },
+  {
+    "address": "120 Hereford Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "17:00"
+      ]
+    },
+    "locID": "node/6157770750",
+    "name": "New York Deli",
+    "latitude": -43.5324505,
+    "longitude": 172.6357594
+  },
+  {
+    "address": "2/221 Annex Road, Middleton, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/6173999736",
+    "name": "Annex Pantry",
+    "latitude": -43.5437137,
+    "longitude": 172.5824862
+  },
+  {
+    "address": "6 Birmingham Drive, Middleton, Spreydon-Cashmere Community 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/6173999739",
+    "name": "CJ\u0027s Takeways",
+    "latitude": -43.5444488,
+    "longitude": 172.5937814
+  },
+  {
+    "address": "3 Coppell Place, Hillmorton, Spreydon-Cashmere Community 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/6173999762",
+    "name": "Sushi Ball House",
+    "latitude": -43.5543938,
+    "longitude": 172.594127
+  },
+  {
+    "address": "3 Coppell Place, Hillmorton, Spreydon-Cashmere Community 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/6173999763",
+    "name": "Tasty Pizza",
+    "latitude": -43.5543313,
+    "longitude": 172.594019
+  },
+  {
+    "address": "7A Nuttall Drive, Hillsborough, Christchurch 8241, New Zealand",
+    "openingHours": null,
+    "locID": "node/6408797849",
+    "name": "Pierogi Joint",
+    "latitude": -43.5652647,
+    "longitude": 172.6811467
+  },
+  {
+    "address": "6 Colombo Street, Cashmere 8022, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:30",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "10:30",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "10:30",
+        "23:00"
+      ]
+    },
+    "locID": "node/6451263489",
+    "name": "Domino\u0027s",
+    "latitude": -43.5671593,
+    "longitude": 172.6354632
+  },
+  {
+    "address": "270A Lincoln Road, Addington, Spreydon-Cashmere Community 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/6592962086",
+    "name": "Lincoln Road Fish n Chips",
+    "latitude": -43.5447253,
+    "longitude": 172.6100651
+  },
+  {
+    "address": "173 St Asaph Street, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "SATURDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "20:00"
+      ]
+    },
+    "locID": "node/6668913074",
+    "name": "Ceylon Kitchen",
+    "latitude": -43.5362086,
+    "longitude": 172.6355556
+  },
+  {
+    "address": "9/29 Ensign Street, Halswell, Christchurch 8025, New Zealand",
+    "openingHours": null,
+    "locID": "node/6679841393",
+    "name": "Domino\u0027s",
+    "latitude": -43.5745327,
+    "longitude": 172.567626
+  },
+  {
+    "address": "4/680 Barbadoes Street, Edgeware, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/6685764626",
+    "name": "BBQ Rib Runner",
+    "latitude": -43.5085489,
+    "longitude": 172.6464239
+  },
+  {
+    "address": "101 Westminster Street, Saint Albans, Christchurch 8014, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "20:30"
+      ]
+    },
+    "locID": "node/6685864136",
+    "name": "St Albans Seafoods",
+    "latitude": -43.5061942,
+    "longitude": 172.6365687
+  },
+  {
+    "address": "3/680 Barbadoes Street, Edgeware",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/6685882056",
+    "name": "Supreme Chinese Takeaway",
+    "latitude": -43.5085999,
+    "longitude": 172.6463558
+  },
+  {
+    "address": "regional gates access way, Christchurch Airport, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/6728116446",
+    "name": "Burger King",
+    "latitude": -43.489094,
+    "longitude": 172.5391773
+  },
+  {
+    "address": "56 Carmen Road, Hei Hei, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/6897110170",
+    "name": "Burger King",
+    "latitude": -43.5382237,
+    "longitude": 172.5286227
+  },
+  {
+    "address": "21G Bealey Avenue, Merivale, Fendalton-Waimari-Harewood Community 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/7141656585",
+    "name": "Domino\u0027s",
+    "latitude": -43.5202915,
+    "longitude": 172.6266719
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/7186906114",
+    "name": "Kombucha Girls",
+    "latitude": -43.5338577,
+    "longitude": 172.6338606
+  },
+  {
+    "address": "151 Bealey Avenue, Christchurch Central, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/7217870985",
+    "name": "Thai Container",
+    "latitude": -43.5205827,
+    "longitude": 172.635852
+  },
+  {
+    "address": "88 Hereford Street, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "21:00"
+      ]
+    },
+    "locID": "node/7238092386",
+    "name": "Sal\u0027s",
+    "latitude": -43.5323729,
+    "longitude": 172.6345201
+  },
+  {
+    "address": "274 Greers Road, Bishopdale",
+    "openingHours": null,
+    "locID": "node/7394030141",
+    "name": "Greers Road Seafoods",
+    "latitude": -43.4992122,
+    "longitude": 172.5867268
+  },
+  {
+    "address": "7R Greenaway Street, Halswell, Christchurch 8025, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/7396479373",
+    "name": "Subway",
+    "latitude": -43.5775074,
+    "longitude": 172.5474589
+  },
+  {
+    "address": "9 Hamill Road, Halswell 8025, New Zealand",
+    "openingHours": null,
+    "locID": "node/7444336744",
+    "name": "Winners Restaurant",
+    "latitude": -43.5776066,
+    "longitude": 172.5476394
+  },
+  {
+    "address": "70 Riccarton Road, Riccarton, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/7642207712",
+    "name": "Hell",
+    "latitude": -43.5291884,
+    "longitude": 172.6038572
+  },
+  {
+    "address": "8/380 Riccarton Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/7701041978",
+    "name": "Fresco Fisheries",
+    "latitude": -43.5312674,
+    "longitude": 172.5730669
+  },
+  {
+    "address": "181 Riccarton Road, Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/7715579632",
+    "name": "Golden Fish Bar",
+    "latitude": -43.5303979,
+    "longitude": 172.5932979
+  },
+  {
+    "address": "286 Main North Road, Redwood, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/7722579957",
+    "name": "New Asia Takeaways",
+    "latitude": -43.477889,
+    "longitude": 172.6170543
+  },
+  {
+    "address": "249B Riccarton Road, Upper Riccarton",
+    "openingHours": {
+      "TUESDAY": [
+        "11:00",
+        "21:30"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:30"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:30"
+      ]
+    },
+    "locID": "node/7730033264",
+    "name": "Riccarton Fish and Chips",
+    "latitude": -43.530985,
+    "longitude": 172.5858988
+  },
+  {
+    "address": "Colombo Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/7748148985",
+    "name": "KFC",
+    "latitude": -43.5322948,
+    "longitude": 172.6364747
+  },
+  {
+    "address": "1 Kennedys Bush Road, Halswell",
+    "openingHours": null,
+    "locID": "node/8079125138",
+    "name": "Souvlaki King",
+    "latitude": -43.5855409,
+    "longitude": 172.5712081
+  },
+  {
+    "address": "160 Lichfield Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/8118300417",
+    "name": "Domino\u0027s",
+    "latitude": -43.5343215,
+    "longitude": 172.6424642
+  },
+  {
+    "address": "363 Lincoln Road, Addington, Spreydon-Cashmere Community 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/8693146638",
+    "name": "New York Deli",
+    "latitude": -43.5405827,
+    "longitude": 172.6164822
+  },
+  {
+    "address": "204 Hills Road, Edgeware, Papanui-Innes Community 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:30",
+        "23:59"
+      ],
+      "SATURDAY": [
+        "10:30",
+        "23:59"
+      ],
+      "SUNDAY": [
+        "10:30",
+        "23:00"
+      ]
+    },
+    "locID": "node/9094081102",
+    "name": "Domino\u0027s",
+    "latitude": -43.5087644,
+    "longitude": 172.6520652
+  },
+  {
+    "address": "204 Hills Road, Edgeware, Papanui-Innes Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/9094081104",
+    "name": "Mainland Turkish Food",
+    "latitude": -43.5086725,
+    "longitude": 172.6521762
+  },
+  {
+    "address": "205F Hills Road, Edgeware, Papanui-Innes Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/9094104725",
+    "name": "Gourmet Seafoods Shirley",
+    "latitude": -43.5086724,
+    "longitude": 172.6514557
+  },
+  {
+    "address": "56 Victoria Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "17:30",
+        "22:00"
+      ]
+    },
+    "locID": "node/9136446847",
+    "name": "Kebab Hut",
+    "latitude": -43.5251139,
+    "longitude": 172.631795
+  },
+  {
+    "address": "356 Main North Road, Redwood, Christchurch 8051, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "20:30"
+      ]
+    },
+    "locID": "node/9136503724",
+    "name": "Spagalimis Redwood",
+    "latitude": -43.4729904,
+    "longitude": 172.6174204
+  },
+  {
+    "address": "356E Main North Road, Redwood, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/9136510880",
+    "name": "Redwood Fish and Chips",
+    "latitude": -43.4727515,
+    "longitude": 172.6174435
+  },
+  {
+    "address": "356E Main North Road, Redwood",
+    "openingHours": null,
+    "locID": "node/9136520637",
+    "name": "Redwood Souvlaki",
+    "latitude": -43.4728345,
+    "longitude": 172.6174314
+  },
+  {
+    "address": "489 Papanui Road, Papanui, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": null,
+    "locID": "node/9137222095",
+    "name": "Cleveland Chinese Takeaway",
+    "latitude": -43.4977721,
+    "longitude": 172.6083594
+  },
+  {
+    "address": "9E Normans Road, Strowan",
+    "openingHours": null,
+    "locID": "node/9139497763",
+    "name": "Elmwood Fish, Chips \u0026 Burgers",
+    "latitude": -43.5096163,
+    "longitude": 172.6078939
+  },
+  {
+    "address": "189 Papanui Road, Merivale, Christchurch 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/9195236763",
+    "name": "Tank",
+    "latitude": -43.5124546,
+    "longitude": 172.6213385
+  },
+  {
+    "address": "245 Sawyers Arms Road, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9211857139",
+    "name": "Kens Takeaways",
+    "latitude": -43.4818716,
+    "longitude": 172.5935473
+  },
+  {
+    "address": "E/705 Gloucester Street, Linwood, Linwood-Central-Heathcote Community 8640, New Zealand",
+    "openingHours": null,
+    "locID": "node/9229257227",
+    "name": "Mainland Turkish Food",
+    "latitude": -43.5253537,
+    "longitude": 172.672624
+  },
+  {
+    "address": "Armagh Street, Christchurch Central",
+    "openingHours": {
+      "SATURDAY": [
+        "12:00",
+        "15:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "15:00"
+      ]
+    },
+    "locID": "node/9265700763",
+    "name": "Ice Cream Charlie",
+    "latitude": -43.5287162,
+    "longitude": 172.6353947
+  },
+  {
+    "address": "273 Stanmore Road, Richmond, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:30",
+        "20:30"
+      ]
+    },
+    "locID": "node/9311637873",
+    "name": "Sun Ning Chinese Takeaways",
+    "latitude": -43.5212445,
+    "longitude": 172.6562437
+  },
+  {
+    "address": "249A Stanmore Road, Richmond",
+    "openingHours": null,
+    "locID": "node/9311637874",
+    "name": "Richmond Seafoods",
+    "latitude": -43.5224658,
+    "longitude": 172.6562973
+  },
+  {
+    "address": "341 Cashel Street, North Linwood, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311637875",
+    "name": "Cashel Street Takeways",
+    "latitude": -43.5329464,
+    "longitude": 172.6509538
+  },
+  {
+    "address": "24 McGregors Road, Bromley, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311637876",
+    "name": "Mc\u0027Gregors Fish \u0026 Chips",
+    "latitude": -43.5367385,
+    "longitude": 172.6822113
+  },
+  {
+    "address": "99 Main Road, Redcliffs, Christchurch 8081, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311637877",
+    "name": "Redcliffs Fish \u0026 Chips",
+    "latitude": -43.5621636,
+    "longitude": 172.7394338
+  },
+  {
+    "address": "1071 Colombo Street, Saint Albans, Christchurch 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311671885",
+    "name": "Edgeware Takeaways",
+    "latitude": -43.5136472,
+    "longitude": 172.6363775
+  },
+  {
+    "address": "92 Hills Road, Edgeware, Papanui-Innes Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311671886",
+    "name": "Chinese, Fish and Chips, Takaways",
+    "latitude": -43.514053,
+    "longitude": 172.6518025
+  },
+  {
+    "address": "414 Innes Road, Mairehau, Papanui-Innes Community 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311671887",
+    "name": "Mairehau Fish Supply",
+    "latitude": -43.4985574,
+    "longitude": 172.6414001
+  },
+  {
+    "address": "323 Westminster Street, Mairehau, Christchurch 8064, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681144",
+    "name": "Westminster Takeaways",
+    "latitude": -43.4971644,
+    "longitude": 172.6491026
+  },
+  {
+    "address": "75 Briggs Road, Shirley, Christchurch 8064, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681146",
+    "name": "Wicked Fish \u0026 Chip Shop",
+    "latitude": -43.4957615,
+    "longitude": 172.6547361
+  },
+  {
+    "address": "1/75B Briggs Road, Shirley, Papanui-Innes Community 8064, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681147",
+    "name": "Briggston Fish Supply",
+    "latitude": -43.4957206,
+    "longitude": 172.6548869
+  },
+  {
+    "address": "83 Effingham Street, North New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681152",
+    "name": "Grans Place",
+    "latitude": -43.4907245,
+    "longitude": 172.7182287
+  },
+  {
+    "address": "47 Bowhill Road, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681154",
+    "name": "North Beach Fish Supply",
+    "latitude": -43.4957711,
+    "longitude": 172.7244299
+  },
+  {
+    "address": "14 Bower Avenue, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681155",
+    "name": "Bower Fish Supply",
+    "latitude": -43.5032503,
+    "longitude": 172.7098384
+  },
+  {
+    "address": "1 Hardy Street, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "18:30"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "18:30"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "18:30"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "18:30"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "18:30"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "18:30"
+      ]
+    },
+    "locID": "node/9311681156",
+    "name": "Henry\u0027s Fish \u0026 Chips",
+    "latitude": -43.5085021,
+    "longitude": 172.7247982
+  },
+  {
+    "address": "63 Hampshire Street, Aranui, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681157",
+    "name": "Gin\u0027s Takeaways",
+    "latitude": -43.5108422,
+    "longitude": 172.7013187
+  },
+  {
+    "address": "55 Hampshire Street, Aranui, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681158",
+    "name": "Peter\u0027s Fish \u0026 Chips",
+    "latitude": -43.5110356,
+    "longitude": 172.701187
+  },
+  {
+    "address": "319 Pages Road, Wainoni, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681159",
+    "name": "Big Gary\u0027s Chinese Takeaways",
+    "latitude": -43.5176281,
+    "longitude": 172.7005342
+  },
+  {
+    "address": "146 Gayhurst Road, Dallington, Christchurch 8640, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311681160",
+    "name": "Gayhurst Fish Supply",
+    "latitude": -43.5139179,
+    "longitude": 172.6741885
+  },
+  {
+    "address": "103 Radley Street, Woolston, Christchurch 8240, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311723420",
+    "name": "Radley Street Fish And Chips",
+    "latitude": -43.5538063,
+    "longitude": 172.6739416
+  },
+  {
+    "address": "202 Waltham Road, Sydenham, Christchurch 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/9311723422",
+    "name": "Wassup Primo Fish and Chips",
+    "latitude": -43.5453746,
+    "longitude": 172.6471021
+  },
+  {
+    "address": "242A Barrington Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "14:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "14:30",
+        "22:00"
+      ]
+    },
+    "locID": "node/9314729302",
+    "name": "Hong Kong Star Chinese Takeaway",
+    "latitude": -43.5578745,
+    "longitude": 172.6198002
+  },
+  {
+    "address": "43 Bewdley Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729303",
+    "name": "Kims Fish \u0026 Chips",
+    "latitude": -43.5520911,
+    "longitude": 172.6122456
+  },
+  {
+    "address": "306 Selwyn Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729304",
+    "name": "Selwyn Fish Supply",
+    "latitude": -43.5485511,
+    "longitude": 172.6220054
+  },
+  {
+    "address": "316 Lincoln Road, Addington, Christchurch 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729305",
+    "name": "Young Sing Takeaways",
+    "latitude": -43.543329,
+    "longitude": 172.6124555
+  },
+  {
+    "address": "5 Stourbridge Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729306",
+    "name": "Stourbridge Fish \u0026 Chips",
+    "latitude": -43.5602782,
+    "longitude": 172.6129084
+  },
+  {
+    "address": "3 Coppell Place, Hillmorton, Christchurch 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729307",
+    "name": "Coppell Place Seafood",
+    "latitude": -43.5543885,
+    "longitude": 172.5941772
+  },
+  {
+    "address": "21 Halswell Road, Hillmorton, Christchurch 8149, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729308",
+    "name": "Wing Wah Takeaway",
+    "latitude": -43.5547506,
+    "longitude": 172.5937424
+  },
+  {
+    "address": "55 Nottingham Avenue, Halswell, Christchurch 8025, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729309",
+    "name": "Nottingham Ave Fish and Chip Shop",
+    "latitude": -43.5753195,
+    "longitude": 172.5602856
+  },
+  {
+    "address": "1 Balcairn Street, Halswell, Christchurch 8025, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729310",
+    "name": "Urban Seafoods",
+    "latitude": -43.574708,
+    "longitude": 172.5675627
+  },
+  {
+    "address": "21 Lillian Street, Halswell, Christchurch 8025, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729311",
+    "name": "Halswell Fish \u0026 Chips",
+    "latitude": -43.5768493,
+    "longitude": 172.5673598
+  },
+  {
+    "address": "346 Halswell Road, Halswell, Christchurch 8025, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729312",
+    "name": "Halswell Seafood Centre",
+    "latitude": -43.5806268,
+    "longitude": 172.5665981
+  },
+  {
+    "address": "104 The Runway, Wigram, Christchurch 8443, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729313",
+    "name": "Fush",
+    "latitude": -43.5526909,
+    "longitude": 172.556965
+  },
+  {
+    "address": "11 Parkhouse Road, Wigram, Christchurch 8443, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729314",
+    "name": "Parkhouse Fish \u0026 Chips",
+    "latitude": -43.5464178,
+    "longitude": 172.5637495
+  },
+  {
+    "address": "82 Riccarton Road, Riccarton, Christchurch 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314729315",
+    "name": "Theo\u0027s Fisheries",
+    "latitude": -43.5294119,
+    "longitude": 172.6028098
+  },
+  {
+    "address": "10 Yaldhurst Road, Sockburn, Christchurch 8443, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "20:30"
+      ]
+    },
+    "locID": "node/9314729316",
+    "name": "Upper Riccarton Fish Supply",
+    "latitude": -43.5314819,
+    "longitude": 172.5711268
+  },
+  {
+    "address": "17 Curletts Road, Sockburn, Christchurch 8443, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751717",
+    "name": "Curletts Fresh Fish",
+    "latitude": -43.5343109,
+    "longitude": 172.5678361
+  },
+  {
+    "address": "299C Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751718",
+    "name": "Main South Takeaways",
+    "latitude": -43.543369,
+    "longitude": 172.5390431
+  },
+  {
+    "address": "64 Springs Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751719",
+    "name": "Wok Inn Chinese Takeaways",
+    "latitude": -43.5483216,
+    "longitude": 172.5403793
+  },
+  {
+    "address": "66 Springs Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751720",
+    "name": "Springs Rd Takeaways",
+    "latitude": -43.5483616,
+    "longitude": 172.5402512
+  },
+  {
+    "address": "9 Witham Street, Hornby, Christchurch 7676, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751721",
+    "name": "Witham Fish Supply",
+    "latitude": -43.5517579,
+    "longitude": 172.530564
+  },
+  {
+    "address": "308B Waterloo Road, Islington, Christchurch 7676, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751722",
+    "name": "Islington Fish \u0026 Chips",
+    "latitude": -43.5406616,
+    "longitude": 172.5145823
+  },
+  {
+    "address": "30 Wycola Avenue, Hei Hei, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751724",
+    "name": "Wycola Foodbar",
+    "latitude": -43.535705,
+    "longitude": 172.520934
+  },
+  {
+    "address": "26 Wycola Avenue, Hei Hei, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751725",
+    "name": "Ocean Fresh Fish",
+    "latitude": -43.5357527,
+    "longitude": 172.5210839
+  },
+  {
+    "address": "407B Ilam Road, Bryndwr, Fendalton-Waimari-Harewood Community 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751728",
+    "name": "Ilam Fish Supply",
+    "latitude": -43.5089567,
+    "longitude": 172.589622
+  },
+  {
+    "address": "172 Kendal Avenue, Burnside, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751729",
+    "name": "Kendal Seafoods",
+    "latitude": -43.5006185,
+    "longitude": 172.5641923
+  },
+  {
+    "address": "2 Leacroft Street, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751731",
+    "name": "Leacroft Chinese Takeaway",
+    "latitude": -43.4903873,
+    "longitude": 172.5805634
+  },
+  {
+    "address": "121 Farrington Avenue, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751732",
+    "name": "Ocean Fresh Seafoods",
+    "latitude": -43.4902927,
+    "longitude": 172.5870952
+  },
+  {
+    "address": "168 Langdons Road, Northcote, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751733",
+    "name": "Mr Fish \u0026 Chips",
+    "latitude": -43.4896306,
+    "longitude": 172.598847
+  },
+  {
+    "address": "806D Main North Road, Belfast, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751734",
+    "name": "Superburger",
+    "latitude": -43.4452894,
+    "longitude": 172.6324842
+  },
+  {
+    "address": "774 Main North Road, Belfast, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751735",
+    "name": "Southern Fried Takeaways",
+    "latitude": -43.4476852,
+    "longitude": 172.6309695
+  },
+  {
+    "address": "754 Main North Road, Belfast, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751736",
+    "name": "Belfast Food Bar",
+    "latitude": -43.4491892,
+    "longitude": 172.6300008
+  },
+  {
+    "address": "200 Wairakei Road, Bryndwr, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751737",
+    "name": "Quality Seafood",
+    "latitude": -43.5032151,
+    "longitude": 172.5936436
+  },
+  {
+    "address": "198 Wairakei Road, Bryndwr, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9314751738",
+    "name": "Wairakei Chinese Takeaway",
+    "latitude": -43.503321,
+    "longitude": 172.5938299
+  },
+  {
+    "address": "70 Edgeware Road, St Albans",
+    "openingHours": null,
+    "locID": "node/9386764721",
+    "name": "Butcher\u0027s Apron",
+    "latitude": -43.5135377,
+    "longitude": 172.637425
+  },
+  {
+    "address": "129 High Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/9401641290",
+    "name": "Hokitika Sandwich Company",
+    "latitude": -43.5362553,
+    "longitude": 172.64222
+  },
+  {
+    "address": "555 Colombo Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/9464712010",
+    "name": "Subway",
+    "latitude": -43.5380689,
+    "longitude": 172.6348333
+  },
+  {
+    "address": "396 Ferry Road, Woolston",
+    "openingHours": null,
+    "locID": "node/9624127394",
+    "name": "Ferry Road Seafoods",
+    "latitude": -43.543607,
+    "longitude": 172.6674872
+  },
+  {
+    "address": "6/78 Brighton Mall, New Brighton",
+    "openingHours": {
+      "TUESDAY": [
+        "17:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "17:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "19:00"
+      ]
+    },
+    "locID": "node/9650399896",
+    "name": "The Burger Joint",
+    "latitude": -43.5070713,
+    "longitude": 172.7283447
+  },
+  {
+    "address": "181 Madras Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/9769426843",
+    "name": "Zaytun",
+    "latitude": -43.5366364,
+    "longitude": 172.6425106
+  },
+  {
+    "address": "36 Southwark Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/9769426848",
+    "name": "Tom\u0027s Sandwiches",
+    "latitude": -43.5373534,
+    "longitude": 172.6419491
+  },
+  {
+    "address": "268 St Asaph Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/9803793208",
+    "name": "Brazilian Kitchen",
+    "latitude": -43.5365008,
+    "longitude": 172.642282
+  },
+  {
+    "address": "181 Woodham Road, Linwood, Linwood-Central-Heathcote Community 8640, New Zealand",
+    "openingHours": null,
+    "locID": "node/9937068890",
+    "name": "Jo\u0027s Mart \u0026 Sushi",
+    "latitude": -43.5253078,
+    "longitude": 172.6726248
+  },
+  {
+    "address": "135D Farrington Avenue, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9996214069",
+    "name": "Farrington Chinese Takeaways and Fish \u0026 Chips",
+    "latitude": -43.4895559,
+    "longitude": 172.5877357
+  },
+  {
+    "address": "133A Farrington Avenue, Bishopdale, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/9996214071",
+    "name": "Bakery \u0026 Sushi",
+    "latitude": -43.4897622,
+    "longitude": 172.5875613
+  },
+  {
+    "address": "10B Yaldhurst Road, Sockburn, Christchurch 8443, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/9996522144",
+    "name": "Bee Pizzeria",
+    "latitude": -43.5314983,
+    "longitude": 172.5711898
+  },
+  {
+    "address": "20 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/9997106017",
+    "name": "Roast-ease",
+    "latitude": -43.5303935,
+    "longitude": 172.5753045
+  },
+  {
+    "address": "EC Noodle, 8 Brake Street, Upper Riccarton 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/10001084120",
+    "name": null,
+    "latitude": -43.5309801,
+    "longitude": 172.5715404
+  },
+  {
+    "address": "5 Greenhurst Street, Sockburn, Christchurch 8042, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "17:30",
+        "03:00"
+      ],
+      "TUESDAY": [
+        "17:30",
+        "03:00"
+      ],
+      "WEDNESDAY": [
+        "17:30",
+        "03:00"
+      ],
+      "THURSDAY": [
+        "17:30",
+        "03:00"
+      ],
+      "FRIDAY": [
+        "17:30",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "17:30",
+        "03:00"
+      ]
+    },
+    "locID": "node/10003586917",
+    "name": "Chinese Food Takeaway",
+    "latitude": -43.5381583,
+    "longitude": 172.5552619
+  },
+  {
+    "address": "14/166 Cashel Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/10053093573",
+    "name": "The Chicken",
+    "latitude": -43.5336866,
+    "longitude": 172.6373978
+  },
+  {
+    "address": "14/166 Cashel Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "TUESDAY": [
+        "11:30",
+        "15:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "15:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "15:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "15:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "15:00"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "15:00"
+      ]
+    },
+    "locID": "node/10053093574",
+    "name": "Lo-Fi Burgers",
+    "latitude": -43.5336863,
+    "longitude": 172.6374623
+  },
+  {
+    "address": "15/1005 Ferry Road, Ferrymead, Christchurch 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/10125351778",
+    "name": "BurgerFuel",
+    "latitude": -43.5565039,
+    "longitude": 172.7005552
+  },
+  {
+    "address": "1 Tiger Moth Road, Harewood 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/10600150664",
+    "name": "Taco Bell",
+    "latitude": -43.4800482,
+    "longitude": 172.5551646
+  },
+  {
+    "address": "96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/10673339809",
+    "name": "Cluck Cluck",
+    "latitude": -43.5337274,
+    "longitude": 172.6341506
+  },
+  {
+    "address": "96 Oxford Terrace, Central City",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/10673339810",
+    "name": "Dosa Kitchen",
+    "latitude": -43.5339865,
+    "longitude": 172.634107
+  },
+  {
+    "address": "2/501 Wairakei Road, Burnside, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/10705779608",
+    "name": "Hapsun Souvlaki",
+    "latitude": -43.4899325,
+    "longitude": 172.5688311
+  },
+  {
+    "address": "522 Wairakei Road, Burnside, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/10736627183",
+    "name": "Aminah\u0027s Bread \u0026 Butter Bakery",
+    "latitude": -43.488999,
+    "longitude": 172.5677025
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/10776682265",
+    "name": "Sal\u0027s Pizza",
+    "latitude": -43.5429847,
+    "longitude": 172.5235406
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793988137",
+    "name": "ReBurger",
+    "latitude": -43.5429814,
+    "longitude": 172.523616
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793988167",
+    "name": "Pita Pit",
+    "latitude": -43.5425072,
+    "longitude": 172.5241258
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793988169",
+    "name": "Hungry Wok",
+    "latitude": -43.5423723,
+    "longitude": 172.5241212
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793988170",
+    "name": "Kebab Co.",
+    "latitude": -43.5423033,
+    "longitude": 172.5241086
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793988177",
+    "name": "Zambrero",
+    "latitude": -43.5421402,
+    "longitude": 172.5235636
+  },
+  {
+    "address": "3/11 Goulding Avenue, Hornby, Christchurch 7676, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793993455",
+    "name": "Domino\u0027s",
+    "latitude": -43.5443724,
+    "longitude": 172.5230548
+  },
+  {
+    "address": "82a Wainoni Road, Wainoni, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/10855361692",
+    "name": "Souvlaki \u0026 Pacific Takeaways",
+    "latitude": -43.5165265,
+    "longitude": 172.6873968
+  },
+  {
+    "address": "84a Wainoni Road, Wainoni, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "21:30"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "21:30"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "21:30"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "21:30"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "21:30"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "21:30"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "21:30"
+      ]
+    },
+    "locID": "node/10855361694",
+    "name": "Curry Deluxe",
+    "latitude": -43.5164552,
+    "longitude": 172.687457
+  },
+  {
+    "address": "88 Wainoni Road, Wainoni, Coastal-Burwood Community 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/10855361697",
+    "name": "Hungs Chinese Takeaway",
+    "latitude": -43.5163503,
+    "longitude": 172.6875448
+  },
+  {
+    "address": "6 Buckleys Road, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/10855428208",
+    "name": "Subway",
+    "latitude": -43.5335163,
+    "longitude": 172.6749669
+  },
+  {
+    "address": "6 Buckleys Road, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/10855428225",
+    "name": "Arancio",
+    "latitude": -43.5330855,
+    "longitude": 172.6747073
+  },
+  {
+    "address": "6 Buckleys Road, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/10855428227",
+    "name": "Kebab \u0026 Roast",
+    "latitude": -43.5329923,
+    "longitude": 172.6745557
+  },
+  {
+    "address": "6 Buckleys Road, Linwood, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/10855428228",
+    "name": "Hungry Wok",
+    "latitude": -43.5329438,
+    "longitude": 172.6744915
+  },
+  {
+    "address": "62 Riccarton Road, Riccarton",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/10861878812",
+    "name": "Domino\u0027s",
+    "latitude": -43.5291143,
+    "longitude": 172.60495
+  },
+  {
+    "address": "752 Main North Road, Belfast, Christchurch 8051, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "10:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "10:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:30",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "10:30",
+        "00:00"
+      ]
+    },
+    "locID": "node/11034955519",
+    "name": "Domino\u0027s",
+    "latitude": -43.4494732,
+    "longitude": 172.6299441
+  },
+  {
+    "address": "88D Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/11071896402",
+    "name": "Yolo Cheese Hotdog",
+    "latitude": -43.5294652,
+    "longitude": 172.6021433
+  },
+  {
+    "address": "1/239 Colombo Street, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "02:00"
+      ]
+    },
+    "locID": "node/11257030293",
+    "name": "Brothers Mediterranean Restaurant",
+    "latitude": -43.5524685,
+    "longitude": 172.6366304
+  },
+  {
+    "address": "2/501 Wairakei Road, Burnside, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/11715623087",
+    "name": "Pizza Paradise",
+    "latitude": -43.4900112,
+    "longitude": 172.5690002
+  },
+  {
+    "address": "17 Opawa Road, Waltham",
+    "openingHours": {
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "20:30"
+      ]
+    },
+    "locID": "node/11749461971",
+    "name": "A1 Seafoods",
+    "latitude": -43.5479096,
+    "longitude": 172.6550356
+  },
+  {
+    "address": "418 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/12045036595",
+    "name": "Doshirac",
+    "latitude": -43.5424053,
+    "longitude": 172.5241217
+  },
+  {
+    "address": "254 Ferry Road, Phillipstown",
+    "openingHours": {
+      "TUESDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/12150783832",
+    "name": "Slick Burger",
+    "latitude": -43.5405275,
+    "longitude": 172.6588571
+  },
+  {
+    "address": "Shop 09 Spitfire Square Memorial Avenue, Christchurch Airport 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/12245023580",
+    "name": "Katsubi Red Bowl",
+    "latitude": -43.4904459,
+    "longitude": 172.5481772
+  },
+  {
+    "address": "344 Ferry Road, Phillipstown",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "16:30",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "20:30"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "20:30"
+      ]
+    },
+    "locID": "node/12338842029",
+    "name": "Master Seafood",
+    "latitude": -43.5424253,
+    "longitude": 172.6643657
+  },
+  {
+    "address": "256 Barrington Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/12474552207",
+    "name": "Tank",
+    "latitude": -43.5560943,
+    "longitude": 172.6202822
+  },
+  {
+    "address": "150 Lichfield Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "17:30"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "17:30"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "17:30"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "17:30"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "17:30"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "15:30"
+      ]
+    },
+    "locID": "node/12487570480",
+    "name": "Bánh Mì EM",
+    "latitude": -43.5342944,
+    "longitude": 172.6418111
+  },
+  {
+    "address": "82 Hereford Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/12520247146",
+    "name": "Better Burger",
+    "latitude": -43.5321499,
+    "longitude": 172.6345014
+  },
+  {
+    "address": "4A McCarthy Street, Hoon Hay, Christchurch 8025, New Zealand",
+    "openingHours": {
+      "TUESDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/12523108604",
+    "name": "The Kiwi Kebab",
+    "latitude": -43.563701,
+    "longitude": 172.58861
+  },
+  {
+    "address": "81 Lichfield Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/12523110103",
+    "name": "Zak\u0027s Kebabs",
+    "latitude": -43.5341033,
+    "longitude": 172.6384613
+  },
+  {
+    "address": "479 Papanui Road, Papanui, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": null,
+    "locID": "node/12523111601",
+    "name": "Flaming Pizza",
+    "latitude": -43.498388,
+    "longitude": 172.6089383
+  },
+  {
+    "address": "3/363 Colombo Street, Sydenham, Linwood-Central-Heathcote Community 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "17:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "17:00"
+      ]
+    },
+    "locID": "node/12586106405",
+    "name": "Gre3n Superfood \u0026 Juice Bar",
+    "latitude": -43.5464469,
+    "longitude": 172.6357294
+  },
+  {
+    "address": "130 Madras Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/12752096600",
+    "name": "The Pantry",
+    "latitude": -43.536933,
+    "longitude": 172.6435221
+  },
+  {
+    "address": "256 Barrington Street, Spreydon, Christchurch 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/12773375478",
+    "name": "The Burrito Guyz",
+    "latitude": -43.5566677,
+    "longitude": 172.619001
+  },
+  {
+    "address": "80 Hereford Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/13229856371",
+    "name": "Kebab on Terrace",
+    "latitude": -43.5321576,
+    "longitude": 172.6343117
+  },
+  {
+    "address": "177 High Street, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "19:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "19:00"
+      ]
+    },
+    "locID": "node/13278896039",
+    "name": "Toastie Lords",
+    "latitude": -43.5354705,
+    "longitude": 172.6411329
+  },
+  {
+    "address": "88 Hereford Street, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "11:59"
+      ]
+    },
+    "locID": "node/13282468454",
+    "name": "Fishy \u0026 Friends",
+    "latitude": -43.5324667,
+    "longitude": 172.6344958
+  },
+  {
+    "address": "120 Hereford Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/13283736394",
+    "name": "Tank",
+    "latitude": -43.5324529,
+    "longitude": 172.6359133
+  },
+  {
+    "address": "166 Cashel Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/13291467812",
+    "name": "Crêpes De La Monde",
+    "latitude": -43.5335417,
+    "longitude": 172.6371688
+  },
+  {
+    "address": "233 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/13382611165",
+    "name": "Crispy Chicken",
+    "latitude": -43.53084,
+    "longitude": 172.5876947
+  },
+  {
+    "address": "96 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/13382616999",
+    "name": "Burger Station",
+    "latitude": -43.529557,
+    "longitude": 172.6009711
+  },
+  {
+    "address": "459 Colombo Street, Sydenham, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/13587609183",
+    "name": "Pizza Club",
+    "latitude": -43.543072,
+    "longitude": 172.6364349
+  },
+  {
+    "address": "628 Ferry Road, Woolston, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/13590820461",
+    "name": "Burger Bonanza",
+    "latitude": -43.5497761,
+    "longitude": 172.6835431
+  },
+  {
+    "address": "8 Rogers Street, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "16:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "23:30"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "23:30"
+      ],
+      "FRIDAY": [
+        "15:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "15:00",
+        "01:00"
+      ],
+      "SUNDAY": [
+        "15:00",
+        "01:00"
+      ]
+    },
+    "locID": "node/13680950357",
+    "name": "Sydenham Souvlaki",
+    "latitude": -43.5541486,
+    "longitude": 172.6461917
+  },
+  {
+    "address": "4/145 Warrington Street, Mairehau",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "06:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/13681145356",
+    "name": null,
+    "latitude": -43.507985,
+    "longitude": 172.6514847
+  },
+  {
+    "address": "303 Colombo Street, Sydenham, Linwood-Central-Heathcote Community 8023, New Zealand",
+    "openingHours": null,
+    "locID": "node/13741726001",
+    "name": "Chicking",
+    "latitude": -43.5494411,
+    "longitude": 172.6363515
+  },
+  {
+    "address": "135 Seaview Road, New Brighton",
+    "openingHours": null,
+    "locID": "node/13831241741",
+    "name": "Big Pot Buffet Takeaways",
+    "latitude": -43.5084759,
+    "longitude": 172.7249091
+  },
+  {
+    "address": "T/199 Marshland Road, Shirley, Christchurch 8064, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/13899620416",
+    "name": "Bootleg Burgers",
+    "latitude": -43.4929099,
+    "longitude": 172.6603263
+  },
+  {
+    "address": "15 Sandyford Street, Sydenham",
+    "openingHours": {
+      "WEDNESDAY": [
+        "16:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "20:00"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "20:00"
+      ]
+    },
+    "locID": "node/13971870762",
+    "name": "Papa\u0027s Smashies",
+    "latitude": -43.5424695,
+    "longitude": 172.6333431
+  },
+  {
+    "address": "359b Lincoln Road, Addington, Spreydon-Cashmere Community 8024, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/13972059502",
+    "name": "Empire Chicken",
+    "latitude": -43.5412389,
+    "longitude": 172.6151875
+  }
+]

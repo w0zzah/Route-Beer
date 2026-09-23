@@ -1,0 +1,661 @@
+/** ==================== FONTS ====================*/
+
+/* --- TITLE --- */
+@font-face {
+    font-family: 'Rammetto One';
+    src: url('../fonts/RammettoOne-Regular.ttf');
+}
+
+/* --- REGULAR --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Regular.ttf');
+}
+
+/* --- ITALIC --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Italic.ttf');
+}
+
+/* --- MEDIUM --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Medium.ttf');
+}
+
+/* --- SEMIBOLD --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-SemiBold.ttf');
+}
+
+/* --- SEMIBOLD ITALIC --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-SemiBoldItalic.ttf');
+}
+
+/* --- BOLD --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-Bold.ttf');
+}
+
+/* --- BOLD ITALIC--- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-BoldItalic.ttf');
+}
+
+/* Background */
+.root {
+    -ash: #191A1A;
+    -darkblue: #16302B;
+    -lightblue: #3EB39B;
+    -orange: #E65C2E;
+    -gold: #EFA639;
+    -halfgold: rgba(239, 166, 57, 0.6);
+    -yellow:#FFCA6F;
+    -creme: #FFF5E1;
+    -dark-creme: #f6e3c1;
+    -halfblack: rgba(5, 0, 0, 0.6);
+    -halfwhite: rgba(255, 255, 255, 0.4);
+    -lightash: #F2F2ED;
+    -lightbrown: #873b26;
+    -prompt: rgba(135, 59, 38, 0.6);
+    -brown: #53240b;
+    -darkbrown: #27120d;
+    -transparent: rgba(0,0,0,0);
+    -beer: linear-gradient(
+            to bottom,
+            -lightash 1%,
+            -creme 18%,
+            -gold 48%,
+            -lightbrown 83%,
+            -darkbrown 100%
+    );
+    -darkgrad: linear-gradient(to top, rgba(99, 99, 99, 0.4) 30%, -transparent 100%);
+    -fx-background-color: -beer;
+    -fx-font-size: 16px;
+}
+
+/*====== AGE CHECK WINDOW ======*/
+
+.age-check-container {
+    -fx-background-color: -creme;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 15px;
+    -fx-border-color: -creme;
+    -fx-border-width: 0.5em;
+    -fx-padding: 2em 5em 2em 5em;
+
+}
+
+.login-button {
+    -fx-background-color: -creme;
+    -fx-border-width: 0.2em;
+    -fx-border-radius: 10px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: -orange;
+    -fx-background-radius: 10px;
+    -fx-border-color: -orange;
+}
+
+.login-button-no {
+    -fx-background-color: -orange;
+    -fx-border-width: 0.2em;
+    -fx-border-radius: 10px;
+    -fx-border-color: -orange;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: -creme;
+    -fx-background-radius: 15px;
+}
+
+.login-button:hover {
+    -fx-background-color: -orange;
+    -fx-text-fill: -creme;
+}
+
+.login-button-no:hover {
+    -fx-border-color: -brown;
+    -fx-background-color: -brown;
+}
+
+
+.age-label {
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 40px;
+    -fx-text-fill: -orange;
+}
+
+
+
+/* ====== SETUP WINDOW ======*/
+
+
+
+.setup-vbox {
+    -fx-border-width: 2em;
+    -fx-border-color: -yellow;
+    -fx-border-radius: 0 0 15 15;
+    -fx-background-color: -yellow;
+    -fx-background-radius: 15px;
+}
+
+.login-tab-button {
+    -fx-background-color: -gold;
+    -fx-border-width: 0px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: -brown;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.login-tab-button:selected {
+    -fx-background-color: -yellow;
+    -fx-text-fill: -brown;
+
+}
+
+.guest-button {
+    -fx-background-color: -brown;
+    -fx-border-width: 0px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: -creme;
+    -fx-background-radius: 10px;
+}
+
+.signin-button {
+    -fx-background-color: -orange;
+    -fx-border-width: 0px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: -creme;
+    -fx-background-radius: 10px;
+}
+
+.view-data-button {
+    -fx-background-color: -orange;
+    -fx-border-width: 0px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 20px;
+    -fx-text-fill: -creme;
+    -fx-background-radius: 10;
+}
+
+.login-label {
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 25px;
+    -fx-text-fill: -brown;
+}
+
+.loginWarningText {
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 15px;
+    -fx-text-fill: #d8310b;
+}
+
+.loginField {
+    -fx-border-width: 0px;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: -prompt;
+}
+
+.loginErrorPane {
+    -fx-background-color: -halfwhite;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+
+.loginButton:selected {
+    -fx-background-color: black;
+}
+
+/*------ FONTS ------*/
+
+/* headers */
+.h1 {
+    -fx-font-size: 2.0em;
+    -fx-font-family: "Rammetto One";
+    -fx-text-fill: -brown;
+}
+/* sub-headers */
+.h2 {
+    -fx-font-size: 1em;
+    -fx-font-family: "Rammetto One";
+    -fx-text-fill: -brown;
+}
+
+.h3 {
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 1em;
+    -fx-text-fill: -brown;
+}
+
+.h4 {
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 2em;
+    -fx-text-fill: -brown;
+}
+
+.asterisk {
+    -fx-font-family: "Kanit Italic";
+    -fx-font-size: 1em;
+    -fx-text-fill: -orange;
+}
+
+
+
+
+/** ==================== TAB PANES ====================*/
+
+
+
+.tab-pane {
+    -fx-background-color: -darkbrown;
+    -fx-border-width: 0;
+    -fx-tab-min-height: 3em;
+    -fx-tab-max-height: 3em;
+}
+
+
+.tab-header-background {
+    -fx-background-color: -darkbrown;
+}
+
+.left-anchor-pane {
+    -fx-background-color: -creme;
+}
+
+.tab-pane .tab {
+    -fx-background-color: -brown;
+    -fx-background-radius: 20 20 0 0;
+    -fx-cursor: hand;
+    -fx-border-width: 0.3em 0.3em 0 0.3em;
+    -fx-border-radius: 15 15 0 0;
+    -fx-border-color: -darkbrown;
+    -fx-border-insets: -1;
+    -fx-translate-y: 1;
+}
+
+.tab-pane .tab-content-area {
+    -fx-padding: 0;
+    -fx-background-color: -creme;
+}
+
+.tab-pane .tab:hover {
+    -fx-background-color: -lightbrown;
+}
+
+.split-pane *.split-pane-divider {
+    -fx-background-color: -gold;
+}
+.tab-pane .tab:selected {
+    -fx-faint-focus-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-background-color: -creme;
+}
+
+.tab:selected .tab-label{
+    -fx-text-fill: -orange;
+    -fx-font-size: 1.2em;
+    -fx-padding: 0.5em 0.5em 0.2em 0.5em;
+
+}
+
+.tab .tab-label {
+    -fx-font-size: 1em;
+    -fx-font-family: "Rammetto One";
+    -fx-padding: 0.5em;
+    -fx-text-fill: -gold;
+}
+
+/** ====== ROUTE MAKER TAB ======*/
+
+.tab-pane-grid {
+    -fx-padding: 1em 2em 1em 2em;
+}
+
+.route-info-grid {
+    -fx-padding: 0 2em 1em 2em;
+}
+
+.basicLabel {
+    -fx-font-family: "Titillium Web SemiBold";
+    -fx-font-size: 15px;
+    -fx-text-fill: -brown;
+}
+
+.body {
+    -fx-text-fill: -creme;
+    -fx-font-size: 30px;
+    -fx-font-family: "Rammetto One";
+}
+
+.route-field {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-pref-height: 3em;
+    -fx-border-radius: 5px;
+    -fx-border-width: 4px;
+    -fx-border-color: -halfgold;
+    -fx-prompt-text-fill: -prompt;
+}
+
+.route-field:hover {
+    -fx-border-color: -gold;
+
+}
+
+.dropdownBox {
+    -fx-background-color: blue;
+    -fx-border-color: blue;
+}
+
+
+.combo-box-base > .combo-box{
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-border-width: 4px;
+    -fx-border-color: -halfgold;
+    -fx-border-radius: 5px;
+}
+
+.combo-box {
+    -fx-border-width: 0;
+    -fx-background-radius: 5px;
+}
+
+.combo-box:hover {
+    -fx-border-color: -gold;
+}
+
+.spinner .text-field:focused {
+    -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+.button1 {
+    -fx-background-color: -orange;
+    -fx-text-fill: white;
+    -fx-font-family: "Kanit SemiBold";
+    -fx-font-size: 1.2em;
+    -fx-background-radius: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+}
+
+.button1:hover {
+    -fx-background-color: -gold;
+}
+
+.button1:pressed {
+    -fx-background-color: -darkbrown;
+}
+
+.save-route-button {
+    -fx-background-color: -halfgold;
+    -fx-text-fill: -brown;
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1.2em;
+    -fx-background-radius: 10px;
+    -fx-border-width: 0;
+    -fx-cursor: hand;
+    -fx-padding: 0 1.5em 0 1.5em;
+}
+
+.save-route-button:hover {
+    -fx-background-color: -gold;
+}
+
+.route-bars-scrollpane,
+.route-bars-scrollpane > .viewport {
+    -fx-background-color: -brown;
+    -fx-background-radius: 10px;
+}
+
+.bar-card-pane {
+    -fx-background-color: -creme;
+    -fx-background-radius: 10px;
+}
+
+/*====== ROUTE CARDS ======*/
+
+.route-card {
+    -fx-background-color: -creme;
+    -fx-background-radius: 20px;
+    -fx-border-width: 0.5em;
+    -fx-border-color: -brown;
+    -fx-border-radius: 15px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 4);
+}
+
+.route-card-text {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+    -fx-fill: -brown;
+}
+
+.route-card .button{
+    -fx-text-fill: -creme;
+    -fx-font-family: "Kanit";
+    -fx-padding: 0 2em 0 2em;
+    -fx-font-size: 0.9em;
+    -fx-background-color: -orange;
+    -fx-background-radius: 5px;
+}
+
+.route-card .button:hover{
+    -fx-text-fill: -gold;
+}
+
+.route-name {
+    -fx-font-family: "Rammetto One";
+    -fx-text-fill: -orange;
+    -fx-font-size: 1.2em;
+    -fx-padding: 0 0 0.2em 0;
+}
+
+
+
+/*====== SAVED ROUES TAB ======*/
+
+.route-scrollpane {
+    -fx-padding: 1em 1em 0 1em;
+    -fx-background-color: -creme;
+}
+
+.route-scrollpane > .viewport {
+    -fx-background-color: -creme;
+}
+
+
+/* ====== ALCOHOL POPUP ======*/
+.popup-x-button {
+    -fx-background-color: transparent;
+}
+
+.popup-x {
+    -fx-stroke:  -orange;
+}
+
+.alcohol-safety-popup-footer {
+    -fx-background-color: -creme;
+    -fx-background-radius: 15px;
+    -fx-border-color: -orange;
+    -fx-border-width: 0.5em;
+    -fx-border-radius: 15px;
+}
+
+.popup-title {
+    -fx-font-family: "Rammetto One";
+    -fx-font-size: 1.8em;
+    -fx-text-fill: -brown;
+}
+
+.popup-text {
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1.8em;
+    -fx-text-fill: -brown;
+}
+
+.alcohol-safety-popup-left {
+    -fx-background-color: -creme;
+    -fx-background-radius: 20px;
+    -fx-border-color: -orange;
+    -fx-border-width: 0.5em;
+    -fx-border-radius: 15px;
+}
+
+.drink-anchor {
+    -fx-background-color: transparent;
+}
+
+.blurb-title {
+    -fx-font-family: "Rammetto One";
+    -fx-font-size: 1.4em;
+    -fx-text-fill: -brown;
+}
+
+.blurb-text {
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1em;
+    -fx-text-fill: -brown;
+    -fx-fill: -brown;
+}
+/*===accc*/
+
+.accountButton {
+
+}
+
+.accountIconButton {
+    -fx-background-radius: 50px;
+    -fx-background-color: -gold;
+    -fx-pref-height: 85px;
+    -fx-pref-width: 85px;
+
+}
+
+.accountIcon {
+    -fx-fill: -brown;
+    -fx-scale-x: 3.5;
+    -fx-scale-y: 3.5;
+}
+
+.accountPane {
+    -fx-background-color: -creme;
+    -fx-background-radius: 15px;
+    -fx-border-width: 8px;
+    -fx-border-radius: 10px 80px 10px 10px;
+    -fx-border-color: -gold;
+}
+
+.alcoholSafetyPopupFooter {
+    -fx-background-color: -creme;
+}
+
+
+.bar-info-heading {
+    -fx-text-fill: Black;
+    -fx-font-size: 30px;
+}
+
+.bar-info-desc {
+    -fx-font-size: 20px;
+}
+.bar-info-toggle {
+    -fx-background-color: white;
+    -fx-background-radius: 8 0 0 8;
+    -fx-padding: 0;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0, -2, 0);
+}
+.bar-info-toggle:hover {
+    -fx-background-color: #f2f2f2;
+}
+.bar-info-arrow {
+    -fx-fill: #444444;
+}
+.bar-info-panel {
+    -fx-background-color: white;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 12, 0, -2, 0);
+}
+
+.tab-separator .line{
+    -fx-border-color: -gold;
+    -fx-background-color: -gold;
+    -fx-border-width: 0.1em;
+}
+
+/*====== COMMUNITY TAB ======*/
+.community-route-vbox,
+.saved-route-vbox {
+    -fx-background-color: -dark-creme;
+    -fx-background-radius: 15px;
+    -fx-border-width: 0.2em;
+    -fx-padding: 0.5em;
+    -fx-border-color: -dark-creme;
+    -fx-border-radius: 10px;
+}
+
+/*====== BAR CARDS ======*/
+
+.bar-card-label {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+    -fx-fill: -brown;
+}
+
+/*====== EXPORT WINDOW ======*/
+.export-pane {
+    -fx-background-color: -creme;
+}
+
+.export-title {
+    -fx-font-family: "Rammetto One";
+    -fx-font-size: 1.5em;
+    -fx-text-fill: -brown;
+}
+
+.export-label {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+}
+
+/*====== AMENITIES TOGGLE ======*/
+.amenities-pane {
+    -fx-background-color: -creme;
+    -fx-background-radius: 20px;
+    -fx-border-color: -gold;
+    -fx-border-width: 0.3em;
+    -fx-border-radius: 15px;
+}
+
+.toggle-icon {
+    -fx-fill: -brown;
+    -fx-stroke: -brown;
+}
+
+.toggle-label {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+}
+
+.amenities-checkbox {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+}
+
+.amenities-checkbox .box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: -orange;
+    -fx-border-width: 4px;
+    -fx-border-radius: 4px;
+    -fx-background-radius: 4px;
+    -fx-padding: 3px;
+}

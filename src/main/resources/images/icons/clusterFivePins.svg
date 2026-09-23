@@ -1,0 +1,17 @@
+<svg width="240" height="185" viewBox="0 0 240 185" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <g id="pin">
+            <path d="M47.501 4.00015C59.0127 4.08096 69.9057 9.528 77.9795 17.7306C86.0819 25.9624 91 36.6165 91 46.6281C90.9999 77.6782 75.4196 100.22 47.5 122.686C19.5804 100.22 4.00012 77.6782 4 46.6281C4 36.6161 8.91863 25.9615 17.0215 17.7296C25.0956 9.52711 35.989 4.08036 47.501 4.00015Z" fill="#E65C2E" stroke="#57250B" stroke-width="8"/>
+            <circle cx="47.5" cy="49.4992" r="16.5" fill="white" stroke="#57250B" stroke-width="8"/>
+        </g>
+    </defs>
+
+    <!-- Top pair (Scale 0.6) - Balanced exactly 30px left and right of center -->
+    <use href="#pin" transform="translate(90, 26.2) scale(0.6) translate(-47.5, 0)"/>
+    <use href="#pin" transform="translate(150, 26.2) scale(0.6) translate(-47.5, 0)"/>
+
+    <!-- Angled outer pair (Scale 0.56) - Balanced exactly 70px left and right of center -->
+    <use href="#pin" transform="translate(50, 85) scale(0.56) rotate(-35, 47.5, 46.6) translate(-47.5, 0)"/>
+    <use href="#pin" transform="translate(190, 85) scale(0.56) rotate(35, 47.5, 46.6) translate(-47.5, 0)"/>
+    <use href="#pin" transform="translate(120, 60.4) scale(0.85) translate(-47.5, 0)"/>
+</svg>

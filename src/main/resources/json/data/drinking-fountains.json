@@ -1,0 +1,1778 @@
+[
+  {
+    "locID": "0",
+    "name": "Corsair Bay Reserve",
+    "latitude": -43.60739776579255,
+    "longitude": 172.7000802317508
+  },
+  {
+    "locID": "1",
+    "name": "Cholmondeley Reserve",
+    "latitude": -43.62696701586615,
+    "longitude": 172.64683172501205
+  },
+  {
+    "locID": "2",
+    "name": "Cenotaph War Memorial",
+    "latitude": -43.80599435974565,
+    "longitude": 172.96650282682137
+  },
+  {
+    "locID": "3",
+    "name": "Britomart Reserve",
+    "latitude": -43.80931372972102,
+    "longitude": 172.96112408719696
+  },
+  {
+    "locID": "4",
+    "name": "Malvern Park",
+    "latitude": -43.50415237072627,
+    "longitude": 172.62977343928634
+  },
+  {
+    "locID": "5",
+    "name": "English Park",
+    "latitude": -43.50832984486557,
+    "longitude": 172.63700488644807
+  },
+  {
+    "locID": "6",
+    "name": "Papanui Domain",
+    "latitude": -43.48941731665104,
+    "longitude": 172.6081533994673
+  },
+  {
+    "locID": "7",
+    "name": "Grampian Reserve",
+    "latitude": -43.4781678444618,
+    "longitude": 172.60633091902113
+  },
+  {
+    "locID": "8",
+    "name": "Englefield Reserve",
+    "latitude": -43.45614157044454,
+    "longitude": 172.6183569856143
+  },
+  {
+    "locID": "9",
+    "name": "Sheldon Park",
+    "latitude": -43.452779040865934,
+    "longitude": 172.62796689999496
+  },
+  {
+    "locID": "10",
+    "name": "Owen Mitchell Park",
+    "latitude": -43.48059501943146,
+    "longitude": 172.627298537475
+  },
+  {
+    "locID": "11",
+    "name": "St Albans Park",
+    "latitude": -43.51072269992133,
+    "longitude": 172.64480422619044
+  },
+  {
+    "locID": "12",
+    "name": "Richmond Park",
+    "latitude": -43.513108105482615,
+    "longitude": 172.66300363702027
+  },
+  {
+    "locID": "13",
+    "name": "Macfarlane Park",
+    "latitude": -43.503819147948576,
+    "longitude": 172.6545154718977
+  },
+  {
+    "locID": "14",
+    "name": "Macfarlane Park",
+    "latitude": -43.500573118146974,
+    "longitude": 172.6539981892654
+  },
+  {
+    "locID": "15",
+    "name": "Redwood Park",
+    "latitude": -43.4754756217346,
+    "longitude": 172.61425069438715
+  },
+  {
+    "locID": "16",
+    "name": "Avonhead Park",
+    "latitude": -43.5098463512909,
+    "longitude": 172.54586369958506
+  },
+  {
+    "locID": "17",
+    "name": "Crosbie Park",
+    "latitude": -43.51795523763899,
+    "longitude": 172.54989751474866
+  },
+  {
+    "locID": "18",
+    "name": "Westlake Reserve",
+    "latitude": -43.57085270889026,
+    "longitude": 172.55590224860163
+  },
+  {
+    "locID": "19",
+    "name": "Sedgewick Reserve",
+    "latitude": -43.580510166160394,
+    "longitude": 172.60391891990415
+  },
+  {
+    "locID": "20",
+    "name": "Francis Reserve",
+    "latitude": -43.575500190081456,
+    "longitude": 172.60501945912887
+  },
+  {
+    "locID": "21",
+    "name": "Denton Park",
+    "latitude": -43.543563154458674,
+    "longitude": 172.5211160337346
+  },
+  {
+    "locID": "22",
+    "name": "Halswell Domain",
+    "latitude": -43.57873591702684,
+    "longitude": 172.57356421244037
+  },
+  {
+    "locID": "23",
+    "name": "Templeton Domain",
+    "latitude": -43.551069317044615,
+    "longitude": 172.46917839512557
+  },
+  {
+    "locID": "24",
+    "name": "Avice Hill Reserve",
+    "latitude": -43.49899441446712,
+    "longitude": 172.55808362458058
+  },
+  {
+    "locID": "25",
+    "name": "Upper Riccarton Domain",
+    "latitude": -43.52899044602748,
+    "longitude": 172.56453220254994
+  },
+  {
+    "locID": "26",
+    "name": "Staveley Reserve",
+    "latitude": -43.52059540603885,
+    "longitude": 172.55680117877552
+  },
+  {
+    "locID": "27",
+    "name": "Middleton Park",
+    "latitude": -43.53477407669447,
+    "longitude": 172.58174058167117
+  },
+  {
+    "locID": "28",
+    "name": "Ferrier Park",
+    "latitude": -43.52425116485032,
+    "longitude": 172.55719733424513
+  },
+  {
+    "locID": "29",
+    "name": "Mandeville Reserve",
+    "latitude": -43.52955791648518,
+    "longitude": 172.60641194332862
+  },
+  {
+    "locID": "30",
+    "name": "Shand Crescent Reserve",
+    "latitude": -43.531204100839815,
+    "longitude": 172.5901520958155
+  },
+  {
+    "locID": "31",
+    "name": "Harrington Park",
+    "latitude": -43.5345067534275,
+    "longitude": 172.59034416691645
+  },
+  {
+    "locID": "32",
+    "name": "Spreydon Domain",
+    "latitude": -43.556104607818035,
+    "longitude": 172.60206901042034
+  },
+  {
+    "locID": "33",
+    "name": "Sydenham Park",
+    "latitude": -43.547665688224974,
+    "longitude": 172.63640391850592
+  },
+  {
+    "locID": "34",
+    "name": "Hoon Hay Park",
+    "latitude": -43.562627874737686,
+    "longitude": 172.59189916765104
+  },
+  {
+    "locID": "35",
+    "name": "Cashmere Village Green",
+    "latitude": -43.572890040078505,
+    "longitude": 172.6310094781742
+  },
+  {
+    "locID": "36",
+    "name": "Cracroft Reserve",
+    "latitude": -43.58096160643589,
+    "longitude": 172.6353721077839
+  },
+  {
+    "locID": "37",
+    "name": "Beckenham Park",
+    "latitude": -43.56171168838077,
+    "longitude": 172.6470249753052
+  },
+  {
+    "locID": "38",
+    "name": "King George V Reserve",
+    "latitude": -43.56283538646392,
+    "longitude": 172.66252125887797
+  },
+  {
+    "locID": "39",
+    "name": "Hansen Park",
+    "latitude": -43.56064104268138,
+    "longitude": 172.66046668357907
+  },
+  {
+    "locID": "40",
+    "name": "Hillsborough Park",
+    "latitude": -43.56072139546144,
+    "longitude": 172.67328218277254
+  },
+  {
+    "locID": "41",
+    "name": "Tulett Park",
+    "latitude": -43.47643305171208,
+    "longitude": 172.59142392889933
+  },
+  {
+    "locID": "42",
+    "name": "Marcella Reserve",
+    "latitude": -43.56712956908662,
+    "longitude": 172.5667715182455
+  },
+  {
+    "locID": "43",
+    "name": "Westburn Reserve",
+    "latitude": -43.508985080905155,
+    "longitude": 172.57214694005873
+  },
+  {
+    "locID": "44",
+    "name": "Ray Blank Park",
+    "latitude": -43.51663090567242,
+    "longitude": 172.5728622409628
+  },
+  {
+    "locID": "45",
+    "name": "Nunweek Park",
+    "latitude": -43.4829045103722,
+    "longitude": 172.56955262794256
+  },
+  {
+    "locID": "46",
+    "name": "Jeffreys Reserve",
+    "latitude": -43.514079521732015,
+    "longitude": 172.5920586101223
+  },
+  {
+    "locID": "47",
+    "name": "Fendalton Park",
+    "latitude": -43.51884323491008,
+    "longitude": 172.59194760910862
+  },
+  {
+    "locID": "48",
+    "name": "Plynlimon Park",
+    "latitude": -43.51224797637085,
+    "longitude": 172.60588586083486
+  },
+  {
+    "locID": "49",
+    "name": "Millbrook Reserve",
+    "latitude": -43.52258537700427,
+    "longitude": 172.61723958772515
+  },
+  {
+    "locID": "50",
+    "name": "Elmwood Park",
+    "latitude": -43.512425693557795,
+    "longitude": 172.61012170072425
+  },
+  {
+    "locID": "51",
+    "name": "Risingholme Park",
+    "latitude": -43.5542841359115,
+    "longitude": 172.66126687665673
+  },
+  {
+    "locID": "52",
+    "name": "Six Silvers Reserve",
+    "latitude": -43.58091331952163,
+    "longitude": 172.57864939517924
+  },
+  {
+    "locID": "53",
+    "name": "Marshland Domain",
+    "latitude": -43.47513429134589,
+    "longitude": 172.6663798373466
+  },
+  {
+    "locID": "54",
+    "name": "Titirangi Reserve",
+    "latitude": -43.47538686192471,
+    "longitude": 172.68903151323943
+  },
+  {
+    "locID": "55",
+    "name": "Broadhaven Reserve",
+    "latitude": -43.47318174434948,
+    "longitude": 172.70838813600005
+  },
+  {
+    "locID": "56",
+    "name": "Jellie Park",
+    "latitude": -43.50948489672032,
+    "longitude": 172.580756781747
+  },
+  {
+    "locID": "57",
+    "name": "Aston Reserve",
+    "latitude": -43.481564391608096,
+    "longitude": 172.71874251550264
+  },
+  {
+    "locID": "58",
+    "name": "Broad Park",
+    "latitude": -43.48588737840133,
+    "longitude": 172.72328254922974
+  },
+  {
+    "locID": "59",
+    "name": "Broad Park",
+    "latitude": -43.484253122486216,
+    "longitude": 172.72257277738402
+  },
+  {
+    "locID": "60",
+    "name": "Avondale Park",
+    "latitude": -43.504210581164415,
+    "longitude": 172.6904840146383
+  },
+  {
+    "locID": "61",
+    "name": "South New Brighton Park",
+    "latitude": -43.52976744559677,
+    "longitude": 172.7331169173353
+  },
+  {
+    "locID": "62",
+    "name": "Donnell Sports Park",
+    "latitude": -43.49683985641701,
+    "longitude": 172.69692718168983
+  },
+  {
+    "locID": "63",
+    "name": "Clare Park",
+    "latitude": -43.49042704782514,
+    "longitude": 172.6830049411272
+  },
+  {
+    "locID": "64",
+    "name": "Cypress Garden Reserve",
+    "latitude": -43.53728938445834,
+    "longitude": 172.6877338823702
+  },
+  {
+    "locID": "65",
+    "name": "Woodham Park",
+    "latitude": -43.52426976128692,
+    "longitude": 172.6715159430749
+  },
+  {
+    "locID": "66",
+    "name": "Woolston Park",
+    "latitude": -43.54607843656638,
+    "longitude": 172.6733077406905
+  },
+  {
+    "locID": "67",
+    "name": "Scott Park Ferrymead",
+    "latitude": -43.55685156686106,
+    "longitude": 172.71145226454755
+  },
+  {
+    "locID": "68",
+    "name": "Old School Reserve",
+    "latitude": -43.56755693538283,
+    "longitude": 172.71547845674502
+  },
+  {
+    "locID": "69",
+    "name": "Morten Settlement Reserve",
+    "latitude": -43.571227597275296,
+    "longitude": 172.72675403513136
+  },
+  {
+    "locID": "70",
+    "name": "Barnett Park Sports Grounds",
+    "latitude": -43.56395884444361,
+    "longitude": 172.74055229291048
+  },
+  {
+    "locID": "71",
+    "name": "Barnett Park Sports Grounds",
+    "latitude": -43.56505357997827,
+    "longitude": 172.74020980689778
+  },
+  {
+    "locID": "72",
+    "name": "Nicholson Park",
+    "latitude": -43.57233842507435,
+    "longitude": 172.77456031733004
+  },
+  {
+    "locID": "73",
+    "name": "Beverley Park",
+    "latitude": -43.52622982431473,
+    "longitude": 172.65614292414713
+  },
+  {
+    "locID": "74",
+    "name": "St Leonards Park",
+    "latitude": -43.57787800402696,
+    "longitude": 172.76002129804874
+  },
+  {
+    "locID": "75",
+    "name": "Mccormacks Bay",
+    "latitude": -43.5580144724785,
+    "longitude": 172.7284505533426
+  },
+  {
+    "locID": "76",
+    "name": "Friendship Corner",
+    "latitude": -43.53325554694862,
+    "longitude": 172.63340571977915
+  },
+  {
+    "locID": "77",
+    "name": "Rawhiti Domain",
+    "latitude": -43.5028042909447,
+    "longitude": 172.72329753143669
+  },
+  {
+    "locID": "78",
+    "name": "Rawhiti Domain",
+    "latitude": -43.50375395225674,
+    "longitude": 172.72518468084382
+  },
+  {
+    "locID": "79",
+    "name": "Burwood Park",
+    "latitude": -43.50509619130152,
+    "longitude": 172.67218633688358
+  },
+  {
+    "locID": "80",
+    "name": "Bishopdale Park",
+    "latitude": -43.48711902165907,
+    "longitude": 172.58451586669364
+  },
+  {
+    "locID": "81",
+    "name": "Bishopdale Park",
+    "latitude": -43.48761096718725,
+    "longitude": 172.58328107252197
+  },
+  {
+    "locID": "82",
+    "name": "Burnside Park",
+    "latitude": -43.50299573793715,
+    "longitude": 172.56033605121013
+  },
+  {
+    "locID": "83",
+    "name": "Burnside Park",
+    "latitude": -43.50505241957126,
+    "longitude": 172.5643456312614
+  },
+  {
+    "locID": "84",
+    "name": "Hagley Park South",
+    "latitude": -43.53500066428473,
+    "longitude": 172.62157164519698
+  },
+  {
+    "locID": "85",
+    "name": "Hagley Park South",
+    "latitude": -43.53439101195042,
+    "longitude": 172.61675340885952
+  },
+  {
+    "locID": "86",
+    "name": "Mona Vale",
+    "latitude": -43.523720610084794,
+    "longitude": 172.60861986679157
+  },
+  {
+    "locID": "87",
+    "name": "Hagley Park North",
+    "latitude": -43.52831236527908,
+    "longitude": 172.62589227432855
+  },
+  {
+    "locID": "88",
+    "name": "Hagley Park North",
+    "latitude": -43.52677374111578,
+    "longitude": 172.62462191980583
+  },
+  {
+    "locID": "89",
+    "name": "Hagley Park North",
+    "latitude": -43.52836702038733,
+    "longitude": 172.62725813749134
+  },
+  {
+    "locID": "90",
+    "name": "Botanic Gardens",
+    "latitude": -43.531621788380434,
+    "longitude": 172.62002691836844
+  },
+  {
+    "locID": "91",
+    "name": "Botanic Gardens",
+    "latitude": -43.52858321411308,
+    "longitude": 172.61948409403095
+  },
+  {
+    "locID": "92",
+    "name": "Hagley Park North",
+    "latitude": -43.53205371001587,
+    "longitude": 172.6250250494699
+  },
+  {
+    "locID": "93",
+    "name": "Hagley Park North",
+    "latitude": -43.532315927018765,
+    "longitude": 172.62281647616126
+  },
+  {
+    "locID": "94",
+    "name": "Hagley Park North",
+    "latitude": -43.53119975321371,
+    "longitude": 172.61644538690274
+  },
+  {
+    "locID": "95",
+    "name": "Botanic Gardens",
+    "latitude": -43.53138263959205,
+    "longitude": 172.62705242830722
+  },
+  {
+    "locID": "96",
+    "name": "Botanic Gardens",
+    "latitude": -43.53118498017719,
+    "longitude": 172.6254954316766
+  },
+  {
+    "locID": "97",
+    "name": "Botanic Gardens",
+    "latitude": -43.53011947998846,
+    "longitude": 172.61928166638307
+  },
+  {
+    "locID": "98",
+    "name": "North Beach",
+    "latitude": -43.49478599768144,
+    "longitude": 172.7268754952581
+  },
+  {
+    "locID": "99",
+    "name": "Spencer Park Beach",
+    "latitude": -43.43230282181841,
+    "longitude": 172.71251211693735
+  },
+  {
+    "locID": "100",
+    "name": "South New Brighton Beach",
+    "latitude": -43.52211043163137,
+    "longitude": 172.73664585126613
+  },
+  {
+    "locID": "101",
+    "name": "South New Brighton Beach",
+    "latitude": -43.53649366361763,
+    "longitude": 172.74248050848092
+  },
+  {
+    "locID": "102",
+    "name": "Spit Reserve",
+    "latitude": -43.55706992943839,
+    "longitude": 172.7505770365865
+  },
+  {
+    "locID": "103",
+    "name": "Whitewash Reserve",
+    "latitude": -43.5799705954072,
+    "longitude": 172.77772493201715
+  },
+  {
+    "locID": "104",
+    "name": "Murchison Park",
+    "latitude": -43.469468572457096,
+    "longitude": 172.62156534626465
+  },
+  {
+    "locID": "105",
+    "name": "Mountfort Park",
+    "latitude": -43.543221125857464,
+    "longitude": 172.61518146508706
+  },
+  {
+    "locID": "106",
+    "name": "Groynes",
+    "latitude": -43.44586687366496,
+    "longitude": 172.61235973941027
+  },
+  {
+    "locID": "107",
+    "name": "Bottle Lake Forest",
+    "latitude": -43.468255861160266,
+    "longitude": 172.68129701315112
+  },
+  {
+    "locID": "108",
+    "name": "Bottle Lake Forest",
+    "latitude": -43.46802450418324,
+    "longitude": 172.68260349949827
+  },
+  {
+    "locID": "109",
+    "name": "Horseshoe Lake Reserve",
+    "latitude": -43.500820461619895,
+    "longitude": 172.67070682756315
+  },
+  {
+    "locID": "110",
+    "name": "Horseshoe Lake Reserve",
+    "latitude": -43.50071908143659,
+    "longitude": 172.67147782324858
+  },
+  {
+    "locID": "111",
+    "name": "Horseshoe Lake Reserve",
+    "latitude": -43.49545884303313,
+    "longitude": 172.67191465172058
+  },
+  {
+    "locID": "112",
+    "name": "Horseshoe Lake Reserve",
+    "latitude": -43.50291637952163,
+    "longitude": 172.68211392821974
+  },
+  {
+    "locID": "113",
+    "name": "Travis Wetland",
+    "latitude": -43.4847796462438,
+    "longitude": 172.69839151901584
+  },
+  {
+    "locID": "114",
+    "name": "Styx Mill Conservation Reserve",
+    "latitude": -43.464104253621585,
+    "longitude": 172.6018243554597
+  },
+  {
+    "locID": "115",
+    "name": "Styx Mill Conservation Reserve",
+    "latitude": -43.46288138097953,
+    "longitude": 172.60164763945062
+  },
+  {
+    "locID": "116",
+    "name": "Victoria Park",
+    "latitude": -43.59539097834415,
+    "longitude": 172.6420750313053
+  },
+  {
+    "locID": "117",
+    "name": "Victoria Park",
+    "latitude": -43.592606510350635,
+    "longitude": 172.64474999561824
+  },
+  {
+    "locID": "118",
+    "name": "Victoria Park",
+    "latitude": -43.589777049580334,
+    "longitude": 172.64370629340198
+  },
+  {
+    "locID": "119",
+    "name": "Scarborough Beach Developed",
+    "latitude": -43.56695426297281,
+    "longitude": 172.7598777246213
+  },
+  {
+    "locID": "120",
+    "name": "Sumner Beach",
+    "latitude": -43.56680277540104,
+    "longitude": 172.7587877449065
+  },
+  {
+    "locID": "121",
+    "name": "Coopers Knob",
+    "latitude": -43.657927900427545,
+    "longitude": 172.62114555037522
+  },
+  {
+    "locID": "122",
+    "name": "Bridle Path Walkway",
+    "latitude": -43.58533958937482,
+    "longitude": 172.70732872787156
+  },
+  {
+    "locID": "123",
+    "name": "Ferrymead Park",
+    "latitude": -43.56679310927284,
+    "longitude": 172.70700116099513
+  },
+  {
+    "locID": "124",
+    "name": "Taylors Mistake Beach",
+    "latitude": -43.58393913048997,
+    "longitude": 172.77612434721505
+  },
+  {
+    "locID": "125",
+    "name": "Spencer Park",
+    "latitude": -43.43077116121667,
+    "longitude": 172.70592829591664
+  },
+  {
+    "locID": "126",
+    "name": "Scarborough Park",
+    "latitude": -43.573202485538665,
+    "longitude": 172.77004837934342
+  },
+  {
+    "locID": "127",
+    "name": "Cashmere Valley Reserve",
+    "latitude": -43.568712371715215,
+    "longitude": 172.6255822552346
+  },
+  {
+    "locID": "128",
+    "name": "Sydenham Park",
+    "latitude": -43.54912894774112,
+    "longitude": 172.63657239803743
+  },
+  {
+    "locID": "129",
+    "name": "Scarborough Beach Developed",
+    "latitude": -43.56856710362666,
+    "longitude": 172.76149790726578
+  },
+  {
+    "locID": "130",
+    "name": "Washington Way Reserve",
+    "latitude": -43.54018575417918,
+    "longitude": 172.64542130659632
+  },
+  {
+    "locID": "131",
+    "name": "Albion Square",
+    "latitude": -43.60198540194952,
+    "longitude": 172.7203985113433
+  },
+  {
+    "locID": "132",
+    "name": "Worcester Pump Station Park",
+    "latitude": -43.53080667746412,
+    "longitude": 172.65270558179415
+  },
+  {
+    "locID": "133",
+    "name": "Chesterfields",
+    "latitude": -43.527782766311645,
+    "longitude": 172.6474646376325
+  },
+  {
+    "locID": "134",
+    "name": "Ishwar Ganda Park",
+    "latitude": -43.57728814381189,
+    "longitude": 172.54470726617953
+  },
+  {
+    "locID": "135",
+    "name": "Ishwar Ganda Park",
+    "latitude": -43.57598434526834,
+    "longitude": 172.5426105034191
+  },
+  {
+    "locID": "136",
+    "name": "Avon Riverbank Central City",
+    "latitude": -43.52791554884749,
+    "longitude": 172.63787724170336
+  },
+  {
+    "locID": "137",
+    "name": "Te Kahu Park",
+    "latitude": -43.55539155678119,
+    "longitude": 172.5504250082109
+  },
+  {
+    "locID": "138",
+    "name": "Avon Riverbank Central City",
+    "latitude": -43.52504184106782,
+    "longitude": 172.64544978428282
+  },
+  {
+    "locID": "139",
+    "name": "Neil Graham Park",
+    "latitude": -43.57088432303827,
+    "longitude": 172.53925511310047
+  },
+  {
+    "locID": "140",
+    "name": "Greenaway Park",
+    "latitude": -43.57736901481699,
+    "longitude": 172.54686691206473
+  },
+  {
+    "locID": "141",
+    "name": "Elizabeth Park",
+    "latitude": -43.586364852444895,
+    "longitude": 172.64119727306294
+  },
+  {
+    "locID": "142",
+    "name": "Caulfield Drainage Reserve",
+    "latitude": -43.5745987700027,
+    "longitude": 172.5465417827268
+  },
+  {
+    "locID": "143",
+    "name": "Greenaway Park",
+    "latitude": -43.577725272341745,
+    "longitude": 172.54708065802086
+  },
+  {
+    "locID": "144",
+    "name": "Margaret Mahy Family Playgroun",
+    "latitude": -43.528568806757555,
+    "longitude": 172.64156140068584
+  },
+  {
+    "locID": "145",
+    "name": "Margaret Mahy Family Playgroun",
+    "latitude": -43.52806784968727,
+    "longitude": 172.64069032108122
+  },
+  {
+    "locID": "146",
+    "name": "Margaret Mahy Family Playgroun",
+    "latitude": -43.52853066775016,
+    "longitude": 172.64094822165293
+  },
+  {
+    "locID": "147",
+    "name": "Horseshoe Lake Reserve",
+    "latitude": -43.503339875671266,
+    "longitude": 172.6726823337743
+  },
+  {
+    "locID": "148",
+    "name": "Allandale Domain",
+    "latitude": -43.641127119601784,
+    "longitude": 172.650016776229
+  },
+  {
+    "locID": "149",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.60156719829837,
+    "longitude": 172.58004537702172
+  },
+  {
+    "locID": "150",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.59616701294747,
+    "longitude": 172.5758142882207
+  },
+  {
+    "locID": "151",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.59954776173855,
+    "longitude": 172.57741387917136
+  },
+  {
+    "locID": "152",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.59905638659829,
+    "longitude": 172.58097189580667
+  },
+  {
+    "locID": "153",
+    "name": "Victoria Park",
+    "latitude": -43.594791130113315,
+    "longitude": 172.64499761240117
+  },
+  {
+    "locID": "154",
+    "name": "Victoria Park",
+    "latitude": -43.58978786516419,
+    "longitude": 172.64308213412582
+  },
+  {
+    "locID": "155",
+    "name": "Victoria Park",
+    "latitude": -43.59759539619095,
+    "longitude": 172.64338289184468
+  },
+  {
+    "locID": "156",
+    "name": "Coronation Hill Reserve",
+    "latitude": -43.60647885806232,
+    "longitude": 172.64511475326793
+  },
+  {
+    "locID": "157",
+    "name": "Opouira Knights Stream Park",
+    "latitude": -43.56943726351635,
+    "longitude": 172.53833184107026
+  },
+  {
+    "locID": "158",
+    "name": "Victoria Square",
+    "latitude": -43.527681494503895,
+    "longitude": 172.63586862972184
+  },
+  {
+    "locID": "159",
+    "name": "Victoria Square",
+    "latitude": -43.52794690706954,
+    "longitude": 172.63570009236523
+  },
+  {
+    "locID": "160",
+    "name": "Victoria Square",
+    "latitude": -43.528063237424625,
+    "longitude": 172.63605209700296
+  },
+  {
+    "locID": "161",
+    "name": "Groynes",
+    "latitude": -43.445042661313344,
+    "longitude": 172.61268645977646
+  },
+  {
+    "locID": "162",
+    "name": "Groynes",
+    "latitude": -43.44540136116133,
+    "longitude": 172.61208921276287
+  },
+  {
+    "locID": "163",
+    "name": "Groynes",
+    "latitude": -43.453228422452426,
+    "longitude": 172.60344468194808
+  },
+  {
+    "locID": "164",
+    "name": "Groynes",
+    "latitude": -43.44978540451845,
+    "longitude": 172.6010189301572
+  },
+  {
+    "locID": "165",
+    "name": "Groynes",
+    "latitude": -43.44839576672212,
+    "longitude": 172.60925340388783
+  },
+  {
+    "locID": "166",
+    "name": "Groynes",
+    "latitude": -43.440063607796624,
+    "longitude": 172.61762082155602
+  },
+  {
+    "locID": "167",
+    "name": "Akaroa Boat Park",
+    "latitude": -43.801108693356,
+    "longitude": 172.96818303007564
+  },
+  {
+    "locID": "168",
+    "name": "Canterbury Agricultural Park",
+    "latitude": -43.55190801741283,
+    "longitude": 172.5834405520549
+  },
+  {
+    "locID": "169",
+    "name": "Vanguard Square",
+    "latitude": -43.53490615269689,
+    "longitude": 172.64150967825395
+  },
+  {
+    "locID": "170",
+    "name": "Avon Riverbank Central City",
+    "latitude": -43.53144932875854,
+    "longitude": 172.63373242922736
+  },
+  {
+    "locID": "171",
+    "name": "St Albans Park",
+    "latitude": -43.51086784899959,
+    "longitude": 172.6443005858369
+  },
+  {
+    "locID": "172",
+    "name": null,
+    "latitude": -43.52757523792423,
+    "longitude": 172.63731905311704
+  },
+  {
+    "locID": "173",
+    "name": null,
+    "latitude": -43.5343508500884,
+    "longitude": 172.62717451921532
+  },
+  {
+    "locID": "174",
+    "name": "Rugby League Park",
+    "latitude": -43.54352525636792,
+    "longitude": 172.60496794388268
+  },
+  {
+    "locID": "175",
+    "name": "Rugby League Park",
+    "latitude": -43.5439985371559,
+    "longitude": 172.6053275042891
+  },
+  {
+    "locID": "176",
+    "name": "Rugby League Park",
+    "latitude": -43.54328636065229,
+    "longitude": 172.6047016253706
+  },
+  {
+    "locID": "177",
+    "name": "Rugby League Park",
+    "latitude": -43.54449706710871,
+    "longitude": 172.603680218439
+  },
+  {
+    "locID": "178",
+    "name": "Rugby League Park",
+    "latitude": -43.54411881966683,
+    "longitude": 172.6032578134172
+  },
+  {
+    "locID": "179",
+    "name": "Rugby League Park",
+    "latitude": -43.54483441807529,
+    "longitude": 172.60396834222755
+  },
+  {
+    "locID": "180",
+    "name": "Rugby League Park",
+    "latitude": -43.54467693101546,
+    "longitude": 172.60426826981077
+  },
+  {
+    "locID": "181",
+    "name": "Rugby League Park",
+    "latitude": -43.54480119971202,
+    "longitude": 172.6043025167906
+  },
+  {
+    "locID": "182",
+    "name": "Rugby League Park",
+    "latitude": -43.54432055254474,
+    "longitude": 172.60520680637512
+  },
+  {
+    "locID": "183",
+    "name": "Waltham Pool",
+    "latitude": -43.55283700718067,
+    "longitude": 172.64978338842724
+  },
+  {
+    "locID": "184",
+    "name": "Te Hapua Halswell Centre",
+    "latitude": -43.58114300413671,
+    "longitude": 172.5691260708068
+  },
+  {
+    "locID": "185",
+    "name": "Norman Kirk Memorial Pool",
+    "latitude": -43.60169160719367,
+    "longitude": 172.72355462012928
+  },
+  {
+    "locID": "186",
+    "name": "Avebury Park",
+    "latitude": -43.52061301104593,
+    "longitude": 172.66044155635657
+  },
+  {
+    "locID": "187",
+    "name": "New Brighton Beach Developed",
+    "latitude": -43.50622606002895,
+    "longitude": 172.73072087593758
+  },
+  {
+    "locID": "188",
+    "name": "New Brighton Beach Developed",
+    "latitude": -43.506075388094864,
+    "longitude": 172.73101024037004
+  },
+  {
+    "locID": "189",
+    "name": "Nga Puna Wai",
+    "latitude": -43.559982864823944,
+    "longitude": 172.57762122399734
+  },
+  {
+    "locID": "190",
+    "name": "Nga Puna Wai",
+    "latitude": -43.557770912257666,
+    "longitude": 172.5764884113553
+  },
+  {
+    "locID": "191",
+    "name": "Nga Puna Wai",
+    "latitude": -43.55737369605426,
+    "longitude": 172.57632081249915
+  },
+  {
+    "locID": "192",
+    "name": "Nga Puna Wai",
+    "latitude": -43.55766260325029,
+    "longitude": 172.57617489859743
+  },
+  {
+    "locID": "193",
+    "name": "Nga Puna Wai",
+    "latitude": -43.55880447334896,
+    "longitude": 172.57484576371027
+  },
+  {
+    "locID": "194",
+    "name": "Nga Puna Wai",
+    "latitude": -43.559278851991664,
+    "longitude": 172.57379011863526
+  },
+  {
+    "locID": "195",
+    "name": "Nga Puna Wai",
+    "latitude": -43.557671440346,
+    "longitude": 172.5746446076557
+  },
+  {
+    "locID": "196",
+    "name": "Nga Puna Wai",
+    "latitude": -43.55866283566112,
+    "longitude": 172.57713066751094
+  },
+  {
+    "locID": "197",
+    "name": "Nga Puna Wai",
+    "latitude": -43.55888429453114,
+    "longitude": 172.57713158634624
+  },
+  {
+    "locID": "198",
+    "name": "Nga Puna Wai",
+    "latitude": -43.558177677084714,
+    "longitude": 172.57596158206468
+  },
+  {
+    "locID": "199",
+    "name": "Nga Puna Wai",
+    "latitude": -43.55842945185184,
+    "longitude": 172.57595317999616
+  },
+  {
+    "locID": "200",
+    "name": "Barrington Park",
+    "latitude": -43.55624753803547,
+    "longitude": 172.61852467880027
+  },
+  {
+    "locID": "201",
+    "name": null,
+    "latitude": -43.5311709322096,
+    "longitude": 172.63977925508522
+  },
+  {
+    "locID": "202",
+    "name": null,
+    "latitude": -43.53185832809383,
+    "longitude": 172.6396068002248
+  },
+  {
+    "locID": "203",
+    "name": "Avon Riverbank Central City",
+    "latitude": -43.53491737596848,
+    "longitude": 172.63080739349743
+  },
+  {
+    "locID": "204",
+    "name": "Rawhiti Domain",
+    "latitude": -43.49769426400661,
+    "longitude": 172.72328385886303
+  },
+  {
+    "locID": "205",
+    "name": "Rawhiti Domain",
+    "latitude": -43.50012075160176,
+    "longitude": 172.7183305068352
+  },
+  {
+    "locID": "206",
+    "name": "Halswell Domain",
+    "latitude": -43.581356900244565,
+    "longitude": 172.56858898998783
+  },
+  {
+    "locID": "207",
+    "name": "Donnell Sports Park",
+    "latitude": -43.49695540321029,
+    "longitude": 172.696239037127
+  },
+  {
+    "locID": "208",
+    "name": "Thomson Park",
+    "latitude": -43.49674125204839,
+    "longitude": 172.72677937153605
+  },
+  {
+    "locID": "209",
+    "name": "Avon Riverbank Central City",
+    "latitude": -43.52588752046168,
+    "longitude": 172.64975695603368
+  },
+  {
+    "locID": "210",
+    "name": "Stoddart Point Reserve",
+    "latitude": -43.62320565986333,
+    "longitude": 172.73893871005473
+  },
+  {
+    "locID": "211",
+    "name": "Cass Bay Playground",
+    "latitude": -43.60520526734479,
+    "longitude": 172.6905445376412
+  },
+  {
+    "locID": "212",
+    "name": "Roto Kohatu",
+    "latitude": -43.46529169767655,
+    "longitude": 172.57475979782834
+  },
+  {
+    "locID": "213",
+    "name": "He Puna Taimoana",
+    "latitude": -43.50533916051872,
+    "longitude": 172.73063989828103
+  },
+  {
+    "locID": "214",
+    "name": "He Puna Taimoana",
+    "latitude": -43.50551443379576,
+    "longitude": 172.73052539752942
+  },
+  {
+    "locID": "215",
+    "name": "New Brighton Beach Developed",
+    "latitude": -43.5057833401122,
+    "longitude": 172.7309316711759
+  },
+  {
+    "locID": "216",
+    "name": "New Brighton Beach Developed",
+    "latitude": -43.505250966292365,
+    "longitude": 172.7307091162681
+  },
+  {
+    "locID": "217",
+    "name": "Franco Park",
+    "latitude": -43.563962713064946,
+    "longitude": 172.5815753727406
+  },
+  {
+    "locID": "218",
+    "name": "Evolution Square \u0026 Cotters Lan",
+    "latitude": -43.535755730055435,
+    "longitude": 172.64046296158455
+  },
+  {
+    "locID": "219",
+    "name": "Kahikatea Common",
+    "latitude": -43.53597246099779,
+    "longitude": 172.63179343512647
+  },
+  {
+    "locID": "220",
+    "name": "Radley Park",
+    "latitude": -43.552665537732416,
+    "longitude": 172.67801304365796
+  },
+  {
+    "locID": "221",
+    "name": "Sumner Beach",
+    "latitude": -43.56638440900708,
+    "longitude": 172.75659205710485
+  },
+  {
+    "locID": "222",
+    "name": "Sumner Beach",
+    "latitude": -43.566018506883566,
+    "longitude": 172.75611391539903
+  },
+  {
+    "locID": "223",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.600147804222594,
+    "longitude": 172.5784936374759
+  },
+  {
+    "locID": "224",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.600147804222594,
+    "longitude": 172.5784936374759
+  },
+  {
+    "locID": "225",
+    "name": "Linwood Pool",
+    "latitude": -43.53707986720113,
+    "longitude": 172.67657157734283
+  },
+  {
+    "locID": "226",
+    "name": "Linwood Pool",
+    "latitude": -43.53757368843929,
+    "longitude": 172.67596203823723
+  },
+  {
+    "locID": "227",
+    "name": "Redcliffs Public Library",
+    "latitude": -43.561952914968785,
+    "longitude": 172.73911126151577
+  },
+  {
+    "locID": "228",
+    "name": "Linwood Community Arts Centre",
+    "latitude": -43.5310512714244,
+    "longitude": 172.65762631586378
+  },
+  {
+    "locID": "229",
+    "name": "Port Levy Former School Site",
+    "latitude": -43.66641071268671,
+    "longitude": 172.80930909294656
+  },
+  {
+    "locID": "230",
+    "name": "Opawa Public Library",
+    "latitude": -43.55378731010332,
+    "longitude": 172.66597296731916
+  },
+  {
+    "locID": "231",
+    "name": "Takapuneke Reserve",
+    "latitude": -43.81705166748819,
+    "longitude": 172.95162316633832
+  },
+  {
+    "locID": "232",
+    "name": "Roto Kohatu",
+    "latitude": -43.46112340209921,
+    "longitude": 172.57814356231918
+  },
+  {
+    "locID": "233",
+    "name": "Hagley Park South",
+    "latitude": -43.53709320889889,
+    "longitude": 172.61255110349776
+  },
+  {
+    "locID": "234",
+    "name": "Avon Corridor 5 Rrz Land",
+    "latitude": -43.520995453902835,
+    "longitude": 172.6730473194058
+  },
+  {
+    "locID": "235",
+    "name": "Evora Park",
+    "latitude": -43.56540604830945,
+    "longitude": 172.5822732694051
+  },
+  {
+    "locID": "236",
+    "name": "Halswell Quarry Park",
+    "latitude": -43.600147804222594,
+    "longitude": 172.5784936374759
+  },
+  {
+    "locID": "237",
+    "name": "Matai Common",
+    "latitude": -43.53589767970886,
+    "longitude": 172.63541236979424
+  },
+  {
+    "locID": "238",
+    "name": "Ctv Site",
+    "latitude": -43.53300951576051,
+    "longitude": 172.64226471430683
+  },
+  {
+    "locID": "239",
+    "name": "Elmwood Park",
+    "latitude": -43.510960537847815,
+    "longitude": 172.61199006789897
+  },
+  {
+    "locID": "240",
+    "name": "Kyle Park",
+    "latitude": -43.5392473065792,
+    "longitude": 172.5222494617432
+  },
+  {
+    "locID": "241",
+    "name": "Bromley Park",
+    "latitude": -43.52777414566029,
+    "longitude": 172.68266976718837
+  },
+  {
+    "locID": "242",
+    "name": "Waltham Park",
+    "latitude": -43.55251285953915,
+    "longitude": 172.64914295108565
+  },
+  {
+    "locID": "243",
+    "name": "Buchan Playground",
+    "latitude": -43.54522708105316,
+    "longitude": 172.63800253471223
+  },
+  {
+    "locID": "244",
+    "name": "Lancaster Park",
+    "latitude": -43.54119148567306,
+    "longitude": 172.6531350427903
+  },
+  {
+    "locID": "245",
+    "name": "Avebury Park",
+    "latitude": -43.520607676826096,
+    "longitude": 172.66040180746452
+  },
+  {
+    "locID": "246",
+    "name": "Edgar Macintosh Park",
+    "latitude": -43.49873413906645,
+    "longitude": 172.59366865656688
+  },
+  {
+    "locID": "247",
+    "name": "Morley Reserve",
+    "latitude": -43.505491859190606,
+    "longitude": 172.58572953431567
+  },
+  {
+    "locID": "248",
+    "name": "Sumner Village Green",
+    "latitude": -43.56896528980722,
+    "longitude": 172.7579169403212
+  },
+  {
+    "locID": "249",
+    "name": "Avon Park",
+    "latitude": -43.51898217455616,
+    "longitude": 172.67724130264978
+  },
+  {
+    "locID": "250",
+    "name": "Hagley Park North",
+    "latitude": -43.52725055075592,
+    "longitude": 172.61265354562315
+  },
+  {
+    "locID": "251",
+    "name": "Hagley Park South",
+    "latitude": -43.53178307265575,
+    "longitude": 172.61253723515148
+  },
+  {
+    "locID": "252",
+    "name": "Hagley Park North",
+    "latitude": -43.52832245939784,
+    "longitude": 172.6272990546056
+  },
+  {
+    "locID": "253",
+    "name": "Hagley Park North",
+    "latitude": -43.52861023920556,
+    "longitude": 172.6228863260639
+  },
+  {
+    "locID": "254",
+    "name": "Seafield Park",
+    "latitude": -43.42784195391787,
+    "longitude": 172.70434899861615
+  },
+  {
+    "locID": "255",
+    "name": "Avon Corridor 1 Rrz Land",
+    "latitude": -43.525880991459694,
+    "longitude": 172.6526945991776
+  },
+  {
+    "locID": "256",
+    "name": "Avon Corridor 3 Rrz Land",
+    "latitude": -43.520871900587,
+    "longitude": 172.6609607143941
+  },
+  {
+    "locID": "257",
+    "name": null,
+    "latitude": -43.53155444511106,
+    "longitude": 172.57362757685877
+  },
+  {
+    "locID": "258",
+    "name": "Memorial Park Cemetery",
+    "latitude": -43.531030119988856,
+    "longitude": 172.6926521004916
+  },
+  {
+    "locID": "259",
+    "name": "Memorial Park Cemetery",
+    "latitude": -43.53105807326768,
+    "longitude": 172.69285601424235
+  },
+  {
+    "locID": "260",
+    "name": "Hagley Park North",
+    "latitude": -43.52711273889619,
+    "longitude": 172.61884235954977
+  },
+  {
+    "locID": "261",
+    "name": "Hagley Park North",
+    "latitude": -43.52704694587538,
+    "longitude": 172.62473620499665
+  },
+  {
+    "locID": "262",
+    "name": "Lyttelton Recreation Ground",
+    "latitude": -43.60974480490972,
+    "longitude": 172.70719156994474
+  },
+  {
+    "locID": "263",
+    "name": "Mckenzie Drainage Reserve",
+    "latitude": -43.52016587059161,
+    "longitude": 172.52457185444612
+  },
+  {
+    "locID": "264",
+    "name": "Rawhiti Domain",
+    "latitude": -43.505718244342134,
+    "longitude": 172.72115890753733
+  },
+  {
+    "locID": "265",
+    "name": "Cornelius O\u0027Connor Reserve",
+    "latitude": -43.54274771433444,
+    "longitude": 172.61926761240977
+  },
+  {
+    "locID": "266",
+    "name": "Heathcote Domain",
+    "latitude": -43.57987664311248,
+    "longitude": 172.70671725615966
+  },
+  {
+    "locID": "267",
+    "name": "Te Kaharoa",
+    "latitude": -43.53310722760902,
+    "longitude": 172.6448652582498
+  },
+  {
+    "locID": "268",
+    "name": "Te Kaharoa",
+    "latitude": -43.53494443281015,
+    "longitude": 172.6450236920123
+  },
+  {
+    "locID": "269",
+    "name": "Te Kaharoa",
+    "latitude": -43.53408963384964,
+    "longitude": 172.64292991533472
+  },
+  {
+    "locID": "270",
+    "name": "Hagley Park South",
+    "latitude": -43.5371067674161,
+    "longitude": 172.62231899015282
+  },
+  {
+    "locID": "271",
+    "name": null,
+    "latitude": -43.6411765,
+    "longitude": 172.6498353
+  },
+  {
+    "locID": "272",
+    "name": null,
+    "latitude": -43.5685334,
+    "longitude": 172.6252261
+  },
+  {
+    "locID": "273",
+    "name": null,
+    "latitude": -43.6054272,
+    "longitude": 172.69068
+  },
+  {
+    "locID": "274",
+    "name": null,
+    "latitude": -43.6268343,
+    "longitude": 172.6470298
+  },
+  {
+    "locID": "275",
+    "name": null,
+    "latitude": -43.629001,
+    "longitude": 172.7245858
+  },
+  {
+    "locID": "276",
+    "name": null,
+    "latitude": -43.5892737,
+    "longitude": 172.7986497
+  },
+  {
+    "locID": "277",
+    "name": null,
+    "latitude": -43.5996236,
+    "longitude": 172.5772615
+  },
+  {
+    "locID": "278",
+    "name": null,
+    "latitude": -43.5799245,
+    "longitude": 172.7066445
+  },
+  {
+    "locID": "279",
+    "name": null,
+    "latitude": -43.730131,
+    "longitude": 172.5914705
+  },
+  {
+    "locID": "280",
+    "name": null,
+    "latitude": -43.6023118,
+    "longitude": 172.720474
+  },
+  {
+    "locID": "281",
+    "name": null,
+    "latitude": -43.6661487,
+    "longitude": 172.8096306
+  },
+  {
+    "locID": "282",
+    "name": null,
+    "latitude": -43.5813065,
+    "longitude": 172.6355211
+  },
+  {
+    "locID": "283",
+    "name": null,
+    "latitude": -43.60651,
+    "longitude": 172.6450852
+  },
+  {
+    "locID": "284",
+    "name": null,
+    "latitude": -43.5662441,
+    "longitude": 172.75626
+  },
+  {
+    "locID": "285",
+    "name": null,
+    "latitude": -43.5840436,
+    "longitude": 172.7761245
+  },
+  {
+    "locID": "286",
+    "name": null,
+    "latitude": -43.5898118,
+    "longitude": 172.6430359
+  },
+  {
+    "locID": "287",
+    "name": null,
+    "latitude": -43.6396935,
+    "longitude": 172.4854159
+  },
+  {
+    "locID": "288",
+    "name": null,
+    "latitude": -43.6617578,
+    "longitude": 172.5483406
+  },
+  {
+    "locID": "289",
+    "name": null,
+    "latitude": -43.5627088,
+    "longitude": 172.6640511
+  },
+  {
+    "locID": "290",
+    "name": null,
+    "latitude": -43.5853045,
+    "longitude": 172.728188
+  },
+  {
+    "locID": "291",
+    "name": null,
+    "latitude": -43.6565864,
+    "longitude": 172.6230025
+  },
+  {
+    "locID": "292",
+    "name": null,
+    "latitude": -43.5961981,
+    "longitude": 172.5753772
+  },
+  {
+    "locID": "293",
+    "name": null,
+    "latitude": -43.5628662,
+    "longitude": 172.6627153
+  },
+  {
+    "locID": "294",
+    "name": null,
+    "latitude": -43.5975902,
+    "longitude": 172.6434195
+  },
+  {
+    "locID": "295",
+    "name": null,
+    "latitude": -43.5948127,
+    "longitude": 172.6450363
+  }
+]

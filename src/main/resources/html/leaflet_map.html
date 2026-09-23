@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Leaflet & OSM Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
+    />
+    <link rel="stylesheet" href="../css/clustering.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        html, body, #map {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .leaflet-routing-container {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+<script>
+
+
+    let map;
+    let markerLayers;
+    let routeMarkerLayer;
+    let amenityMarkerLayer;
+    let barRoutes = new Map();
+    let geoJsonLayer;
+    let currentRoute = null;
+    var javaScriptBridge;
+
+    /**
+     * This object can be returned to our java code, where we can call the functions we define inside of it
+     */
+    let jsConnector = {
+        initialiseMap: initialiseMap,
+        addMarker: addMarker,
+        addStartMarker: addStartMarker,
+        addEndMarker: addEndMarker,
+        addRouteMarker: addRouteMarker,
+        addFastFoodMarker: addFastFoodMarker,
+        addPublicToiletMarker: addPublicToiletMarker,
+        addDrinkingFountainMarker: addDrinkingFountainMarker,
+        clearMap: clearMap,
+        clearRoute: clearRoute,
+        drawRoute: drawRoute,
+        getSnapshotViewBoundsString: getSnapshotViewBoundsString,
+        showAmenities: showAmenities,
+        hideAmenities: hideAmenities,
+    };
+
+    // Custom Icon Definitions
+    const pinIcon = L.icon({
+        iconUrl: '../images/icons/pin.svg',
+        iconSize: [50, 50],
+        iconAnchor: [25, 50],
+        popupAnchor: [0, -50]
+        // shadowAnchor: [12, 0],
+        // shadowSize: [24, 24],
+    })
+    const startPinIcon = L.icon({
+        iconUrl: '../images/icons/pin-start.svg',
+        iconSize: [50, 50],
+        iconAnchor: [25, 50],
+        popupAnchor: [0, -50]
+        // shadowAnchor: [12, 0],
+        // shadowSize: [24, 24],
+    })
+    const endPinIcon = L.icon({
+        iconUrl: '../images/icons/pin-end.svg',
+        iconSize: [50, 50],
+        iconAnchor: [25, 50],
+        popupAnchor: [0, -50]
+        // shadowAnchor: [12, 0],
+        // shadowSize: [24, 24],
+    })
+    const foodIcon = L.icon({
+        iconUrl: '../images/icons/foodIcon.svg',
+        // shadowUrl: 'images/icons/beerShadow.png',
+
+        // TODO: Finalise location and size
+        iconSize: [35, 35],
+        iconAnchor: [25, 50],
+        popupAnchor: [0, -50]
+    });
+    let toiletIcon = L.icon({
+        iconUrl: '../images/icons/toiletIcon.svg',
+        // shadowUrl: 'images/icons/beerShadow.png',
+
+        // TODO: Finalise location and size
+        iconSize: [30, 30],
+        iconAnchor: [15, 30],
+        popupAnchor: [0, -50]
+    });
+    let drinkingFountainIcon = L.icon({
+        iconUrl: '../images/icons/drinkingFountainIcon.svg',
+        // shadowUrl: 'images/icons/beerShadow.png',
+
+        // TODO: Finalise location and size
+        iconSize: [30, 30],
+        iconAnchor: [15, 30],
+        popupAnchor: [0, -50]
+    });
+
+
+    function initialiseMap() {
+        let mapOptions = {
+            center: [-43.5311, 172.6358],
+            zoom: 12,
+        }
+
+        map = new L.map('map', mapOptions);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_2ipk_1_7f43f22c3b322fccd55d7416', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+        // Requries https://github.com/leaflet/leaflet.markercluster
+        markerLayers = L.markerClusterGroup({
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: true,
+            zoomToBoundsOnClick: true,
+            disableClusteringAtZoom: 18,
+            maxClusterRadius: 100,
+            chunkedLoading: true
+        });
+        map.addLayer(markerLayers);
+
+        amenityMarkerLayer = L.layerGroup();
+        routeMarkerLayer = L.layerGroup();   // Route markers dont cluster
+        map.addLayer(amenityMarkerLayer);
+        map.addLayer(routeMarkerLayer);
+    }
+
+    /**
+     * Adds a marker to the map and stores it in the markers array for later use (e.g. removal)
+     * @param title tooltip to display on hover
+     * @param lat latitude to place marker at
+     * @param lng longitude to place marker at
+     */
+    function addMarker(id, title, lat, lng) {
+        let marker = new L.Marker([lat, lng], {icon: pinIcon});
+        marker.on("click", function () {
+            javaScriptBridge.displayBarInfo(id);
+        });
+        markerLayers.addLayer(marker);
+    }
+
+    function addStartMarker(id, title, lat, lng) {
+        let marker = new L.Marker([lat, lng], {icon: startPinIcon});
+        marker.on("click", function () {
+            javaScriptBridge.displayBarInfo(id);
+        });
+        markerLayers.addLayer(marker);
+    }
+
+    function addEndMarker(id, title, lat, lng) {
+        let marker = new L.Marker([lat, lng], {icon: endPinIcon});
+        marker.on("click", function () {
+            javaScriptBridge.displayBarInfo(id);
+        });
+        markerLayers.addLayer(marker);
+    }
+
+    function addRouteMarker(id, title, lat, lng) {
+        let marker = new L.Marker([lat, lng], {icon: pinIcon});
+        marker.on("click", function () {
+            javaScriptBridge.displayBarInfo(id);
+        });
+        routeMarkerLayer.addLayer(marker);
+    }
+
+    function addFastFoodMarker(id, title, lat, lng) {
+        let marker = new L.marker([lat, lng], {icon: foodIcon});
+        amenityMarkerLayer.addLayer(marker);
+    }
+    function addPublicToiletMarker(id, title, lat, lng) {
+        let marker = new L.marker([lat, lng], {icon: toiletIcon});
+        amenityMarkerLayer.addLayer(marker);
+    }
+    function addDrinkingFountainMarker(id, title, lat, lng) {
+        let marker = new L.marker([lat, lng], {icon: drinkingFountainIcon});
+        amenityMarkerLayer.addLayer(marker);
+    }
+
+    function clearMap() {
+        markerLayers.clearLayers();
+    }
+
+    /**
+     * Displays the basic example route between two points using UCs OSRM server
+     * 1. Clear's old route -> 2. Adds route markers to set 'routeIDs' -> 3. Removes all markers except for
+     * 4. Draws the route hopefully -> 5.
+     * DOCUMENTATION: https://www.liedman.net/leaflet-routing-machine/api/
+     */
+    function drawRoute(waypoints) {
+        // Draws the line
+        currentRoute = L.Routing.control({
+            waypoints: waypoints,
+            serviceUrl: 'https://tile.csse.canterbury.ac.nz/route/v1',
+            profile: 'foot',
+            addWaypoints: false,
+            draggableWaypoints: false,
+            show: false,
+            lineOptions: {
+                styles: [{ color: '#dc7b15'}]
+            },
+            createMarker: function() { return null; }
+        }).addTo(map);
+
+        currentRoute.on('routeselected', function(e) {
+            // e.route contains the physical geometry of the actual road paths
+            // Create an L.Routing.line wrapper to access its geographic bounds
+            currentRouteLine = L.Routing.line(e.route);
+            positionMap();
+        });
+
+    }
+
+    function positionMap() {
+        map.fitBounds(currentRouteLine.getBounds(), { padding: [50, 50] });
+    }
+
+    function clearRoute() {
+        if (currentRoute) {
+            map.removeControl(currentRoute);
+            currentRoute = null;
+            routeMarkerLayer.clearLayers();
+            amenityMarkerLayer.clearLayers();
+        }
+    }
+
+    function getSnapshotViewBoundsString() {
+        positionMap();
+        targetBounds = currentRouteLine.getBounds();
+
+
+        var topLeftPixel = map.latLngToContainerPoint(targetBounds.getNorthWest());
+        var bottomRightPixel = map.latLngToContainerPoint(targetBounds.getSouthEast());
+
+        var padding = 100;
+        var x = topLeftPixel.x - padding;
+        var y = topLeftPixel.y - padding;
+        var w = (bottomRightPixel.x - topLeftPixel.x) + (padding * 2);
+        var h = (bottomRightPixel.y - topLeftPixel.y) + (padding * 2);
+
+        x = Math.max(0, x);
+        y = Math.max(0, y);
+        w = Math.min(map.getSize().x - x, w);
+        h = Math.min(map.getSize().y - y, h);
+
+        return x + "," + y + "," + w + "," + h;
+    }
+
+    function showAmenities() {
+        map.addLayer(amenityMarkerLayer);
+    }
+
+    function hideAmenities() {
+        map.removeLayer(amenityMarkerLayer);
+    }
+
+</script>
+</body>
+</html>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Spinner?>
+<?import javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import org.controlsfx.control.CheckComboBox?>
+
+<AnchorPane fx:id="leftAnchorPane" minHeight="0.0" styleClass="left-anchor-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.TabPaneController">
+   <children>
+      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TabPane fx:id="mainTabPane" tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab styleClass="tabHeader" text="Route Maker">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="676.0" styleClass="tab-anchor-pane">
+                           <children>
+                              <GridPane fx:id="routeTabGrid" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="tab-pane-grid" vgap="25.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <columnConstraints>
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.0" minWidth="10.0" percentWidth="48.0" prefWidth="207.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="93.0" minWidth="0.0" prefWidth="0.0" />
+                                    <ColumnConstraints hgrow="SOMETIMES" percentWidth="48.0" />
+                                 </columnConstraints>
+                                 <rowConstraints>
+                                    <RowConstraints />
+                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="39.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="0.0" vgrow="SOMETIMES" />
+                                    <RowConstraints minHeight="-Infinity" vgrow="SOMETIMES" />
+                                 </rowConstraints>
+                                 <children>
+                                    <VBox GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                                       <children>
+                                          <HBox alignment="BOTTOM_LEFT" spacing="3.0">
+                                             <children>
+                                                <Label styleClass="h3" text="Start location" />
+                                                <Label styleClass="asterisk" text="*" />
+                                             </children>
+                                          </HBox>
+                                          <TextField fx:id="startLocationField" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="route-field" />
+                                       </children>
+                                    </VBox>
+                                    <VBox GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                                       <children>
+                                          <Label styleClass="h3" text="End location" />
+                                          <TextField fx:id="endLocationField" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="route-field" />
+                                       </children>
+                                    </VBox>
+                                    <Label alignment="BOTTOM_CENTER" styleClass="h3" text="Approx. Distance" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
+                                    <VBox GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                                       <children>
+                                          <Label styleClass="h3" text="Bar Features" />
+                                          <CheckComboBox fx:id="barFeaturesCheckComboBox" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="45.0" />
+                                       </children>
+                                    </VBox>
+                                    <VBox GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                                       <children>
+                                          <Label styleClass="h3" text="Bar Themes" />
+                                          <CheckComboBox fx:id="barThemesCheckComboBox" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="45.0" />
+                                       </children>
+                                    </VBox>
+                                    <TextField fx:id="approxDistanceField" maxHeight="-Infinity" maxWidth="80.0" minHeight="-Infinity" styleClass="route-field" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+                                       <GridPane.margin>
+                                          <Insets />
+                                       </GridPane.margin>
+                                       <padding>
+                                          <Insets left="10.0" right="30.0" />
+                                       </padding>
+                                    </TextField>
+                                    <Label prefHeight="18.0" prefWidth="26.0" text="km" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+                                       <padding>
+                                          <Insets right="5.0" />
+                                       </padding>
+                                       <font>
+                                          <Font size="10.0" />
+                                       </font>
+                                    </Label>
+                                    <Button fx:id="generateRouteButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#generateRoute" styleClass="button1" text="Generate Route" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
+                                    <Spinner fx:id="numBarsSpinner" editable="true" maxWidth="80.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+                                       <valueFactory>
+                                          <SpinnerValueFactory.IntegerSpinnerValueFactory amountToStepBy="1" max="9" min="1" />
+                                       </valueFactory>
+                                    </Spinner>
+                                    <HBox alignment="CENTER_LEFT" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="3.0" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                                       <children>
+                                          <Label styleClass="h3" text="Number of Bars:" />
+                                       </children>
+                                    </HBox>
+                                    <Label styleClass="h2" text="Choose your parameters" GridPane.columnSpan="2147483647" />
+                                 </children>
+                              </GridPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab text="Saved Routes">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane fx:id="savedScrollPane" fitToWidth="true" hbarPolicy="NEVER" styleClass="route-scrollpane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <VBox fx:id="savedRouteVBox" spacing="15.0" styleClass="saved-route-vbox">
+                                       <children>
+                                          <GridPane fx:id="savedGuestGrid">
+                                             <columnConstraints>
+                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                                                <ColumnConstraints hgrow="SOMETIMES" />
+                                             </columnConstraints>
+                                             <rowConstraints>
+                                                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                                             </rowConstraints>
+                                             <children>
+                                                <Button fx:id="signInSavedButton" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#returnToSetup" styleClass="button1" text="Sign in" GridPane.columnIndex="1">
+                                                   <font>
+                                                      <Font size="10.0" />
+                                                   </font>
+                                                   <padding>
+                                                      <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
+                                                   </padding>
+                                                </Button>
+                                                <Label styleClass="h3" text="Sign in to view saved routes">
+                                                   <GridPane.margin>
+                                                      <Insets left="5.0" />
+                                                   </GridPane.margin></Label>
+                                             </children>
+                                          </GridPane>
+                                       </children>
+                                    </VBox>
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="communityTab" onSelectionChanged="#handleTabSelect" text="Community">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                           <children>
+                              <ScrollPane fx:id="communityScrollPane" fitToWidth="true" styleClass="route-scrollpane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                 <content>
+                                    <VBox fx:id="communityRouteVBox" maxWidth="1.7976931348623157E308" spacing="15.0" styleClass="community-route-vbox" />
+                                 </content>
+                              </ScrollPane>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+            <VBox fx:id="alcoholSafetyBox" />
+            <GridPane fx:id="routeInfoGrid" hgap="10.0" maxHeight="1.7976931348623157E308" styleClass="route-info-grid" vgap="10.0" VBox.vgrow="ALWAYS">
+               <columnConstraints>
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" vgrow="NEVER" />
+                  <RowConstraints vgrow="NEVER" />
+                  <RowConstraints vgrow="NEVER" />
+                  <RowConstraints fillHeight="false" vgrow="NEVER" />
+                  <RowConstraints vgrow="ALWAYS" />
+                  <RowConstraints vgrow="NEVER" />
+                  <RowConstraints minHeight="0.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <children>
+                  <ScrollPane fitToWidth="true" styleClass="route-bars-scrollpane" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" GridPane.valignment="TOP">
+                     <content>
+                        <VBox fx:id="routeBarsVBox" spacing="5.0">
+                           <padding>
+                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                           </padding>
+                        </VBox>
+                     </content>
+                  </ScrollPane>
+                  <HBox spacing="10.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1">
+                     <children>
+                        <TextField fx:id="routeNameField" promptText="Route Name" styleClass="route-field" HBox.hgrow="ALWAYS" />
+                        <Button fx:id="saveRouteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#callSaveRoute" styleClass="save-route-button" text="Save Route" />
+                     </children>
+                  </HBox>
+                  <TextArea fx:id="routeDescriptionField" prefRowCount="1" prefWidth="550.0" promptText="Enter description" styleClass="route-field" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
+                  <HBox alignment="CENTER" fillHeight="false" spacing="2.0" GridPane.rowIndex="3">
+                     <children>
+                        <Label styleClass="h3" text="Walking Distance: " />
+                        <Label fx:id="walkingDistanceLabel" styleClass="h3" text="0" />
+                        <Label styleClass="h3" text="km" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="exportRouteButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#exportRoute" styleClass="button1" text="Export Route" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <HBox alignment="CENTER" fillHeight="false" spacing="2.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <children>
+                        <Label styleClass="h3" text="Estimated Time: " />
+                        <Label fx:id="estTimeLabel" styleClass="h3" text="0" />
+                        <Label styleClass="h3" text="mins" />
+                     </children>
+                  </HBox>
+                  <Button fx:id="clearRouteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clearRoute" styleClass="button1" text="Clear Route" GridPane.rowIndex="5" />
+                  <Separator styleClass="tab-separator" GridPane.columnSpan="2147483647" />
+               </children>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

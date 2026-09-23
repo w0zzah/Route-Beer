@@ -1,0 +1,4701 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-05T09:51:58Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34369715",
+        "amenity": "pub",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Bush Inn Tavern",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.574334,
+              -43.5311462
+            ],
+            [
+              172.5744085,
+              -43.5316144
+            ],
+            [
+              172.5744406,
+              -43.5316332
+            ],
+            [
+              172.574548,
+              -43.5316249
+            ],
+            [
+              172.5745501,
+              -43.531639
+            ],
+            [
+              172.5748124,
+              -43.5316189
+            ],
+            [
+              172.5748079,
+              -43.5315877
+            ],
+            [
+              172.5749741,
+              -43.531575
+            ],
+            [
+              172.5749767,
+              -43.5315927
+            ],
+            [
+              172.5751586,
+              -43.5315788
+            ],
+            [
+              172.5751205,
+              -43.5313164
+            ],
+            [
+              172.5750881,
+              -43.5313074
+            ],
+            [
+              172.575063,
+              -43.5313094
+            ],
+            [
+              172.5749392,
+              -43.5313197
+            ],
+            [
+              172.5749493,
+              -43.5313838
+            ],
+            [
+              172.5748399,
+              -43.5313928
+            ],
+            [
+              172.5748494,
+              -43.5314532
+            ],
+            [
+              172.5747644,
+              -43.5314602
+            ],
+            [
+              172.5747586,
+              -43.5314234
+            ],
+            [
+              172.5745652,
+              -43.5314393
+            ],
+            [
+              172.5745622,
+              -43.5314198
+            ],
+            [
+              172.5745788,
+              -43.5314072
+            ],
+            [
+              172.5745481,
+              -43.5313858
+            ],
+            [
+              172.5745402,
+              -43.5313275
+            ],
+            [
+              172.5745914,
+              -43.5313239
+            ],
+            [
+              172.5745643,
+              -43.5311256
+            ],
+            [
+              172.5745219,
+              -43.5311028
+            ],
+            [
+              172.5744945,
+              -43.5311053
+            ],
+            [
+              172.574361,
+              -43.5311154
+            ],
+            [
+              172.5743644,
+              -43.5311437
+            ],
+            [
+              172.574334,
+              -43.5311462
+            ]
+          ]
+        ]
+      },
+      "id": "way/34369715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/42281954",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "1",
+        "addr:postcode": "8025",
+        "addr:street": "Halswell Road",
+        "addr:suburb": "Hillmorton",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Bill's Bar and Bistro"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.5944962,
+              -43.5540848
+            ],
+            [
+              172.5946824,
+              -43.5542554
+            ],
+            [
+              172.594707,
+              -43.5542413
+            ],
+            [
+              172.5947448,
+              -43.5542476
+            ],
+            [
+              172.5948275,
+              -43.5542002
+            ],
+            [
+              172.5947906,
+              -43.5541664
+            ],
+            [
+              172.5948106,
+              -43.5541549
+            ],
+            [
+              172.5946571,
+              -43.5540143
+            ],
+            [
+              172.5945904,
+              -43.5540526
+            ],
+            [
+              172.5945758,
+              -43.5540392
+            ],
+            [
+              172.5944962,
+              -43.5540848
+            ]
+          ]
+        ]
+      },
+      "id": "way/42281954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53518327",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "230",
+        "addr:postcode": "8023",
+        "addr:street": "Brougham Street",
+        "addr:suburb": "Sydenham",
+        "amenity": "bar",
+        "building": "clubhouse",
+        "club": "yes",
+        "name": "Sydenham Bowling Club",
+        "operator": "Sydenham Bowling Club Inc",
+        "ref:linz:address_id": "221215",
+        "sport": "bowls;rugby_union"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.633014,
+              -43.5480673
+            ],
+            [
+              172.6330136,
+              -43.5481895
+            ],
+            [
+              172.6334888,
+              -43.5481905
+            ],
+            [
+              172.6334897,
+              -43.5481133
+            ],
+            [
+              172.633416,
+              -43.5481125
+            ],
+            [
+              172.633416,
+              -43.5480669
+            ],
+            [
+              172.633014,
+              -43.5480673
+            ]
+          ]
+        ]
+      },
+      "id": "way/53518327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/56658194",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Armadillo's"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.63673,
+              -43.556748
+            ],
+            [
+              172.6367289,
+              -43.5565946
+            ],
+            [
+              172.636684,
+              -43.556594
+            ],
+            [
+              172.6366846,
+              -43.5565526
+            ],
+            [
+              172.6363708,
+              -43.5565563
+            ],
+            [
+              172.6363212,
+              -43.5565573
+            ],
+            [
+              172.6363236,
+              -43.5566635
+            ],
+            [
+              172.6363273,
+              -43.5567622
+            ],
+            [
+              172.6365855,
+              -43.5567515
+            ],
+            [
+              172.63673,
+              -43.556748
+            ]
+          ]
+        ]
+      },
+      "id": "way/56658194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/99465057",
+        "amenity": "pub",
+        "building": "church",
+        "contact:facebook": "https://www.facebook.com/theechurchnz",
+        "contact:instagram": "churchpubnz",
+        "indoor_seating": "yes",
+        "name": "The Church Pub",
+        "old_name": "Trinity Congregational Church",
+        "opening_hours": "Mo-Su 11:00+",
+        "outdoor_seating": "veranda",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 595 1533",
+        "ref:nz:heritage": "306",
+        "website": "https://www.churchpub.co.nz",
+        "website:menu": "https://www.churchpub.co.nz/menu",
+        "wheelchair": "no",
+        "wikidata": "Q7754669",
+        "wikipedia": "en:The Octagon, Christchurch"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6394747,
+              -43.531282
+            ],
+            [
+              172.6395268,
+              -43.5312451
+            ],
+            [
+              172.6395241,
+              -43.5311765
+            ],
+            [
+              172.6394831,
+              -43.5311441
+            ],
+            [
+              172.639483,
+              -43.5310901
+            ],
+            [
+              172.6393408,
+              -43.5310906
+            ],
+            [
+              172.6393397,
+              -43.5311422
+            ],
+            [
+              172.6392938,
+              -43.531178
+            ],
+            [
+              172.6392957,
+              -43.5312435
+            ],
+            [
+              172.6393449,
+              -43.5312814
+            ],
+            [
+              172.6394447,
+              -43.5312819
+            ],
+            [
+              172.6394747,
+              -43.531282
+            ]
+          ]
+        ]
+      },
+      "id": "way/99465057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101123091",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "28",
+        "addr:postcode": "8011",
+        "addr:street": "New Regent Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "building": "retail",
+        "building:colour": "yellow",
+        "building:levels": "2",
+        "height": "12",
+        "historic": "building",
+        "name": "Wilko",
+        "ref:linz:address_id": "228162",
+        "roof:colour": "yellow"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6387794,
+              -43.5291849
+            ],
+            [
+              172.6388749,
+              -43.5291845
+            ],
+            [
+              172.6388748,
+              -43.5291487
+            ],
+            [
+              172.638779,
+              -43.529149
+            ],
+            [
+              172.6387794,
+              -43.5291849
+            ]
+          ]
+        ]
+      },
+      "id": "way/101123091"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101335594",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "14",
+        "addr:postcode": "8011",
+        "addr:street": "Oxford Terrace",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "building": "retail",
+        "building:levels": "2",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Pegasus Arms",
+        "opening_hours": "Mo-Th 07:30-23:00; Fr 07:30-24:00; Sa 11:00-24:00; Su 11:00-23:00",
+        "outdoor_seating": "yes",
+        "real_ale": "yes",
+        "ref:linz:address_id": "219872",
+        "source": "survey;Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6283897,
+              -43.534682
+            ],
+            [
+              172.628363,
+              -43.5347681
+            ],
+            [
+              172.6283747,
+              -43.5347699
+            ],
+            [
+              172.628358,
+              -43.5348273
+            ],
+            [
+              172.6283637,
+              -43.5348277
+            ],
+            [
+              172.6283578,
+              -43.5348806
+            ],
+            [
+              172.6284605,
+              -43.5348951
+            ],
+            [
+              172.6284724,
+              -43.5348608
+            ],
+            [
+              172.6284938,
+              -43.5348644
+            ],
+            [
+              172.628523,
+              -43.5347919
+            ],
+            [
+              172.628517,
+              -43.5347906
+            ],
+            [
+              172.6285303,
+              -43.5347483
+            ],
+            [
+              172.6285381,
+              -43.5347496
+            ],
+            [
+              172.6285526,
+              -43.5347076
+            ],
+            [
+              172.6283897,
+              -43.534682
+            ]
+          ]
+        ]
+      },
+      "id": "way/101335594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101522677",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "178",
+        "addr:postcode": "8011",
+        "addr:street": "St Asaph Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Engineers",
+        "ref:linz:address_id": "228610"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6361603,
+              -43.5364839
+            ],
+            [
+              172.6361594,
+              -43.5367509
+            ],
+            [
+              172.6363247,
+              -43.5367502
+            ],
+            [
+              172.6363247,
+              -43.5367415
+            ],
+            [
+              172.6363255,
+              -43.5364842
+            ],
+            [
+              172.6361603,
+              -43.5364839
+            ]
+          ]
+        ]
+      },
+      "id": "way/101522677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101522701",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "172",
+        "addr:postcode": "8011",
+        "addr:street": "St Asaph Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Empire",
+        "ref:linz:address_id": "228596",
+        "source": "Bing, Mar/2008"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6358981,
+              -43.5364911
+            ],
+            [
+              172.6357009,
+              -43.5364911
+            ],
+            [
+              172.635701,
+              -43.5367294
+            ],
+            [
+              172.6358222,
+              -43.5367294
+            ],
+            [
+              172.6358222,
+              -43.5367979
+            ],
+            [
+              172.6358988,
+              -43.5367979
+            ],
+            [
+              172.6358981,
+              -43.5364911
+            ]
+          ]
+        ]
+      },
+      "id": "way/101522701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101621204",
+        "amenity": "pub",
+        "branch": "Tower Junction",
+        "brand": "The Speight's Ale House",
+        "building": "yes",
+        "indoor_seating": "yes",
+        "name": "The Speight's Ale House",
+        "outdoor_seating": "yes",
+        "source": "Bing, 2008-03",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6044642,
+              -43.5398832
+            ],
+            [
+              172.6045844,
+              -43.5398786
+            ],
+            [
+              172.604587,
+              -43.539914
+            ],
+            [
+              172.6046169,
+              -43.5399129
+            ],
+            [
+              172.6047352,
+              -43.5399084
+            ],
+            [
+              172.6047338,
+              -43.5398885
+            ],
+            [
+              172.6047328,
+              -43.5398751
+            ],
+            [
+              172.6048482,
+              -43.5398707
+            ],
+            [
+              172.6048403,
+              -43.5397596
+            ],
+            [
+              172.6048396,
+              -43.5397504
+            ],
+            [
+              172.6047538,
+              -43.5397536
+            ],
+            [
+              172.6047498,
+              -43.5396973
+            ],
+            [
+              172.6046423,
+              -43.5397013
+            ],
+            [
+              172.6046327,
+              -43.5397017
+            ],
+            [
+              172.6046336,
+              -43.5397151
+            ],
+            [
+              172.6045912,
+              -43.5397167
+            ],
+            [
+              172.6045931,
+              -43.5397434
+            ],
+            [
+              172.6044644,
+              -43.5397483
+            ],
+            [
+              172.6044659,
+              -43.5397684
+            ],
+            [
+              172.6044559,
+              -43.5397687
+            ],
+            [
+              172.604462,
+              -43.5398537
+            ],
+            [
+              172.6044642,
+              -43.5398832
+            ]
+          ]
+        ]
+      },
+      "id": "way/101621204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102410152",
+        "air_conditioning": "yes",
+        "amenity": "pub",
+        "building": "retail",
+        "contact:facebook": "https://www.facebook.com/thefitz2sportsbar",
+        "contact:instagram": "thefitz2bar",
+        "email": "thefitz2bar@gmail.com",
+        "indoor_seating": "yes",
+        "name": "The Fitz 2 Sports Bar",
+        "opening_hours": "Mo 10:00-22:00; Tu-Su 10:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 261 4167",
+        "source": "Bing, Mar/2008",
+        "website": "https://www.thefitz2bar.co.nz",
+        "website:menu": "https://www.thefitz2bar.co.nz/menu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6556961,
+              -43.5408104
+            ],
+            [
+              172.656092,
+              -43.540811
+            ],
+            [
+              172.656092,
+              -43.5407109
+            ],
+            [
+              172.6560264,
+              -43.5407109
+            ],
+            [
+              172.6560264,
+              -43.5406822
+            ],
+            [
+              172.6558023,
+              -43.5406822
+            ],
+            [
+              172.6558023,
+              -43.5405162
+            ],
+            [
+              172.6556961,
+              -43.5405162
+            ],
+            [
+              172.6556961,
+              -43.5408104
+            ]
+          ]
+        ]
+      },
+      "id": "way/102410152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/132075035",
+        "amenity": "pub",
+        "building": "retail",
+        "name": "The Valley Inn",
+        "source": "observation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.7082492,
+              -43.5774142
+            ],
+            [
+              172.7087448,
+              -43.5773972
+            ],
+            [
+              172.708738,
+              -43.5772929
+            ],
+            [
+              172.708358,
+              -43.5773059
+            ],
+            [
+              172.7082292,
+              -43.5773669
+            ],
+            [
+              172.7082492,
+              -43.5774142
+            ]
+          ]
+        ]
+      },
+      "id": "way/132075035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/138686824",
+        "amenity": "pub",
+        "building": "commercial",
+        "cuisine": "pizza",
+        "food": "yes",
+        "microbrewery": "yes",
+        "name": "The Brewery",
+        "opening_hours": "08:00+",
+        "operator": "Cassels & Sons",
+        "outdoor_seating": "yes",
+        "real_ale": "yes",
+        "source:geometry": "LINZ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6802372,
+              -43.5567072
+            ],
+            [
+              172.6801987,
+              -43.5568604
+            ],
+            [
+              172.6804513,
+              -43.5568938
+            ],
+            [
+              172.6804898,
+              -43.5567406
+            ],
+            [
+              172.6802372,
+              -43.5567072
+            ]
+          ]
+        ]
+      },
+      "id": "way/138686824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164041152",
+        "amenity": "bar",
+        "contact:website": "http://darkroom.bar",
+        "name": "The Darkroom"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6479449,
+              -43.5364799
+            ],
+            [
+              172.6479449,
+              -43.5365593
+            ],
+            [
+              172.6480912,
+              -43.5365592
+            ],
+            [
+              172.6480909,
+              -43.5364794
+            ],
+            [
+              172.6479449,
+              -43.5364799
+            ]
+          ]
+        ]
+      },
+      "id": "way/164041152"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164042524",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "292",
+        "addr:postcode": "8011",
+        "addr:street": "Kilmore Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "pub",
+        "beer_garden": "yes",
+        "contact:website": "http://pomspub.co.nz/",
+        "food": "yes",
+        "indoor_seating": "yes",
+        "name": "Pomeroy's",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "real_ale": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6495819,
+              -43.5267358
+            ],
+            [
+              172.6499006,
+              -43.5267341
+            ],
+            [
+              172.6498997,
+              -43.5266473
+            ],
+            [
+              172.6495809,
+              -43.5266492
+            ],
+            [
+              172.6495819,
+              -43.5267358
+            ]
+          ]
+        ]
+      },
+      "id": "way/164042524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/173101342",
+        "amenity": "pub",
+        "building": "retail",
+        "contact:website": "http://thesmashpalace.co.nz",
+        "food": "yes",
+        "name": "Smash Palace",
+        "note": "moved from popup location at cnr Victoria St and Bealey Av 2015-04-25; took over Brick Farm pub",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6408779,
+              -43.5346289
+            ],
+            [
+              172.6408521,
+              -43.5346482
+            ],
+            [
+              172.6408291,
+              -43.5346656
+            ],
+            [
+              172.6409037,
+              -43.5347174
+            ],
+            [
+              172.6409324,
+              -43.5346958
+            ],
+            [
+              172.6409522,
+              -43.5346809
+            ],
+            [
+              172.6408779,
+              -43.5346289
+            ]
+          ]
+        ]
+      },
+      "id": "way/173101342"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/182007120",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "55",
+        "amenity": "pub",
+        "name": "Volstead Trading Company",
+        "real_ale": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6071768,
+              -43.5295582
+            ],
+            [
+              172.6071943,
+              -43.5297105
+            ],
+            [
+              172.6073022,
+              -43.529704
+            ],
+            [
+              172.6072849,
+              -43.5295536
+            ],
+            [
+              172.6071768,
+              -43.5295582
+            ]
+          ]
+        ]
+      },
+      "id": "way/182007120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/191008947",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "616",
+        "addr:postcode": "8023",
+        "addr:street": "Ferry Road",
+        "addr:suburb": "Woolston",
+        "amenity": "pub",
+        "building": "commercial",
+        "food": "yes",
+        "microbrewery": "yes",
+        "name": "The Twisted Hop",
+        "note": "re-establishment of pub formerly located in Poplar Lane before February 2011 earthquake",
+        "outdoor_seating": "yes",
+        "phone": "+64 3 943 4681",
+        "real_ale": "yes",
+        "ref:linz:address_id": "259710",
+        "source": "Bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6829838,
+              -43.5494435
+            ],
+            [
+              172.6828231,
+              -43.5496055
+            ],
+            [
+              172.6829493,
+              -43.5496731
+            ],
+            [
+              172.6829801,
+              -43.5496426
+            ],
+            [
+              172.6831088,
+              -43.5495083
+            ],
+            [
+              172.6829838,
+              -43.5494435
+            ]
+          ]
+        ]
+      },
+      "id": "way/191008947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228771471",
+        "amenity": "bar",
+        "food": "yes",
+        "name": "Blue Smoke",
+        "note": "not *primarily* music venue, see wiki",
+        "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00+",
+        "operator": "Cassels & Sons",
+        "real_ale": "yes",
+        "source:geometry": "LINZ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6802095,
+              -43.5568978
+            ],
+            [
+              172.6801894,
+              -43.5569848
+            ],
+            [
+              172.6806331,
+              -43.5570388
+            ],
+            [
+              172.6806532,
+              -43.5569518
+            ],
+            [
+              172.6802095,
+              -43.5568978
+            ]
+          ]
+        ]
+      },
+      "id": "way/228771471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/263291049",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "1",
+        "addr:postcode": "8014",
+        "addr:street": "Papanui Road",
+        "addr:suburb": "Merivale",
+        "amenity": "bar",
+        "building": "retail",
+        "height": "4.3",
+        "name": "Carlton",
+        "opening_hours": "11:00-00:00",
+        "ref:linz:address_id": "219249",
+        "roof:colour": "#BEC7C1",
+        "wikidata": "Q5043017",
+        "wikipedia": "en:Carlton Hotel, Christchurch"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6275136,
+              -43.5203303
+            ],
+            [
+              172.6273118,
+              -43.5204043
+            ],
+            [
+              172.6273004,
+              -43.5204123
+            ],
+            [
+              172.627329,
+              -43.5204521
+            ],
+            [
+              172.627264,
+              -43.5204767
+            ],
+            [
+              172.6272347,
+              -43.520436
+            ],
+            [
+              172.6271872,
+              -43.520454
+            ],
+            [
+              172.627288,
+              -43.520594
+            ],
+            [
+              172.6272735,
+              -43.5205994
+            ],
+            [
+              172.6273463,
+              -43.5207019
+            ],
+            [
+              172.6276683,
+              -43.5205816
+            ],
+            [
+              172.6275955,
+              -43.5204792
+            ],
+            [
+              172.6275465,
+              -43.5204138
+            ],
+            [
+              172.6275667,
+              -43.5204064
+            ],
+            [
+              172.6275136,
+              -43.5203303
+            ]
+          ]
+        ]
+      },
+      "id": "way/263291049"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264252996",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "6",
+        "addr:postcode": "8083",
+        "addr:street": "Inwoods Road",
+        "amenity": "pub",
+        "building": "yes",
+        "check_date": "2026-06-17",
+        "name": "The Turf",
+        "opening_hours": "Su-Fr 11:00-23:00; Sa 10:00-23:00",
+        "phone": "+64 3 383 0417",
+        "website": "https://www.theturf.co.nz/",
+        "website:menu": "https://www.theturf.co.nz/parklands/menu/?tab=tab-all-day-menu"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6986593,
+              -43.4811941
+            ],
+            [
+              172.6985556,
+              -43.4811512
+            ],
+            [
+              172.698423,
+              -43.4813587
+            ],
+            [
+              172.6985332,
+              -43.4813957
+            ],
+            [
+              172.6986593,
+              -43.4811941
+            ]
+          ]
+        ]
+      },
+      "id": "way/264252996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/298027661",
+        "amenity": "bar",
+        "name": "Bloody Mary's"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6434521,
+              -43.5304762
+            ],
+            [
+              172.643454,
+              -43.5308242
+            ],
+            [
+              172.6438015,
+              -43.5308232
+            ],
+            [
+              172.6438012,
+              -43.5307759
+            ],
+            [
+              172.6437987,
+              -43.5305901
+            ],
+            [
+              172.6437089,
+              -43.5305904
+            ],
+            [
+              172.6437087,
+              -43.5305433
+            ],
+            [
+              172.6436583,
+              -43.5305434
+            ],
+            [
+              172.643658,
+              -43.5304756
+            ],
+            [
+              172.6434521,
+              -43.5304762
+            ]
+          ]
+        ]
+      },
+      "id": "way/298027661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/298255126",
+        "amenity": "pub",
+        "source": "observation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6387555,
+              -43.5340184
+            ],
+            [
+              172.6387566,
+              -43.5341216
+            ],
+            [
+              172.6388246,
+              -43.5341215
+            ],
+            [
+              172.6388704,
+              -43.5341002
+            ],
+            [
+              172.6388704,
+              -43.5340597
+            ],
+            [
+              172.6388218,
+              -43.5340597
+            ],
+            [
+              172.6388218,
+              -43.5340416
+            ],
+            [
+              172.6388473,
+              -43.5340416
+            ],
+            [
+              172.6388472,
+              -43.5340183
+            ],
+            [
+              172.6387555,
+              -43.5340184
+            ]
+          ]
+        ]
+      },
+      "id": "way/298255126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/400351688",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "15",
+        "addr:street": "Opawa Road",
+        "addr:suburb": "Waltham",
+        "amenity": "pub",
+        "building:part": "retail",
+        "check_date": "2024-03-21",
+        "name": "Bowl & Jack",
+        "opening_hours": "Su-Mo 10:30-20:00; Tu 10:30-21:00; We-Th 10:30-22:00; Fr-Sa 10:30-00:00",
+        "phone": "+64 3 377 6223",
+        "source": "observation"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6548487,
+              -43.5478095
+            ],
+            [
+              172.6549461,
+              -43.5479003
+            ],
+            [
+              172.6549856,
+              -43.5478872
+            ],
+            [
+              172.655142,
+              -43.5477997
+            ],
+            [
+              172.6552292,
+              -43.5477539
+            ],
+            [
+              172.6550835,
+              -43.5476819
+            ],
+            [
+              172.6548487,
+              -43.5478095
+            ]
+          ]
+        ]
+      },
+      "id": "way/400351688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/402283224",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "69",
+        "addr:postcode": "8022",
+        "addr:street": "Centaurus Road",
+        "addr:suburb": "Huntsbury",
+        "amenity": "pub",
+        "building": "commercial",
+        "name": "The Brickworks",
+        "ref:linz:address_id": "1757543"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6461675,
+              -43.5674975
+            ],
+            [
+              172.6460748,
+              -43.5676355
+            ],
+            [
+              172.646298,
+              -43.5677142
+            ],
+            [
+              172.6463283,
+              -43.5676692
+            ],
+            [
+              172.6463589,
+              -43.56768
+            ],
+            [
+              172.6463887,
+              -43.5676355
+            ],
+            [
+              172.6463573,
+              -43.5676245
+            ],
+            [
+              172.6463899,
+              -43.5675759
+            ],
+            [
+              172.6463315,
+              -43.5675553
+            ],
+            [
+              172.6463612,
+              -43.5675111
+            ],
+            [
+              172.6462866,
+              -43.5674848
+            ],
+            [
+              172.6462569,
+              -43.567529
+            ],
+            [
+              172.6461675,
+              -43.5674975
+            ]
+          ]
+        ]
+      },
+      "id": "way/402283224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/410101503",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "101",
+        "addr:street": "Main Road",
+        "addr:suburb": "Redcliffs",
+        "amenity": "pub",
+        "building": "commercial",
+        "name": "Two Thumb Redcliffs",
+        "source": "survey",
+        "source:geometry": "LINZ"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.7394168,
+              -43.5622051
+            ],
+            [
+              172.7395029,
+              -43.5622722
+            ],
+            [
+              172.7395934,
+              -43.5622108
+            ],
+            [
+              172.7395653,
+              -43.562189
+            ],
+            [
+              172.7396265,
+              -43.5621475
+            ],
+            [
+              172.7395682,
+              -43.5621024
+            ],
+            [
+              172.7395322,
+              -43.5621269
+            ],
+            [
+              172.7394168,
+              -43.5622051
+            ]
+          ]
+        ]
+      },
+      "id": "way/410101503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/420941435",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "57",
+        "addr:postcode": "8042",
+        "addr:street": "Sonter Road",
+        "addr:suburb": "Wigram",
+        "amenity": "pub",
+        "brewery": "yes",
+        "building": "yes",
+        "building:levels": "0",
+        "microbrewery": "yes",
+        "name": "Wigram Brewing Company Ltd",
+        "phone": "+64 3 343 4493",
+        "smoking": "outside",
+        "website": "https://www.wigrambrewing.co.nz"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.5666673,
+              -43.5494188
+            ],
+            [
+              172.5665473,
+              -43.5494907
+            ],
+            [
+              172.5665988,
+              -43.5495363
+            ],
+            [
+              172.5665762,
+              -43.5495471
+            ],
+            [
+              172.5666431,
+              -43.5496048
+            ],
+            [
+              172.5666618,
+              -43.5495942
+            ],
+            [
+              172.5667218,
+              -43.5496486
+            ],
+            [
+              172.5667631,
+              -43.549627
+            ],
+            [
+              172.5667979,
+              -43.5496577
+            ],
+            [
+              172.5667209,
+              -43.5497095
+            ],
+            [
+              172.566807,
+              -43.5497856
+            ],
+            [
+              172.5669203,
+              -43.549715
+            ],
+            [
+              172.5669266,
+              -43.5496731
+            ],
+            [
+              172.566865,
+              -43.54962
+            ],
+            [
+              172.5668845,
+              -43.5496071
+            ],
+            [
+              172.5666673,
+              -43.5494188
+            ]
+          ]
+        ]
+      },
+      "id": "way/420941435"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/434943007",
+        "amenity": "bar",
+        "building": "yes",
+        "height": "7.6",
+        "name": "Vesuvio",
+        "roof:colour": "#3E4845",
+        "roof:shape": "gabled"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6282833,
+              -43.5203875
+            ],
+            [
+              172.6282239,
+              -43.5203093
+            ],
+            [
+              172.6280491,
+              -43.5203791
+            ],
+            [
+              172.6281044,
+              -43.5204507
+            ],
+            [
+              172.6282833,
+              -43.5203875
+            ]
+          ]
+        ]
+      },
+      "id": "way/434943007"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/439831571",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "1",
+        "addr:postcode": "8052",
+        "addr:street": "Normans Road",
+        "addr:suburb": "Strowan",
+        "amenity": "pub",
+        "building": "yes",
+        "indoor_seating": "yes",
+        "name": "The Elmwood Trading Company",
+        "opening_hours": "Mo-Su 10:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 355 5345",
+        "ref:linz:address_id": "1606206",
+        "website": "https://theelmwood.co.nz/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6070273,
+              -43.5093306
+            ],
+            [
+              172.6069362,
+              -43.5092367
+            ],
+            [
+              172.6066108,
+              -43.5093948
+            ],
+            [
+              172.6065674,
+              -43.5094159
+            ],
+            [
+              172.6066579,
+              -43.5095139
+            ],
+            [
+              172.6070273,
+              -43.5093306
+            ]
+          ]
+        ]
+      },
+      "id": "way/439831571"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/443567249",
+        "amenity": "pub",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "The Black Horse"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.5974456,
+              -43.5519282
+            ],
+            [
+              172.5977564,
+              -43.5517427
+            ],
+            [
+              172.5976693,
+              -43.551666
+            ],
+            [
+              172.5975785,
+              -43.5517202
+            ],
+            [
+              172.5975689,
+              -43.5517117
+            ],
+            [
+              172.5974974,
+              -43.5517544
+            ],
+            [
+              172.5974694,
+              -43.5517298
+            ],
+            [
+              172.5974472,
+              -43.5517431
+            ],
+            [
+              172.5974324,
+              -43.5517301
+            ],
+            [
+              172.5974282,
+              -43.5517327
+            ],
+            [
+              172.5973977,
+              -43.5517058
+            ],
+            [
+              172.5973332,
+              -43.5517443
+            ],
+            [
+              172.5973098,
+              -43.5517237
+            ],
+            [
+              172.5972555,
+              -43.5517561
+            ],
+            [
+              172.5973094,
+              -43.5518036
+            ],
+            [
+              172.5973062,
+              -43.5518055
+            ],
+            [
+              172.5974456,
+              -43.5519282
+            ]
+          ]
+        ]
+      },
+      "id": "way/443567249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/446612613",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "The Sideline Sports Bar"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6562403,
+              -43.5184661
+            ],
+            [
+              172.656238,
+              -43.518305
+            ],
+            [
+              172.6560506,
+              -43.5183058
+            ],
+            [
+              172.6560507,
+              -43.5183302
+            ],
+            [
+              172.6559845,
+              -43.5183304
+            ],
+            [
+              172.6559847,
+              -43.5183671
+            ],
+            [
+              172.655913,
+              -43.5183673
+            ],
+            [
+              172.6559137,
+              -43.5183907
+            ],
+            [
+              172.6559158,
+              -43.5184661
+            ],
+            [
+              172.6562403,
+              -43.5184661
+            ]
+          ]
+        ]
+      },
+      "id": "way/446612613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/480883692",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "291",
+        "addr:postcode": "8024",
+        "addr:street": "Lincoln Road",
+        "addr:suburb": "Addington",
+        "amenity": "pub",
+        "building": "retail",
+        "building:levels": "1",
+        "name": "Woodstock Craft Bar & Eatery",
+        "ref:linz:address_id": "205787"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6111909,
+              -43.5438136
+            ],
+            [
+              172.6113698,
+              -43.5437077
+            ],
+            [
+              172.6111846,
+              -43.5435435
+            ],
+            [
+              172.6109956,
+              -43.543652
+            ],
+            [
+              172.6111909,
+              -43.5438136
+            ]
+          ]
+        ]
+      },
+      "id": "way/480883692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/485065136",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "22B",
+        "addr:postcode": "8011",
+        "addr:street": "Tyne Street",
+        "amenity": "pub",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/punkybrewsterchch",
+        "indoor_seating": "yes",
+        "name": "Punky Brewster",
+        "opening_hours": "We-Th 12:00-21:00; Fr-Sa 12:00-22:00; Su 12:00-19:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 662 9943",
+        "source": "Bing, 2008-03",
+        "website": "http://www.punkybrewster.co.nz",
+        "website:menu": "http://www.punkybrewster.co.nz/menu.html"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6087046,
+              -43.5367928
+            ],
+            [
+              172.6087195,
+              -43.5368751
+            ],
+            [
+              172.6087908,
+              -43.5368684
+            ],
+            [
+              172.608879,
+              -43.53686
+            ],
+            [
+              172.6088648,
+              -43.5367798
+            ],
+            [
+              172.6087046,
+              -43.5367928
+            ]
+          ]
+        ]
+      },
+      "id": "way/485065136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/524925805",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "308",
+        "addr:postcode": "8024",
+        "addr:street": "Lincoln Road",
+        "addr:suburb": "Addington",
+        "amenity": "bar",
+        "building": "retail",
+        "name": "The Miller",
+        "outdoor_seating": "yes",
+        "ref:linz:address_id": "205806"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6119045,
+              -43.5436101
+            ],
+            [
+              172.612099,
+              -43.543785
+            ],
+            [
+              172.612178,
+              -43.5437388
+            ],
+            [
+              172.6119835,
+              -43.5435639
+            ],
+            [
+              172.6119045,
+              -43.5436101
+            ]
+          ]
+        ]
+      },
+      "id": "way/524925805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/530247988",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Smash Palace",
+        "opening_hours": "Mo-Th 15:00-24:00+; Fr,Sa 12:00-24:00+; Su 12:00-20:00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.640528,
+              -43.5346012
+            ],
+            [
+              172.6406192,
+              -43.5346678
+            ],
+            [
+              172.6407507,
+              -43.5345731
+            ],
+            [
+              172.6407613,
+              -43.5345809
+            ],
+            [
+              172.6407849,
+              -43.5345638
+            ],
+            [
+              172.6406832,
+              -43.5344895
+            ],
+            [
+              172.640528,
+              -43.5346012
+            ]
+          ]
+        ]
+      },
+      "id": "way/530247988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/551397011",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "Nuggets"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6729077,
+              -43.5329209
+            ],
+            [
+              172.6728374,
+              -43.5328754
+            ],
+            [
+              172.6726911,
+              -43.532994
+            ],
+            [
+              172.6726822,
+              -43.5329883
+            ],
+            [
+              172.6726021,
+              -43.5330532
+            ],
+            [
+              172.672691,
+              -43.5331108
+            ],
+            [
+              172.6727162,
+              -43.5330904
+            ],
+            [
+              172.6727709,
+              -43.5330461
+            ],
+            [
+              172.6727611,
+              -43.5330398
+            ],
+            [
+              172.6729077,
+              -43.5329209
+            ]
+          ]
+        ]
+      },
+      "id": "way/551397011"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/753685185",
+        "addr:housenumber": "217",
+        "addr:street": "Manchester Street",
+        "air_conditioning": "yes",
+        "amenity": "pub",
+        "building": "retail",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/paddymcnaughtons",
+        "contact:instagram": "paddymcnaughtons",
+        "indoor_seating": "yes",
+        "name": "Paddy McNaughton's",
+        "opening_hours": "Su-Th 15:00+; Fr-Sa 12:00+",
+        "outdoor_seating": "veranda",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 930 7696",
+        "ref:nz:heritage": "307",
+        "roof:levels": "0",
+        "roof:shape": "gabled",
+        "website": "https://www.paddymcnaughtons.co.nz",
+        "website:menu": "https://www.paddymcnaughtons.co.nz/bar-food",
+        "wheelchair": "yes",
+        "wikidata": "Q24915103",
+        "wikipedia": "en:Shand's Emporium"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6392673,
+              -43.5313552
+            ],
+            [
+              172.6395312,
+              -43.5313565
+            ],
+            [
+              172.6395317,
+              -43.5312946
+            ],
+            [
+              172.6394446,
+              -43.5312942
+            ],
+            [
+              172.6393448,
+              -43.5312937
+            ],
+            [
+              172.6393449,
+              -43.5312814
+            ],
+            [
+              172.639268,
+              -43.5312811
+            ],
+            [
+              172.6392673,
+              -43.5313552
+            ]
+          ]
+        ]
+      },
+      "id": "way/753685185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/866780555",
+        "amenity": "pub",
+        "building": "yes",
+        "name": "The Halswell"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.5663064,
+              -43.5793037
+            ],
+            [
+              172.5663775,
+              -43.5794106
+            ],
+            [
+              172.5663519,
+              -43.5794195
+            ],
+            [
+              172.5663726,
+              -43.5794507
+            ],
+            [
+              172.5663107,
+              -43.5794723
+            ],
+            [
+              172.5663346,
+              -43.5795083
+            ],
+            [
+              172.5663475,
+              -43.5795038
+            ],
+            [
+              172.5663785,
+              -43.5794929
+            ],
+            [
+              172.5664238,
+              -43.5795611
+            ],
+            [
+              172.5663964,
+              -43.5795707
+            ],
+            [
+              172.5664128,
+              -43.5795954
+            ],
+            [
+              172.5663237,
+              -43.5796265
+            ],
+            [
+              172.5664208,
+              -43.5797724
+            ],
+            [
+              172.5664774,
+              -43.5797909
+            ],
+            [
+              172.5665712,
+              -43.5797581
+            ],
+            [
+              172.5665878,
+              -43.5797812
+            ],
+            [
+              172.5666092,
+              -43.5798108
+            ],
+            [
+              172.566742,
+              -43.5797647
+            ],
+            [
+              172.5667319,
+              -43.5797495
+            ],
+            [
+              172.5666941,
+              -43.5796925
+            ],
+            [
+              172.5667432,
+              -43.5796754
+            ],
+            [
+              172.5664605,
+              -43.57925
+            ],
+            [
+              172.5663064,
+              -43.5793037
+            ]
+          ]
+        ]
+      },
+      "id": "way/866780555"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1013884976",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:postcode": "8042",
+        "addr:street": "Merrin Street",
+        "alt_name": "Monteith's",
+        "amenity": "pub",
+        "capacity": "100",
+        "cuisine": "regional",
+        "delivery": "no",
+        "diet:vegan": "no",
+        "email": "info@mbbmerrinst.co.nz",
+        "indoor": "area",
+        "level": "0",
+        "name": "Merrin Street Brewery Bar",
+        "opening_hours": "Mo-Su 09:30-23:00+",
+        "outdoor_seating": "yes",
+        "phone": "+64 3 358 8184",
+        "smoking": "outside",
+        "takeaway": "no",
+        "website": "https://www.monteithsmerrin.co.nz/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.557328,
+              -43.510767
+            ],
+            [
+              172.5573327,
+              -43.510811
+            ],
+            [
+              172.5575192,
+              -43.5108014
+            ],
+            [
+              172.5575047,
+              -43.5106221
+            ],
+            [
+              172.5574413,
+              -43.510625
+            ],
+            [
+              172.5574433,
+              -43.5106456
+            ],
+            [
+              172.5573186,
+              -43.5106515
+            ],
+            [
+              172.5573226,
+              -43.5107132
+            ],
+            [
+              172.557328,
+              -43.510767
+            ]
+          ]
+        ]
+      },
+      "id": "way/1013884976"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1223544370",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "31",
+        "addr:postcode": "8011",
+        "addr:street": "New Regent Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "contact:website": "https://www.lastword.co.nz/",
+        "drink:cocktail": "yes",
+        "drink:whisky": "yes",
+        "indoor_seating": "yes",
+        "name": "The Last Word",
+        "note": "Whisky and cocktail bar",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6385298,
+              -43.5290338
+            ],
+            [
+              172.6385306,
+              -43.5290731
+            ],
+            [
+              172.6385311,
+              -43.5291103
+            ],
+            [
+              172.638627,
+              -43.5291097
+            ],
+            [
+              172.6386267,
+              -43.529083
+            ],
+            [
+              172.6386266,
+              -43.5290722
+            ],
+            [
+              172.6386265,
+              -43.5290618
+            ],
+            [
+              172.6386263,
+              -43.529033
+            ],
+            [
+              172.6385298,
+              -43.5290338
+            ]
+          ]
+        ]
+      },
+      "id": "way/1223544370"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1239241116",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "96",
+        "addr:postcode": "8011",
+        "addr:street": "Oxford Terrace",
+        "amenity": "pub",
+        "barrier": "wall",
+        "indoor": "room",
+        "microbrewery": "yes",
+        "name": "Canterbury Brewers Collective",
+        "website": "https://canterburybrewerscollective.nz/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6340021,
+              -43.5339453
+            ],
+            [
+              172.6340026,
+              -43.533996
+            ],
+            [
+              172.6340465,
+              -43.5339956
+            ],
+            [
+              172.6340457,
+              -43.5339451
+            ],
+            [
+              172.6340232,
+              -43.5339451
+            ],
+            [
+              172.6340021,
+              -43.5339453
+            ]
+          ]
+        ]
+      },
+      "id": "way/1239241116"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1259517689",
+        "addr:city": "Christchurch",
+        "addr:street": "Marshland Road",
+        "alt_name": "Fox & Ferret",
+        "amenity": "bar",
+        "area": "yes",
+        "barrier": "wall",
+        "branch": "The Palms",
+        "indoor": "room",
+        "indoor_seating": "yes",
+        "name": "Fox and Ferret",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6641822,
+              -43.5078321
+            ],
+            [
+              172.6641771,
+              -43.5076905
+            ],
+            [
+              172.6639396,
+              -43.5076955
+            ],
+            [
+              172.6639089,
+              -43.507727
+            ],
+            [
+              172.6638723,
+              -43.5077426
+            ],
+            [
+              172.6638508,
+              -43.5077464
+            ],
+            [
+              172.6638293,
+              -43.5077528
+            ],
+            [
+              172.6638134,
+              -43.5077623
+            ],
+            [
+              172.6638,
+              -43.5077824
+            ],
+            [
+              172.6637982,
+              -43.5078006
+            ],
+            [
+              172.6638024,
+              -43.5078224
+            ],
+            [
+              172.6638127,
+              -43.5078402
+            ],
+            [
+              172.6641822,
+              -43.5078321
+            ]
+          ]
+        ]
+      },
+      "id": "way/1259517689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1259517690",
+        "addr:city": "Christchurch",
+        "addr:postcode": "8061",
+        "addr:street": "The Palms Mall",
+        "amenity": "bar",
+        "area": "yes",
+        "indoor_seating": "yes",
+        "name": "Cocopelli",
+        "opening_hours": "11:30+",
+        "outdoor_seating": "yes",
+        "phone": "+64 3 386 2220",
+        "website": "https://www.cocopelli.co.nz/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6641771,
+              -43.5076905
+            ],
+            [
+              172.6641721,
+              -43.5075524
+            ],
+            [
+              172.6639734,
+              -43.5075588
+            ],
+            [
+              172.6639781,
+              -43.5075887
+            ],
+            [
+              172.6639783,
+              -43.507624
+            ],
+            [
+              172.6639663,
+              -43.507665
+            ],
+            [
+              172.6639396,
+              -43.5076955
+            ],
+            [
+              172.6641771,
+              -43.5076905
+            ]
+          ]
+        ]
+      },
+      "id": "way/1259517690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1274283236",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "436",
+        "addr:postcode": "8083",
+        "addr:street": "Prestons Road",
+        "addr:suburb": "Marshland",
+        "amenity": "pub",
+        "barrier": "wall",
+        "check_date": "2026-05-31",
+        "contact:facebook": "people/The-Publican-Prestons/61567360307154",
+        "email": "resthepublican@gmail.com",
+        "indoor": "room",
+        "name": "The Publican",
+        "opening_hours": "Su-Mo 08:00-21:00; Tu-Sa 08:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 27 335 2484",
+        "smoking": "no",
+        "website": "https://www.thepublican.info/",
+        "website:menu": "https://www.thepublican.info/menu",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6696274,
+              -43.4738137
+            ],
+            [
+              172.6694747,
+              -43.4738189
+            ],
+            [
+              172.6694759,
+              -43.4738308
+            ],
+            [
+              172.6693955,
+              -43.4738496
+            ],
+            [
+              172.6694124,
+              -43.4739978
+            ],
+            [
+              172.6694996,
+              -43.4739774
+            ],
+            [
+              172.6694987,
+              -43.4739691
+            ],
+            [
+              172.6695703,
+              -43.4739645
+            ],
+            [
+              172.6696414,
+              -43.4739615
+            ],
+            [
+              172.6696274,
+              -43.4738137
+            ]
+          ]
+        ]
+      },
+      "id": "way/1274283236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1277685954",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "124-134",
+        "addr:postcode": "8061",
+        "addr:street": "Marshland Road",
+        "amenity": "pub",
+        "barrier": "wall",
+        "indoor": "area",
+        "name": "O'shea's",
+        "opening_hours": "Su-We 10:00-22:00; Th-Sa 10:00-23:00",
+        "phone": "+64 3 385 3080",
+        "theme": "irish",
+        "website": "http://osheas.co.nz/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.6621966,
+              -43.49871
+            ],
+            [
+              172.662234,
+              -43.4987808
+            ],
+            [
+              172.6622491,
+              -43.4988642
+            ],
+            [
+              172.6623759,
+              -43.4988573
+            ],
+            [
+              172.6623731,
+              -43.4988728
+            ],
+            [
+              172.6624965,
+              -43.4988642
+            ],
+            [
+              172.6624787,
+              -43.4987296
+            ],
+            [
+              172.6623494,
+              -43.4987391
+            ],
+            [
+              172.6623271,
+              -43.4986997
+            ],
+            [
+              172.6621966,
+              -43.49871
+            ]
+          ]
+        ]
+      },
+      "id": "way/1277685954"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1288877565",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housename": "QE II Shopping Centre",
+        "addr:housenumber": "251",
+        "addr:postcode": "8083",
+        "addr:street": "Travis Road",
+        "addr:suburb": "New Brighton",
+        "amenity": "pub",
+        "area": "yes",
+        "barrier": "wall",
+        "indoor": "room",
+        "name": "Chats Bar & Cafe",
+        "ref:linz:address_id": "271800"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.7103778,
+              -43.4948758
+            ],
+            [
+              172.7107018,
+              -43.4949017
+            ],
+            [
+              172.7107153,
+              -43.4948087
+            ],
+            [
+              172.7103918,
+              -43.4947829
+            ],
+            [
+              172.7103778,
+              -43.4948758
+            ]
+          ]
+        ]
+      },
+      "id": "way/1288877565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1459174824",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "34",
+        "addr:postcode": "8061",
+        "addr:street": "Brighton Mall",
+        "addr:suburb": "New Brighton",
+        "amenity": "pub",
+        "building": "yes",
+        "email": "brewery@southpawbeer.com",
+        "microbrewery": "yes",
+        "name": "Southpaw Brewing Company",
+        "phone": "+64 27 284 1161",
+        "website": "https://www.southpawbeer.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.7298939,
+              -43.5069308
+            ],
+            [
+              172.7299035,
+              -43.5069509
+            ],
+            [
+              172.7299542,
+              -43.5070574
+            ],
+            [
+              172.7301463,
+              -43.5070109
+            ],
+            [
+              172.7300892,
+              -43.5068845
+            ],
+            [
+              172.7298939,
+              -43.5069308
+            ]
+          ]
+        ]
+      },
+      "id": "way/1459174824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/486849340",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "2",
+        "addr:postcode": "8022",
+        "addr:street": "Colombo Street",
+        "addr:suburb": "Cashmere",
+        "amenity": "pub",
+        "name": "Protocol",
+        "ref:linz:address_id": "231210"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6354054,
+          -43.5674279
+        ]
+      },
+      "id": "node/486849340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/679684559",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "28",
+        "addr:postcode": "8041",
+        "addr:street": "Rotherham Street",
+        "alt_name": "Fox & Ferret",
+        "amenity": "pub",
+        "branch": "Riccarton",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "The Fox",
+        "opening_hours": "Mo-Su 11:00-20:00+ \"open until 'late'\"",
+        "outdoor_seating": "veranda",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "http://www.foxriccarton.co.nz/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6005804,
+          -43.5303845
+        ]
+      },
+      "id": "node/679684559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/709799297",
+        "amenity": "pub",
+        "name": "McKenzies Hotel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6858285,
+          -43.5237996
+        ]
+      },
+      "id": "node/709799297"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/927549790",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "1091",
+        "addr:street": "Ferry Road",
+        "amenity": "bar",
+        "brewery": "cassels",
+        "contact:facebook": "evilgeniushq",
+        "email": "info@evilgenius.co.nz",
+        "name": "Evil Genius",
+        "opening_hours": "We-Th 12:00-20:00; Su 12:00-20:00; Fr-Sa 12:00-22:00",
+        "phone": "+64 3 260 1002",
+        "website": "https://www.evilgenius.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7060775,
+          -43.5572493
+        ]
+      },
+      "id": "node/927549790"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/986361740",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "23",
+        "addr:postcode": "8241",
+        "addr:street": "Humphreys Drive",
+        "addr:suburb": "Ferrymead",
+        "amenity": "pub",
+        "email": "ferrymead@cbk.nz",
+        "name": "CBK Craft Bar & Kitchen",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-23:00",
+        "phone": "+64 3 376 4376",
+        "website": "https://www.cbk.nz/locations/south-island/ferrymead/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7050276,
+          -43.5567691
+        ]
+      },
+      "id": "node/986361740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/986365017",
+        "alt_name": "Nobanno",
+        "amenity": "pub",
+        "cuisine": "irish",
+        "name": "Claddagh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7071374,
+          -43.5585214
+        ]
+      },
+      "id": "node/986365017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/987387701",
+        "amenity": "pub",
+        "name": "Avonhead Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5537949,
+          -43.5169769
+        ]
+      },
+      "id": "node/987387701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1362624085",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "263",
+        "addr:postcode": "8013",
+        "addr:street": "Bealey Ave",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "The Bealey ale and steak house",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "outdoor_seating": "yes",
+        "website": "https://www.thebealey.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6442619,
+          -43.5204303
+        ]
+      },
+      "id": "node/1362624085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2164851916",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "290",
+        "addr:postcode": "8053",
+        "addr:street": "Wairakei Rd",
+        "amenity": "pub",
+        "name": "Little Brown Jug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5859982,
+          -43.4992884
+        ]
+      },
+      "id": "node/2164851916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2269027716",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housename": "Endeavour Tavern",
+        "addr:housenumber": "87",
+        "addr:postcode": "8083",
+        "addr:street": "Effingham Street",
+        "addr:suburb": "North New Brighton",
+        "amenity": "pub",
+        "name": "Endeavour Tavern",
+        "ref:linz:address_id": "276257"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7180813,
+          -43.4905542
+        ]
+      },
+      "id": "node/2269027716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2599277916",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "1",
+        "addr:postcode": "8011",
+        "addr:street": "Riccarton Road",
+        "addr:suburb": "Riccarton",
+        "amenity": "bar",
+        "building:flats": "44",
+        "indoor_seating": "yes",
+        "name": "The Running Bull Bar and Grill",
+        "outdoor_seating": "no",
+        "phone": "+64 3 348 1490",
+        "ref:linz:address_id": "205246",
+        "website": "https://www.runningbull.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6116933,
+          -43.5289756
+        ]
+      },
+      "id": "node/2599277916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2630814779",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "name": "Wilson's Sports Bar",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6096246,
+          -43.5291645
+        ]
+      },
+      "id": "node/2630814779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2630814806",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "name": "The Craic",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6025516,
+          -43.5294396
+        ]
+      },
+      "id": "node/2630814806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2691990366",
+        "amenity": "bar",
+        "name": "Finnegans Irish Bar & Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5123951,
+          -43.5811514
+        ]
+      },
+      "id": "node/2691990366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3358958713",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "15",
+        "addr:postcode": "8053",
+        "addr:street": "Main North Road",
+        "addr:suburb": "Papanui",
+        "amenity": "bar",
+        "name": "Mad'z Drink n Dine",
+        "ref:linz:address_id": "203265"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.607784,
+          -43.4965562
+        ]
+      },
+      "id": "node/3358958713"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3756636183",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "6",
+        "addr:postcode": "8011",
+        "addr:street": "Poplar Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "name": "The Poplar Social Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6414631,
+          -43.5344979
+        ]
+      },
+      "id": "node/3756636183"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4003559089",
+        "access": "customers",
+        "amenity": "bar",
+        "description": "Airport Lounge",
+        "indoor_seating": "yes",
+        "name": "Manaia Lounge",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.540329,
+          -43.487574
+        ]
+      },
+      "id": "node/4003559089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4139956356",
+        "amenity": "bar",
+        "level": "1",
+        "microbrewery": "no",
+        "min_age": "18",
+        "name": "Micky Finn's Irish Pub",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6346855,
+          -43.531916
+        ]
+      },
+      "id": "node/4139956356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4139956894",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "85",
+        "addr:postcode": "8011",
+        "addr:street": "Hereford Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "check_date": "2022-08-21",
+        "indoor_seating": "yes",
+        "name": "The Rockpool",
+        "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 08:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+64 3 374 9461",
+        "ref:linz:address_id": "220239",
+        "website": "https://therockpool.co.nz/index/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6345223,
+          -43.5319183
+        ]
+      },
+      "id": "node/4139956894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4525864889",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "284-286",
+        "addr:postcode": "8024",
+        "addr:street": "Lincoln Road",
+        "addr:suburb": "Addington",
+        "amenity": "bar",
+        "name": "The Pedal Pusher",
+        "opening_hours": "Mo-Fr 11:00-20:30; Sa,Su 09:00-20:00",
+        "phone": "+64 3 335 0095",
+        "website": "https://www.pedalpusheraddington.co.nz",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6108397,
+          -43.5442751
+        ]
+      },
+      "id": "node/4525864889"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4572092720",
+        "amenity": "bar",
+        "name": "Redwood Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6186347,
+          -43.4745927
+        ]
+      },
+      "id": "node/4572092720"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4583874992",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "280",
+        "addr:postcode": "8024",
+        "addr:street": "Lincoln Road",
+        "addr:suburb": "Addington",
+        "amenity": "bar",
+        "name": "Morrell & Co.",
+        "ref:linz:address_id": "205782",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6107259,
+          -43.5443469
+        ]
+      },
+      "id": "node/4583874992"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674100593",
+        "amenity": "bar",
+        "name": "Celine's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6399666,
+          -43.5370352
+        ]
+      },
+      "id": "node/4674100593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4674100890",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "236",
+        "addr:postcode": "8011",
+        "addr:street": "St Asaph Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "name": "The Cuban",
+        "ref:linz:address_id": "228699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6404869,
+          -43.5365438
+        ]
+      },
+      "id": "node/4674100890"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4733006321",
+        "amenity": "pub",
+        "name": "The Embankment",
+        "name:en": "The Embankment"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.653911,
+          -43.5389274
+        ]
+      },
+      "id": "node/4733006321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4733400822",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Bar 185",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6394261,
+          -43.5327673
+        ]
+      },
+      "id": "node/4733400822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4753613876",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "10",
+        "addr:postcode": "8011",
+        "addr:street": "Poplar Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "email": "manager@duxcentral.co.nz",
+        "indoor_seating": "yes",
+        "name": "Dux Central",
+        "opening_hours": "Mo-We 11:00-23:00; Th 11:00-23:30; Fr-Sa 11:00-01:00; Su 11:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 366 6919",
+        "website": "https://duxcentral.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.641509,
+          -43.5346308
+        ]
+      },
+      "id": "node/4753613876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4763183429",
+        "amenity": "bar",
+        "name": "Mish Mash",
+        "name:en": "Mish Mash"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6394605,
+          -43.5365103
+        ]
+      },
+      "id": "node/4763183429"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4984200625",
+        "amenity": "bar",
+        "name": "Vespa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6390066,
+          -43.5339976
+        ]
+      },
+      "id": "node/4984200625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4984200626",
+        "amenity": "bar",
+        "name": "Nucleus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6391079,
+          -43.5340044
+        ]
+      },
+      "id": "node/4984200626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4984200627",
+        "amenity": "bar",
+        "name": "Strange & Co",
+        "opening_hours": "Mo-Su 12:00-03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6389888,
+          -43.5340744
+        ]
+      },
+      "id": "node/4984200627"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5097377042",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Fat Eddie's",
+        "opening_hours": "Mo-Th 17:00-24:00+; Fr-Su 14:00-24:00+",
+        "outdoor_seating": "yes",
+        "website": "https://www.fateddiesbar.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6340369,
+          -43.532319
+        ]
+      },
+      "id": "node/5097377042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5253627009",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "335",
+        "addr:postcode": "8053",
+        "addr:street": "Harewood Road",
+        "addr:suburb": "Bishopdale",
+        "amenity": "pub",
+        "name": "Tavern Harewood",
+        "ref:linz:address_id": "188226",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5862113,
+          -43.488209
+        ]
+      },
+      "id": "node/5253627009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264817532",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "150",
+        "addr:postcode": "8024",
+        "addr:street": "Somerfield Street",
+        "addr:suburb": "Somerfield",
+        "amenity": "bar",
+        "capacity": "80",
+        "indoor_seating": "yes",
+        "name": "Moon Under Water",
+        "opening_hours": "Sa-Su 09:00-23:00; Tu-Fr 11:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 331 8001",
+        "ref:linz:address_id": "1760478",
+        "takeaway": "no",
+        "website": "https://moonunderwater.co.nz/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6364458,
+          -43.5573204
+        ]
+      },
+      "id": "node/5264817532"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264950279",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "380",
+        "addr:postcode": "8023",
+        "addr:street": "Colombo Street",
+        "addr:suburb": "Sydenham",
+        "amenity": "pub",
+        "brand": "Two Thumb Brewing Co.",
+        "microbrewery": "yes",
+        "name": "Two Thumb on Colombo",
+        "opening_hours": "Tu-Su 12:00-22:00",
+        "outdoor_seating": "yes",
+        "ref:linz:address_id": "229648",
+        "website": "https://twothumb.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6368502,
+          -43.5456389
+        ]
+      },
+      "id": "node/5264950279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264980327",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "101/126",
+        "addr:postcode": "8011",
+        "addr:street": "Oxford Terrace",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "name": "The Craft Embassy",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Su 11:00-00:00",
+        "ref:linz:address_id": "2107869"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6341217,
+          -43.5326487
+        ]
+      },
+      "id": "node/5264980327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5264988178",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "204",
+        "addr:postcode": "8011",
+        "addr:street": "Barbadoes Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "name": "Galaxy Arcade",
+        "ref:linz:address_id": "1755898"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6458518,
+          -43.5350223
+        ]
+      },
+      "id": "node/5264988178"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5343867922",
+        "amenity": "bar",
+        "brewery": "no",
+        "indoor_seating": "yes",
+        "name": "Air New Zealand Domestic Koru Lounge",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5386146,
+          -43.4888866
+        ]
+      },
+      "id": "node/5343867922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5352162622",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2025-08-02",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Kong",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6340306,
+          -43.5322508
+        ]
+      },
+      "id": "node/5352162622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5706783670",
+        "amenity": "bar",
+        "name": "Pierside Cafe and Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7307317,
+          -43.5071402
+        ]
+      },
+      "id": "node/5706783670"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5727382463",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "O.G.B Bar & Cafe",
+        "opening_hours": "Mo-Th 15:00-01:00; Fr-Su 12:00-01:00",
+        "outdoor_seating": "veranda",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.638086,
+          -43.5311341
+        ]
+      },
+      "id": "node/5727382463"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5892687905",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/BridiesBarCHCH/",
+        "name": "Bridie's Bar & Bistro",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 08:00-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+64 3 260 0325",
+        "toilets": "yes",
+        "website": "https://bridies.co.nz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6573031,
+          -43.5307202
+        ]
+      },
+      "id": "node/5892687905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6185429385",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "132",
+        "addr:postcode": "8011",
+        "addr:street": "Oxford Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "pub",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "The Little Fiddle",
+        "opening_hours": "Mo-Th 23:00-00:00; Fr-Su 11:00-03:00",
+        "outdoor_seating": "yes",
+        "phone": "+64 3 365 1661",
+        "website": "https://thelittlefiddle.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6344272,
+          -43.532591
+        ]
+      },
+      "id": "node/6185429385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6377784707",
+        "amenity": "bar",
+        "name": "Air New Zealand International Koru Lounge",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5401987,
+          -43.4877342
+        ]
+      },
+      "id": "node/6377784707"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6683947887",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "60",
+        "addr:postcode": "8013",
+        "addr:street": "Warrington Street",
+        "amenity": "pub",
+        "description": "Your classic local with Guinness, rugby, meat raffles, snacks and self service TAB",
+        "gambling": "TAB self-service",
+        "indoor_seating": "yes",
+        "name": "Schroeders Tavern",
+        "opening_hours": "Mo-Sa 12:00-23:00; Su 12:00-20:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+64 3 385 1090"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6464419,
+          -43.5082771
+        ]
+      },
+      "id": "node/6683947887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7257176273",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "255",
+        "addr:postcode": "8011",
+        "addr:street": "St Asaph Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "pub",
+        "brewery": "yes",
+        "name": "Retropolitan Social Club",
+        "opening_hours": "Tu-Fr 15:00+; Sa-Su 15:00+",
+        "phone:NZ": "0508 473 876",
+        "phone:NZ:mnemonic": "0508 4 RETRO",
+        "website": "https://retropolitan.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6406335,
+          -43.5359791
+        ]
+      },
+      "id": "node/7257176273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7396479375",
+        "air_conditioning": "yes",
+        "amenity": "pub",
+        "contact:facebook": "https://www.facebook.com/TheLongKnight.Bar.Eatery.BottleShoppe",
+        "email": "hello@thelongknight.co.nz",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "The Long Knight",
+        "opening_hours": "11:00-23:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:eftpos": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+64 3 322 1862",
+        "smoking": "outside",
+        "toilets": "yes",
+        "website": "https://www.thelongknight.co.nz/",
+        "website:menu": "https://www.thelongknight.co.nz/food/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5468946,
+          -43.5780516
+        ]
+      },
+      "id": "node/7396479375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7567670216",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "The Foundry",
+        "opening_hours": "Mo-Fr 09:00-11:55+",
+        "outdoor_seating": "patio",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5800433,
+          -43.5240787
+        ]
+      },
+      "id": "node/7567670216"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7567670217",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Bentley's",
+        "opening_hours": "\"by appointment\"",
+        "outdoor_seating": "balcony",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5800413,
+          -43.524055
+        ]
+      },
+      "id": "node/7567670217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7722552746",
+        "amenity": "pub",
+        "name": "Coasters Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6173884,
+          -43.4781578
+        ]
+      },
+      "id": "node/7722552746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7863291550",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "352",
+        "addr:postcode": "8013",
+        "addr:street": "Manchester Street",
+        "amenity": "pub",
+        "brand": "Two Thumb Brewing Co.",
+        "microbrewery": "yes",
+        "name": "Two Thumb on Manchester",
+        "opening_hours": "We 16:00-18:30; Th-Sa 16:00-21:00; Su 14:00-19:00",
+        "smoking": "separated",
+        "website": "https://twothumb.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6404027,
+          -43.5215884
+        ]
+      },
+      "id": "node/7863291550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8411363041",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "152",
+        "addr:postcode": "8011",
+        "addr:street": "Oxford Terrace",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "level": "4",
+        "min_age": "20",
+        "name": "Mr Brightside Rooftop Bar",
+        "opening_hours": "We-Su 13:00-22:00+",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://mrbrightside.co.nz/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6340548,
+          -43.5316789
+        ]
+      },
+      "id": "node/8411363041"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8730095692",
+        "amenity": "bar",
+        "name": "Pink Lady",
+        "opening_hours": "Tu-Fr 15:00-18:00+; Sa,Su 12:00-18:00+"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6394599,
+          -43.533699
+        ]
+      },
+      "id": "node/8730095692"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8955696546",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "236",
+        "addr:postcode": "8011",
+        "addr:street": "High Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "level": "-1",
+        "name": "Austin Club",
+        "opening_hours": "Tu-Sa 16:00-03:00",
+        "outdoor_seating": "no",
+        "website": "https://www.austinclub.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6381535,
+          -43.5326344
+        ]
+      },
+      "id": "node/8955696546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9137222061",
+        "amenity": "pub",
+        "name": "Rose and Thistle",
+        "phone": "+64 3 352 7011"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6087065,
+          -43.4956665
+        ]
+      },
+      "id": "node/9137222061"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9139145619",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "31",
+        "addr:postcode": "8013",
+        "addr:street": "Victoria Street",
+        "addr:suburb": "Christchurch Central",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Schnitz Bar & Restaurant",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6331073,
+          -43.5264177
+        ]
+      },
+      "id": "node/9139145619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9139145623",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "50",
+        "addr:postcode": "8013",
+        "addr:street": "Victoria Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "pub",
+        "name": "The Bog",
+        "opening_hours": "Mo-Su 12:00-02:00",
+        "phone": "+64 3 929 0117",
+        "website": "https://thebog.co.nz/christchurch/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6320945,
+          -43.5253317
+        ]
+      },
+      "id": "node/9139145623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9189757281",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "177",
+        "addr:postcode": "8014",
+        "addr:street": "Papanui Road",
+        "amenity": "pub",
+        "name": "The Brewers",
+        "phone": "+64 3 355 3377",
+        "website": "https://thebrewers.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6218915,
+          -43.5130763
+        ]
+      },
+      "id": "node/9189757281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9195236755",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "154",
+        "addr:postcode": "8014",
+        "addr:street": "Aikmans Road",
+        "amenity": "bar",
+        "name": "Aikmans Bar & Eatery",
+        "phone": "+64 3 961 6545",
+        "website": "https://www.aikmans.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6211098,
+          -43.5121272
+        ]
+      },
+      "id": "node/9195236755"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9359353869",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "111",
+        "addr:postcode": "8062",
+        "addr:street": "Keighleys Road",
+        "amenity": "bar",
+        "name": "Glenbyre Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6879013,
+          -43.5406036
+        ]
+      },
+      "id": "node/9359353869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9419981770",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/salut.salut.thewelder/",
+        "email": "salut@salutsalut.co.nz",
+        "mobile": "+64 27 384 0815",
+        "name": "Salut Salut",
+        "opening_hours": "Tu-Sa 14:00+",
+        "website": "https://www.salutsalut.co.nz/",
+        "website:menu": "https://www.salutsalut.co.nz/menu/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6377828,
+          -43.537277
+        ]
+      },
+      "id": "node/9419981770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9480339854",
+        "amenity": "bar",
+        "name": "Spectators Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6012532,
+          -43.5442064
+        ]
+      },
+      "id": "node/9480339854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9850387349",
+        "amenity": "pub",
+        "cuisine": "barbecue;burger",
+        "food": "yes",
+        "name": "The Bower",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.7090994,
+          -43.503231
+        ]
+      },
+      "id": "node/9850387349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9892415508",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "112",
+        "addr:postcode": "8061",
+        "addr:street": "Marshland Road",
+        "amenity": "bar",
+        "name": "Stock Xchange"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6627462,
+          -43.4998575
+        ]
+      },
+      "id": "node/9892415508"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9997105617",
+        "amenity": "bar",
+        "name": "Horse and Jockey",
+        "opening_hours": "Su-Tu 10:00-21:00; We 10:00-22:00; Th-Sa 10:00-23:00",
+        "survey:date": "2022-09-03",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5713059,
+          -43.531605
+        ]
+      },
+      "id": "node/9997105617"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673339812",
+        "amenity": "bar",
+        "name": "Cascade"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6390379,
+          -43.534034
+        ]
+      },
+      "id": "node/10673339812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10673339905",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "4-6",
+        "addr:postcode": "8011",
+        "addr:street": "New Regent Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "min_age": "18",
+        "name": "Gin Gin",
+        "opening_hours": "Tu-Th 16:00-03:00; Fr-Sa 13:00-03:00",
+        "phone": "+64 3 365 1560",
+        "website": "https://gingin.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6388111,
+          -43.5296405
+        ]
+      },
+      "id": "node/10673339905"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10793993453",
+        "amenity": "bar",
+        "name": "Temps Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5233283,
+          -43.5444719
+        ]
+      },
+      "id": "node/10793993453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11124793467",
+        "amenity": "bar",
+        "name": "Burj"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6095074,
+          -43.5288218
+        ]
+      },
+      "id": "node/11124793467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11182165200",
+        "amenity": "pub",
+        "name": "Celtic Arms Inn"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6220032,
+          -43.5484535
+        ]
+      },
+      "id": "node/11182165200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11413729972",
+        "amenity": "pub",
+        "name": "The Victoria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6363915,
+          -43.5288549
+        ]
+      },
+      "id": "node/11413729972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11902138559",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "77",
+        "addr:postcode": "8013",
+        "addr:street": "Victoria Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "name": "Club Arcadia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6320499,
+          -43.5256545
+        ]
+      },
+      "id": "node/11902138559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11963936621",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "131",
+        "addr:postcode": "8013",
+        "addr:street": "Victoria Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "opening_hours": "Mo-We 16:00-23:00; Th 16:00-24:00; Fr-Sa 16:00-01:00; Su 16:00-23:00",
+        "phone": "+64 3 365 5340",
+        "website": "https://thedirtyland.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6297017,
+          -43.5234722
+        ]
+      },
+      "id": "node/11963936621"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12163409653",
+        "amenity": "bar",
+        "level": "1",
+        "name": "The Loft Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6348477,
+          -43.5326991
+        ]
+      },
+      "id": "node/12163409653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12397332292",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "level": "0",
+        "name": "Whiskey Fiddle",
+        "outdoor_seating": "yes",
+        "website": "https://whiskeyfiddle.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6344705,
+          -43.5327206
+        ]
+      },
+      "id": "node/12397332292"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12533678676",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Cellar Door",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.627985,
+          -43.5316658
+        ]
+      },
+      "id": "node/12533678676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13291484821",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "166",
+        "addr:postcode": "8011",
+        "addr:street": "Cashel Street",
+        "addr:suburb": "Christchurch Central",
+        "amenity": "bar",
+        "check_date": "2026-06-19",
+        "check_date:opening_hours": "2026-06-19",
+        "contact:facebook": "barfranco.chch",
+        "contact:instagram": "bar__franco",
+        "email": "ciao@barfranco.nz",
+        "name": "Bar Franco",
+        "opening_hours": "Mo-Su 16:00-22:00",
+        "phone": "+64 3 925 9208",
+        "website": "https://www.barfranco.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6377164,
+          -43.5334838
+        ]
+      },
+      "id": "node/13291484821"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13291490056",
+        "amenity": "bar",
+        "name": "The Bangalore Polo Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6343169,
+          -43.5326955
+        ]
+      },
+      "id": "node/13291490056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13571523722",
+        "amenity": "bar",
+        "check_date": "2026-02-15",
+        "name": "A Rolling Stone"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6362499,
+          -43.5369427
+        ]
+      },
+      "id": "node/13571523722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13619235882",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "2/105",
+        "addr:postcode": "8023",
+        "addr:street": "Orbell Street",
+        "addr:suburb": "Sydenham",
+        "amenity": "pub",
+        "email": "taproom@renegadebrewing.co.nz",
+        "microbrewery": "yes",
+        "name": "Renegade Brewing Co",
+        "website": "https://renegadebrewing.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6315645,
+          -43.5424718
+        ]
+      },
+      "id": "node/13619235882"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13651544997",
+        "addr:city": "Christchurch",
+        "addr:country": "NZ",
+        "addr:housenumber": "251",
+        "addr:postcode": "8053",
+        "addr:street": "Clyde Road",
+        "addr:suburb": "Bryndwr",
+        "amenity": "bar",
+        "email": "Franksliquor@xtra.co.nz",
+        "name": "Misceo",
+        "opening_hours": "Tu-Su 09:00-23:00",
+        "phone": "+64 3 351 8011",
+        "ref:linz:address_id": "1757831",
+        "website": "https://www.misceo.co.nz/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.5889714,
+          -43.5094601
+        ]
+      },
+      "id": "node/13651544997"
+    }
+  ]
+}

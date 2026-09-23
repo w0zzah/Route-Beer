@@ -1,0 +1,112 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-16T03:45:20Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/53831947",
+        "addr:country": "NZ",
+        "addr:suburb": "Riccarton",
+        "addr:street": "Riccarton Road",
+        "addr:housenumber": "155",
+        "amenity": "fast_food",
+        "branch": "Riccarton",
+        "brand": "McDonald's",
+        "brand:wikidata": "Q38076",
+        "brand:wikipedia": "en:McDonald's",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-12-17",
+        "cuisine": "burger",
+        "drive_through": "yes",
+        "indoor_seating": "yes",
+        "name": "McDonald's",
+        "opening_hours": "24/7",
+        "outdoor_seating": "no",
+        "roof:levels": "0",
+        "roof:shape": "quadruple_saltbox",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              172.5960812,
+              -43.5301811
+            ],
+            [
+              172.5957715,
+              -43.5302046
+            ],
+            [
+              172.5957747,
+              -43.5302267
+            ],
+            [
+              172.5957067,
+              -43.5302319
+            ],
+            [
+              172.5957321,
+              -43.5304076
+            ],
+            [
+              172.5958951,
+              -43.5303952
+            ],
+            [
+              172.5958979,
+              -43.5304149
+            ],
+            [
+              172.5962211,
+              -43.5303903
+            ],
+            [
+              172.5962194,
+              -43.5303785
+            ],
+            [
+              172.596351,
+              -43.5303685
+            ],
+            [
+              172.5963325,
+              -43.5302407
+            ],
+            [
+              172.5963643,
+              -43.5302383
+            ],
+            [
+              172.5963585,
+              -43.5301983
+            ],
+            [
+              172.5962551,
+              -43.5302061
+            ],
+            [
+              172.5962529,
+              -43.5301908
+            ],
+            [
+              172.5960845,
+              -43.5302036
+            ],
+            [
+              172.5960812,
+              -43.5301811
+            ]
+          ]
+        ]
+      },
+      "id": "way/53831947"
+    }
+  ]
+}

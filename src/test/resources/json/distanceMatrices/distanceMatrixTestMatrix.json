@@ -1,0 +1,9 @@
+{
+  "distances": [
+    100
+  ],
+  "locIDs": {
+    "node/0": 0,
+    "node/1": 1
+  }
+}

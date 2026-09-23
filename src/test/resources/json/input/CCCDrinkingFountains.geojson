@@ -1,0 +1,23 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+    "type": "Feature",
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        172.7000802317508,
+        -43.60739776579255
+      ]
+    },
+    "properties": {
+      "feature": "waterfountains",
+      "name": "Corsair Bay Reserve",
+      "material": "Stainless Steel",
+      "dog": 0,
+      "bottle": 0,
+      "popup": "Corsair Bay Reserve"
+    }
+  }
+  ]
+}

@@ -1,0 +1,9 @@
+<svg width="95" height="128" viewBox="0 0 95 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <pattern id="checkerboard" width="30" height="30" patternUnits="userSpaceOnUse">
+        <rect width="30" height="30" fill="#ffffff" />
+        <rect x="0" y="0" width="15" height="15" fill="black" />
+        <rect x="15" y="15" width="15" height="15" fill="black" />
+    </pattern>
+    <path d="M47.501 4.00015C59.0127 4.08096 69.9057 9.528 77.9795 17.7306C86.0819 25.9624 91 36.6165 91 46.6281C90.9999 77.6782 75.4196 100.22 47.5 122.686C19.5804 100.22 4.00012 77.6782 4 46.6281C4 36.6161 8.91863 25.9615 17.0215 17.7296C25.0956 9.52711 35.989 4.08036 47.501 4.00015Z" fill="red" stroke="darkred" stroke-width="8"/>
+    <circle cx="47.5" cy="49.4992" r="16.5" fill="white" stroke="darkred" stroke-width="8"/>
+</svg>

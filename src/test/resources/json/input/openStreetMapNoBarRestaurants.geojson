@@ -1,0 +1,36 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-08-04T00:18:50Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12338842030",
+        "addr:city": "Christchurch",
+        "addr:housenumber": "346",
+        "addr:street": "Ferry Road",
+        "addr:suburb": "Phillipstown",
+        "amenity": "restaurant",
+        "bar": "no",
+        "cuisine": "chinese",
+        "name": "Chinese Home Kitchen",
+        "opening_hours": "Mo 16:00-21:00; Tu-We 11:30-21:00; Th-Sa 11:30-21:30; Su 16:00-21:00",
+        "phone": "+64 3 381 1168",
+        "reservation": "no",
+        "smoking": "no",
+        "takeaway": "only",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          172.6644469,
+          -43.5424508
+        ]
+      },
+      "id": "node/12338842030"
+    }
+  ]
+}

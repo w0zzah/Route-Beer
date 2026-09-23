@@ -1,0 +1,39 @@
+[
+  {
+    "address": "155 Riccarton Road, Riccarton",
+    "openingHours": {
+      "MONDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "00:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/53831947",
+    "name": "McDonald\u0027s",
+    "latitude": -43.5301811,
+    "longitude": 172.5960812
+  }
+]

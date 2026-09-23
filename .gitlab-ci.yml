@@ -1,0 +1,14 @@
+junit:
+  stage: test
+  script:
+    - ./gradlew test
+
+generate_artifacts:
+  stage: deploy
+  script:
+    - ./gradlew clean jar
+  artifacts:
+    paths:
+      - build/libs/seng202_team5-*.jar
+variables:
+  GIT_STRATEGY: clone

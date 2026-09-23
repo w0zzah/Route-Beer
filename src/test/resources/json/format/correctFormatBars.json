@@ -1,0 +1,41 @@
+[
+  {
+    "features": [],
+    "description": "",
+    "address": "217 Manchester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/99465057",
+    "name": "The Church Pub",
+    "latitude": -43.531282,
+    "longitude": 172.6394747
+  }
+]

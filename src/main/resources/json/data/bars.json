@@ -1,0 +1,5006 @@
+[
+  {
+    "features": [
+      {
+        "featureType": "KARAOKE",
+        "daysAvailable": [
+          "THURSDAY"
+        ]
+      },
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "3 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "way/34369715",
+    "name": "Bush Inn Tavern",
+    "latitude": -43.5311462,
+    "longitude": 172.574334,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1 Halswell Road, Hillmorton",
+    "openingHours": null,
+    "locID": "way/42281954",
+    "name": "Bill's Bar and Bistro",
+    "latitude": -43.5540848,
+    "longitude": 172.5944962,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "230 Brougham Street, Sydenham",
+    "openingHours": null,
+    "locID": "way/53518327",
+    "name": "Sydenham Bowling Club",
+    "latitude": -43.5480673,
+    "longitude": 172.633014,
+    "theme": "BOWLING_CLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1/151A Colombo Street, Sydenham, Christchurch 8023, New Zealand",
+    "openingHours": null,
+    "locID": "way/56658194",
+    "name": "Armadillo's",
+    "latitude": -43.556748,
+    "longitude": 172.63673,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "217 Manchester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/99465057",
+    "name": "The Church Pub",
+    "latitude": -43.531282,
+    "longitude": 172.6394747,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "28 New Regent Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "way/101123091",
+    "name": "Wilko",
+    "latitude": -43.5291849,
+    "longitude": 172.6387794,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "14 Oxford Terrace, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "07:30",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "07:30",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "07:30",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "07:30",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "07:30",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/101335594",
+    "name": "Pegasus Arms",
+    "latitude": -43.534682,
+    "longitude": 172.6283897,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "178 St Asaph Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "way/101522677",
+    "name": "Engineers",
+    "latitude": -43.5364839,
+    "longitude": 172.6361603,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "172 St Asaph Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "way/101522701",
+    "name": "Empire",
+    "latitude": -43.5364911,
+    "longitude": 172.6358981,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "2 Troup Drive, Addington, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/101621204",
+    "name": "The Speight's Ale House",
+    "latitude": -43.5398832,
+    "longitude": 172.6044642,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "73 Stevens Street, Waltham, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/102410152",
+    "name": "The Fitz 2 Sports Bar",
+    "latitude": -43.5408104,
+    "longitude": 172.6556961,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "16C Station Road, Heathcote Valley 8022, New Zealand",
+    "openingHours": null,
+    "locID": "way/132075035",
+    "name": "The Valley Inn",
+    "latitude": -43.5774142,
+    "longitude": 172.7082492,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "Garlands Rd near Cumnor Tce, 1/3 Garlands Road, Christchurch 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/138686824",
+    "name": "The Brewery",
+    "latitude": -43.5567072,
+    "longitude": 172.6802372,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "336 Saint Asaph Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/164041152",
+    "name": "The Darkroom",
+    "latitude": -43.5364799,
+    "longitude": 172.6479449,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "292 Kilmore Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "way/164042524",
+    "name": "Pomeroy's",
+    "latitude": -43.5267358,
+    "longitude": 172.6495819,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "55 Riccarton Road, Riccarton, Christchurch 8440, New Zealand",
+    "openingHours": null,
+    "locID": "way/182007120",
+    "name": "Volstead Trading Company",
+    "latitude": -43.5295582,
+    "longitude": 172.6071768,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "616 Ferry Road, Woolston",
+    "openingHours": null,
+    "locID": "way/191008947",
+    "name": "The Twisted Hop",
+    "latitude": -43.5494435,
+    "longitude": 172.6829838,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "3 Garlands Road, Christchurch 8023, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/228771471",
+    "name": "Blue Smoke",
+    "latitude": -43.5568978,
+    "longitude": 172.6802095,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1 Papanui Road, Merivale",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "00:00"
+      ]
+    },
+    "locID": "way/263291049",
+    "name": "Carlton",
+    "latitude": -43.5203303,
+    "longitude": 172.6275136,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "6 Inwoods Road, Parklands, Christchurch 8083, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/264252996",
+    "name": "The Turf",
+    "latitude": -43.4811941,
+    "longitude": 172.6986593,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "30 Latimer Square, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/298027661",
+    "name": "Bloody Mary's",
+    "latitude": -43.5304762,
+    "longitude": 172.6434521,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "KARAOKE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "15 Opawa Road, Waltham",
+    "openingHours": {
+      "MONDAY": [
+        "10:30",
+        "20:00"
+      ],
+      "TUESDAY": [
+        "10:30",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "10:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "10:30",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "10:30",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "10:30",
+        "20:00"
+      ]
+    },
+    "locID": "way/400351688",
+    "name": "Bowl & Jack",
+    "latitude": -43.5478095,
+    "longitude": 172.6548487,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "69 Centaurus Road, Huntsbury",
+    "openingHours": null,
+    "locID": "way/402283224",
+    "name": "The Brickworks",
+    "latitude": -43.5674975,
+    "longitude": 172.6461675,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "101 Main Road, Redcliffs",
+    "openingHours": null,
+    "locID": "way/410101503",
+    "name": "Two Thumb Redcliffs",
+    "latitude": -43.5622051,
+    "longitude": 172.7394168,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "57 Sonter Road, Wigram",
+    "openingHours": null,
+    "locID": "way/420941435",
+    "name": "Wigram Brewing Company Ltd",
+    "latitude": -43.5494188,
+    "longitude": 172.5666673,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "8 Papanui Road, Merivale, Christchurch 8014, New Zealand",
+    "openingHours": null,
+    "locID": "way/434943007",
+    "name": "Vesuvio",
+    "latitude": -43.5203875,
+    "longitude": 172.6282833,
+    "theme": "WINE_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1 Normans Road, Strowan",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/439831571",
+    "name": "The Elmwood Trading Company",
+    "latitude": -43.5093306,
+    "longitude": 172.6070273,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "Lincoln Rd near Sylvan St, 33 Lincoln Road, Hillmorton 8024, New Zealand",
+    "openingHours": null,
+    "locID": "way/443567249",
+    "name": "The Black Horse",
+    "latitude": -43.5519282,
+    "longitude": 172.5974456,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "327 Stanmore Road, Richmond, Christchurch 8013, New Zealand",
+    "openingHours": null,
+    "locID": "way/446612613",
+    "name": "The Sideline Sports Bar",
+    "latitude": -43.5184661,
+    "longitude": 172.6562403,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "291 Lincoln Road, Addington",
+    "openingHours": null,
+    "locID": "way/480883692",
+    "name": "Woodstock Craft Bar & Eatery",
+    "latitude": -43.5438136,
+    "longitude": 172.6111909,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "Concrete Tool Importers Ltd., 22A Tyne Street, Addington, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "WEDNESDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "19:00"
+      ]
+    },
+    "locID": "way/485065136",
+    "name": "Punky Brewster",
+    "latitude": -43.5367928,
+    "longitude": 172.6087046,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "308 Lincoln Road, Addington",
+    "openingHours": null,
+    "locID": "way/524925805",
+    "name": "The Miller",
+    "latitude": -43.5436101,
+    "longitude": 172.6119045,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "174 High Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "20:00"
+      ]
+    },
+    "locID": "way/530247988",
+    "name": "Smash Palace",
+    "latitude": -43.5346012,
+    "longitude": 172.640528,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "231 Linwood Avenue, Linwood, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/551397011",
+    "name": "Nuggets",
+    "latitude": -43.5329209,
+    "longitude": 172.6729077,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "116 Worcester Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "15:00",
+        "11:59"
+      ]
+    },
+    "locID": "way/753685185",
+    "name": "Paddy McNaughton's",
+    "latitude": -43.5313552,
+    "longitude": 172.6392673,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "Halswell Shops, 2 Nicholls Road, Halswell 8025, New Zealand",
+    "openingHours": null,
+    "locID": "way/866780555",
+    "name": "The Halswell",
+    "latitude": -43.5793037,
+    "longitude": 172.5663064,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "224 Withells Road, Avonhead, Christchurch 8042, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:30",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "09:30",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "09:30",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "09:30",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "09:30",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "09:30",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "09:30",
+        "11:59"
+      ]
+    },
+    "locID": "way/1013884976",
+    "name": "Merrin Street Brewery Bar",
+    "latitude": -43.510767,
+    "longitude": 172.557328,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "31 New Regent Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "way/1223544370",
+    "name": "The Last Word",
+    "latitude": -43.5290338,
+    "longitude": 172.6385298,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "Sushi Platter, 96 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "way/1239241116",
+    "name": "Canterbury Brewers Collective",
+    "latitude": -43.5339453,
+    "longitude": 172.6340021,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "11-21 New Brighton Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "way/1259517689",
+    "name": "Fox and Ferret",
+    "latitude": -43.5078321,
+    "longitude": 172.6641822,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "12-18 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:30",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:30",
+        "11:59"
+      ]
+    },
+    "locID": "way/1259517690",
+    "name": "Cocopelli",
+    "latitude": -43.5076905,
+    "longitude": 172.6641771,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "436 Prestons Road, Marshland",
+    "openingHours": {
+      "MONDAY": [
+        "08:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "21:00"
+      ]
+    },
+    "locID": "way/1274283236",
+    "name": "The Publican",
+    "latitude": -43.4738137,
+    "longitude": 172.6696274,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "134 Marshland Road, Shirley 8061, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "22:00"
+      ]
+    },
+    "locID": "way/1277685954",
+    "name": "O'shea's",
+    "latitude": -43.49871,
+    "longitude": 172.6621966,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "251 Travis Road, New Brighton",
+    "openingHours": null,
+    "locID": "way/1288877565",
+    "name": "Chats Bar & Cafe",
+    "latitude": -43.4948758,
+    "longitude": 172.7103778,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "34 Brighton Mall, New Brighton",
+    "openingHours": null,
+    "locID": "way/1459174824",
+    "name": "Southpaw Brewing Company",
+    "latitude": -43.5069308,
+    "longitude": 172.7298939,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "2 Colombo Street, Cashmere",
+    "openingHours": null,
+    "locID": "node/486849340",
+    "name": "Protocol",
+    "latitude": -43.5674279,
+    "longitude": 172.6354054,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "28 Rotherham Street, Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/679684559",
+    "name": "The Fox",
+    "latitude": -43.5303845,
+    "longitude": 172.6005804,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "55 Pages Road, Linwood, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/709799297",
+    "name": "McKenzies Hotel",
+    "latitude": -43.5237996,
+    "longitude": 172.6858285,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1091 Ferry Road, Ferrymead, Christchurch 8241, New Zealand",
+    "openingHours": {
+      "WEDNESDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "20:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/927549790",
+    "name": "Evil Genius",
+    "latitude": -43.5572493,
+    "longitude": 172.7060775,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "23 Humphreys Drive, Ferrymead",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/986361740",
+    "name": "CBK Craft Bar & Kitchen",
+    "latitude": -43.5567691,
+    "longitude": 172.7050276,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "1060 Ferry Road, Ferrymead, Christchurch 8241, New Zealand",
+    "openingHours": null,
+    "locID": "node/986365017",
+    "name": "Claddagh",
+    "latitude": -43.5585214,
+    "longitude": 172.7071374,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "X-Golf Avonhead, 255 Maidstone Road, Avonhead 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/987387701",
+    "name": "Avonhead Tavern",
+    "latitude": -43.5169769,
+    "longitude": 172.5537949,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "263 Bealey Avenue, Christchurch Central, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/1362624085",
+    "name": "The Bealey ale and steak house",
+    "latitude": -43.5204303,
+    "longitude": 172.6442619,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "290 Wairakei Road, Bryndwr, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/2164851916",
+    "name": "Little Brown Jug",
+    "latitude": -43.4992884,
+    "longitude": 172.5859982,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "87 Effingham Street, North New Brighton",
+    "openingHours": null,
+    "locID": "node/2269027716",
+    "name": "Endeavour Tavern",
+    "latitude": -43.4905542,
+    "longitude": 172.7180813,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "1 Riccarton Road, Riccarton",
+    "openingHours": null,
+    "locID": "node/2599277916",
+    "name": "The Running Bull Bar and Grill",
+    "latitude": -43.5289756,
+    "longitude": 172.6116933,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "25 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/2630814779",
+    "name": "Wilson's Sports Bar",
+    "latitude": -43.5291645,
+    "longitude": 172.6096246,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "84D Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/2630814806",
+    "name": "The Craic",
+    "latitude": -43.5294396,
+    "longitude": 172.6025516,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "587 Springs Road, Prebbleton 7604, New Zealand",
+    "openingHours": null,
+    "locID": "node/2691990366",
+    "name": "Finnegans Irish Bar & Cafe",
+    "latitude": -43.5811514,
+    "longitude": 172.5123951,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "15 Main North Road, Papanui",
+    "openingHours": null,
+    "locID": "node/3358958713",
+    "name": "Mad'z Drink n Dine",
+    "latitude": -43.4965562,
+    "longitude": 172.607784,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "6 Poplar Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/3756636183",
+    "name": "The Poplar Social Club",
+    "latitude": -43.5344979,
+    "longitude": 172.6414631,
+    "theme": "SOCIAL_CLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "Durey Road, Christchurch Airport, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/4003559089",
+    "name": "Manaia Lounge",
+    "latitude": -43.487574,
+    "longitude": 172.540329,
+    "theme": "AIRPORT_LOUNGE"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "85 Hereford Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4139956356",
+    "name": "Micky Finn's Irish Pub",
+    "latitude": -43.531916,
+    "longitude": 172.6346855,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "85 Hereford Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "08:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/4139956894",
+    "name": "The Rockpool",
+    "latitude": -43.5319183,
+    "longitude": 172.6345223,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "284-286 Lincoln Road, Addington",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "20:30"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "20:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/4525864889",
+    "name": "The Pedal Pusher",
+    "latitude": -43.5442751,
+    "longitude": 172.6108397,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "340 Main North Road, Redwood, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/4572092720",
+    "name": "Redwood Bar",
+    "latitude": -43.4745927,
+    "longitude": 172.6186347,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "280 Lincoln Road, Addington",
+    "openingHours": null,
+    "locID": "node/4583874992",
+    "name": "Morrell & Co.",
+    "latitude": -43.5443469,
+    "longitude": 172.6107259,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "62-64 Manchester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4674100593",
+    "name": "Celine's",
+    "latitude": -43.5370352,
+    "longitude": 172.6399666,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "236 St Asaph Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/4674100890",
+    "name": "The Cuban",
+    "latitude": -43.5365438,
+    "longitude": 172.6404869,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "181 Ferry Road, Waltham 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4733006321",
+    "name": "The Embankment",
+    "latitude": -43.5389274,
+    "longitude": 172.653911,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "185 Manchester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4733400822",
+    "name": "Bar 185",
+    "latitude": -43.5327673,
+    "longitude": 172.6394261,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "10 Poplar Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/4753613876",
+    "name": "Dux Central",
+    "latitude": -43.5346308,
+    "longitude": 172.641509,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "87 Manchester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4763183429",
+    "name": "Mish Mash",
+    "latitude": -43.5365103,
+    "longitude": 172.6394605,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "219 Lichfield Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4984200625",
+    "name": "Vespa",
+    "latitude": -43.5339976,
+    "longitude": 172.6390066,
+    "theme": "WINE_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "219 Lichfield Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/4984200626",
+    "name": "Nucleus",
+    "latitude": -43.5340044,
+    "longitude": 172.6391079,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "219 Lichfield Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "03:00"
+      ]
+    },
+    "locID": "node/4984200627",
+    "name": "Strange & Co",
+    "latitude": -43.5340744,
+    "longitude": 172.6389888,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "KARAOKE",
+        "daysAvailable": [
+          "THURSDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "138 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "14:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "14:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "14:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/5097377042",
+    "name": "Fat Eddie's",
+    "latitude": -43.532319,
+    "longitude": 172.6340369,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "335 Harewood Road, Bishopdale",
+    "openingHours": null,
+    "locID": "node/5253627009",
+    "name": "Tavern Harewood",
+    "latitude": -43.488209,
+    "longitude": 172.5862113,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "150 Somerfield Street, Somerfield",
+    "openingHours": {
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/5264817532",
+    "name": "Moon Under Water",
+    "latitude": -43.5573204,
+    "longitude": 172.6364458,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "380 Colombo Street, Sydenham",
+    "openingHours": {
+      "TUESDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/5264950279",
+    "name": "Two Thumb on Colombo",
+    "latitude": -43.5456389,
+    "longitude": 172.6368502,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "101/126 Oxford Terrace, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/5264980327",
+    "name": "The Craft Embassy",
+    "latitude": -43.5326487,
+    "longitude": 172.6341217,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "204 Barbadoes Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/5264988178",
+    "name": "Galaxy Arcade",
+    "latitude": -43.5350223,
+    "longitude": 172.6458518,
+    "theme": "ARCADE_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "27 Durey Road, Christchurch Airport 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/5343867922",
+    "name": "Air New Zealand Domestic Koru Lounge",
+    "latitude": -43.4888866,
+    "longitude": 172.5386146,
+    "theme": "AIRPORT_LOUNGE"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "76 Hereford Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/5352162622",
+    "name": "Kong",
+    "latitude": -43.5322508,
+    "longitude": 172.6340306,
+    "theme": "NIGHTCLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "3 Brighton Mall, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/5706783670",
+    "name": "Pierside Cafe and Bar",
+    "latitude": -43.5071402,
+    "longitude": 172.7307317,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "26 Cathedral Square, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "15:00",
+        "01:00"
+      ],
+      "TUESDAY": [
+        "15:00",
+        "01:00"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "01:00"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "01:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "01:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "01:00"
+      ]
+    },
+    "locID": "node/5727382463",
+    "name": "O.G.B Bar & Cafe",
+    "latitude": -43.5311341,
+    "longitude": 172.638086,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "401 Worcester Street, Linwood, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "08:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "08:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/5892687905",
+    "name": "Bridie's Bar & Bistro",
+    "latitude": -43.5307202,
+    "longitude": 172.6573031,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "132 Oxford Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "23:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "23:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "23:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "23:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "03:00"
+      ]
+    },
+    "locID": "node/6185429385",
+    "name": "The Little Fiddle",
+    "latitude": -43.532591,
+    "longitude": 172.6344272,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "Durey Road, Christchurch Airport, Christchurch 8053, New Zealand",
+    "openingHours": null,
+    "locID": "node/6377784707",
+    "name": "Air New Zealand International Koru Lounge",
+    "latitude": -43.4877342,
+    "longitude": 172.5401987,
+    "theme": "AIRPORT_LOUNGE"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "60 Warrington Street, Mairehau, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "20:00"
+      ]
+    },
+    "locID": "node/6683947887",
+    "name": "Schroeders Tavern",
+    "latitude": -43.5082771,
+    "longitude": 172.6464419,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "255 St Asaph Street, Christchurch Central",
+    "openingHours": {
+      "TUESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "15:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/7257176273",
+    "name": "Retropolitan Social Club",
+    "latitude": -43.5359791,
+    "longitude": 172.6406335,
+    "theme": "SOCIAL_CLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1 Hamill Road, Halswell 8025, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/7396479375",
+    "name": "The Long Knight",
+    "latitude": -43.5780516,
+    "longitude": 172.5468946,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": []
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "90 Ilam Road, Ilam, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "09:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "09:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/7567670216",
+    "name": "The Foundry",
+    "latitude": -43.5240787,
+    "longitude": 172.5800433,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "90 Ilam Road, Ilam, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "node/7567670217",
+    "name": "Bentley's",
+    "latitude": -43.524055,
+    "longitude": 172.5800413,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "1 Daniels Road, Redwood, Christchurch 8051, New Zealand",
+    "openingHours": null,
+    "locID": "node/7722552746",
+    "name": "Coasters Tavern",
+    "latitude": -43.4781578,
+    "longitude": 172.6173884,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "352 Manchester Street, Christchurch Central, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "WEDNESDAY": [
+        "16:00",
+        "18:30"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "21:00"
+      ],
+      "SUNDAY": [
+        "14:00",
+        "19:00"
+      ]
+    },
+    "locID": "node/7863291550",
+    "name": "Two Thumb on Manchester",
+    "latitude": -43.5215884,
+    "longitude": 172.6404027,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "152 Oxford Terrace, Christchurch Central",
+    "openingHours": {
+      "WEDNESDAY": [
+        "13:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "13:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "13:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "13:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "13:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/8411363041",
+    "name": "Mr Brightside Rooftop Bar",
+    "latitude": -43.5316789,
+    "longitude": 172.6340548,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "159 Manchester Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "TUESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/8730095692",
+    "name": "Pink Lady",
+    "latitude": -43.533699,
+    "longitude": 172.6394599,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "236 High Street, Christchurch Central",
+    "openingHours": {
+      "TUESDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "03:00"
+      ]
+    },
+    "locID": "node/8955696546",
+    "name": "Austin Club",
+    "latitude": -43.5326344,
+    "longitude": 172.6381535,
+    "theme": "NIGHTCLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1/16 Loftus Street, Papanui, Papanui-Innes Community 8052, New Zealand",
+    "openingHours": null,
+    "locID": "node/9137222061",
+    "name": "Rose and Thistle",
+    "latitude": -43.4956665,
+    "longitude": 172.6087065,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "31 Victoria Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/9139145619",
+    "name": "Schnitz Bar & Restaurant",
+    "latitude": -43.5264177,
+    "longitude": 172.6331073,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "50 Victoria Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "02:00"
+      ]
+    },
+    "locID": "node/9139145623",
+    "name": "The Bog",
+    "latitude": -43.5253317,
+    "longitude": 172.6320945,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "177 Papanui Road, Merivale, Christchurch 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/9189757281",
+    "name": "The Brewers",
+    "latitude": -43.5130763,
+    "longitude": 172.6218915,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "154 Aikmans Road, Merivale, Christchurch 8014, New Zealand",
+    "openingHours": null,
+    "locID": "node/9195236755",
+    "name": "Aikmans Bar & Eatery",
+    "latitude": -43.5121272,
+    "longitude": 172.6211098,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "111 Keighleys Road, Bromley, Christchurch 8062, New Zealand",
+    "openingHours": null,
+    "locID": "node/9359353869",
+    "name": "Glenbyre Tavern",
+    "latitude": -43.5406036,
+    "longitude": 172.6879013,
+    "theme": "TRADITIONAL_TAVERN"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "20 Welles Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "TUESDAY": [
+        "14:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "14:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "14:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "14:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "14:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/9419981770",
+    "name": "Salut Salut",
+    "latitude": -43.537277,
+    "longitude": 172.6377828,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "98C Wrights Road, Addington 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/9480339854",
+    "name": "Spectators Bar",
+    "latitude": -43.5442064,
+    "longitude": 172.6012532,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "487 New Brighton Road, New Brighton, Christchurch 8007, New Zealand",
+    "openingHours": null,
+    "locID": "node/9850387349",
+    "name": "The Bower",
+    "latitude": -43.503231,
+    "longitude": 172.7090994,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "GAMING_MACHINES",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "112 Marshland Road, Shirley, Christchurch 8061, New Zealand",
+    "openingHours": null,
+    "locID": "node/9892415508",
+    "name": "Stock Xchange",
+    "latitude": -43.4998575,
+    "longitude": 172.6627462,
+    "theme": "SPORTS_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "101/8 Yaldhurst Road, Upper Riccarton, Christchurch 8443, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "TUESDAY": [
+        "10:00",
+        "21:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "21:00"
+      ]
+    },
+    "locID": "node/9997105617",
+    "name": "Horse and Jockey",
+    "latitude": -43.531605,
+    "longitude": 172.5713059,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "219 Lichfield Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/10673339812",
+    "name": "Cascade",
+    "latitude": -43.534034,
+    "longitude": 172.6390379,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "4-6 New Regent Street, Christchurch Central",
+    "openingHours": {
+      "TUESDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "FRIDAY": [
+        "13:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "13:00",
+        "03:00"
+      ]
+    },
+    "locID": "node/10673339905",
+    "name": "Gin Gin",
+    "latitude": -43.5296405,
+    "longitude": 172.6388111,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "17 Goulding Avenue, Hornby, Christchurch 7676, New Zealand",
+    "openingHours": null,
+    "locID": "node/10793993453",
+    "name": "Temps Bar",
+    "latitude": -43.5444719,
+    "longitude": 172.5233283,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "25 Riccarton Road, Riccarton, Halswell-Hornby-Riccarton Community 8440, New Zealand",
+    "openingHours": null,
+    "locID": "node/11124793467",
+    "name": "Burj",
+    "latitude": -43.5288218,
+    "longitude": 172.6095074,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "SATURDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "308 Selwyn Street, Spreydon, Spreydon-Cashmere Community 8024, New Zealand",
+    "openingHours": null,
+    "locID": "node/11182165200",
+    "name": "Celtic Arms Inn",
+    "latitude": -43.5484535,
+    "longitude": 172.6220032,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "102 Armagh Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/11413729972",
+    "name": "The Victoria",
+    "latitude": -43.5288549,
+    "longitude": 172.6363915,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "77 Victoria Street, Christchurch Central",
+    "openingHours": null,
+    "locID": "node/11902138559",
+    "name": "Club Arcadia",
+    "latitude": -43.5256545,
+    "longitude": 172.6320499,
+    "theme": "NIGHTCLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "131 Victoria Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "01:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "01:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/11963936621",
+    "name": "The Dirty Land",
+    "latitude": -43.5234722,
+    "longitude": 172.6297017,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "93 Cashel Street, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/12163409653",
+    "name": "The Loft Bar",
+    "latitude": -43.5326991,
+    "longitude": 172.6348477,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "3/126 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/12397332292",
+    "name": "Whiskey Fiddle",
+    "latitude": -43.5327206,
+    "longitude": 172.6344705,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "2 Worcester Boulevard, Christchurch Central, Christchurch 8013, New Zealand",
+    "openingHours": null,
+    "locID": "node/12533678676",
+    "name": "Cellar Door",
+    "latitude": -43.5316658,
+    "longitude": 172.627985,
+    "theme": "WINE_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "166 Cashel Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/13291484821",
+    "name": "Bar Franco",
+    "latitude": -43.5334838,
+    "longitude": 172.6377164,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "2/126 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/13291490056",
+    "name": "The Bangalore Polo Club",
+    "latitude": -43.5326955,
+    "longitude": 172.6343169,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "579 Colombo Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/13571523722",
+    "name": "A Rolling Stone",
+    "latitude": -43.5369427,
+    "longitude": 172.6362499,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "2/105 Orbell Street, Sydenham",
+    "openingHours": null,
+    "locID": "node/13619235882",
+    "name": "Renegade Brewing Co",
+    "latitude": -43.5424718,
+    "longitude": 172.6315645,
+    "theme": "CRAFT_BREWERY"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "251 Clyde Road, Bryndwr",
+    "openingHours": {
+      "TUESDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "23:00"
+      ]
+    },
+    "locID": "node/13651544997",
+    "name": "Misceo",
+    "latitude": -43.5094601,
+    "longitude": 172.5889714,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "180 Armagh Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "03:00"
+      ]
+    },
+    "locID": "way/101123028",
+    "name": "Casa Publica",
+    "latitude": -43.5288519,
+    "longitude": 172.6387764,
+    "theme": "COCKTAIL_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "168 St Asaph Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:45",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:45",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:45",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:45",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:45",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:45",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:45",
+        "11:59"
+      ]
+    },
+    "locID": "way/101522715",
+    "name": "Cafe Valentino",
+    "latitude": -43.5364894,
+    "longitude": 172.6355027,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "382 Moorhouse Avenue, Sydenham",
+    "openingHours": {
+      "MONDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "07:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "07:00",
+        "00:00"
+      ],
+      "FRIDAY": [
+        "07:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "00:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "07:00",
+        "23:00"
+      ]
+    },
+    "locID": "way/101539517",
+    "name": "Denny's",
+    "latitude": -43.5401607,
+    "longitude": 172.6390458,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "5 Norwich Quay, Banks Peninsula Community 8082, New Zealand",
+    "openingHours": null,
+    "locID": "way/159972929",
+    "name": "Super",
+    "latitude": -43.6041874,
+    "longitude": 172.7222074,
+    "theme": "NEIGHBOURHOOD_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "88 Harris Crescent, Papanui, Papanui-Innes Community 8053, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "08:30",
+        "21:30"
+      ],
+      "TUESDAY": [
+        "08:30",
+        "21:30"
+      ],
+      "WEDNESDAY": [
+        "08:30",
+        "21:30"
+      ],
+      "THURSDAY": [
+        "08:30",
+        "21:30"
+      ],
+      "FRIDAY": [
+        "08:30",
+        "21:30"
+      ],
+      "SATURDAY": [
+        "08:30",
+        "21:30"
+      ],
+      "SUNDAY": [
+        "08:30",
+        "21:30"
+      ]
+    },
+    "locID": "node/2692051019",
+    "name": "The Vibe",
+    "latitude": -43.4959986,
+    "longitude": 172.5952485,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "48 Worcester Boulevard, Christchurch Central, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "08:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "09:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "09:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/3118278968",
+    "name": "Fiddlesticks",
+    "latitude": -43.5310677,
+    "longitude": 172.63079,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "219 Lichfield Street, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/4599240291",
+    "name": "Orleans",
+    "latitude": -43.5341183,
+    "longitude": 172.6389512,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "98 Victoria Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "TUESDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "WEDNESDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "THURSDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "FRIDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "16:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "16:00",
+        "03:00"
+      ]
+    },
+    "locID": "node/4613680089",
+    "name": "Boo Radley's",
+    "latitude": -43.5234506,
+    "longitude": 172.6301189,
+    "theme": "NIGHTCLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "261 Greers Road, Bryndwr",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "22:30"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "22:30"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "22:30"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "22:30"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:30"
+      ]
+    },
+    "locID": "node/4927085733",
+    "name": "Pizza Hut",
+    "latitude": -43.499826,
+    "longitude": 172.5857605,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "49 Worcester Boulevard, Christchurch Central, Christchurch 8013, New Zealand",
+    "openingHours": {
+      "TUESDAY": [
+        "10:00",
+        "17:00"
+      ],
+      "WEDNESDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "10:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "10:00",
+        "17:00"
+      ]
+    },
+    "locID": "node/5727382462",
+    "name": "The Thirsty Peacock",
+    "latitude": -43.5307613,
+    "longitude": 172.6310778,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "48 Hereford Street, Christchurch Central",
+    "openingHours": {
+      "TUESDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "17:30",
+        "11:59"
+      ]
+    },
+    "locID": "node/5727382467",
+    "name": "INATI",
+    "latitude": -43.5321901,
+    "longitude": 172.6325948,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "5/181 High Street, Christchurch Central",
+    "openingHours": {
+      "TUESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "15:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/5841454824",
+    "name": "Dice & Slice",
+    "latitude": -43.5356337,
+    "longitude": 172.64072,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "126 Oxford Terrace, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/8195509639",
+    "name": "Botanic",
+    "latitude": -43.5327666,
+    "longitude": 172.6340254,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "79 Cashel Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "12:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/9824705884",
+    "name": "King of Snake",
+    "latitude": -43.5329422,
+    "longitude": 172.6340536,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "384 Riccarton Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "TUESDAY": [
+        "17:00",
+        "01:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "02:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "14:30"
+      ]
+    },
+    "locID": "node/9998693617",
+    "name": "Dragon Garden Chinese Restaurant",
+    "latitude": -43.5317501,
+    "longitude": 172.5729062,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "1 Radcliffe Road, Belfast, Christchurch 8051, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "TUESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "WEDNESDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "THURSDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "FRIDAY": [
+        "11:30",
+        "22:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "22:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "22:00"
+      ]
+    },
+    "locID": "node/10102258776",
+    "name": "Styx & Stone",
+    "latitude": -43.4591684,
+    "longitude": 172.6237607,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "LIVE_MUSIC",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "136 Oxford Terrace, Christchurch Central, Christchurch 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "12:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "12:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "12:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "12:00",
+        "02:00"
+      ],
+      "FRIDAY": [
+        "12:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "12:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/10673339806",
+    "name": "Zodiac",
+    "latitude": -43.5325362,
+    "longitude": 172.6340552,
+    "theme": "NIGHTCLUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "413 Main South Road, Hornby, Christchurch 8042, New Zealand",
+    "openingHours": null,
+    "locID": "node/11331707584",
+    "name": "Saffron Spice",
+    "latitude": -43.5437937,
+    "longitude": 172.5235164,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "131 Victoria Street, Christchurch Central",
+    "openingHours": {
+      "MONDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "TUESDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "WEDNESDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "THURSDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "FRIDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "SATURDAY": [
+        "17:00",
+        "11:59"
+      ],
+      "SUNDAY": [
+        "17:00",
+        "11:59"
+      ]
+    },
+    "locID": "node/11963936615",
+    "name": "Mexicano's",
+    "latitude": -43.52337,
+    "longitude": 172.6296427,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "138 Hereford Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "17:00",
+        "01:40"
+      ],
+      "TUESDAY": [
+        "17:00",
+        "01:40"
+      ],
+      "WEDNESDAY": [
+        "17:00",
+        "01:40"
+      ],
+      "THURSDAY": [
+        "17:00",
+        "02:40"
+      ],
+      "FRIDAY": [
+        "17:00",
+        "04:30"
+      ],
+      "SATURDAY": [
+        "17:00",
+        "04:30"
+      ],
+      "SUNDAY": [
+        "17:00",
+        "01:40"
+      ]
+    },
+    "locID": "node/12523108603",
+    "name": "Best Turkish Food Co",
+    "latitude": -43.53216,
+    "longitude": 172.6374041,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "150 Hereford Street, Christchurch Central, Linwood-Central-Heathcote Community 8011, New Zealand",
+    "openingHours": {
+      "MONDAY": [
+        "17:00",
+        "01:00"
+      ],
+      "TUESDAY": [
+        "17:00",
+        "01:00"
+      ],
+      "WEDNESDAY": [
+        "17:00",
+        "01:00"
+      ],
+      "THURSDAY": [
+        "17:00",
+        "01:00"
+      ],
+      "FRIDAY": [
+        "17:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "17:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "17:00",
+        "01:00"
+      ]
+    },
+    "locID": "node/13291399646",
+    "name": "Gogi",
+    "latitude": -43.5321658,
+    "longitude": 172.6376054,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "136 Oxford Terrace, Christchurch Central City, Christchurch 8011",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "00:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "01:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "03:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "00:00"
+      ]
+    },
+    "locID": "node/9380964738",
+    "name": "Chiwahwah Mexican Cantina Bar",
+    "latitude": -43.5324411,
+    "longitude": 172.6340146,
+    "theme": "RESTAURANT_BAR"
+  },
+  {
+    "features": [
+      {
+        "featureType": "POOL_TABLE",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "DART_BOARD",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      },
+      {
+        "featureType": "OUTDOOR_SEATING",
+        "daysAvailable": [
+          "MONDAY",
+          "TUESDAY",
+          "WEDNESDAY",
+          "THURSDAY",
+          "FRIDAY",
+          "SATURDAY",
+          "SUNDAY"
+        ]
+      }
+    ],
+    "description": "",
+    "address": "87 Riccarton Road, Riccarton, Christchurch 8011",
+    "openingHours": {
+      "MONDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "TUESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "WEDNESDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "THURSDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "FRIDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SATURDAY": [
+        "11:00",
+        "23:00"
+      ],
+      "SUNDAY": [
+        "11:00",
+        "23:00"
+      ]
+    },
+    "locID": "robbies/0",
+    "name": "Robbies Riccarton Sports Bar & Restaurant",
+    "latitude": -43.5297891,
+    "longitude": 172.603186,
+    "theme": "SPORTS_BAR"
+  }
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<VBox fx:id="mainBox" spacing="8.0" style="-fx-background-color: -transparent;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.BarInfoController">
+    <padding><Insets bottom="16" left="16" right="16" top="16" /></padding>
+    <VBox prefHeight="200.0" prefWidth="100.0">
+        <children>
+            <Label fx:id="nameLabel" maxWidth="Infinity" styleClass="h1" text="Name" wrapText="true" />
+
+            <Label fx:id="themeLabel" styleClass="h2" text="themeLabel" />
+            <Label fx:id="addressLabel" styleClass="h3" text="Address" wrapText="true" />
+        </children>
+    </VBox>
+    <Label fx:id="descriptionLabel" styleClass="h3" text="Description" wrapText="true" />
+
+    <Label fx:id="openingHoursParent" styleClass="h2" text="Opening hours" />
+    <Label fx:id="openingHours" styleClass="h3" text="openingHoursLabel" />
+    <Label fx:id="featureParent" styleClass="h2" text="Features" />
+   <Label fx:id="featureLabel" styleClass="h3" text="Label" />
+</VBox>

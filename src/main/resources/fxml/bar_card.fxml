@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane fx:id="barCardPane" styleClass="bar-card-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.BarCardController">
+   <children>
+      <ImageView fx:id="pinImage" fitHeight="52.0" fitWidth="32.0" layoutX="28.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <image>
+            <Image url="@../images/icons/pin.png" />
+         </image>
+      </ImageView>
+      <VBox fx:id="barCardVBox" layoutX="90.0" layoutY="28.0" spacing="5.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <Label fx:id="barCardName" styleClass="bar-card-label" text="Label" />
+            <TextFlow>
+               <children>
+                  <Text fx:id="barCardAddress" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="bar-card-label" text="Text" />
+               </children>
+            </TextFlow>
+         </children>
+         <padding>
+            <Insets bottom="5.0" />
+         </padding>
+      </VBox>
+      <Label fx:id="barCardNumber" layoutX="24.0" layoutY="25.0" styleClass="bar-card-label" text="0" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="5.0" />
+   </children>
+</AnchorPane>

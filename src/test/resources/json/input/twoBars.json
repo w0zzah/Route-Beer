@@ -1,0 +1,24 @@
+[
+  {
+    "features": [],
+    "description": "",
+    "address": "",
+    "openingHours": null,
+    "locID": "node/0",
+    "name": "bar0",
+    "latitude": -43.53,
+    "longitude": 172.63,
+    "theme": "IRISH_PUB"
+  },
+  {
+    "features": [],
+    "description": "",
+    "address": "",
+    "openingHours": null,
+    "locID": "node/1",
+    "name": "bar1",
+    "latitude": -43.535,
+    "longitude": 172.635,
+    "theme": "IRISH_PUB"
+  }
+]
