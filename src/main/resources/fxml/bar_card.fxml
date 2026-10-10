@@ -1,24 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.text.TextFlow?>
 
-<AnchorPane fx:id="barCardPane" styleClass="bar-card-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.BarCardController">
-   <children>
-      <ImageView fx:id="pinImage" fitHeight="52.0" fitWidth="32.0" layoutX="28.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="5.0">
-         <image>
-            <Image url="@../images/icons/pin.png" />
-         </image>
-      </ImageView>
-      <VBox fx:id="barCardVBox" layoutX="90.0" layoutY="28.0" spacing="5.0" AnchorPane.leftAnchor="60.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+<BorderPane fx:id="barBorderPane" maxWidth="1.7976931348623157E308" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.widgets.BarCardWidget">
+   <center>
+      <VBox maxWidth="1.7976931348623157E308">
          <children>
-            <Label fx:id="barCardName" styleClass="bar-card-label" text="Label" />
+            <Label fx:id="barCardName" styleClass="h3" text="Label" />
             <TextFlow>
                <children>
                   <Text fx:id="barCardAddress" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="bar-card-label" text="Text" />
@@ -26,9 +23,29 @@
             </TextFlow>
          </children>
          <padding>
-            <Insets bottom="5.0" />
+            <Insets left="15.0" right="15.0" />
          </padding>
       </VBox>
-      <Label fx:id="barCardNumber" layoutX="24.0" layoutY="25.0" styleClass="bar-card-label" text="0" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="5.0" />
-   </children>
-</AnchorPane>
+   </center>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <left>
+      <HBox alignment="CENTER_LEFT" spacing="10.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="pinImage" fitHeight="52.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons/pin.png" />
+               </image>
+            </ImageView>
+            <Label fx:id="barCardNumber" styleClass="bar-card-number" text="0" />
+         </children>
+      </HBox>
+   </left>
+   <right>
+      <Button fx:id="barDeleteButton" mnemonicParsing="false" styleClass="bar-card-delete-button" text="-" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets right="10.0" />
+         </BorderPane.margin></Button>
+   </right>
+</BorderPane>

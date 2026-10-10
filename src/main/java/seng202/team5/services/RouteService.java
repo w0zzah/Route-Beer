@@ -2,50 +2,97 @@ package seng202.team5.services;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import seng202.team5.exceptions.InvalidParametersException;
 import seng202.team5.exceptions.NoRouteGeneratedException;
-import seng202.team5.models.*;
+import seng202.team5.models.RouteFormat;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.Location;
+import seng202.team5.models.types.Theme;
+import seng202.team5.services.route_generation.BarChoosingAlgorithm;
 
-import java.io.IOException;
 import java.security.InvalidParameterException;
 import java.util.*;
 
+import static seng202.team5.exceptions.InvalidParametersReason.*;
+
 public class RouteService {
-    /**
-     * Generate a new Route using user given parameter and the BarChoosingAlgorithm, assign into mainManager.currentRoute
-     * @param mainManager mainManager containing all available bars
-     * @param startBar bar to begin at, compulsory or BarChoosingAlgorithm throws NoStartBarException
-     * @param endBar bar to finish the route at
-     * @param numberOfBars number of bars to visit
-     * @param approximateDistanceInKm approximate distance the route will travel
-     * @param themes any bar themes the Route must visit
-     * @param features any bar features the Route must include
-     */
     private static final Logger logger = LogManager.getLogger(RouteService.class);
-    public static void generateRoute(MainManager mainManager, Bar startBar, Bar endBar, int numberOfBars, Double approximateDistanceInKm, List<Theme> themes, List<FeatureType> features) {
+
+
+    /**
+     * Generate a <b><i>single</i></b> new Route using user given parameter and the BarChoosingAlgorithm, assign into mainManager.currentRoute
+     * @param RouteFormat mainManager containing all available bars
+     */
+    public static void generateRoute(MainManager mainManager, RouteFormat RouteFormat) {
+        generateRoutes(mainManager, RouteFormat, 1);
+    }
+
+    /**
+     * Generate a number of new Routes using user given parameter and the BarChoosingAlgorithm, assign into mainManager.currentRoute
+     * @param RouteFormat mainManager containing all available bars
+     * @param numberOfRoutes how many routes to generate
+     */
+    public static void generateRoutes(MainManager mainManager, RouteFormat RouteFormat, int numberOfRoutes) {
+        checkParametersValid(mainManager, RouteFormat);
+        mainManager.clearGeneratedRoutes();
         double MAX_DURATION_SECONDS = 3.5;
         double endTime = System.currentTimeMillis() + MAX_DURATION_SECONDS * 1000;
         int attemptNumber = 1;
+        int generatedRouteIndex = 0;
         String lastReason = "The parameters are too strict";
-        while (System.currentTimeMillis() < endTime) {
+        while (System.currentTimeMillis() < endTime && generatedRouteIndex < numberOfRoutes) {
             logger.info("Generating Route (Attempt {})", attemptNumber++);
             try {
-                BarChoosingAlgorithm alg = new BarChoosingAlgorithm.Builder(startBar, mainManager.locationManager.getBars())
-                        .endBar(endBar)
-                        .numberOfBars(numberOfBars)
-                        .approximateDistanceInKm(approximateDistanceInKm)
-                        .themes(themes)
-                        .features(features)
+                BarChoosingAlgorithm alg = new BarChoosingAlgorithm.Builder(mainManager.locationManager.findBarByName(RouteFormat.startBarInput()), mainManager.locationManager.getBars())
+                        .endBar(mainManager.locationManager.findBarByName(RouteFormat.endBarInput()))
+                        .numberOfBars(RouteFormat.numberOfBarsInput())
+                        .approximateDistanceInKm(RouteFormat.approxDistanceInKmTextInput())
+                        .themes(RouteFormat.themesInput())
+                        .features(RouteFormat.featuresInput())
+                        .particularBars(RouteFormat.particularBarsInput())
                         .build();
-
-                mainManager.setCurrentRoute(alg.getRoute());
-                return;
-            } catch (IOException exception) {
-                logger.error("Error loading files");
+                mainManager.addGeneratedRoute(alg.getRoute());
+                generatedRouteIndex++;
             } catch (NoRouteGeneratedException exception) {
                 lastReason = exception.getMessage();
             }
         }
-        throw new NoRouteGeneratedException(lastReason);
+        if (generatedRouteIndex == 0) {
+            throw new NoRouteGeneratedException(lastReason);
+        }
+        mainManager.setCurrentRoute(mainManager.getGeneratedRoute(0));
+    }
+
+    private static void checkParametersValid(MainManager mainManager, RouteFormat RouteFormat) {
+
+        Bar startBar;
+        Bar endBar = null;
+
+        if (!RouteFormat.startBarInput().isEmpty()) {
+            startBar = mainManager.locationManager.findBarByName(RouteFormat.startBarInput());
+            if (startBar == null) throw new InvalidParametersException(START_BAR_DOESNT_EXIST);
+        } else throw new InvalidParametersException(START_BAR_EMPTY);
+
+        if  (!RouteFormat.endBarInput().isEmpty()) {
+            endBar = mainManager.locationManager.findBarByName(RouteFormat.endBarInput());
+            if (endBar == null) throw new InvalidParametersException(END_BAR_DOESNT_EXIST);
+        }
+
+        int maxNumberOfBars = RouteFormat.numberOfBarsInput() >= 2 ? RouteFormat.numberOfBarsInput() : 9;
+
+        Set<Bar> requiredBars = new HashSet<>(RouteFormat.particularBarsInput());
+        requiredBars.add(startBar);
+        if (endBar != null) requiredBars.add(endBar);
+        if (requiredBars.size() > maxNumberOfBars) {
+            throw new InvalidParametersException(TOO_MANY_PARTICULAR_BARS);
+        }
+
+        Set<Theme> requiredThemes = new HashSet<>(RouteFormat.themesInput());
+        requiredThemes.add(startBar.getTheme());
+        if (endBar != null) requiredThemes.add(endBar.getTheme());
+        if (requiredThemes.size() > maxNumberOfBars) {
+            throw new InvalidParametersException(TOO_MANY_THEMES);
+        }
     }
 
     /**

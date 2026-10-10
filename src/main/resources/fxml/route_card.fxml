@@ -1,83 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
-<?import javafx.scene.text.TextFlow?>
 
-<AnchorPane fx:id="cardBase" maxHeight="-Infinity" minHeight="-Infinity" styleClass="route-card" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.RouteCardController">
-    <GridPane fx:id="cardGrid" hgap="5.0" layoutX="15.0" layoutY="15.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0">
-        <columnConstraints>
-            <ColumnConstraints hgrow="ALWAYS" percentWidth="60.0" />
-            <ColumnConstraints hgrow="NEVER" />
-            <ColumnConstraints hgrow="ALWAYS" percentWidth="40.0" />
-        </columnConstraints>
-        <rowConstraints>
-            <RowConstraints vgrow="NEVER" />
-            <RowConstraints vgrow="NEVER" />
-            <RowConstraints vgrow="NEVER" />
-        </rowConstraints>
-        <Label fx:id="cardNameLabel" styleClass="route-name" text="Route Name" GridPane.columnSpan="2147483647">
-            <font>
-                <Font size="14.0" />
-            </font>
-        </Label>
-      <HBox alignment="CENTER_LEFT" spacing="3.0" GridPane.halignment="LEFT" GridPane.rowIndex="2">
-         <children>
-               <Label fx:id="cardDistanceLabel" alignment="CENTER_RIGHT" styleClass="route-card-text" text="0" />
-               <Label alignment="CENTER_RIGHT" styleClass="route-card-text" text="km" />
-            <SVGPath content="M 50,50 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" fill="#e65c2e" stroke="WHITE" strokeWidth="0.0">
-               <HBox.margin>
-                  <Insets left="7.0" right="7.0" />
-               </HBox.margin>
-            </SVGPath>
-               <Label fx:id="cardTimeLabel" alignment="CENTER_RIGHT" styleClass="route-card-text" text="0" />
-               <Label alignment="CENTER_RIGHT" styleClass="route-card-text" text="mins" />
-            <SVGPath content="M 50,50 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" fill="#e65c2e" stroke="WHITE" strokeWidth="0.0">
-               <HBox.margin>
-                  <Insets left="7.0" right="7.0" />
-               </HBox.margin>
-            </SVGPath>
-              <Label styleClass="route-card-text" text="Bars: " />
-              <Label fx:id="cardBarsLabel" alignment="CENTER_RIGHT" styleClass="route-card-text" text="0">
-               <padding>
-                  <Insets right="10.0" />
-               </padding></Label>
-         </children>
-      </HBox>
-      <VBox fx:id="cardButtonsVBox" alignment="BOTTOM_RIGHT" spacing="5.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowSpan="2147483647">
-         <children>
-            <Label fx:id="routeUsernameLabel" styleClass="route-card-text" text="By: Anonymous" />
-            <Button fx:id="cardPublishButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Publish" VBox.vgrow="ALWAYS">
-               <font>
-                  <Font size="10.0" />
-               </font>
-            </Button>
-               <Button fx:id="loadRouteButton" maxHeight="30.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Load" VBox.vgrow="ALWAYS">
-                   <font>
-                       <Font size="10.0" />
-                   </font>
-               </Button>
-               <Button fx:id="cardDeleteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" text="Delete" VBox.vgrow="ALWAYS">
-                   <font>
-                       <Font size="10.0" />
-                   </font>
-               </Button>
-         </children>
-      </VBox>
-      <TextFlow fx:id="descriptionTextFlow" GridPane.columnSpan="2" GridPane.hgrow="ALWAYS" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
-         <children>
-            <Text fx:id="cardDescriptionText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="route-card-text" text="Text" />
-         </children>
-      </TextFlow>
-    </GridPane>
-</AnchorPane>
+
+<StackPane fx:id="routeCardPane" alignment="CENTER_LEFT" styleClass="route-card" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.widgets.RouteCardWidget">
+   <children>
+      <BorderPane fx:id="routeCardBorderPane">
+         <padding>
+            <Insets bottom="10.0" left="25.0" right="10.0" top="10.0" />
+         </padding>
+         <center>
+            <VBox BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="cardDescriptionLabel" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="route-card-text" text="Label" wrapText="true" VBox.vgrow="ALWAYS" />
+                  <HBox fx:id="cardBaseHBox" alignment="CENTER_LEFT" spacing="3.0">
+                     <children>
+                           <Label fx:id="cardDistanceLabel" alignment="CENTER_RIGHT" styleClass="route-card-text" text="0" />
+                           <Label alignment="CENTER_RIGHT" styleClass="route-card-text" text="km" />
+                        <SVGPath content="M 50,50 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" fill="#e65c2e" stroke="WHITE" strokeWidth="0.0">
+                           <HBox.margin>
+                              <Insets left="3.0" right="3.0" />
+                           </HBox.margin>
+                        </SVGPath>
+                           <Label fx:id="cardTimeLabel" alignment="CENTER_RIGHT" styleClass="route-card-text" text="0" />
+                        <SVGPath content="M 50,50 m -3,0 a 3,3 0 1,0 6,0 a 3,3 0 1,0 -6,0" fill="#e65c2e" stroke="WHITE" strokeWidth="0.0">
+                           <HBox.margin>
+                              <Insets left="3.0" right="3.0" />
+                           </HBox.margin>
+                        </SVGPath>
+                          <Label styleClass="route-card-text" text="Bars: " />
+                          <Label fx:id="cardBarsLabel" alignment="CENTER_RIGHT" styleClass="route-card-text" text="0" />
+                     </children>
+                  </HBox>
+               </children>
+               <BorderPane.margin>
+                  <Insets bottom="5.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+         <top>
+            <HBox fx:id="cardTopHBox" minHeight="-Infinity" BorderPane.alignment="CENTER">
+               <children>
+                  <VBox fx:id="routeTitleVBox" minHeight="-Infinity" HBox.hgrow="ALWAYS">
+                     <children>
+                        <Label fx:id="cardNameLabel" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="route-name" text="Label" wrapText="true" VBox.vgrow="ALWAYS" />
+                     </children>
+                  </VBox>
+                  <Separator maxWidth="1.7976931348623157E308" orientation="VERTICAL" visible="false" HBox.hgrow="ALWAYS" />
+                  <GridPane fx:id="routeVoteGrid" hgap="5.0" minHeight="-Infinity" minWidth="120.0" HBox.hgrow="SOMETIMES">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="20.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="20.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label fx:id="downvoteLabel" styleClass="route-card-text" text="0" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+                           <padding>
+                              <Insets left="3.0" right="3.0" />
+                           </padding>
+                        </Label>
+                        <Label fx:id="upvoteLabel" styleClass="route-card-text" text="0" GridPane.halignment="CENTER">
+                           <padding>
+                              <Insets left="3.0" right="3.0" />
+                           </padding>
+                        </Label>
+                        <ToggleButton fx:id="upvoteButton" mnemonicParsing="false" styleClass="vote-button" GridPane.columnIndex="1">
+                           <graphic>
+                              <SVGPath content="M 21.5832 8.1144 L 13.056 8.1048 c 0 0 0.4944 -2.0232 0.5832 -2.9712 c 0.06 -0.648 0.0744 -1.2936 -0.0744 -1.932 c -0.2208 -0.96 -0.468 -1.56 -0.8616 -2.304 C 12.492 0.504 12.084 0.2592 11.64 0.2592 h -1.6512 c -0.6648 0 -1.2024 0.54 -1.2 1.2048 c 0.0048 1.1112 0.0048 2.5944 -0.0192 2.6448 C 8.1216 5.472 7.3704 6.78 6.5232 8.028 c -0.3864 0.5712 -0.792 1.1256 -1.2624 1.632 c -0.2064 0.2208 -0.3192 0.5136 -0.3192 0.8136 v 10.4928 c 0 0.3096 0.12 0.6096 0.336 0.8328 c 0.3216 0.3312 0.8976 0.7248 1.8432 0.7248 c 2.9832 -0.012 7.8168 -0.0384 11.2536 -0.0144 c 0.4296 0.0024 0.828 -0.2232 1.044 -0.5952 L 22.4496 16.7256 c 0.2064 -0.36 0.3144 -0.768 0.3168 -1.1832 l 0.0168 -6.2232 C 22.7832 8.6544 22.2456 8.1168 21.5832 8.1144 z M 3.8592 9.828 H 1.2 c -0.6624 0 -1.2 0.5376 -1.2 1.2 v 10.296 c 0 0.6624 0.5376 1.2 1.2 1.2 h 6.8 c 0.6624 0 1.2 -0.5376 1.2 -1.2 v -10.296 C 5.0568 10.3656 4.5216 9.828 9 10 z" strokeWidth="0.0" styleClass="vote-svg" />
+                           </graphic>
+                           <toggleGroup>
+                              <ToggleGroup fx:id="voteGroup" />
+                           </toggleGroup>
+                        </ToggleButton>
+                        <ToggleButton fx:id="downvoteButton" mnemonicParsing="false" styleClass="vote-button" toggleGroup="$voteGroup" GridPane.columnIndex="2">
+                           <graphic>
+                              <SVGPath content="M -21.5832 -8.1144 L -13.056 -8.1048 c 0 0 -0.4944 2.0232 -0.5832 2.9712 c -0.06 0.648 -0.0744 1.2936 0.0744 1.932 c 0.2208 0.96 0.468 1.56 0.8616 2.304 C -12.492 -0.504 -12.084 -0.2592 -11.64 -0.2592 h 1.6512 c 0.6648 -0 1.2024 -0.54 1.2 -1.2048 c -0.0048 -1.1112 -0.0048 -2.5944 0.0192 -2.6448 C -8.1216 -5.472 -7.3704 -6.78 -6.5232 -8.028 c 0.3864 -0.5712 0.792 -1.1256 1.2624 -1.632 c 0.2064 -0.2208 0.3192 -0.5136 0.3192 -0.8136 v -10.4928 c -0 -0.3096 -0.12 -0.6096 -0.336 -0.8328 c -0.3216 -0.3312 -0.8976 -0.7248 -1.8432 -0.7248 c -2.9832 0.012 -7.8168 0.0384 -11.2536 0.0144 c -0.4296 -0.0024 -0.828 0.2232 -1.044 0.5952 L -22.4496 -16.7256 c -0.2064 0.36 -0.3144 0.768 -0.3168 1.1832 l -0.0168 6.2232 C -22.7832 -8.6544 -22.2456 -8.1168 -21.5832 -8.1144 z M -3.8592 -9.828 H -1.2 c 0.6624 -0 1.2 -0.5376 1.2 -1.2 v -10.296 c -0 -0.676 -0.5376 -1.2 -1.2 -1.2 h -6.8 c -0.6624 0 -1.2 0.5376 -1.2 1.2 v 10.296 C -5.0568 -10.3656 -4.5216 -9.828 -9 -10 z" strokeWidth="0.0" styleClass="vote-svg" />
+                           </graphic>
+                        </ToggleButton>
+                     </children>
+                     <padding>
+                        <Insets right="5.0" />
+                     </padding>
+                  </GridPane>
+               </children>
+            </HBox>
+         </top>
+         <bottom>
+            <HBox fx:id="cardBaseHBox" alignment="CENTER_RIGHT" spacing="10.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox fx:id="usernameHBox" alignment="CENTER_RIGHT">
+                     <children>
+                        <Label text="By: ">
+                           <styleClass>
+                              <String fx:value="route-card-text" />
+                              <String fx:value="route-card-tight" />
+                              <String fx:value="route-card-username" />
+                           </styleClass>
+                        </Label>
+                        <Label fx:id="routeUsernameLabel">
+                           <styleClass>
+                              <String fx:value="route-card-text" />
+                              <String fx:value="route-card-tight" />
+                              <String fx:value="route-card-username" />
+                           </styleClass>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Separator fx:id="cardBaseSeparator" maxWidth="1.7976931348623157E308" orientation="VERTICAL" visible="false" HBox.hgrow="ALWAYS" />
+                     <Button fx:id="cardDeleteButton" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="30.0" styleClass="button-orange" text="Delete" HBox.hgrow="ALWAYS">
+                         <font>
+                             <Font size="10.0" />
+                         </font>
+                     </Button>
+                  <Button fx:id="cardPublishButton" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="30.0" styleClass="button-gold" text="Publish" HBox.hgrow="ALWAYS">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                     <Button fx:id="loadRouteButton" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" mnemonicParsing="false" prefHeight="30.0" styleClass="button-gold" text="Load" HBox.hgrow="ALWAYS">
+                         <font>
+                             <Font size="10.0" />
+                         </font>
+                     </Button>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+      <Pane maxHeight="1.7976931348623157E308" maxWidth="13.0" prefWidth="13.0" styleClass="card-line" />
+   </children>
+</StackPane>

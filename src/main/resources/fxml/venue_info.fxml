@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="mainBox" prefHeight="800.0" prefWidth="450.0" spacing="8.0" styleClass="venue-info-popup" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.widgets.VenueInfoWidget">
+    <padding><Insets bottom="16" left="16" right="16" top="16" /></padding>
+      <Label fx:id="nameLabel" alignment="TOP_LEFT" maxWidth="400.0" minWidth="400.0" prefWidth="400.0" styleClass="venue-info-title" text="Name" wrapText="true" VBox.vgrow="ALWAYS">
+      <padding>
+         <Insets right="10.0" />
+      </padding>
+   </Label>
+
+      <Label fx:id="themeLabel" alignment="TOP_LEFT" styleClass="venue-info-theme" wrapText="true" VBox.vgrow="ALWAYS" />
+      <Label fx:id="addressLabel" maxWidth="400.0" minWidth="400.0" prefWidth="400.0" styleClass="h4" wrapText="true" VBox.vgrow="ALWAYS">
+          <VBox.margin>
+              <Insets />
+          </VBox.margin>
+   </Label>
+    <Label fx:id="descriptionLabel" styleClass="h4" wrapText="true" VBox.vgrow="ALWAYS" />
+
+    <Label fx:id="openingHoursParent" styleClass="h2" text="Opening Hours" wrapText="true" VBox.vgrow="ALWAYS">
+      <VBox.margin>
+         <Insets top="10.0" />
+      </VBox.margin></Label>
+    <Label fx:id="openingHours" styleClass="h4" wrapText="true" VBox.vgrow="ALWAYS" />
+    <Label fx:id="featureParent" styleClass="h2" text="Bar Features" wrapText="true" VBox.vgrow="ALWAYS">
+      <VBox.margin>
+         <Insets top="10.0" />
+      </VBox.margin></Label>
+    <Label fx:id="featureLabel" styleClass="h4" wrapText="true" VBox.vgrow="ALWAYS" />
+</VBox>

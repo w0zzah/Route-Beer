@@ -11,14 +11,18 @@ import javafx.scene.web.WebEngine;
 import javafx.scene.web.WebView;
 import netscape.javascript.JSObject;
 import org.jspecify.annotations.NonNull;
-import seng202.team5.models.Bar;
-import seng202.team5.models.Location;
+import seng202.team5.models.Route;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.Location;
+import seng202.team5.models.locations.Venue;
 import seng202.team5.services.JavaScriptBridge;
 import seng202.team5.services.MainManager;
 import seng202.team5.services.MapService;
+import seng202.team5.services.MapService.AmenityType;
 import seng202.team5.services.RouteService;
 
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import java.util.List;
 import java.util.Objects;
 import java.util.function.Consumer;
@@ -35,7 +39,7 @@ public class MapController {
     private MainManager mainManager;
     private List<Bar> currentRoute;
     private JavaScriptBridge javaScriptBridge;   // must stay a field, or it gets GC'd
-    private Consumer<Bar> onBarSelected;
+    private Consumer<Venue> onVenueSelected;
     private AnchorPane amenityTogglePane;
 
     /**
@@ -48,7 +52,7 @@ public class MapController {
         engine.setJavaScriptEnabled(true);
         this.mapService = new MapService(engine);
 
-        this.javaScriptBridge = new JavaScriptBridge(mainManager, this::handleBarSelected);
+        this.javaScriptBridge = new JavaScriptBridge(mainManager, this::handleVenuSelected);
 
         engine.getLoadWorker().stateProperty().addListener((obs, oldState, newState) -> {
             if (newState == Worker.State.SUCCEEDED) {
@@ -70,13 +74,13 @@ public class MapController {
     /**
      * Lets MainWindowController receive marker clicks.
      */
-    public void setOnBarSelected(Consumer<Bar> handler) {
-        this.onBarSelected = handler;
+    public void setOnVenueSelected(Consumer<Venue> handler) {
+        this.onVenueSelected = handler;
     }
 
-    private void handleBarSelected(Bar bar) {
-        if (bar != null && onBarSelected != null) {
-            onBarSelected.accept(bar);
+    private void handleVenuSelected(Venue venue) {
+        if (venue != null && onVenueSelected != null) {
+            onVenueSelected.accept(venue);
         }
     }
 
@@ -86,41 +90,59 @@ public class MapController {
         }
     }
 
-    private void displayNearbyFastFood(List<Location> fastFoodLocations) {
-        for (Location location : fastFoodLocations) {
-            mapService.addFastFoodMarker(location);
-        }
-    }
-    private void displayNearbyPublicToilets(List<Location> publicToiletLocations) {
-        for (Location location : publicToiletLocations) {
-            mapService.addPublicToiletMarker(location);
-        }
-    }
-    private void displayNearbyDrinkingFountains(List<Location> drinkingFountainLocations) {
-        for (Location location : drinkingFountainLocations) {
-            mapService.addDrinkingFountainMarker(location);
+    /**
+     * Adds markers for a single amenity type
+     */
+    private void displayNearbyAmenities(AmenityType type, List<? extends Location> locations) {
+        for (Location location : locations) {
+            mapService.addAmenityMarker(type, location);
         }
     }
 
+    /**
+     * Displays a route along with the nearest amenities to it
+     * @param routeBars the bars making up the route
+     */
     public void displayRoute(List<Bar> routeBars) {
         resetMap();
+        if (routeBars == null || routeBars.isEmpty()) {
+            loadBars();
+            return;
+        }
         currentRoute = routeBars;
 
         mapService.drawRoute(currentRoute);
-        displayNearbyFastFood(RouteService.getClosestAmenities(5, mainManager.locationManager.fastFoods, routeBars));
-        displayNearbyPublicToilets(RouteService.getClosestAmenities(2, mainManager.locationManager.publicToilets, routeBars));
-        displayNearbyDrinkingFountains(RouteService.getClosestAmenities(2, mainManager.locationManager.drinkingFountains, routeBars));
-        loadAmenitiesToggle(mapService);
+        displayNearbyAmenities(AmenityType.FAST_FOOD,
+                RouteService.getClosestAmenities(5, mainManager.locationManager.fastFoods, routeBars));
+        displayNearbyAmenities(AmenityType.PUBLIC_TOILET,
+                RouteService.getClosestAmenities(2, mainManager.locationManager.publicToilets, routeBars));
+        displayNearbyAmenities(AmenityType.DRINKING_FOUNTAIN,
+                RouteService.getClosestAmenities(2, mainManager.locationManager.drinkingFountains, routeBars));
+
+        loadAmenitiesToggle();
+        amenityTogglePane.setVisible(true);
     }
 
+    /**
+     * Removes the route and amenities, and goes back to showing all bars
+     */
     public void unloadRoute() {
         resetMap();
+        if (amenityTogglePane != null) {
+            amenityTogglePane.setVisible(false);
+        }
         loadBars();
     }
 
     public void resetMap() {
         mapService.clearMap();
         mapService.clearRoute();
+        currentRoute = null;
+    }
+
+    public void exportMap(Consumer<WritableImage> onDone) {
+        javaScriptBridge.setOnMapReady(() -> onDone.accept(takeMapSnapshot()));
+        mapService.positionForExport();
     }
 
     /**
@@ -128,52 +150,60 @@ public class MapController {
      * @return the WritableImage snapshot
      */
     public WritableImage takeMapSnapshot() {
-
-        // Gets the bounds of the current route being displayed
         String boundsStr = mapService.getRouteViewBounds();
 
-        // In case an error occurs with the bounds
+        // In case there is no route or the bounds are unavailable, snapshot the whole view
         if (boundsStr == null || boundsStr.isBlank()) {
             return mapView.snapshot(new SnapshotParameters(), null);
         }
-        String[] parts = boundsStr.split(",");
-
-        SnapshotParameters parameters = getSnapshotParameters(parts);
-
-        return mapView.snapshot(parameters, null);
+        try {
+            SnapshotParameters parameters = getSnapshotParameters(boundsStr.split(","));
+            return mapView.snapshot(parameters, null);
+        } catch (RuntimeException e) {   // NumberFormatException, ArrayIndexOutOfBounds, bad Rectangle2D
+            System.err.println("Invalid snapshot bounds '" + boundsStr + "': " + e.getMessage());
+            return mapView.snapshot(new SnapshotParameters(), null);
+        }
     }
 
     /**
      * Calculates the parameters for the snapshot
-     * @param parts the bounds of the displayed routes
-     * @return
+     * @param parts the bounds of the displayed route as {x, y, width, height}
+     * @return the snapshot parameters with the viewport set to the route bounds
      */
     private @NonNull SnapshotParameters getSnapshotParameters(String[] parts) {
         SnapshotParameters parameters = new SnapshotParameters();
-        double MIN_HEIGHT = 800;
+        final double minHeight = 800;
+
+        double viewWidth = mapView.getWidth();
+        double viewHeight = mapView.getHeight();
 
         double x = Double.parseDouble(parts[0]);
         double y = Double.parseDouble(parts[1]);
         double width = Double.parseDouble(parts[2]);
         double height = Double.parseDouble(parts[3]);
 
-        // If bounds height is below MIN_HEIGHT, set to MIN_HEIGHT
-        if (height < MIN_HEIGHT) {
-            double extraHeight = MIN_HEIGHT - height;
-            height = MIN_HEIGHT;
-            y -= (extraHeight/2);
+        // Grow the height around the centre if it's too small
+        if (height < minHeight) {
+            y -= (minHeight - height) / 2;
+            height = minHeight;
         }
 
-        Rectangle2D cropArea = new Rectangle2D(x, y, width, height);
-        parameters.setViewport(cropArea);
+        width = Math.min(width, viewWidth);
+        height = Math.min(height, viewHeight);
+
+        // Slide the rectangle back inside the view
+        x = Math.max(0, Math.min(x, viewWidth - width));
+        y = Math.max(0, Math.min(y, viewHeight - height));
+
+        parameters.setViewport(new Rectangle2D(x, y, width, height));
         return parameters;
     }
 
     /**
-     * Loads the amenities toggle
-     * @param mapService the current MapService
+     * Loads the amenities toggle pane (once). The pane's controller should call
+     * mapService.setAmenityVisible(AmenityType, boolean) for each checkbox.
      */
-    private void loadAmenitiesToggle(MapService mapService) {
+    private void loadAmenitiesToggle() {
         if (amenityTogglePane != null) {
             return;
         }
@@ -182,7 +212,7 @@ public class MapController {
         try {
             amenityTogglePane = loader.load();
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new UncheckedIOException(e);
         }
         AnchorPane.setLeftAnchor(amenityTogglePane, 50.0);
         AnchorPane.setTopAnchor(amenityTogglePane, 10.0);

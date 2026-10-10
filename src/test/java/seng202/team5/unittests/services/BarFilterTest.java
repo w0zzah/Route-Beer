@@ -4,10 +4,9 @@ import com.google.gson.JsonObject;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import seng202.team5.models.OpenStreetMapLocation;
-import seng202.team5.services.BarFilter;
-import seng202.team5.services.LocationBuilder;
+import seng202.team5.services.route_generation.BarFilter;
+import seng202.team5.services.route_generation.LocationBuilder;
 
-import java.io.IOException;
 import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;

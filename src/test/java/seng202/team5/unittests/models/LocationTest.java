@@ -3,8 +3,8 @@ package seng202.team5.unittests.models;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import seng202.team5.models.Bar;
-import seng202.team5.models.Location;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.Location;
 
 public class LocationTest {
 

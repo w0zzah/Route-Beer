@@ -4,12 +4,11 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import seng202.team5.models.*;
-import seng202.team5.services.LocationBuilder;
-import seng202.team5.services.MainManager;
-import seng202.team5.models.Theme;
-import seng202.team5.models.FeatureType;
-import seng202.team5.exceptions.NoRouteGeneratedException;
-import seng202.team5.exceptions.NoStartBarException;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.DistanceMatrix;
+import seng202.team5.services.route_generation.LocationBuilder;
+import seng202.team5.models.types.Theme;
+import seng202.team5.models.types.FeatureType;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -25,7 +24,7 @@ class RouteTest {
 
     List<Bar> bars = List.of(
             allBars.get(57), // The Craic
-            allBars.get(76) // Fat Eddie's
+            allBars.get(75) // Fat Eddie's
     );
 
     @BeforeEach
@@ -36,7 +35,7 @@ class RouteTest {
     public class testConstructor {
         @Test
         public void testMinimumConstructor() {
-            Route route = new Route(0, "route_name", "route_description", bars, LocalDate.EPOCH);
+            Route route = new Route(0, "route_name", "route_description", bars, LocalDate.EPOCH, "Username");
             assertEquals(0, route.getRouteID());
             assertEquals("route_name", route.getName());
             assertEquals("route_description", route.getDescription());
@@ -47,36 +46,36 @@ class RouteTest {
         @Test
         public void testConstructorWithNullName() {
             assertThrows(IllegalArgumentException.class, () -> {
-                Route route = new Route(0, null, null, null, LocalDate.EPOCH);
+                Route route = new Route(0, null, null, null, LocalDate.EPOCH, "Username");
             });
         }
         @Test
         public void testConstructorWithEmptyName() {
             assertThrows(IllegalArgumentException.class, () -> {
-                Route route = new Route(0, "", null, null, LocalDate.EPOCH);
+                Route route = new Route(0, "", null, null, LocalDate.EPOCH, "Username");
             });
         }
         @Test
         public void testConstructorWithNullBars() {
             assertThrows(IllegalArgumentException.class, () -> {
-                Route route = new Route(0, "route_name", null, null, LocalDate.EPOCH);
+                Route route = new Route(0, "route_name", null, null, LocalDate.EPOCH, "Username");
             });
         }
         @Test
         public void testConstructorWithEmptyBars() {
             assertThrows(IllegalArgumentException.class, () -> {
-                Route route = new Route(0, "route_name", null, List.of(), LocalDate.EPOCH);
+                Route route = new Route(0, "route_name", null, List.of(), LocalDate.EPOCH, "Username");
             });
         }
         @Test
         public void testConstructorWithSingleBar() {
             assertThrows(IllegalArgumentException.class, () -> {
-                Route route = new Route(0, "route_name", null, List.of(allBars.getFirst()), LocalDate.EPOCH);
+                Route route = new Route(0, "route_name", null, List.of(allBars.getFirst()), LocalDate.EPOCH, "Username");
             });
         }
         @Test
         public void testConstructorWithNullDescription() {
-            Route route = new Route(0, "route_name", null, bars, LocalDate.EPOCH);
+            Route route = new Route(0, "route_name", null, bars, LocalDate.EPOCH, "Username");
             assertEquals("", route.getDescription());
         }
 //        @Test
@@ -92,7 +91,7 @@ class RouteTest {
         Route route;
         @BeforeEach
         public void setup() {
-            route = new Route(0, "route_name", "route_description", bars, LocalDate.EPOCH);
+            route = new Route(0, "route_name", "route_description", bars, LocalDate.EPOCH, "Username");
         }
 
         @Test

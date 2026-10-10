@@ -5,14 +5,18 @@ import com.google.gson.reflect.TypeToken;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import seng202.team5.exceptions.DataAccessException;
+import seng202.team5.exceptions.NoRouteRatings;
 import seng202.team5.models.*;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.RouteRating;
+import seng202.team5.models.locations.Location;
 import seng202.team5.services.MainManager;
-
 import java.lang.reflect.Type;
 import java.sql.*;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 /**
  * Exchanges information between Java and routes table in Database
@@ -51,6 +55,12 @@ public class RouteDAO {
                 VALUES (?, ?, ?, ?, ?, ?, ?)
                 """;
 
+        List<Route> userRoutes = getUserRoutes(user_id);
+        for (Route UserRoute : userRoutes) {
+            if (Objects.equals(UserRoute.getName(), route.getName())) {
+                return false;
+            }
+        }
         try (Connection connection = DatabaseConnection.getConnection();
              PreparedStatement statement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS)) {
 
@@ -71,8 +81,10 @@ public class RouteDAO {
                         route.setRouteID(generatedId);
                     }
                 }
+                connection.close();
                 return true;
             }
+            connection.close();
             return false;
         } catch (SQLException e) {
             throw new DataAccessException("Failed to save route", e);
@@ -102,7 +114,10 @@ public class RouteDAO {
      * @return the user routes
      */
     public List<Route> getUserRoutes(int userId) {
-        return fetchRoutes("SELECT * FROM routes WHERE user_id = ?", userId);
+        return fetchRoutes("""
+                SELECT *
+                FROM routes join users on user_id = users.id
+                WHERE user_id = ?""", userId);
     }
 
     /**
@@ -111,31 +126,10 @@ public class RouteDAO {
      * @return the community routes
      */
     public List<Route> getCommunityRoutes() {
-        return fetchRoutes("SELECT * FROM routes WHERE is_community = 1", -1);
-    }
-
-    /**
-     * Delete community route boolean.
-     *
-     * @param routeId the route id
-     * @param user    the user
-     * @return the boolean
-     */
-    public boolean deleteCommunityRoute(int routeId, User user) {
-
-        if (user.getType() != UserType.ADMIN) {
-            logger.warn("User {} attempted to delete a community route without admin privileges.", user.getUsername());
-            return false;
-        }
-
-        String query = "DELETE FROM routes WHERE id = ? AND is_community = 1";
-        try (Connection connection = DatabaseConnection.getConnection();
-             PreparedStatement statement = connection.prepareStatement(query)) {
-            statement.setInt(1, routeId);
-            return statement.executeUpdate() > 0;
-        } catch (SQLException e) {
-            throw new DataAccessException("Failed to delete community route", e);
-        }
+        return fetchRoutes("""
+                SELECT *
+                FROM routes join users on user_id = users.id
+                WHERE is_community = 1""", -1);
     }
 
     /**
@@ -172,6 +166,7 @@ public class RouteDAO {
                     Date sqlDate = resultSet.getDate("created_date");
                     LocalDate createdDate = (sqlDate != null) ? sqlDate.toLocalDate() : null;
                     String idListJson = resultSet.getString("route_locations");
+                    String ownerUsername = resultSet.getString("username");
 
                     List<? extends Location> locations = parseLocations(idListJson);
 
@@ -180,10 +175,12 @@ public class RouteDAO {
                             routeName,
                             description,
                             (List<Bar>) locations,
-                            createdDate
+                            createdDate,
+                            ownerUsername
                     );
                     routes.add(route);
                 }
+                connection.close();
             }
         } catch (SQLException e) {
             logger.error("Error fetching routes from database", e);
@@ -217,4 +214,137 @@ public class RouteDAO {
         }
         return fixedList;
     }
+
+    public int getRouteVote(int route_id, int vote) {
+        int totalVotes = 0;
+        String query = """
+                SELECT count(vote)
+                FROM route_ratings
+                WHERE route_id = ? and vote = ?;
+                """;
+        try (Connection connection = DatabaseConnection.getConnection();
+             PreparedStatement statement = connection.prepareStatement(query)) {
+            statement.setInt(1, route_id);
+            statement.setInt(2, vote);
+            try (ResultSet resultSet = statement.executeQuery()) {
+                if (resultSet.next()) {
+                    totalVotes = resultSet.getInt("count(vote)");
+                }
+            } catch (SQLException e) {
+                throw new NoRouteRatings(e.getMessage());
+            }
+            connection.close();
+            return totalVotes;
+        } catch (SQLException e) {
+            throw new DataAccessException(e.getMessage(), e);
+        }
+    }
+
+    public void voteRoute(int user_id, int route_id, int vote) {
+        String query = """
+                INSERT INTO route_ratings (user_id, route_id, vote)
+                VALUES (?, ?, ?)
+                ON DUPLICATE KEY UPDATE vote = VALUES(vote)
+                """;
+        try (Connection connection = DatabaseConnection.getConnection();
+            PreparedStatement statement = connection.prepareStatement(query)) {
+            statement.setInt(1, user_id);
+            statement.setInt(2, route_id);
+            statement.setInt(3, vote);
+            statement.executeUpdate();
+        } catch (SQLException e) {
+            throw new DataAccessException(e.getMessage(), e);
+        }
+    }
+
+    public List<Integer> getUserVotes(int userID, int vote) {
+        List<Integer> routeIds = new ArrayList<>();
+
+        String query = """
+            SELECT route_id, vote
+            FROM route_ratings
+            WHERE user_id = ? AND vote = ?;
+            """;
+
+        try (Connection connection = DatabaseConnection.getConnection();
+             PreparedStatement statement = connection.prepareStatement(query)) {
+
+            statement.setInt(1, userID);
+            statement.setInt(2, vote);
+
+            try (ResultSet resultSet = statement.executeQuery()) {
+                while (resultSet.next()) {
+                    routeIds.add(resultSet.getInt("route_id"));
+
+                }
+            }
+        } catch (SQLException e) {
+            logger.error("Error fetching routes from database", e);
+            throw new DataAccessException("Failed to fetch routes", e);
+        }
+        return routeIds;
+    }
+
+    /**
+     * Gets the count of upvotes, downvotes
+     * and the given user's rating for a specific route
+     * @param route_id id of the target route
+     * @param user_id id of the current user
+     * @return the RouteRating object containing vote data
+     */
+    public RouteRating getRouteVotes(int route_id, int user_id) {
+        int upvotes = 0;
+        int downvotes = 0;
+        int userVote = 0;
+
+        String voteCountQuery = """
+            SELECT vote, count(*) AS vote_count
+            FROM route_ratings
+            WHERE route_id = ? AND vote !=0
+            GROUP BY vote;
+            """;
+
+
+        String userVoteQuery = """
+            SELECT vote
+            FROM route_ratings
+            WHERE user_id = ? AND route_id = ?;
+            """;
+
+        try (Connection connection = DatabaseConnection.getConnection()) {
+
+            try (PreparedStatement statement = connection.prepareStatement(voteCountQuery)) {
+                statement.setInt(1, route_id);
+
+                try (ResultSet resultSet = statement.executeQuery()) {
+                    while (resultSet.next()) {
+                        int vote = resultSet.getInt("vote");
+                        int count = resultSet.getInt("vote_count");
+                        if (vote == 1) {
+                            upvotes = count;
+                        } else if (vote == -1) {
+                            downvotes = count;
+                        }
+                    }
+                }
+            }
+
+            try (PreparedStatement statement = connection.prepareStatement(userVoteQuery)) {
+                statement.setInt(1, user_id);
+                statement.setInt(2, route_id);
+
+                try (ResultSet resultSet = statement.executeQuery()) {
+                    if (resultSet.next()) {
+                        userVote = resultSet.getInt("vote");
+                    }
+                }
+            }
+
+        } catch (SQLException e) {
+            logger.error("Error fetching routes from database", e);
+            throw new DataAccessException("Failed to fetch routes", e);
+        }
+        return new RouteRating(upvotes, downvotes, userVote);
+    }
+
 }

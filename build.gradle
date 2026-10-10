@@ -3,7 +3,7 @@ plugins {
     id 'java'
     id "org.openjfx.javafxplugin" version "0.1.0"
     id 'jacoco'
-    id 'com.gradleup.shadow' version '8.3.3'
+    id 'com.gradleup.shadow' version '8.3.9'
 }
 
 base {
@@ -16,7 +16,7 @@ version = '1.0-SNAPSHOT'
 def mainClassName = 'seng202.team5.App'
 
 def javaVersion = '25'
-def javafxVersion = '25.0.3'
+def javafxVersion = '26'
 def log4jVersion = '2.26.1'
 def cucumberVersion = '7.34.4'
 def junitVersion = '6.0.3'
@@ -96,6 +96,12 @@ dependencies {
     // https://mvnrepository.com/artifact/org.mockito/mockito-core
     testImplementation 'org.mockito:mockito-core:5.4.0'
 
+    // https://mvnrepository.com/artifact/org.testfx/testfx-core
+    testImplementation "org.testfx:testfx-core:4.0.18"
+
+    // Source: https://mvnrepository.com/artifact/org.testfx/testfx-junit5
+    testImplementation "org.testfx:testfx-junit5:4.0.18"
+
     // https://mvnrepository.com/artifact/com.google.code.gson/gson
     implementation 'com.google.code.gson:gson:2.14.0'
 
@@ -130,6 +136,20 @@ javafx {
     modules = [ 'javafx.controls', 'javafx.fxml', 'javafx.web', 'javafx.swing' ]
 }
 
+tasks.withType(Test).configureEach {
+    useJUnitPlatform()
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
+
+    testLogging {
+        events = ['passed', 'skipped', 'failed']
+//        showStandardStreams = true // uncomment if you want to see what gets printed to system.out during the tests
+        exceptionFormat = 'full'
+    }
+
+    finalizedBy jacocoTestReport
+}
+
 test {
     useJUnitPlatform()
 
@@ -140,9 +160,27 @@ test {
     finalizedBy jacocoTestReport
 }
 
+tasks.register("e2e", Test) {
+    group = "verification"
+    description = "Runs end-to-end TestFX tests."
+
+    systemProperty 'testfx.robot', 'glass'
+
+    systemProperty 'glass.platform', 'headless'
+    systemProperty 'prism.order', 'sw'
+    jvmArgs '--enable-native-access=javafx.graphics'
+
+    filter {
+        includeTestsMatching "seng202.team5.e2e.*"
+    }
+}
+
 
 tasks.register("cucumber", Test)  {
     group = "verification"
+
+    testClassesDirs = sourceSets.test.output.classesDirs
+    classpath = sourceSets.test.runtimeClasspath
 
     useJUnitPlatform()
 
@@ -159,7 +197,7 @@ tasks.register("cucumber", Test)  {
 }
 
 tasks.named("check") {
-    dependsOn test, cucumber
+    dependsOn test, cucumber, e2e
 
     finalizedBy jacocoTestReport
 }
@@ -175,6 +213,15 @@ shadowJar {
 jacoco {
     toolVersion = "0.8.14"
 }
+
+// Execution data shared by all three reports
+def jacocoExecTrees = layout.buildDirectory
+        .dir("jacoco")
+        .map { dir ->
+            dir.asFileTree.matching {
+                include("**/*.exec")
+            }
+        }
 
 jacocoTestReport {
     // Build a lazy FileTree under the build directory
@@ -193,5 +240,42 @@ jacocoTestReport {
         html.outputLocation = layout.buildDirectory.dir("reports/tests/coverage")
     }
 
+}
+
+
+// GUI only: build/reports/tests/coverage-gui/index.html
+tasks.register('jacocoGuiReport', JacocoReport) {
+    group = 'verification'
+    description = 'Coverage report for GUI classes only.'
+
+    executionData.setFrom(jacocoExecTrees)
+    sourceDirectories.setFrom(sourceSets.main.allSource.srcDirs)
+    classDirectories.setFrom(files(sourceSets.main.output.classesDirs.collect {
+        fileTree(dir: it, include: 'seng202/team5/gui/**')
+    }))
+
+    reports {
+        html.required = true
+        xml.required = false
+        html.outputLocation = layout.buildDirectory.dir("reports/tests/coverage-gui")
+    }
+}
+
+// Everything except GUI: build/reports/tests/coverage-non-gui/index.html
+tasks.register('jacocoNonGuiReport', JacocoReport) {
+    group = 'verification'
+    description = 'Coverage report for non-GUI classes only.'
+
+    executionData.setFrom(jacocoExecTrees)
+    sourceDirectories.setFrom(sourceSets.main.allSource.srcDirs)
+    classDirectories.setFrom(files(sourceSets.main.output.classesDirs.collect {
+        fileTree(dir: it, exclude: 'seng202/team5/gui/**')
+    }))
+
+    reports {
+        html.required = true
+        xml.required = false
+        html.outputLocation = layout.buildDirectory.dir("reports/tests/coverage-non-gui")
+    }
 }
 

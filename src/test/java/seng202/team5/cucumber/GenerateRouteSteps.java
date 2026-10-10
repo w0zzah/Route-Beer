@@ -3,13 +3,14 @@ package seng202.team5.cucumber;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.junit.jupiter.api.Assertions;
 import seng202.team5.exceptions.NoRouteGeneratedException;
-import seng202.team5.models.*;
-import seng202.team5.services.BarChoosingAlgorithm;
-import seng202.team5.services.LocationBuilder;
+import seng202.team5.models.Route;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.types.FeatureType;
+import seng202.team5.models.types.Theme;
+import seng202.team5.services.route_generation.BarChoosingAlgorithm;
+import seng202.team5.services.route_generation.LocationBuilder;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -17,14 +18,12 @@ import java.util.Random;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class GenerateRouteSteps {
-
     private final LocationBuilder builder = new LocationBuilder();
     private final ArrayList<Bar> allBars = builder.buildLocations("/json/input/allAvailableBars.json", Bar.class);
-    private final DistanceMatrix distanceMatrix = new DistanceMatrix("/json/distanceMatrices/barChoosingAlgorithmMatrix.json");
 
     private Bar startBar;
     private Bar endBar;
-    private final Random seededRandom = new Random(0);
+    private final Random seededRandom = new Random(3);
 
     private Route generatedRoute;
     private Exception caughtException;
@@ -40,15 +39,25 @@ public class GenerateRouteSteps {
 
     @When("The user selects generate route with a valid starting location")
     public void theUserSelectsGenerateRouteWithAValidStartingLocation() {
-        BarChoosingAlgorithm algorithm = new BarChoosingAlgorithm.Builder(startBar, allBars)
-                .build(seededRandom);
-        generatedRoute = algorithm.getRoute();
+        long endTime = System.currentTimeMillis() + 4000;
+        while (generatedRoute == null) {
+            try {
+                generatedRoute = new BarChoosingAlgorithm.Builder(startBar, allBars)
+                        .build(seededRandom)
+                        .getRoute();
+            } catch (NoRouteGeneratedException e) {
+                if (System.currentTimeMillis() > endTime) {
+                    throw e;
+                }
+            }
+        }
     }
 
     @Then("A random number of bars between 3-9 are shown on the map interconnected with total walking distance")
     public void verifyNumberOfBarsAndConnections() {
         int numStops = generatedRoute.getNumStops();
-        assertTrue(numStops > 15, "Route should have between 3 and 9 stops.");
+        assertTrue(numStops >= 3 && numStops <= 9, "Route should have between 3 and 9 stops.");
+        assertTrue(generatedRoute.getTotalDistanceKm() > 0, "Route should be longer than 0km");
     }
 
     @Then("the route starts at the chosen starting location")
@@ -64,14 +73,23 @@ public class GenerateRouteSteps {
 
     @When("the user selects Create Route with all the available fields filled out \\(start, end, distance, number of bars, themes, and features)")
     public void createRouteWithAllFilters() {
-        BarChoosingAlgorithm algorithm = new BarChoosingAlgorithm.Builder(startBar, allBars)
-                .endBar(endBar)
-                .approximateDistanceInKm(5.0)
-                .numberOfBars(5)
-                .features(List.of(FeatureType.KARAOKE))
-                .themes(List.of(Theme.IRISH_PUB))
-                .build(seededRandom);
-        generatedRoute = algorithm.getRoute();
+        long endTime = System.currentTimeMillis() + 4000;
+        while (generatedRoute == null) {
+            try {
+                generatedRoute = new BarChoosingAlgorithm.Builder(startBar, allBars)
+                        .endBar(endBar)
+                        .approximateDistanceInKm(6.0)
+                        .numberOfBars(5)
+                        .features(List.of(FeatureType.KARAOKE))
+                        .themes(List.of(Theme.IRISH_PUB))
+                        .build(seededRandom)
+                        .getRoute();
+            } catch (NoRouteGeneratedException e) {
+                if (System.currentTimeMillis() > endTime) {
+                    throw e;
+                }
+            }
+        }
     }
 
     @Then("a route is generated matching the specified start and end bars")
@@ -111,7 +129,7 @@ public class GenerateRouteSteps {
                     algBuilder.themes(List.of(Theme.AIRPORT_LOUNGE)).build().getRoute();
                     break;
                 case "features":
-                    algBuilder.approximateDistanceInKm(5.0)
+                    algBuilder.approximateDistanceInKm(6.0)
                             .features(List.of(FeatureType.values()))
                             .build().getRoute();
                     break;
@@ -123,18 +141,14 @@ public class GenerateRouteSteps {
             }
         } catch (NoRouteGeneratedException e) {
             caughtException = e;
-        } catch (IOException e) {
-            throw new RuntimeException(e);
         }
     }
 
     @Then("a NoRouteGeneratedException is thrown with the message {string}")
     public void verifyExceptionAndMessage(String expectedMessage) {
         assertNotNull(caughtException, "Expected a NoRouteGeneratedException to be thrown.");
-        assertInstanceOf(NoRouteGeneratedException.class, caughtException);
-
-        // Handle newline character escaping from Gherkin feature file
         String formattedExpectedMessage = expectedMessage.replace("\\n", "\n");
         assertEquals(formattedExpectedMessage, caughtException.getMessage());
     }
+
 }

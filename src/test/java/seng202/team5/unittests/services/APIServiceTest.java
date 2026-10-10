@@ -2,10 +2,10 @@ package seng202.team5.unittests.services;
 
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import seng202.team5.models.Bar;
-import seng202.team5.models.DistanceMatrix;
-import seng202.team5.services.APIService;
-import seng202.team5.services.LocationBuilder;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.DistanceMatrix;
+import seng202.team5.services.one_off_scripts.APIService;
+import seng202.team5.services.route_generation.LocationBuilder;
 
 import java.util.ArrayList;
 import java.util.List;

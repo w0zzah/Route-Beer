@@ -56,9 +56,11 @@
     -orange: #E65C2E;
     -gold: #EFA639;
     -halfgold: rgba(239, 166, 57, 0.6);
+    -darkgold: #b07126;
     -yellow:#FFCA6F;
     -creme: #FFF5E1;
-    -dark-creme: #f6e3c1;
+    -halfcreme: rgba(255, 245, 225, 0.8);
+    -darkcreme: #edd4a7;
     -halfblack: rgba(5, 0, 0, 0.6);
     -halfwhite: rgba(255, 255, 255, 0.4);
     -lightash: #F2F2ED;
@@ -80,143 +82,19 @@
     -fx-font-size: 16px;
 }
 
-/*====== AGE CHECK WINDOW ======*/
-
-.age-check-container {
-    -fx-background-color: -creme;
-    -fx-background-radius: 30px;
-    -fx-border-radius: 15px;
-    -fx-border-color: -creme;
-    -fx-border-width: 0.5em;
-    -fx-padding: 2em 5em 2em 5em;
-
+.basic-shadow {
+    -fx-effect: dropshadow(three-pass-box, rgba(39, 18, 13, 0.2), 10, 0, 2, 4);
 }
 
-.login-button {
-    -fx-background-color: -creme;
-    -fx-border-width: 0.2em;
-    -fx-border-radius: 10px;
-    -fx-font-family: "Kanit Medium";
-    -fx-font-size: 20px;
-    -fx-text-fill: -orange;
-    -fx-background-radius: 10px;
-    -fx-border-color: -orange;
+.light-inner-shadow {
+    -fx-effect: innershadow(gaussian, rgba(39, 18, 13, 0.1), 8, 0, -1, 1);
 }
 
-.login-button-no {
-    -fx-background-color: -orange;
-    -fx-border-width: 0.2em;
-    -fx-border-radius: 10px;
-    -fx-border-color: -orange;
-    -fx-font-family: "Kanit Medium";
-    -fx-font-size: 20px;
-    -fx-text-fill: -creme;
-    -fx-background-radius: 15px;
+.light-inner-shadow2 {
+    -fx-effect: innershadow(gaussian, rgba(39, 18, 13, 0.1), 8, 0, -3, 3);
 }
 
-.login-button:hover {
-    -fx-background-color: -orange;
-    -fx-text-fill: -creme;
-}
-
-.login-button-no:hover {
-    -fx-border-color: -brown;
-    -fx-background-color: -brown;
-}
-
-
-.age-label {
-    -fx-font-family: "Kanit SemiBold Italic";
-    -fx-font-size: 40px;
-    -fx-text-fill: -orange;
-}
-
-
-
-/* ====== SETUP WINDOW ======*/
-
-
-
-.setup-vbox {
-    -fx-border-width: 2em;
-    -fx-border-color: -yellow;
-    -fx-border-radius: 0 0 15 15;
-    -fx-background-color: -yellow;
-    -fx-background-radius: 15px;
-}
-
-.login-tab-button {
-    -fx-background-color: -gold;
-    -fx-border-width: 0px;
-    -fx-font-family: "Kanit Medium";
-    -fx-font-size: 20px;
-    -fx-text-fill: -brown;
-    -fx-background-radius: 10 10 0 0;
-}
-
-.login-tab-button:selected {
-    -fx-background-color: -yellow;
-    -fx-text-fill: -brown;
-
-}
-
-.guest-button {
-    -fx-background-color: -brown;
-    -fx-border-width: 0px;
-    -fx-font-family: "Kanit Medium";
-    -fx-font-size: 20px;
-    -fx-text-fill: -creme;
-    -fx-background-radius: 10px;
-}
-
-.signin-button {
-    -fx-background-color: -orange;
-    -fx-border-width: 0px;
-    -fx-font-family: "Kanit Medium";
-    -fx-font-size: 20px;
-    -fx-text-fill: -creme;
-    -fx-background-radius: 10px;
-}
-
-.view-data-button {
-    -fx-background-color: -orange;
-    -fx-border-width: 0px;
-    -fx-font-family: "Kanit Medium";
-    -fx-font-size: 20px;
-    -fx-text-fill: -creme;
-    -fx-background-radius: 10;
-}
-
-.login-label {
-    -fx-font-family: "Kanit SemiBold";
-    -fx-font-size: 25px;
-    -fx-text-fill: -brown;
-}
-
-.loginWarningText {
-    -fx-font-family: "Kanit SemiBold Italic";
-    -fx-font-size: 15px;
-    -fx-text-fill: #d8310b;
-}
-
-.loginField {
-    -fx-border-width: 0px;
-    -fx-background-color: white;
-    -fx-prompt-text-fill: -prompt;
-}
-
-.loginErrorPane {
-    -fx-background-color: -halfwhite;
-    -fx-background-radius: 5px;
-    -fx-padding: 10px;
-}
-
-
-.loginButton:selected {
-    -fx-background-color: black;
-}
-
-/*------ FONTS ------*/
+/*====== TEXT ======*/
 
 /* headers */
 .h1 {
@@ -226,104 +104,287 @@
 }
 /* sub-headers */
 .h2 {
-    -fx-font-size: 1em;
+    -fx-font-size: 1.3em;
     -fx-font-family: "Rammetto One";
     -fx-text-fill: -brown;
 }
 
 .h3 {
     -fx-font-family: "Kanit SemiBold";
-    -fx-font-size: 1em;
+    -fx-font-size: 1.3em;
     -fx-text-fill: -brown;
 }
 
 .h4 {
-    -fx-font-family: "Kanit SemiBold";
-    -fx-font-size: 2em;
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1.2em;
     -fx-text-fill: -brown;
+}
+
+.tab-title {
+    -fx-font-family: "Rammetto One";
+    -fx-text-fill: -orange;
+    -fx-font-size: 2em;
+    -fx-padding: 10 0 -10 10;
 }
 
 .asterisk {
     -fx-font-family: "Kanit Italic";
-    -fx-font-size: 1em;
+    -fx-font-size: 1.3em;
     -fx-text-fill: -orange;
 }
 
+.blurb-text {
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1em;
+    -fx-text-fill: -darkbrown;
+}
 
+.blurb-text .label {
+    -fx-line-spacing: -1em;
+}
 
+.text-brown {
+    -fx-fill: -brown;
+}
 
-/** ==================== TAB PANES ====================*/
+/*====== BUTTONS ======*/
 
+.basic-button {
+    -fx-background-color: -orange;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 1, 1, 1, 1;
+    -fx-border-width: 0.2em;
+    -fx-border-color: transparent;
+    -fx-border-radius: 8px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 1.1em;
+    -fx-text-fill: white;
+}
 
+.basic-button:hover {
+    -fx-background-color: -lightbrown;
+}
 
-.tab-pane {
-    -fx-background-color: -darkbrown;
+.small-button {
+    -fx-background-color: -brown;
+    -fx-text-fill: -creme;
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1em;
+    -fx-background-radius: 10px;
     -fx-border-width: 0;
-    -fx-tab-min-height: 3em;
-    -fx-tab-max-height: 3em;
+    -fx-cursor: hand;
 }
 
+.button2:hover {
+    -fx-background-color: -gold;
+}
 
-.tab-header-background {
+.button2:pressed {
     -fx-background-color: -darkbrown;
 }
+
+.button-brown {
+    -fx-background-color: -brown;
+}
+
+.button-orange {
+    -fx-background-color: -orange;
+    -fx-text-fill: white;
+}
+
+.button-orange:hover {
+    -fx-background-color: -lightbrown;
+}
+
+.button-creme {
+    -fx-background-color: -creme;
+    -fx-text-fill: -brown;
+}
+
+.button-creme:hover {
+    -fx-background-color: -gold;
+}
+
+.button-lightbrown {
+    -fx-background-color: -lightbrown;
+}
+
+.button-gold {
+    -fx-background-color: -gold;
+    -fx-text-fill: white;
+}
+
+.button-gold:hover {
+    -fx-background-color: -darkgold;
+}
+
+/*====== AGE CHECK WINDOW ======*/
+
+.age-check-container {
+    -fx-background-color: -halfcreme;
+    -fx-background-radius: 30px;
+    -fx-padding: 5em 8em 5em 8em;
+}
+
+.age-check-button-no {
+    -fx-background-color: -orange;
+    -fx-text-fill: -creme;
+}
+
+.age-check-button:hover {
+    -fx-background-color: -gold;
+}
+
+.age-check-button-no:hover {
+    -fx-background-color: -lightbrown;
+}
+
+.age-label {
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 2.5em;
+    -fx-text-fill: -orange;
+}
+
+/* ====== SETUP WINDOW ======*/
 
 .left-anchor-pane {
     -fx-background-color: -creme;
 }
 
-.tab-pane .tab {
+.setup-vbox {
+    -fx-border-width: 2em;
+    -fx-border-color: -transparent;
+    -fx-background-color: -halfcreme;
+    -fx-background-radius: 0 0 15 15;
+}
+
+.login-tab-button {
+    -fx-background-color: -gold;
+    -fx-border-width: 0px;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 1.5em;
+    -fx-text-fill: -brown;
+    -fx-background-radius: 10 10 0 0;
+}
+
+.login-tab-button:hover {
+    -fx-background-color: -yellow;
+}
+
+.login-tab-button:selected, .login-tab-button:selected:hover {
+    -fx-background-color: -halfcreme;
+    -fx-text-fill: -brown;
+}
+
+.loginWarningText {
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 1em;
+    -fx-text-fill: #d8310b;
+}
+
+.login-field {
+    -fx-border-width: 0px;
+    -fx-background-color: white;
+    -fx-prompt-text-fill: -prompt;
+    -fx-background-radius: 5px;
+    -fx-effect: innershadow(gaussian, rgba(39, 18, 13, 0.1), 8, 0, -2, 2);
+}
+
+.login-error-pane {
+    -fx-background-color: -creme;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px;
+}
+
+/*====== TAB PANES ======*/
+
+.menu-vbox {
+    -fx-background-color: -darkbrown;
+    -fx-padding: 0.5em 0.5em 0.5em 0em;
+}
+
+.tab-buttons {
     -fx-background-color: -brown;
-    -fx-background-radius: 20 20 0 0;
-    -fx-cursor: hand;
-    -fx-border-width: 0.3em 0.3em 0 0.3em;
-    -fx-border-radius: 15 15 0 0;
-    -fx-border-color: -darkbrown;
-    -fx-border-insets: -1;
-    -fx-translate-y: 1;
+    -fx-font-size: 1.3em;
+    -fx-font-family: "Kanit Medium";
+    -fx-padding: 0.5em -0.8em 0.5em 0.3em;
+    -fx-text-fill: -gold;
+    -fx-background-radius: 0 10 10 0;
+}
+
+.main-border-pane {
+    -fx-padding: 1em 1.5em 0em 1.5em;
+}
+
+
+.logo-pane {
+    -fx-background-color: -darkcreme;
+    -fx-background-radius: 0 40px 40px 0;
+    -fx-border-color: -darkcreme;
+    -fx-border-radius: 0 50px 50px 0;
+    -fx-border-width: 5px;
+}
+
+.tab-pane > .tab-header-area {
+    visibility: hidden;
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
 }
 
 .tab-pane .tab-content-area {
     -fx-padding: 0;
-    -fx-background-color: -creme;
 }
 
-.tab-pane .tab:hover {
-    -fx-background-color: -lightbrown;
+.menu-arrow {
+    -fx-stroke: -orange;
 }
 
-.split-pane *.split-pane-divider {
-    -fx-background-color: -gold;
-}
-.tab-pane .tab:selected {
-    -fx-faint-focus-color: transparent;
-    -fx-focus-color: transparent;
-    -fx-background-color: -creme;
-}
-
-.tab:selected .tab-label{
+.menu-button {
+    -fx-background-color: -darkcreme;
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 1.4em;
     -fx-text-fill: -orange;
-    -fx-font-size: 1.2em;
-    -fx-padding: 0.5em 0.5em 0.2em 0.5em;
+    -fx-graphic-text-gap: 1em;
+    -fx-background-radius: 0 2em 2em 0;
+    -fx-padding: 0.5em 0.5em 0.5em 0;
+}
+
+.menu-button:hover {
+    -fx-background-color: -yellow;
+}
+
+
+.tab-icon {
+    -fx-fill: -halfgold;
+    -fx-scale-x: 0.8;
+    -fx-scale-y: 0.8;
 
 }
 
-.tab .tab-label {
-    -fx-font-size: 1em;
-    -fx-font-family: "Rammetto One";
-    -fx-padding: 0.5em;
-    -fx-text-fill: -gold;
+.tab-buttons:hover .tab-icon {
+    -fx-fill: -gold;
+}
+
+.tab-buttons .text {
+    -fx-line-spacing: -0.3em;
+}
+
+.tab-buttons:selected {
+    -fx-background-color: -orange;
+    -fx-text-fill: -creme;
+}
+
+.tab-buttons:hover {
+    -fx-background-color: -lightbrown;
+    -fx-text-fill: -yellow;
+}
+
+.tab-buttons:selected .tab-icon {
+    -fx-fill: -creme;
 }
 
 /** ====== ROUTE MAKER TAB ======*/
-
-.tab-pane-grid {
-    -fx-padding: 1em 2em 1em 2em;
-}
-
-.route-info-grid {
-    -fx-padding: 0 2em 1em 2em;
-}
 
 .basicLabel {
     -fx-font-family: "Titillium Web SemiBold";
@@ -337,33 +398,66 @@
     -fx-font-family: "Rammetto One";
 }
 
-.route-field {
+.field-text {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+}
+
+.spinner .increment-arrow-button,
+.spinner .decrement-arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0 10px;
+}
+
+.spinner .increment-arrow-button .increment-arrow,
+.spinner .decrement-arrow-button .decrement-arrow {
+    -fx-background-color: -lightbrown;
+}
+
+.spinner {
     -fx-background-color: white;
     -fx-background-radius: 5px;
-    -fx-pref-height: 3em;
+    -fx-border-color: -halfgold;
+    -fx-border-width: 0.2em;
     -fx-border-radius: 5px;
-    -fx-border-width: 4px;
+    -fx-pref-height: 2.8em;
+}
+
+.spinner .text-field {
+    -fx-background-color: transparent;
+    -fx-background-insets: 3;
+    -fx-border-width: 0;
+    -fx-text-fill: -brown;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 1em;
+
+}
+
+.route-field, .combo-box-base {
+    -fx-background-color: white;
+    -fx-background-radius: 5px;
+    -fx-background-insets: 3;
+    -fx-pref-height: 2.5em;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0.2em;
     -fx-border-color: -halfgold;
     -fx-prompt-text-fill: -prompt;
+    -fx-font-size: 1.1em;
+    -fx-font-family: "Kanit";
 }
 
-.route-field:hover {
-    -fx-border-color: -gold;
-
-}
-
-.dropdownBox {
-    -fx-background-color: blue;
-    -fx-border-color: blue;
-}
-
-
-.combo-box-base > .combo-box{
-    -fx-background-color: white;
+.combo-box-base > .combo-box {
     -fx-background-radius: 5px;
-    -fx-border-width: 4px;
+    -fx-border-width: 0.2em;
     -fx-border-color: -halfgold;
-    -fx-border-radius: 5px;
+    -fx-background-insets: 3;
+    -fx-effect: innershadow(gaussian, rgba(39, 18, 13, 0.1), 8, 0, -3, 3);
+
+}
+
+.route-field:hover, .combo-box-base > .combo-box:hover, .spinner:hover {
+    -fx-border-color: -gold;
 }
 
 .combo-box {
@@ -381,9 +475,9 @@
 
 .button1 {
     -fx-background-color: -orange;
-    -fx-text-fill: white;
-    -fx-font-family: "Kanit SemiBold";
-    -fx-font-size: 1.2em;
+    -fx-text-fill: -creme;
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1em;
     -fx-background-radius: 10px;
     -fx-border-width: 0;
     -fx-cursor: hand;
@@ -414,8 +508,8 @@
 
 .route-bars-scrollpane,
 .route-bars-scrollpane > .viewport {
-    -fx-background-color: -brown;
-    -fx-background-radius: 10px;
+    -fx-background-color: -darkcreme;
+    -fx-background-radius: 5px;
 }
 
 .bar-card-pane {
@@ -423,14 +517,92 @@
     -fx-background-radius: 10px;
 }
 
+.error-in-field {
+    -fx-border-style: solid;
+    -fx-border-width: 4px;
+    -fx-border-color: red !important;
+}
+
+.error-in-field:hover {
+    -fx-border-style: solid;
+    -fx-border-width: 4px;
+    -fx-border-color: red;
+}
+
+.error-in-field-text {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: red;
+    -fx-fill: red;
+    -fx-padding: 4px;
+}
+
+/* ====== SCROLLBARS ====== */
+
+.route-scrollpane .scroll-bar,.route-bars-scrollpane .scroll-bar {
+    -fx-background-color: transparent;
+    -fx-padding: 2px;
+}
+
+.route-scrollpane .scroll-bar:vertical,.route-bars-scrollpane .scroll-bar:vertical {
+    -fx-pref-width: 12px;
+}
+
+.route-scrollpane .scroll-bar:horizontal, .route-bars-scrollpane .scroll-bar:horizontal {
+    -fx-pref-height: 12px;
+}
+
+/* groove the thumb slides in */
+.route-scrollpane .scroll-bar .track, .route-bars-scrollpane .scroll-bar .track {
+    -fx-background-color: -darkcreme;
+    -fx-background-radius: 10px;
+    -fx-border-color: transparent;
+}
+
+.route-scrollpane .scroll-bar .track-background, .route-bars-scrollpane .scroll-bar .track-background {
+    -fx-background-color: transparent;
+}
+
+/* the draggable part */
+.route-scrollpane .scroll-bar .thumb, .route-bars-scrollpane .scroll-bar .thumb {
+    -fx-background-color: -lightbrown;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+}
+
+.route-scrollpane .scroll-bar .thumb:hover, .route-bars-scrollpane .scroll-bar .thumb:hover {
+    -fx-background-color: -orange;
+}
+
+.route-scrollpane .scroll-bar .thumb:pressed {
+    -fx-background-color: -orange;
+}
+
+.route-scrollpane .scroll-bar .increment-button,
+.route-scrollpane .scroll-bar .decrement-button,
+.route-bars-scrollpane .scroll-bar .increment-button,
+.route-bars-scrollpane .scroll-bar  .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.route-scrollpane .scroll-bar .increment-arrow,
+.route-scrollpane .scroll-bar .decrement-arrow,
+.route-bars-scrollpane .scroll-bar .increment-arrow,
+.route-bars-scrollpane .scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
+
+/* square where horizontal and vertical bars meet */
+.route-scrollpane .corner,  .route-bars-scrollpane .corner{
+    -fx-background-color: transparent;
+}
+
 /*====== ROUTE CARDS ======*/
 
 .route-card {
     -fx-background-color: -creme;
-    -fx-background-radius: 20px;
-    -fx-border-width: 0.5em;
-    -fx-border-color: -brown;
-    -fx-border-radius: 15px;
+    -fx-background-radius: 1em;
     -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 10, 0, 0, 4);
 }
 
@@ -440,37 +612,93 @@
     -fx-fill: -brown;
 }
 
-.route-card .button{
-    -fx-text-fill: -creme;
-    -fx-font-family: "Kanit";
-    -fx-padding: 0 2em 0 2em;
-    -fx-font-size: 0.9em;
-    -fx-background-color: -orange;
-    -fx-background-radius: 5px;
+.route-card-tight {
+    -fx-line-spacing: -5px;
 }
 
-.route-card .button:hover{
-    -fx-text-fill: -gold;
+.route-card-username {
+    -fx-padding: -5px 0px -5px 0px;
+    -fx-text-fill: -lightbrown;
+    -fx-font-family: "Kanit Italic";
+}
+
+.route-card .button{
+    /*-fx-text-fill: -creme;*/
+    -fx-font-family: "Kanit";
+    -fx-padding: 0 2em 0 2em;
+    -fx-font-size: 1em;
+    -fx-background-radius: 5px;
 }
 
 .route-name {
     -fx-font-family: "Rammetto One";
     -fx-text-fill: -orange;
     -fx-font-size: 1.2em;
-    -fx-padding: 0 0 0.2em 0;
+    -fx-line-spacing: -0.7em;
+}
+
+.vote-button {
+    -fx-background-color: transparent;
+    -fx-padding: 0.2em;
+}
+
+.vote-button:selected .vote-svg {
+    -fx-fill: -orange;
+}
+
+.vote-svg {
+    -fx-fill: -brown;
+}
+
+.vote-svg:hover {
+    -fx-fill: -lightbrown;
+}
+
+.vote-svg:selected {
+    -fx-fill: -gold;
+}
+
+.card-line {
+    -fx-background-color: -brown;
+    -fx-background-radius: 1em 0 0 1em;
+}
+.route-card:hover .card-line{
+    -fx-background-color: -gold;
 }
 
 
+
+
+/*====== ROUTE DETAILS TAB ======*/
+
+.route-description {
+    -fx-background-radius: 5px;
+    -fx-background-insets: 3;
+    -fx-border-radius: 5px;
+    -fx-border-width: 0.2em;
+    -fx-border-color: -halfgold;
+    -fx-prompt-text-fill: -prompt;
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1.1em;
+}
+
+.no-route-grid {
+    -fx-background-color: -darkcreme;
+    -fx-background-radius: 20px;
+    -fx-border-color: -orange;
+    -fx-border-width: 0.2em;
+    -fx-border-radius: 15px;
+    -fx-padding: 1em;
+}
 
 /*====== SAVED ROUES TAB ======*/
 
 .route-scrollpane {
-    -fx-padding: 1em 1em 0 1em;
-    -fx-background-color: -creme;
+    -fx-background-color: transparent;
 }
 
 .route-scrollpane > .viewport {
-    -fx-background-color: -creme;
+    -fx-background-color: transparent;
 }
 
 
@@ -504,55 +732,54 @@
 }
 
 .alcohol-safety-popup-left {
-    -fx-background-color: -creme;
-    -fx-background-radius: 20px;
-    -fx-border-color: -orange;
-    -fx-border-width: 0.5em;
-    -fx-border-radius: 15px;
+    -fx-background-color: -darkcreme;
+    -fx-border-color: -transparent;
+    -fx-background-radius: 30px 30px 0 0;
+    -fx-padding: 1em 1em 0 1em;
 }
 
 .drink-anchor {
     -fx-background-color: transparent;
 }
 
-.blurb-title {
-    -fx-font-family: "Rammetto One";
-    -fx-font-size: 1.4em;
-    -fx-text-fill: -brown;
+
+/*====== ACCOUNT ======*/
+
+.account-vbox {
+    -fx-background-color: -darkcreme;
+    -fx-background-radius: 0 10 0 0;
+    -fx-padding: 0.5em;
 }
 
-.blurb-text {
+.account-icon-button {
+    -fx-background-radius: 0 0 10 0;
+    -fx-background-color: -darkgold;
+    -fx-pref-height: 50px;
+    -fx-pref-width: 50px;
     -fx-font-family: "Kanit";
-    -fx-font-size: 1em;
     -fx-text-fill: -brown;
-    -fx-fill: -brown;
-}
-/*===accc*/
-
-.accountButton {
-
+    -fx-padding: 2em;
 }
 
-.accountIconButton {
-    -fx-background-radius: 50px;
+.account-icon-button:hover {
     -fx-background-color: -gold;
-    -fx-pref-height: 85px;
-    -fx-pref-width: 85px;
-
 }
 
-.accountIcon {
+.account-text {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+    -fx-font-size: 1em;
+    -fx-padding: 0 0 -5 0;
+}
+
+.account-icon {
+    -fx-fill: -darkbrown;
+    -fx-scale-x: 3;
+    -fx-scale-y: 3;
+}
+
+.account-icon-button:hover .account-icon {
     -fx-fill: -brown;
-    -fx-scale-x: 3.5;
-    -fx-scale-y: 3.5;
-}
-
-.accountPane {
-    -fx-background-color: -creme;
-    -fx-background-radius: 15px;
-    -fx-border-width: 8px;
-    -fx-border-radius: 10px 80px 10px 10px;
-    -fx-border-color: -gold;
 }
 
 .alcoholSafetyPopupFooter {
@@ -560,27 +787,24 @@
 }
 
 
-.bar-info-heading {
-    -fx-text-fill: Black;
-    -fx-font-size: 30px;
-}
+/*====== LOCATION INFO ======*/
 
-.bar-info-desc {
-    -fx-font-size: 20px;
-}
 .bar-info-toggle {
-    -fx-background-color: white;
+    -fx-background-color: -darkcreme;
     -fx-background-radius: 8 0 0 8;
     -fx-padding: 0;
     -fx-cursor: hand;
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 8, 0, -2, 0);
 }
+
 .bar-info-toggle:hover {
-    -fx-background-color: #f2f2f2;
+    -fx-background-color: -creme;
 }
+
 .bar-info-arrow {
-    -fx-fill: #444444;
+    -fx-fill: -orange;
 }
+
 .bar-info-panel {
     -fx-background-color: white;
     -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 12, 0, -2, 0);
@@ -593,13 +817,13 @@
 }
 
 /*====== COMMUNITY TAB ======*/
-.community-route-vbox,
-.saved-route-vbox {
-    -fx-background-color: -dark-creme;
+
+.route-vbox {
+    -fx-background-color: -darkcreme;
     -fx-background-radius: 15px;
     -fx-border-width: 0.2em;
     -fx-padding: 0.5em;
-    -fx-border-color: -dark-creme;
+    -fx-border-color: transparent;
     -fx-border-radius: 10px;
 }
 
@@ -611,28 +835,29 @@
     -fx-fill: -brown;
 }
 
-/*====== EXPORT WINDOW ======*/
-.export-pane {
-    -fx-background-color: -creme;
-}
-
-.export-title {
-    -fx-font-family: "Rammetto One";
-    -fx-font-size: 1.5em;
+.bar-card-number {
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 2em;
     -fx-text-fill: -brown;
 }
 
-.export-label {
-    -fx-font-family: "Kanit";
-    -fx-text-fill: -brown;
+.bar-card-delete-button {
+    -fx-background-color: -orange;
+    -fx-font-size: 1.2em;
+    -fx-background-radius: 30px;
+    -fx-font-family: "Kanit Bold";
+    -fx-text-fill: -creme;
+    -fx-padding: 0 10 0 10;
 }
+
 
 /*====== AMENITIES TOGGLE ======*/
+
 .amenities-pane {
     -fx-background-color: -creme;
     -fx-background-radius: 20px;
-    -fx-border-color: -gold;
-    -fx-border-width: 0.3em;
+    -fx-border-color: -darkcreme;
+    -fx-border-width: 3px;
     -fx-border-radius: 15px;
 }
 
@@ -653,9 +878,143 @@
 
 .amenities-checkbox .box {
     -fx-background-color: #ffffff;
-    -fx-border-color: -orange;
-    -fx-border-width: 4px;
+    -fx-border-color: -gold;
+    -fx-border-width: 3px;
     -fx-border-radius: 4px;
     -fx-background-radius: 4px;
-    -fx-padding: 3px;
+    -fx-padding: 5px;
+
 }
+
+.amenities-checkbox:selected .box {
+    -fx-border-color: -orange;
+}
+
+.amenities-checkbox > .box > .mark {
+    -fx-background-color: -brown;
+}
+
+/*====== EXPORT WINDOW ======*/
+
+.export-pane {
+    -fx-background-color: -creme;
+}
+
+.export-title {
+    -fx-font-family: "Rammetto One";
+    -fx-font-size: 1.5em;
+    -fx-text-fill: -brown;
+}
+
+.export-label {
+    -fx-font-family: "Kanit";
+    -fx-text-fill: -brown;
+}
+
+/*======= stuff ==========*/
+.venue-info-popup {
+    -fx-background-color: -creme;
+    -fx-border-color: -darkcreme;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 25px;
+    -fx-border-width: 6px;
+}
+
+.venue-info-title {
+    -fx-text-fill: -orange;
+    -fx-font-family: "Rammetto One";
+    -fx-font-size: 1.8em;
+    -fx-line-spacing: -0.5em;
+}
+
+.venue-info-theme {
+    -fx-text-fill: -brown;
+    -fx-font-family: "Kanit SemiBold Italic";
+    -fx-font-size: 1.5em;
+}
+/*====== ALERT DIALOGS (DialogUtil) ======*/
+
+
+.root.dialog-pane.app-dialog {
+    -alert-accent: -orange;
+    -fx-background-color: -creme;
+    -fx-border-color: -darkcreme;
+    -fx-border-width: 15px;
+    -fx-font-family: "Kanit";
+    -fx-font-size: 16px;
+}
+
+.app-dialog > .header-panel {
+    -fx-background-color: -darkcreme;
+    -fx-padding: 0.6em 1em 0.6em 1em;
+}
+
+.app-dialog > .header-panel .label {
+    -fx-font-family: "Rammetto One";
+    -fx-font-size: 1.3em;
+    -fx-text-fill: -alert-accent;
+}
+
+.app-dialog > .content.label {
+    -fx-font-family: "Kanit";
+    -fx-font-size: 1.1em;
+    -fx-text-fill: -brown;
+    -fx-padding: 1em 1.5em 1em 1.5em;
+    -fx-wrap-text: true;
+}
+
+/* Icon */
+.app-dialog > .graphic-container {
+    -fx-padding: 1em 0 1em 1em;
+    -fx-background-color: -orange;
+}
+
+/* Button bar */
+.app-dialog > .button-bar > .container {
+    -fx-padding: 0.5em 1em 1em 1em;
+    -fx-spacing: 0.6em;
+}
+
+/* Buttons (same look as .button1) */
+.app-dialog .button {
+    -fx-background-color: -orange;
+    -fx-background-radius: 10px;
+    -fx-background-insets: 0;
+    -fx-border-width: 0;
+    -fx-font-family: "Kanit Medium";
+    -fx-font-size: 1em;
+    -fx-text-fill: -creme;
+    -fx-padding: 0.4em 1.5em 0.4em 1.5em;
+    -fx-cursor: hand;
+}
+
+.app-dialog .button:hover,
+.app-dialog .button:focused:hover {
+    -fx-background-color: -gold;
+}
+
+.app-dialog .button:pressed {
+    -fx-background-color: -darkbrown;
+}
+
+.app-dialog .button:focused {
+    -fx-border-color: -gold;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+}
+
+/* Secondary buttons (Cancel) match .small-button */
+.app-dialog .button:cancel-button {
+    -fx-background-color: -brown;
+    -fx-text-fill: -creme;
+}
+
+.app-dialog .button:cancel-button:hover {
+    -fx-background-color: -lightbrown;
+}
+
+/* Per-type accent (Alert adds the type as a style class) */
+.app-dialog.error        { -alert-accent: #d8310b; }
+.app-dialog.warning      { -alert-accent: -gold; }
+.app-dialog.confirmation { -alert-accent: -orange; }
+.app-dialog.information  { -alert-accent: -orange; }

@@ -2,10 +2,10 @@ package seng202.team5.unittests.services;
 
 import org.junit.jupiter.api.Test;
 
-import seng202.team5.models.ErrorType;
+import seng202.team5.models.types.ErrorType;
 import seng202.team5.models.User;
-import seng202.team5.models.UserType;
-import seng202.team5.services.ValidationResult;
+import seng202.team5.models.types.UserType;
+import seng202.team5.services.entry.ValidationResult;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

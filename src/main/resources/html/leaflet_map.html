@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leaflet & OSM Map</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.8.0/dist/leaflet.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css"
-    />
-    <link rel="stylesheet" href="../css/clustering.css"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="../css/pins.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <style>
         html, body, #map {
             height: 100%;
@@ -24,109 +23,76 @@
 <body>
 <div id="map"></div>
 <script src="https://unpkg.com/leaflet@1.8.0/dist/leaflet.js"></script>
-<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@3.2.12/dist/leaflet-routing-machine.js"></script>
 <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
 
 <script>
+    let map = null;
+    let markerLayers = null;        // clustered bar markers
+    let routeMarkerLayer = null;    // unclustered route stop markers
+    let amenityLayers = {};         // fastFood, publicToilet, drinkingFountain
+    let currentRoute = null;        // L.Routing.control
+    let routeBounds = null;         // L.LatLngBounds of the selected route
+    let tileLayer = null;           // base map tiles
 
-
-    let map;
-    let markerLayers;
-    let routeMarkerLayer;
-    let amenityMarkerLayer;
-    let barRoutes = new Map();
-    let geoJsonLayer;
-    let currentRoute = null;
     var javaScriptBridge;
 
     /**
-     * This object can be returned to our java code, where we can call the functions we define inside of it
+     * Functions callable from Java via jsConnector (JSObject.call)
      */
     let jsConnector = {
         initialiseMap: initialiseMap,
         addMarker: addMarker,
-        addStartMarker: addStartMarker,
-        addEndMarker: addEndMarker,
         addRouteMarker: addRouteMarker,
-        addFastFoodMarker: addFastFoodMarker,
-        addPublicToiletMarker: addPublicToiletMarker,
-        addDrinkingFountainMarker: addDrinkingFountainMarker,
+        addAmenityMarker: addAmenityMarker,
+        setAmenityVisibility: setAmenityVisibility,
         clearMap: clearMap,
         clearRoute: clearRoute,
+        positionForExport: positionForExport,
         drawRoute: drawRoute,
         getSnapshotViewBoundsString: getSnapshotViewBoundsString,
-        showAmenities: showAmenities,
-        hideAmenities: hideAmenities,
+    };
+    window.jsConnector = jsConnector;
+
+    function makeIcon(url, size, anchor) {
+        return L.icon({
+            iconUrl: url,
+            iconSize: size,
+            iconAnchor: anchor,
+            popupAnchor: [0, -anchor[1]],
+            tooltipAnchor: [0, -anchor[1]]
+        });
+    }
+
+    const pinIcon = makeIcon('../images/icons/pin.svg', [50, 50], [25, 50]);
+
+    const amenityIcons = {
+        fastFood: makeIcon('../images/icons/foodIcon.svg', [35, 35], [17, 35]),
+        publicToilet: makeIcon('../images/icons/toiletIcon.svg', [30, 30], [15, 30]),
+        drinkingFountain: makeIcon('../images/icons/drinkingFountainIcon.svg', [30, 30], [15, 30]),
     };
 
-    // Custom Icon Definitions
-    const pinIcon = L.icon({
-        iconUrl: '../images/icons/pin.svg',
-        iconSize: [50, 50],
-        iconAnchor: [25, 50],
-        popupAnchor: [0, -50]
-        // shadowAnchor: [12, 0],
-        // shadowSize: [24, 24],
-    })
-    const startPinIcon = L.icon({
-        iconUrl: '../images/icons/pin-start.svg',
-        iconSize: [50, 50],
-        iconAnchor: [25, 50],
-        popupAnchor: [0, -50]
-        // shadowAnchor: [12, 0],
-        // shadowSize: [24, 24],
-    })
-    const endPinIcon = L.icon({
-        iconUrl: '../images/icons/pin-end.svg',
-        iconSize: [50, 50],
-        iconAnchor: [25, 50],
-        popupAnchor: [0, -50]
-        // shadowAnchor: [12, 0],
-        // shadowSize: [24, 24],
-    })
-    const foodIcon = L.icon({
-        iconUrl: '../images/icons/foodIcon.svg',
-        // shadowUrl: 'images/icons/beerShadow.png',
-
-        // TODO: Finalise location and size
-        iconSize: [35, 35],
-        iconAnchor: [25, 50],
-        popupAnchor: [0, -50]
-    });
-    let toiletIcon = L.icon({
-        iconUrl: '../images/icons/toiletIcon.svg',
-        // shadowUrl: 'images/icons/beerShadow.png',
-
-        // TODO: Finalise location and size
-        iconSize: [30, 30],
-        iconAnchor: [15, 30],
-        popupAnchor: [0, -50]
-    });
-    let drinkingFountainIcon = L.icon({
-        iconUrl: '../images/icons/drinkingFountainIcon.svg',
-        // shadowUrl: 'images/icons/beerShadow.png',
-
-        // TODO: Finalise location and size
-        iconSize: [30, 30],
-        iconAnchor: [15, 30],
-        popupAnchor: [0, -50]
-    });
-
-
     function initialiseMap() {
-        let mapOptions = {
-            center: [-43.5311, 172.6358],
-            zoom: 12,
+        if (map) {
+            map.remove();
         }
 
-        map = new L.map('map', mapOptions);
+        map = L.map('map', {
+            center: [-43.5311, 172.6358],
+            zoom: 12,
+            minZoom: 11,
+            maxBounds: L.latLngBounds([-43.62, 172.45], [-43.42, 172.8]),
+            fadeAnimation: false,
+            zoomAnimation: false,
+            markerZoomAnimation: false
+        });
 
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_2ipk_1_7f43f22c3b322fccd55d7416', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>, &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        tileLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png?key=cb1_2ipk_1_7f43f22c3b322fccd55d7416', {
+            attribution: '&copy; <a href="#" onclick="if(window.java) { window.java.openBrowser(\'https://www.openstreetmap.org/copyright\'); } return false;">OpenStreetMap</a>, &copy; <a href="#" onclick="if(window.java) { window.java.openBrowser(\'https://carto.com/attributions\'); } return false;">CARTO</a>',
             subdomains: 'abcd',
             maxZoom: 19
         }).addTo(map);
-        // Requries https://github.com/leaflet/leaflet.markercluster
+
         markerLayers = L.markerClusterGroup({
             spiderfyOnMaxZoom: true,
             showCoverageOnHover: true,
@@ -137,140 +103,198 @@
         });
         map.addLayer(markerLayers);
 
-        amenityMarkerLayer = L.layerGroup();
-        routeMarkerLayer = L.layerGroup();   // Route markers dont cluster
-        map.addLayer(amenityMarkerLayer);
-        map.addLayer(routeMarkerLayer);
+        routeMarkerLayer = L.layerGroup().addTo(map);
+
+        amenityLayers = {
+            fastFood: L.layerGroup().addTo(map),
+            publicToilet: L.layerGroup().addTo(map),
+            drinkingFountain: L.layerGroup().addTo(map),
+        };
+
+        currentRoute = null;
+        routeBounds = null;
+    }
+
+    function createBarMarker(icon, id, title, lat, lng) {
+        const marker = L.marker([lat, lng], { icon: icon, title: title });
+        marker.on('click', function () {
+            if (javaScriptBridge) {
+                javaScriptBridge.displayBarInfo(id);
+            }
+        });
+        return marker;
+    }
+
+    function addMarker(id, title, lat, lng) {
+        markerLayers.addLayer(createBarMarker(pinIcon, id, title, lat, lng));
+    }
+
+    function addRouteMarker(id, title, lat, lng, number) {
+        const icon = number != null
+            ? makeNumberedIcon('../images/icons/pin.svg', number)
+            : pinIcon;
+        routeMarkerLayer.addLayer(createBarMarker(icon, id, title, lat, lng));
+    }
+
+    function makeNumberedIcon(url, number) {
+        return L.divIcon({
+            className: 'numbered-pin',
+            html: '<img src="' + url + '" width="50" height="50">' +
+                '<span class="pin-number">' + number + '</span>',
+            iconSize: [50, 50],
+            iconAnchor: [25, 50],
+            popupAnchor: [0, -50],
+            tooltipAnchor: [0, -50]
+        });
     }
 
     /**
-     * Adds a marker to the map and stores it in the markers array for later use (e.g. removal)
-     * @param title tooltip to display on hover
-     * @param lat latitude to place marker at
-     * @param lng longitude to place marker at
+     * Adds an amenity marker to its own layer.
+     * @param type one of 'fastFood', 'publicToilet', 'drinkingFountain'
      */
-    function addMarker(id, title, lat, lng) {
-        let marker = new L.Marker([lat, lng], {icon: pinIcon});
-        marker.on("click", function () {
-            javaScriptBridge.displayBarInfo(id);
-        });
-        markerLayers.addLayer(marker);
+    function addAmenityMarker(type, id, title, lat, lng) {
+        const layer = amenityLayers[type];
+        if (!layer) {
+            console.warn('Unknown amenity type:', type);
+            return;
+        }
+        const marker = L.marker([lat, lng], { icon: amenityIcons[type] });
+        if (type === 'fastFood') {
+            marker.on('click', function () {
+                if (javaScriptBridge) {
+                    javaScriptBridge.displayFastFoodInfo(id);
+                }
+            });
+        }
+        else if (title) {
+            marker.bindTooltip(title);
+        }
+        layer.addLayer(marker);
     }
 
-    function addStartMarker(id, title, lat, lng) {
-        let marker = new L.Marker([lat, lng], {icon: startPinIcon});
-        marker.on("click", function () {
-            javaScriptBridge.displayBarInfo(id);
-        });
-        markerLayers.addLayer(marker);
+    /**
+     * Shows or hides one amenity layer. Markers stay in the layer while hidden.
+     */
+    function setAmenityVisibility(type, visible) {
+        const layer = amenityLayers[type];
+        if (!layer) {
+            console.warn('Unknown amenity type:', type);
+            return;
+        }
+        if (visible) {
+            if (!map.hasLayer(layer)) map.addLayer(layer);
+        } else {
+            if (map.hasLayer(layer)) map.removeLayer(layer);
+        }
     }
 
-    function addEndMarker(id, title, lat, lng) {
-        let marker = new L.Marker([lat, lng], {icon: endPinIcon});
-        marker.on("click", function () {
-            javaScriptBridge.displayBarInfo(id);
-        });
-        markerLayers.addLayer(marker);
-    }
-
-    function addRouteMarker(id, title, lat, lng) {
-        let marker = new L.Marker([lat, lng], {icon: pinIcon});
-        marker.on("click", function () {
-            javaScriptBridge.displayBarInfo(id);
-        });
-        routeMarkerLayer.addLayer(marker);
-    }
-
-    function addFastFoodMarker(id, title, lat, lng) {
-        let marker = new L.marker([lat, lng], {icon: foodIcon});
-        amenityMarkerLayer.addLayer(marker);
-    }
-    function addPublicToiletMarker(id, title, lat, lng) {
-        let marker = new L.marker([lat, lng], {icon: toiletIcon});
-        amenityMarkerLayer.addLayer(marker);
-    }
-    function addDrinkingFountainMarker(id, title, lat, lng) {
-        let marker = new L.marker([lat, lng], {icon: drinkingFountainIcon});
-        amenityMarkerLayer.addLayer(marker);
-    }
-
+    /**
+     * Removes all markers. Amenity layer visibility is left as the user set it.
+     */
     function clearMap() {
         markerLayers.clearLayers();
+        routeMarkerLayer.clearLayers();
+        Object.values(amenityLayers).forEach(layer => layer.clearLayers());
     }
 
+    // ---------- Routing ----------
     /**
-     * Displays the basic example route between two points using UCs OSRM server
-     * 1. Clear's old route -> 2. Adds route markers to set 'routeIDs' -> 3. Removes all markers except for
-     * 4. Draws the route hopefully -> 5.
-     * DOCUMENTATION: https://www.liedman.net/leaflet-routing-machine/api/
+     * Draws a walking route.
+     * @param waypointsJson JSON string like "[[lat,lng],[lat,lng],...]"
      */
-    function drawRoute(waypoints) {
-        // Draws the line
+    function drawRoute(waypointsJson) {
+        clearRoute();
+
+        const waypoints = JSON.parse(waypointsJson).map(p => L.latLng(p[0], p[1]));
+
         currentRoute = L.Routing.control({
             waypoints: waypoints,
             serviceUrl: 'https://tile.csse.canterbury.ac.nz/route/v1',
             profile: 'foot',
             addWaypoints: false,
             draggableWaypoints: false,
+            fitSelectedRoutes: false,   // we fit the map ourselves in positionMap()
             show: false,
             lineOptions: {
-                styles: [{ color: '#dc7b15'}]
+                styles: [{ color: '#dc7b15' }]
             },
-            createMarker: function() { return null; }
+            createMarker: function () { return null; }
         }).addTo(map);
 
-        currentRoute.on('routeselected', function(e) {
-            // e.route contains the physical geometry of the actual road paths
-            // Create an L.Routing.line wrapper to access its geographic bounds
-            currentRouteLine = L.Routing.line(e.route);
+        currentRoute.on('routeselected', function (e) {
+            routeBounds = L.latLngBounds(e.route.coordinates);
             positionMap();
         });
 
+        currentRoute.on('routingerror', function (e) {
+            console.warn('Routing error:', e.error);
+        });
     }
 
     function positionMap() {
-        map.fitBounds(currentRouteLine.getBounds(), { padding: [50, 50] });
+        if (!routeBounds) return;
+        map.fitBounds(routeBounds, { padding: [50, 50], animate: false });
+    }
+
+    function positionForExport() {
+        if (!routeBounds) {
+            if (javaScriptBridge) javaScriptBridge.onReady();
+            return;
+        }
+
+        let finished = false;
+        let timeoutId = null;
+
+        function finish() {
+            if (finished) return;
+            finished = true;
+            clearTimeout(timeoutId);
+            tileLayer.off('load', finish);
+            // let Leaflet prune old-zoom tiles and let the WebView paint
+            requestAnimationFrame(() => requestAnimationFrame(() => setTimeout(() => {
+                if (javaScriptBridge) javaScriptBridge.onReady();
+            }, 150)));
+        }
+
+        timeoutId = setTimeout(finish, 8000);
+
+        // Must come BEFORE registering moveend, it fires its own moveend
+        map.invalidateSize({ animate: false });
+
+        map.once('moveend', () => {
+            if (tileLayer._loading) tileLayer.once('load', finish);
+            else finish();
+        });
+
+        map.fitBounds(routeBounds, { padding: [50, 50], animate: false });
     }
 
     function clearRoute() {
         if (currentRoute) {
             map.removeControl(currentRoute);
             currentRoute = null;
-            routeMarkerLayer.clearLayers();
-            amenityMarkerLayer.clearLayers();
         }
+        routeBounds = null;
     }
 
+    /**
+     * @return "x,y,w,h" pixel rectangle around the route, or "" if there is no route yet
+     */
     function getSnapshotViewBoundsString() {
-        positionMap();
-        targetBounds = currentRouteLine.getBounds();
+        if (!routeBounds) return "";
 
+        const tl = map.latLngToContainerPoint(routeBounds.getNorthWest());
+        const br = map.latLngToContainerPoint(routeBounds.getSouthEast());
+        const size = map.getSize();
+        const padding = 100;
 
-        var topLeftPixel = map.latLngToContainerPoint(targetBounds.getNorthWest());
-        var bottomRightPixel = map.latLngToContainerPoint(targetBounds.getSouthEast());
+        const x1 = Math.max(0, tl.x - padding);
+        const y1 = Math.max(0, tl.y - padding);
+        const x2 = Math.min(size.x, br.x + padding);
+        const y2 = Math.min(size.y, br.y + padding);
 
-        var padding = 100;
-        var x = topLeftPixel.x - padding;
-        var y = topLeftPixel.y - padding;
-        var w = (bottomRightPixel.x - topLeftPixel.x) + (padding * 2);
-        var h = (bottomRightPixel.y - topLeftPixel.y) + (padding * 2);
-
-        x = Math.max(0, x);
-        y = Math.max(0, y);
-        w = Math.min(map.getSize().x - x, w);
-        h = Math.min(map.getSize().y - y, h);
-
-        return x + "," + y + "," + w + "," + h;
+        return [x1, y1, x2 - x1, y2 - y1].map(Math.round).join(",");
     }
-
-    function showAmenities() {
-        map.addLayer(amenityMarkerLayer);
-    }
-
-    function hideAmenities() {
-        map.removeLayer(amenityMarkerLayer);
-    }
-
 </script>
 </body>
 </html>

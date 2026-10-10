@@ -26,6 +26,7 @@ public class SetupWindow extends Application {
 
         primaryStage.setTitle("Route Beer");
         primaryStage.setFullScreen(true);
+        primaryStage.setFullScreenExitHint("");
         primaryStage.getProperties().put("hostServices", getHostServices());
         Image icon = new Image(Objects.requireNonNull(getClass().getResourceAsStream("/images/brand/logo.png")));
         primaryStage.getIcons().add(icon);

@@ -21,6 +21,13 @@ public class App {
     static void main(String[] args) throws IOException {
         log.info("App is loading");
 
+        try {
+            Class.forName("org.mariadb.jdbc.Driver");
+            Class.forName("org.sqlite.JDBC");
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+        }
+
         SetupWindow.main(args);
         }
 }

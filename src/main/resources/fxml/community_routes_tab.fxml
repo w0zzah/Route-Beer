@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<Tab text="Community" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.tab_pane_controllers.CommunityRoutesTabController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" styleClass="tab-anchor-pane">
+         <children>
+            <ScrollPane fx:id="communityScrollPane" fitToWidth="true" styleClass="route-scrollpane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <content>
+                  <VBox fx:id="communityRouteVBox" maxWidth="1.7976931348623157E308" spacing="15.0">
+                     <styleClass>
+                        <String fx:value="route-vbox" />
+                        <String fx:value="light-inner-shadow2" />
+                     </styleClass>
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </AnchorPane>
+   </content>
+</Tab>
