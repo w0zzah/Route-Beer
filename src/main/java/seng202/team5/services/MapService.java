@@ -1,20 +1,41 @@
 package seng202.team5.services;
 
-import seng202.team5.models.Location;
-import java.util.Arrays;
-import java.util.List;
-import java.util.StringJoiner;
-
 import javafx.scene.web.WebEngine;
+import netscape.javascript.JSObject;
+import seng202.team5.models.locations.Location;
+
+import java.util.List;
+import java.util.Locale;
+import java.util.Objects;
+import java.util.StringJoiner;
 
 /**
  * Provides methods for interacting with js through the webEngine
  * Handles map initialization, markers and displaying routes
  */
 public class MapService {
+
+    /**
+     * The amenity types that can be shown/hidden individually.
+     * The key must match the keys used in leaflet_map.html.
+     */
+    public enum AmenityType {
+        FAST_FOOD("fastFood"),
+        PUBLIC_TOILET("publicToilet"),
+        DRINKING_FOUNTAIN("drinkingFountain");
+
+        private final String jsKey;
+
+        AmenityType(String jsKey) {
+            this.jsKey = jsKey;
+        }
+
+        public String getJsKey() {
+            return jsKey;
+        }
+    }
+
     private final WebEngine webEngine;
-    private double[] lats;
-    private double[] lngs;
 
     /**
      * Creates a new MapService using the provided webEngine
@@ -25,149 +46,127 @@ public class MapService {
     }
 
     /**
-     * Initializes the map by calling the js map initialization function
+     * Calls a function on the jsConnector where func and args are sent individually each time
+     * @param function The JavaScript function name inside leaflet.html
+     * @param args The object to be passed into the JavaScript function
+     */
+    private Object callJsConnector(String function, Object... args) {
+        JSObject connector = (JSObject) webEngine.executeScript("jsConnector");
+        return connector.call(function, args);
+    }
+
+    /**
+     * Initializes the map inside of leaflet_map.html
      */
     public void initialiseMap() {
-        webEngine.executeScript("jsConnector.initialiseMap()");
+        callJsConnector("initialiseMap");
     }
 
     /**
-     * Adds a marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
+     * base add marker function that all markers take
+     * @param function "add(x)Marker" function, for base and each function called below
+     * @param location the location of the marker to add
      */
+    private void callMarkerFunction(String function, Location location) {
+        callJsConnector(function,
+                String.valueOf(location.getLocID()),
+                Objects.toString(location.getName(), ""),
+                location.getLatitude(),
+                location.getLongitude());
+    }
+
+    private void callMarkerFunction(String function, Location location, int number) {
+        callJsConnector(function,
+                String.valueOf(location.getLocID()),
+                Objects.toString(location.getName(), ""),
+                location.getLatitude(),
+                location.getLongitude(),
+                number);
+    }
+
     public void addMarker(Location location) {
-        String script = String.format("jsConnector.addMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
-                location.getLatitude(),
-                location.getLongitude());
-        webEngine.executeScript(script);
+        callMarkerFunction("addMarker", location);
     }
 
-    /**
-     * Adds a route marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
-     */
-    public void addRouteMarker(Location location) {
-        String script = String.format("jsConnector.addRouteMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
-                location.getLatitude(),
-                location.getLongitude());
-        webEngine.executeScript(script);
+    public void addRouteMarker(Location location, int number) {
+        callMarkerFunction("addRouteMarker", location, number);
     }
     /**
-     * Adds a start marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
+     * Adds amenity marker to the map with type and location.
      */
-    public void addStartMarker(Location location) {
-        String script = String.format("jsConnector.addStartMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
+    public void addAmenityMarker(AmenityType type, Location location) {
+        callJsConnector("addAmenityMarker",
+                type.getJsKey(),
+                String.valueOf(location.getLocID()),
+                Objects.toString(location.getName(), ""),
                 location.getLatitude(),
                 location.getLongitude());
-        webEngine.executeScript(script);
     }
-    /**
-     * Adds a end marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
-     */
-    public void addEndMarker(Location location) {
-        String script = String.format("jsConnector.addEndMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
-                location.getLatitude(),
-                location.getLongitude());
-        webEngine.executeScript(script);
-    }
-    /**
-     * Adds a fastFood marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
-     */
     public void addFastFoodMarker(Location location) {
-        String script = String.format("jsConnector.addFastFoodMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
-                location.getLatitude(),
-                location.getLongitude());
-        webEngine.executeScript(script);
+        addAmenityMarker(AmenityType.FAST_FOOD, location);
     }
-    /**
-     * Adds a publicRoute marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
-     */
     public void addPublicToiletMarker(Location location) {
-        String script = String.format("jsConnector.addPublicToiletMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
-                location.getLatitude(),
-                location.getLongitude());
-        webEngine.executeScript(script);
+        addAmenityMarker(AmenityType.PUBLIC_TOILET, location);
     }
-    /**
-     * Adds a drinkingFountain marker for a given location on the map
-     * @param location the location which will be put onto the map as a marker
-     */
     public void addDrinkingFountainMarker(Location location) {
-        String script = String.format("jsConnector.addDrinkingFountainMarker('%s', '%s', %f, %f)",
-                location.getLocID(),
-                location.getName().replace("'", "\\'"),
-                location.getLatitude(),
-                location.getLongitude());
-        webEngine.executeScript(script);
+        addAmenityMarker(AmenityType.DRINKING_FOUNTAIN, location);
     }
 
     /**
-     * Show all amenities on map by showing layer in JS
+     * Shows or hides a single amenity type on the map
+     * @param type the amenity type to toggle
+     * @param visible true to show, false to hide
      */
-    public void showAmenities() {
-        String script = "jsConnector.showAmenities()";
-        webEngine.executeScript(script);
+    public void setAmenityVisibility(AmenityType type, boolean visible) {
+        callJsConnector("setAmenityVisibility", type.getJsKey(), visible);
+    }
+
+    public void showAllAmenities() {
+        for (AmenityType type : AmenityType.values()) {
+            setAmenityVisibility(type, true);
+        }
     }
 
     /**
-     * Hide all amenities on map by hiding layer in JS
+     * Hide all amenities on the map
      */
-    public void hideAmenities() {
-        String script = "jsConnector.hideAmenities()";
-        webEngine.executeScript(script);
+    public void hideAllAmenities() {
+        for (AmenityType type : AmenityType.values()) {
+            setAmenityVisibility(type, false);
+        }
     }
 
-
     /**
-     * Hides all currently displayed markers from the map
+     * Removes all currently displayed markers from the map
      */
     public void clearMap() {
-        webEngine.executeScript("jsConnector.clearMap()");
+        callJsConnector("clearMap");
     }
 
     /**
-     * Draw the current route by calling addMarker on each lat, lng of the locations in route
+     * Draws the route and places start, stop and end markers
      * @param route the List of Locations in the route to draw on the map
      */
     public void drawRoute(List<? extends Location> route) {
-        StringJoiner latLongs = new StringJoiner(", ", "[", "]");
-        clearMap();
-        Location location = route.getFirst();
-        String latlngstr = String.format("L.latLng(%f, %f)", location.getLatitude(), location.getLongitude());
-        latLongs.add(latlngstr);
-        addStartMarker(location);
-        for (int i = 1; i < route.size(); i++) {
-            location = route.get(i);
-            latlngstr = String.format("L.latLng(%f, %f)", location.getLatitude(), location.getLongitude());
-            latLongs.add(latlngstr);
-            addRouteMarker(location);
+        if (route == null || route.isEmpty()) {
+            return;
         }
-        addEndMarker(location);
-        String script = String.format("jsConnector.drawRoute(%s)", latLongs);
-        webEngine.executeScript(script);
+        clearMap();
+
+        StringJoiner waypoints = new StringJoiner(",", "[", "]");
+        for (Location location : route) {
+            waypoints.add(String.format(Locale.ROOT, "[%f,%f]",
+                    location.getLatitude(), location.getLongitude()));
+        }
+
+        for (int i = 0; i < route.size(); i++) {
+            addRouteMarker(route.get(i), i+1);
+        }
+        callJsConnector("drawRoute", waypoints.toString());
     }
 
-    /**
-     * Removes the currently displayed route from the map
-     */
     public void clearRoute() {
-        webEngine.executeScript("jsConnector.clearRoute();");
+        callJsConnector("clearRoute");
     }
 
     /**
@@ -175,9 +174,15 @@ public class MapService {
      * @return String of doubles, "x,y,w,h" where x,y represent top left corner of bounding box and w,h represent width and height respectively
      */
     public String getRouteViewBounds() {
-        String script = String.format("jsConnector.getSnapshotViewBoundsString(%s, %s)",
-                Arrays.toString(this.lats),
-                Arrays.toString(this.lngs));
-        return (String) webEngine.executeScript(script);
+        Object result = callJsConnector("getSnapshotViewBoundsString");
+        return result instanceof String s ? s : "";
     }
+
+    public void positionForExport() {
+        String script = "jsConnector.positionForExport()";
+        webEngine.executeScript(script);
+    }
+
+
+
 }

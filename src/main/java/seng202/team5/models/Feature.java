@@ -1,5 +1,7 @@
 package seng202.team5.models;
 
+import seng202.team5.models.types.FeatureType;
+
 import java.time.DayOfWeek;
 import java.time.format.TextStyle;
 import java.util.ArrayList;

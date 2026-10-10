@@ -3,8 +3,8 @@ package seng202.team5.data;
 import seng202.team5.exceptions.DataAccessException;
 import seng202.team5.exceptions.InvalidCredentialsException;
 import seng202.team5.models.User;
-import seng202.team5.models.UserType;
-import seng202.team5.services.PasswordService;
+import seng202.team5.models.types.UserType;
+import seng202.team5.services.entry.PasswordService;
 
 import java.sql.*;
 
@@ -20,11 +20,11 @@ public class UserDAO {
      * @param password the plaintext password to check
      * @return the authenticated user - never null
      * @throws InvalidCredentialsException if the username does not exist, or exists
-     *                                      but the password does not match. The same
-     *                                      exception is used for both cases so callers
-     *                                      cannot tell which one occurred.
+     *                                     but the password does not match. The same
+     *                                     exception is used for both cases so callers
+     *                                     cannot tell which one occurred.
      * @throws DataAccessException         if a database error occurs, or the stored
-     *                                      user_type value cannot be parsed.
+     *                                     user_type value cannot be parsed.
      */
     public User authenticateUser(String username, String password) {
 
@@ -80,7 +80,7 @@ public class UserDAO {
      */
     public boolean registerUser(String username, String password, UserType userType) {
         String query =
-                """
+                        """
                 INSERT INTO users (username, password, user_type)
                 VALUES (?, ?, ?)
                 """;

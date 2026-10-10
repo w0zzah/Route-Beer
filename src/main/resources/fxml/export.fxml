@@ -15,7 +15,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="export-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.ExportWindowController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" styleClass="export-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.tab_pane_controllers.ExportWindowController">
    <children>
       <GridPane fx:id="exportGridPane" layoutX="363.0" layoutY="47.0" styleClass="export-pane" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
          <columnConstraints>
@@ -37,7 +37,7 @@
                      <children>
                         <ImageView fitHeight="115.0" fitWidth="370.0" layoutX="20.0" layoutY="15.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
                            <image>
-                              <Image url="@../../../../../team-5/src/main/resources/images/brand/route-beer-text.png" />
+                              <Image url="@../images/brand/route-beer-text.png" />
                            </image>
                            <viewport>
                               <Rectangle2D />
@@ -58,7 +58,6 @@
                      <children>
                         <Label styleClass="export-label" text="Estimated Walking Time:" />
                         <Label fx:id="exportTimeLabel" styleClass="export-label" text="0" />
-                        <Label styleClass="export-label" text="mins" />
                      </children>
                   </HBox>
                </children>
@@ -81,8 +80,8 @@
             <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Button mnemonicParsing="false" onAction="#cancelExport" styleClass="button1" text="Cancel" GridPane.columnIndex="2" />
-            <Button mnemonicParsing="false" onAction="#exportImage" styleClass="button1" text="Export to PNG" GridPane.columnIndex="1" />
+            <Button fx:id="cancelExportButton" mnemonicParsing="false" onAction="#cancelExport" styleClass="button1" text="Cancel" GridPane.columnIndex="2" />
+            <Button fx:id="confirmExportButton" mnemonicParsing="false" onAction="#exportImage" styleClass="button1" text="Export to PNG" GridPane.columnIndex="1" />
             <Label styleClass="export-title" text="Route Download Preview">
                <font>
                   <Font size="15.0" />

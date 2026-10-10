@@ -6,7 +6,10 @@ import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 import seng202.team5.models.*;
-import seng202.team5.services.LocationBuilder;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.CCCLocation;
+import seng202.team5.models.locations.Location;
+import seng202.team5.services.route_generation.LocationBuilder;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;

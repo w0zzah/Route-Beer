@@ -5,9 +5,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.WritableImage;
 import javafx.scene.layout.Pane;
-import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
+import seng202.team5.gui.entry.AgeCheckController;
+import seng202.team5.gui.entry.EntryController;
+import seng202.team5.gui.tab_pane_controllers.ExportWindowController;
 import seng202.team5.models.Route;
 import seng202.team5.models.User;
 import seng202.team5.services.MainManager;
@@ -46,6 +48,7 @@ public class ScreenNavigator {
             }
         });
     }
+
     /**
      * Go to setup page
      */
@@ -63,17 +66,8 @@ public class ScreenNavigator {
     public void goToMain(User currentUser) {
         loadScreen("/fxml/main_window.fxml", controller -> {
             if (controller instanceof MainWindowController mainWindowController) {
+                mainManager.setCurrentRoute(null);
                 mainWindowController.initialise(stage, this, currentUser, mainManager);
-            }
-        });
-    }
-    /**
-     * Go to the data page
-     */
-    public void goToData() {
-        loadScreen("/fxml/data_view.fxml", controller -> {
-            if (controller instanceof DataViewController dataViewController) {
-                dataViewController.initialise(this, mainManager);
             }
         });
     }
@@ -109,6 +103,7 @@ public class ScreenNavigator {
             Parent root = loader.load();
 
             ExportWindowController exportWindowController = loader.getController();
+            root.getProperties().put("controller", exportWindowController);
             exportWindowController.initialize(mapSnapshot, route);
 
             Stage newStage = new Stage();

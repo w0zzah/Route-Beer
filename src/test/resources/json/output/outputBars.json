@@ -1,0 +1,24 @@
+[
+  {
+    "features": null,
+    "theme": null,
+    "description": "",
+    "address": "3 Waimairi Road, Upper Riccarton, Christchurch 8041, New Zealand",
+    "openingHours": null,
+    "locID": "way/34369715",
+    "name": "Bush Inn Tavern",
+    "latitude": -43.5311462,
+    "longitude": 172.574334
+  },
+  {
+    "features": null,
+    "theme": null,
+    "description": "",
+    "address": "138 Oxford Terrace, Christchurch Central 8011, New Zealand",
+    "openingHours": null,
+    "locID": "node/9380964738",
+    "name": "Chiwahwah",
+    "latitude": -43.5324411,
+    "longitude": 172.6340146
+  }
+]

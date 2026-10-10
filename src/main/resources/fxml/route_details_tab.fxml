@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<Tab text="Route Details" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.tab_pane_controllers.RouteDetailsTabController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" styleClass="tab-anchor-pane">
+         <children>
+            <VBox fx:id="routeDetailsTabVBox" prefWidth="478.0" spacing="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <GridPane fx:id="noRouteGrid" hgap="10.0">
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="49.0" minHeight="10.0" prefHeight="49.0" vgrow="SOMETIMES" />
+                        <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+                        <Label styleClass="h3" text="Load a route to view route details" wrapText="true" GridPane.columnSpan="2" GridPane.halignment="CENTER" />
+                        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#showCommunityTab" text="Browse Routes" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="basic-button" />
+                              <String fx:value="basic-shadow" />
+                              <String fx:value="button-lightbrown" />
+                           </styleClass>
+                        </Button>
+                        <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#showRouteTab" text="Make a Route" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                           <styleClass>
+                              <String fx:value="basic-button" />
+                              <String fx:value="basic-shadow" />
+                           </styleClass>
+                        </Button>
+                     </children>
+                     <styleClass>
+                        <String fx:value="basic-shadow" />
+                        <String fx:value="no-route-grid" />
+                     </styleClass>
+                     <VBox.margin>
+                        <Insets top="10.0" />
+                     </VBox.margin>
+                  </GridPane>
+                  <VBox fx:id="routeDetailsVBox" spacing="10.0" visible="false">
+                     <children>
+                        <Label fx:id="routeNameErrorLabel" prefHeight="3.0" prefWidth="458.0" styleClass="error-in-field-text">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                        </Label>
+                        <HBox fx:id="routeNameHBox" spacing="10.0">
+                           <children>
+                              <TextField fx:id="routeNameField" promptText="Route Name" HBox.hgrow="ALWAYS">
+                                 <styleClass>
+                                    <String fx:value="route-field" />
+                                    <String fx:value="light-inner-shadow2" />
+                                 </styleClass>
+                              </TextField>
+                              <Button fx:id="saveRouteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#callSaveRoute" text="Save Route">
+                                 <styleClass>
+                                    <String fx:value="basic-button" />
+                                    <String fx:value="button-gold" />
+                                    <String fx:value="basic-shadow" />
+                                 </styleClass>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <TextArea fx:id="routeDescriptionField" prefRowCount="1" promptText="Enter description" styleClass="route-description" />
+                        <!-- Moved here from below the distance row: the old code always re-inserted it at index 3,
+                             so this is where it actually appeared. The controller only toggles visible/managed. -->
+                        <Button fx:id="regenerateRouteButton" managed="false" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#regenerate" styleClass="basic-button, basic-shadow" text="Regenerate Route" visible="false" />
+                        <HBox alignment="TOP_CENTER">
+                           <children>
+                              <Label styleClass="h4" text="Distance: " />
+                              <Label fx:id="walkingDistanceLabel" styleClass="h4" text="0" />
+                              <Label styleClass="h4" text="km" />
+                              <Separator maxWidth="1.7976931348623157E308" orientation="VERTICAL" visible="false" HBox.hgrow="ALWAYS" />
+                              <Label styleClass="h4" text="Est Time: " />
+                              <Label fx:id="estTimeLabel" styleClass="h4" text="0" />
+                           </children>
+                           <VBox.margin>
+                              <Insets left="20.0" right="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <ScrollPane fitToWidth="true">
+                           <content>
+                              <VBox fx:id="routeBarsVBox" spacing="5.0">
+                                 <padding>
+                                    <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+                                 </padding>
+                              </VBox>
+                           </content>
+                           <styleClass>
+                              <String fx:value="route-bars-scrollpane" />
+                              <String fx:value="light-inner-shadow" />
+                           </styleClass>
+                        </ScrollPane>
+                        <HBox spacing="10.0">
+                           <children>
+                              <Button fx:id="exportRouteButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onExport" text="Export Route" HBox.hgrow="ALWAYS">
+                                 <styleClass>
+                                    <String fx:value="basic-shadow" />
+                                    <String fx:value="basic-button" />
+                                    <String fx:value="button-lightbrown" />
+                                 </styleClass>
+                              </Button>
+                              <Button fx:id="clearRouteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clearRoute" text="Clear Route" HBox.hgrow="ALWAYS">
+                                 <styleClass>
+                                    <String fx:value="basic-button" />
+                                    <String fx:value="basic-shadow" />
+                                 </styleClass>
+                              </Button>
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </AnchorPane>
+   </content>
+</Tab>

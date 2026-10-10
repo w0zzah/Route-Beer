@@ -1,9 +1,8 @@
 package seng202.team5.unittests.models;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
-import seng202.team5.models.Bar;
+import seng202.team5.models.locations.Bar;
 
 import java.time.DayOfWeek;
 import java.time.LocalTime;

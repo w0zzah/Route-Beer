@@ -12,12 +12,12 @@ import org.mockito.junit.jupiter.MockitoExtension;
 import seng202.team5.data.UserDAO;
 import seng202.team5.exceptions.DataAccessException;
 import seng202.team5.exceptions.InvalidCredentialsException;
-import seng202.team5.models.EntryMode;
-import seng202.team5.models.ErrorType;
+import seng202.team5.models.types.EntryMode;
+import seng202.team5.models.types.ErrorType;
 import seng202.team5.models.User;
-import seng202.team5.models.UserType;
-import seng202.team5.services.EntryService;
-import seng202.team5.services.ValidationResult;
+import seng202.team5.models.types.UserType;
+import seng202.team5.services.entry.EntryService;
+import seng202.team5.services.entry.ValidationResult;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;

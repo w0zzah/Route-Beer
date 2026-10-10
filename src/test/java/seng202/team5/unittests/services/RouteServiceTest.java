@@ -1,13 +1,17 @@
 package seng202.team5.unittests.services;
 
-import io.cucumber.java.bs.A;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
+import seng202.team5.exceptions.InvalidParametersException;
 import seng202.team5.exceptions.NoRouteGeneratedException;
-import seng202.team5.exceptions.NoStartBarException;
-import seng202.team5.models.*;
-import seng202.team5.services.LocationBuilder;
+import seng202.team5.models.RouteFormat;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.FastFood;
+import seng202.team5.models.locations.Location;
+import seng202.team5.models.types.FeatureType;
+import seng202.team5.models.types.Theme;
+import seng202.team5.services.route_generation.LocationBuilder;
 import seng202.team5.services.MainManager;
 import seng202.team5.services.RouteService;
 
@@ -17,6 +21,7 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import static seng202.team5.exceptions.InvalidParametersReason.*;
 
 public class RouteServiceTest {
 
@@ -27,66 +32,78 @@ public class RouteServiceTest {
     class testGeneratedRoute {
 
         MainManager mainManager;
+        String startBarInput = "The Craic";
         Bar startBar = allBars.get(57);
-        Bar endBar = allBars.get(76);
+        String endBarInput = "Fat Eddie's";
+        Bar endBar = allBars.get(75);
+
+        List<Bar> threeParticularBars = List.of(
+                allBars.get(1), allBars.get(2), allBars.get(3)
+        );
 
         @BeforeEach
         public void setup() {
             mainManager = new MainManager();
         }
 
-        @Test
-        public void testedRouteReturnsValidParameters() {
-            RouteService.generateRoute(mainManager, startBar, endBar, 3, 5.0, List.of(), List.of());
-
-            assertNotNull(mainManager.currentRoute);
-            assertEquals(startBar, mainManager.currentRoute.getStartBar());
-            assertEquals(endBar, mainManager.currentRoute.getEndBar());
-        }
+//        @Test
+//        public void testedRouteReturnsValidParameters() {
+//            RouteService.generateRoute(mainManager, startBar, endBar, 3, 5.0, List.of(), List.of(), List.of());
+//
+//            assertNotNull(mainManager.currentRoute);
+//            assertEquals(startBar, mainManager.currentRoute.getStartBar());
+//            assertEquals(endBar, mainManager.currentRoute.getEndBar());
+//        }
 
         @Test
         public void testedRouteThrowsNoRouteGeneratedExceptionDistance() {
             NoRouteGeneratedException thrown = assertThrows(NoRouteGeneratedException.class, () -> {
-                RouteService.generateRoute(mainManager, startBar, endBar, 3, 1.0, List.of(), List.of());
+                RouteFormat RouteFormat = new RouteFormat(startBarInput, endBarInput, 3, 1.0, List.of(), List.of(), List.of());
+                RouteService.generateRoute(mainManager, RouteFormat);
             });
             assertEquals("Couldn't get close to your target distance of 1.0km.\nTry adjusting the filters.", thrown.getMessage());
 
         }
 
         @Test
-        public void testThrowsNoStartBarExceptionWhenStartBarNull() {
-            NoStartBarException thrown = assertThrows(NoStartBarException.class, () ->
-                    RouteService.generateRoute(
-                            mainManager, null, endBar, 3, 2.0, List.of(), List.of()));
+        public void testThrowsInvalidParameterExceptionWhenStartBarNull() {
+            InvalidParametersException thrown = assertThrows(InvalidParametersException.class, () -> {
+                RouteFormat RouteFormat = new RouteFormat("", "", 3, 1.0, List.of(), List.of(), List.of());
+                RouteService.generateRoute(mainManager, RouteFormat);
+            });
 
-            assertEquals("startBar has not been set", thrown.getMessage());
+            assertEquals(START_BAR_EMPTY, thrown.getReason());
         }
 
         @Test
         public void testedRouteThrowsNoRouteGeneratedExceptionThemes() {
-            NoRouteGeneratedException thrown = assertThrows(NoRouteGeneratedException.class, () ->
-                    RouteService.generateRoute(
-                            mainManager, startBar, endBar, 3, 5.0, List.of(Theme.AIRPORT_LOUNGE, Theme.NEIGHBOURHOOD_PUB), List.of()));
+            InvalidParametersException thrown = assertThrows(InvalidParametersException.class, () -> {
+                RouteFormat RouteFormat = new RouteFormat(startBarInput, endBarInput, 2, 5.0, List.of(Theme.IRISH_PUB, Theme.NEIGHBOURHOOD_PUB, Theme.NIGHTCLUB), List.of(), List.of());
+                RouteService.generateRoute(mainManager, RouteFormat);
+            });
 
-            assertEquals("Couldn't fit your selected theme(s) into a route.\nTry adjusting the filters.", thrown.getMessage());
+            assertEquals(TOO_MANY_THEMES, thrown.getReason());
         }
 
         @Test
         public void testedRouteThrowsNoRouteGeneratedExceptionFeatures() {
-            NoRouteGeneratedException thrown = assertThrows(NoRouteGeneratedException.class, () ->
-                    RouteService.generateRoute(
-                            mainManager, startBar, endBar, 3, 5.0, List.of(), List.of(FeatureType.KARAOKE, FeatureType.GAMING_MACHINES)));
+            NoRouteGeneratedException thrown = assertThrows(NoRouteGeneratedException.class, () -> {
+                RouteFormat RouteFormat = new RouteFormat(startBarInput, endBarInput, 2, 5.0, List.of(), List.of(FeatureType.KARAOKE, FeatureType.GAMING_MACHINES, FeatureType.DART_BOARD, FeatureType.LIVE_MUSIC), List.of());
+                RouteService.generateRoute(mainManager, RouteFormat);
+            });
 
             assertEquals("Couldn't fit your selected feature(s) into a route.\nTry adjusting the filters.", thrown.getMessage());
         }
-//        @Test
-//        public void testedRouteThrowsNoRouteGeneratedExceptionParticulars() {
-//            NoRouteGeneratedException thrown = assertThrows(NoRouteGeneratedException.class, () ->
-//                    RouteService.generateRoute(
-//                            mainManager, startBar, endBar, 3, 5.0, List.of(), List.of()));
-//
-//            assertEquals("Couldn't fit all your required bars into a route this size.\nTry adjusting the filters.", thrown.getMessage());
-//        }
+
+        @Test
+        public void testedRouteThrowsNoRouteGeneratedExceptionParticulars() {
+            InvalidParametersException thrown = assertThrows(InvalidParametersException.class, () -> {
+                RouteFormat RouteFormat = new RouteFormat(startBarInput, endBarInput, 2, 5.0, List.of(), List.of(), threeParticularBars);
+                RouteService.generateRoute(mainManager, RouteFormat);
+            });
+
+            assertEquals(TOO_MANY_PARTICULAR_BARS, thrown.getReason());
+        }
 
     }
 

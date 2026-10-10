@@ -11,7 +11,7 @@
 <?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane styleClass="alcohol-safety-popup-footer" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.AlcoholSafetyPopupFooterController">
+<AnchorPane styleClass="alcohol-safety-popup-footer" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.AlcoholSafetyPopup">
    <children>
       <HBox spacing="50.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="20.0">
          <children>
@@ -25,7 +25,7 @@
             </ImageView>
             <VBox>
                <children>
-                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" styleClass="popup-title" text="Remember to drink responsibly">
+                  <Label alignment="TOP_CENTER" contentDisplay="CENTER" styleClass="popup-title" text="Remember To Drink Responsibly">
                      <font>
                         <Font size="28.0" />
                      </font>

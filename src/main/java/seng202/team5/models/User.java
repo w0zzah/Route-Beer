@@ -1,5 +1,10 @@
 package seng202.team5.models;
 
+import seng202.team5.models.types.UserType;
+
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Contains user's info for logging in and viewing save/creating new routes.
  * <p>
@@ -11,6 +16,7 @@ public class User {
 
     private final UserType userType;
     private final int id;
+    public List<Route> userRoutes;
     private final String username;
 
     /**
@@ -24,6 +30,7 @@ public class User {
         this.id = id;
         this.username = username;
         this.userType = userType;
+        this.userRoutes = new ArrayList<>();
     }
     public int getId() { return id; }
 
@@ -31,5 +38,9 @@ public class User {
 
     public UserType getType() {
         return userType;
+    }
+
+    public List<String> getSavedRouteNames() {
+        return this.userRoutes.stream().map(Route::getName).toList();
     }
 }

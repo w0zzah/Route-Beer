@@ -1,5 +1,12 @@
 package seng202.team5.models;
 
+import seng202.team5.data.RouteDAO;
+import seng202.team5.models.locations.Bar;
+import seng202.team5.models.locations.DistanceMatrix;
+import seng202.team5.models.types.FeatureType;
+import seng202.team5.models.types.Theme;
+
+import java.time.Duration;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -21,6 +28,7 @@ public class Route {
     private final List<Bar> bars;
     private final int totalDistanceMetres;
     private final LocalDate createdDate;
+    private final String ownerUsername;
     /**
      * Speed estimated end users to walk at. Determined as slower than average walking speed from <a href="https://en.wikipedia.org/wiki/Preferred_walking_speed">Wikipedia</a> article<br>
      * <br>
@@ -36,7 +44,7 @@ public class Route {
      * @param bars List of Bars in the route in order
      * @param createdDate date the route was created
      */
-    public Route(int routeID, String name, String description, List<Bar> bars, LocalDate createdDate) {
+    public Route(int routeID, String name, String description, List<Bar> bars, LocalDate createdDate, String username) {
         if (name == null || name.isEmpty()) {
             throw new IllegalArgumentException("Name cannot be null or empty");
         }
@@ -50,15 +58,15 @@ public class Route {
         this.totalDistanceMetres = calculateTotalDistanceMetres(bars);
         this.createdDate = createdDate;
         this.estimatedTime = (int) (totalDistanceMetres / WALKING_SPEED);
+        this.ownerUsername = username;
     }
 
     /**
-
      Used when generating Route with n
      @param bars
      */
     public Route(List<Bar> bars) {
-        this(-1, "GENERATED ROUTE", "", bars, LocalDate.now());}
+        this(-1, "GENERATED ROUTE", "", bars, LocalDate.now(), "Anonymous");}
 
     public void setRouteID(int id) {
         this.routeID = id;
@@ -150,11 +158,34 @@ public class Route {
         return estimatedTime;
     }
 
+    public String getFormattedTime() {
+        long totalMins = estimatedTime / 60;
+        long hours = totalMins / 60;
+        long mins = totalMins % 60;
+
+        List<String> parts = new ArrayList<>();
+        if (hours != 0) {
+            parts.add(formatUnit(hours, "hr"));
+        }
+        if (mins != 0) {
+            parts.add(formatUnit(mins, "min"));
+        }
+        return String.join(" ", parts);
+    }
+
+    private static String formatUnit(long value, String unit) {
+        return value + " " + unit + (value == 1 ? "" : "s");
+    }
+
     public void setName(String name) {
         this.name = name;
     }
 
     public void setDesc(String description) {
         this.description = description;
+    }
+
+    public String getOwnerUsername() {
+        return this.ownerUsername;
     }
 }

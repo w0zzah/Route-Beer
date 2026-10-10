@@ -1,0 +1,115 @@
+.marker-cluster {
+    background-clip: padding-box;
+    border-radius: 20px;
+    background-color: transparent !important;
+}
+
+.marker-cluster-small {
+    background-image: url("../images/icons/clusterThreePins.svg") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 70px !important;
+    height: 70px !important;
+    margin-top: -60px !important;
+    margin-left: -35px !important;
+
+}
+
+.marker-cluster-medium {
+    background-image: url("../images/icons/clusterFivePins.svg") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 100px !important;
+    height: 100px !important;
+    margin-top: -80px !important;
+    margin-left: -50px !important;
+}
+
+.marker-cluster-large {
+    background-image: url("../images/icons/clusterFivePins.svg") !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    width: 150px !important;
+    height: 150px !important;
+    margin-top: -130px !important;
+    margin-left: -75px !important;
+}
+
+.marker-cluster-small div,
+.marker-cluster-medium div,
+.marker-cluster-large div {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+}
+
+/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small,
+.leaflet-oldie .marker-cluster-small div,
+.leaflet-oldie .marker-cluster-medium,
+.leaflet-oldie .marker-cluster-medium div,
+.leaflet-oldie .marker-cluster-large,
+.leaflet-oldie .marker-cluster-large div {
+    background-color: transparent !important;
+}
+
+.marker-cluster div {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 0 !important;
+    font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+
+.marker-cluster-small div {
+    margin-left: 20px;
+    margin-top: 0;
+}
+
+.marker-cluster-medium div {
+    margin-left: 35px;
+    margin-top: 0;
+}
+
+.marker-cluster-large div {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.marker-cluster span {
+    line-height: 30px;
+    display: block !important;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* --- SEMIBOLD ITALIC --- */
+@font-face {
+    font-family: 'Kanit';
+    src: url('../fonts/Kanit-SemiBoldItalic.ttf');
+}
+
+.numbered-pin {
+    border: none;
+}
+.numbered-pin img {
+    display: block;
+}
+.numbered-pin .pin-number {
+    position: absolute;
+    bottom: 25px;
+    left: 27px;
+    padding: 0;
+    min-width: 28px;
+    height: 28px;
+    box-sizing: content-box;
+    border: 3px solid #53240b;
+    border-radius: 50px;
+    background: #FFF5E1;
+    color: #53240b;
+    font: bold italic 18px Kanit;
+    text-align: center;
+}

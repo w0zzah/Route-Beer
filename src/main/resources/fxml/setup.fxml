@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.geometry.Rectangle2D?>
 <?import javafx.scene.control.Button?>
@@ -18,7 +19,7 @@
 
 <!---->
 
-<StackPane fx:id="setupStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="setup" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.EntryController">
+<StackPane fx:id="setupStackPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" styleClass="setup" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.entry.EntryController">
    <VBox fx:id="mainContainer" alignment="CENTER" fillWidth="false" spacing="30.0" StackPane.alignment="TOP_CENTER">
       <AnchorPane prefHeight="258.0" prefWidth="574.0">
          <children>
@@ -32,7 +33,7 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <VBox prefWidth="600.0" spacing="1.0" VBox.vgrow="NEVER">
+      <VBox prefWidth="600.0" VBox.vgrow="NEVER">
          <VBox.margin>
             <Insets />
          </VBox.margin>
@@ -44,11 +45,11 @@
                         <ToggleGroup fx:id="Toggles" />
                      </toggleGroup>
                   </ToggleButton>
-                  <ToggleButton fx:id="createButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCreateButtonClicked" styleClass="login-tab-button" text="Create Account" toggleGroup="$Toggles" HBox.hgrow="ALWAYS" />
+                  <ToggleButton fx:id="createButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onCreateButtonClicked" styleClass="login-tab-button, basic-shadow" text="Create Account" toggleGroup="$Toggles" HBox.hgrow="ALWAYS" />
                </children>
             </HBox>
-            <VBox spacing="5.0" styleClass="setup-vbox">
-               <VBox alignment="CENTER" styleClass="loginErrorPane">
+            <VBox spacing="5.0" styleClass="setup-vbox, basic-shadow">
+               <VBox alignment="CENTER" styleClass="login-error-pane">
                   <children>
                      <Label styleClass="loginWarningText" text="Warning: Do not use any real credentials" textAlignment="CENTER">
                         <font>
@@ -58,7 +59,7 @@
                </VBox>
                <HBox alignment="CENTER_LEFT">
                   <children>
-                     <Label fx:id="usernameLabel" styleClass="login-label" text="Username" />
+                     <Label fx:id="usernameLabel" styleClass="h3" text="Username" />
                      <Label fx:id="usernameErrorLabel" styleClass="blurb-text" text="(5-16 characters)">
                         <font>
                            <Font size="11.0" />
@@ -69,7 +70,7 @@
                      </Label>
                   </children>
                </HBox>
-               <TextField fx:id="usernameField" promptText="Username" styleClass="loginField">
+               <TextField fx:id="usernameField" promptText="Username" styleClass="login-field">
                   <VBox.margin>
                      <Insets bottom="15.0" />
                   </VBox.margin>
@@ -79,7 +80,7 @@
                </TextField>
                <HBox alignment="CENTER_LEFT">
                   <children>
-                     <Label fx:id="passwordLabel" styleClass="login-label" text="Password" />
+                     <Label fx:id="passwordLabel" styleClass="h3" text="Password" />
                      <Label fx:id="passwordErrorLabel" styleClass="blurb-text" text="(8-16 characters)">
                         <font>
                            <Font size="11.0" />
@@ -90,7 +91,7 @@
                      </Label>
                   </children>
                </HBox>
-               <PasswordField fx:id="passwordField" onAction="#onContinueClicked" promptText="Password" styleClass="loginField">
+               <PasswordField fx:id="passwordField" onAction="#onContinueClicked" promptText="Password" styleClass="login-field">
                   <padding>
                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                   </padding>
@@ -98,28 +99,28 @@
                      <Insets bottom="10.0" />
                   </VBox.margin>
                </PasswordField>
-               <Label fx:id="confirmPasswordLabel" styleClass="login-label" text="Confirm Password" visible="false" />
-               <PasswordField fx:id="confirmPasswordField" onAction="#onContinueClicked" promptText="Confirm Password" styleClass="loginField" visible="false">
+               <Label fx:id="confirmPasswordLabel" styleClass="h3" text="Confirm Password" visible="false" />
+               <PasswordField fx:id="confirmPasswordField" onAction="#onContinueClicked" promptText="Confirm Password" styleClass="login-field" visible="false">
                   <padding>
                      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
                   </padding>
                </PasswordField>
                <Label fx:id="errorLabel" styleClass="loginWarningText" textAlignment="CENTER">
                </Label>
-               <Button fx:id="continueButton" alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onContinueClicked" styleClass="signin-button" text="Sign In!" />
-               <Button fx:id="guestButton" alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onGuestButtonClicked" styleClass="guest-button" text="Continue as guest">
-                  <VBox.margin>
-                     <Insets />
-                  </VBox.margin>
-               </Button>
+               <VBox spacing="15.0">
+                  <children>
+                     <Button fx:id="continueButton" alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onContinueClicked" text="Sign In!">
+                        <styleClass>
+                           <String fx:value="basic-button" />
+                           <String fx:value="basic-shadow" />
+                        </styleClass>
+                     </Button>
+                     <Button fx:id="guestButton" alignment="BOTTOM_CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#onGuestButtonClicked" styleClass="basic-button, basic-shadow, button-brown" text="Continue as guest" />
+                  </children>
+               </VBox>
                <HBox />
             </VBox>
          </children>
       </VBox>
    </VBox>
-   <Button fx:id="dataButton" mnemonicParsing="false" onAction="#goToData" styleClass="view-data-button" text="View data" StackPane.alignment="BOTTOM_RIGHT">
-      <StackPane.margin>
-         <Insets bottom="20.0" right="20.0" />
-      </StackPane.margin>
-   </Button>
 </StackPane>

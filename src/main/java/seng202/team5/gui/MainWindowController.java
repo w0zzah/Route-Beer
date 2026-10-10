@@ -8,12 +8,11 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-import seng202.team5.data.RouteDAO;
-import seng202.team5.data.UserDAO;
+import seng202.team5.gui.widgets.VenueInfoWidget;
+import seng202.team5.gui.tab_pane_controllers.TabPaneController;
 import seng202.team5.models.*;
+import seng202.team5.models.types.UserType;
 import seng202.team5.services.MainManager;
-import seng202.team5.services.MemberService;
-import seng202.team5.services.UserService;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.shape.SVGPath;
 
@@ -28,15 +27,9 @@ import java.util.Random;
 public class MainWindowController {
 
     @FXML
-    private Label usernameLabel, accountLabel;
-    @FXML
     private Pane accountPane;
     @FXML
-    private ToggleButton accountButton;
-    @FXML
     private MapController mapController;
-    @FXML
-    private Button signOutAccButton, deleteAccButton;
     @FXML
     private TabPaneController tabPaneViewController;
     @FXML
@@ -48,28 +41,12 @@ public class MainWindowController {
     @FXML
     private SVGPath barInfoArrow;
 
-    private BarInfoController barInfoController;
-    private AlcoholSafetyPopupFooterController alcoholSafetyPopupFooterController;
+    private AlcoholSafetyPopup alcoholSafetyPopup;
     private ScreenNavigator navigator;
     private MainManager mainManager;
-    private TabPaneController tabPaneController;
     private User currentUser;
     private Random random = new Random();
-    /**
-     * Button action to sign out a user
-     */
-    @FXML
-    public void returnToSetup() {
-        navigator.goToSetup(false);
-    }
-
-    /**
-     * Button action to return to the setup page and toggle create account view
-     */
-    @FXML
-    public void returnToCreateAccount(ActionEvent event) {
-        navigator.goToSetup(true);
-    }
+    private TabPaneController tabPaneController;
 
     /**
      * Initialises the main window, loading the leaflet map interface and adjusting the GUI considering the
@@ -82,21 +59,17 @@ public class MainWindowController {
     public void initialise(Stage primaryStage, ScreenNavigator navigator, User currentUser, MainManager mainManager) {
         this.navigator = navigator;
         this.mainManager = mainManager;
-        this.tabPaneController = tabPaneViewController;
         this.currentUser = currentUser;
+        this.tabPaneController = tabPaneViewController;
 
         // Initialise controllers
         mapController.initialise(mainManager);
-        tabPaneController.initialiseTabs();
         tabPaneController.initialise(mainManager, mapController, navigator);
-        tabPaneController.setupParameters();
-        tabPaneController.initialiseSpinner();
+        tabPaneController.initialiseTabs();
 
-        accountPane.visibleProperty().bind(accountButton.selectedProperty());
-        accountPane.managedProperty().bind(accountPane.visibleProperty());
-
-        openAlcoholSafetyPopupAfterDelay(random.nextDouble(0, 30));
-        initialiseUser(currentUser);
+        //openAlcoholSafetyPopupAfterDelay(random.nextDouble(0, 30));
+        initialiseUser();
+        tabPaneController.setAccountButtons(currentUser);
 
         // Stop the parked panel (and its drop shadow) painting over the left pane.
         Rectangle mapClip = new Rectangle();
@@ -104,74 +77,29 @@ public class MainWindowController {
         mapClip.heightProperty().bind(mapPanel.heightProperty());
         mapPanel.setClip(mapClip);
 
-        barInfoController = BarInfoController.attachTo(barInfoContainer, barInfoSlider, barInfoArrow);
-        mapController.setOnBarSelected(bar -> barInfoController.show(bar));
+        mainManager.venueInfoWidget = VenueInfoWidget.attachTo(barInfoContainer, barInfoSlider, barInfoArrow);
+        mapController.setOnVenueSelected(venue -> mainManager.venueInfoWidget.show(venue));
     }
 
     @FXML
     private void toggleBarInfo() {
-        barInfoController.toggle();
+        mainManager.venueInfoWidget.toggle();
     }
 
     /**
      * Create a new User object and updates GUI accordingly
-     * @param currentUser The current user who is logged in, a
      */
-    private void initialiseUser(User currentUser) {
+    private void initialiseUser() {
+        mainManager.setCurrentUser(currentUser);
 
-        UserService userService;
-        // Create a new UserService of the correct type and initialise GUI
-        switch (currentUser.getType()) {
-
-            case GUEST -> {
-                userService = new UserService(mainManager);
-                signOutAccButton.setText("Create an account");
-                signOutAccButton.setOnAction(this::returnToCreateAccount);
-                accountButtonsHBox.getChildren().remove(deleteAccButton);
-                accountLabel.setText("You are not signed in");
-                usernameLabel.setVisible(false);
-            }
-            case ADMIN -> {
-                userService = new UserService(mainManager);
-                updateAccountPane(currentUser);
-            }
-            case MEMBER -> {
-                // TODO: Rewrite with better integration into DB
-                userService = new MemberService(mainManager);
-
-                tabPaneController.loadSavedRoutes((MemberService) userService, currentUser);
-                updateAccountPane(currentUser);
-            }
-            default -> {
-                userService = new UserService(mainManager);
-            }
-
+        if (currentUser.getType() == UserType.MEMBER) {
+            mainManager.setUserRoutes();
+            tabPaneController.loadSavedRoutes(mainManager.getUserRoutes(), currentUser.getId());
         }
-        mainManager.setCurrentUser(currentUser, userService);
-        tabPaneController.loadCommunityRoutes(userService, currentUser);
+        tabPaneController.loadCommunityRoutes();
     }
 
-    /**
-     * Displays the username
-     * @param user The current user
-     */
-    public void updateAccountPane(User user) {
-        if (!accountButtonsHBox.getChildren().contains(deleteAccButton)) {
-            accountButtonsHBox.getChildren().add(deleteAccButton);
-        }
-        accountLabel.setText("Username:");
-        usernameLabel.setText(user.getUsername());
-    }
 
-    /**
-     * Deletes the current user's account
-     */
-    @FXML
-    public void deleteAccount() {
-        // TODO: Add delay
-        mainManager.userDAO.deleteUser(currentUser.getUsername());
-        navigator.goToSetup(false);
-    }
 
     /**
      * After a delay, open the alcohol popup footer in the bottom of the map
@@ -196,8 +124,8 @@ public class MainWindowController {
     public void openAlcoholSafetyPopupFooter() throws IOException {
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/fxml/alcohol_safety_popup_footer.fxml"));
         alcoholSafetyPopupFooter = loader.load();
-        alcoholSafetyPopupFooterController = loader.getController();
-        alcoholSafetyPopupFooterController.setMainWindowController(this);
+        alcoholSafetyPopup = loader.getController();
+        alcoholSafetyPopup.setMainWindowController(this);
         AnchorPane.setBottomAnchor(alcoholSafetyPopupFooter, 10.0);
         AnchorPane.setLeftAnchor(alcoholSafetyPopupFooter, 10.0);
         AnchorPane.setRightAnchor(alcoholSafetyPopupFooter, 10.0);

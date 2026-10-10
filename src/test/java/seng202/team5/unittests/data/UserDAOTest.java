@@ -9,8 +9,8 @@ import seng202.team5.data.UserDAO;
 import seng202.team5.exceptions.DataAccessException;
 import seng202.team5.exceptions.InvalidCredentialsException;
 import seng202.team5.models.User;
-import seng202.team5.models.UserType;
-import seng202.team5.services.PasswordService;
+import seng202.team5.models.types.UserType;
+import seng202.team5.services.entry.PasswordService;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -66,7 +66,7 @@ class UserDAOTest {
         when(mockStatement.executeQuery()).thenReturn(mockResultSet);
         when(mockResultSet.next()).thenReturn(true);
         when(mockResultSet.getString("password")).thenReturn("hashedPassword");
-        when(mockResultSet.getString("user_type")).thenReturn(UserType.ADMIN.name());
+        when(mockResultSet.getString("user_type")).thenReturn(UserType.MEMBER.name());
         when(mockResultSet.getInt("id")).thenReturn(1);
         when(mockResultSet.getString("username")).thenReturn("testUser");
 
@@ -78,7 +78,7 @@ class UserDAOTest {
         assertNotNull(result);
         assertEquals(1, result.getId());
         assertEquals("testUser", result.getUsername());
-        assertEquals(UserType.ADMIN, result.getType());
+        assertEquals(UserType.MEMBER, result.getType());
         verify(mockStatement).setString(1, "testUser");
     }
 

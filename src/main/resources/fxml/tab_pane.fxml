@@ -1,219 +1,161 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ScrollPane?>
 <?import javafx.scene.control.Separator?>
-<?import javafx.scene.control.Spinner?>
-<?import javafx.scene.control.SpinnerValueFactory.IntegerSpinnerValueFactory?>
-<?import javafx.scene.control.Tab?>
 <?import javafx.scene.control.TabPane?>
-<?import javafx.scene.control.TextArea?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.ColumnConstraints?>
-<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
 <?import javafx.scene.text.Font?>
-<?import org.controlsfx.control.CheckComboBox?>
 
-<AnchorPane fx:id="leftAnchorPane" minHeight="0.0" styleClass="left-anchor-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.TabPaneController">
+<AnchorPane fx:id="leftAnchorPane" maxWidth="Infinity" minHeight="0.0" minWidth="0.0" prefHeight="1000.0" prefWidth="720.0" styleClass="left-anchor-pane" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="seng202.team5.gui.tab_pane_controllers.TabPaneController">
    <children>
-      <VBox AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <HBox prefWidth="720.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <TabPane fx:id="mainTabPane" tabClosingPolicy="UNAVAILABLE">
-               <tabs>
-                  <Tab styleClass="tabHeader" text="Route Maker">
-                     <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="676.0" styleClass="tab-anchor-pane">
-                           <children>
-                              <GridPane fx:id="routeTabGrid" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" styleClass="tab-pane-grid" vgap="25.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <columnConstraints>
-                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="207.0" minWidth="10.0" percentWidth="48.0" prefWidth="207.0" />
-                                    <ColumnConstraints hgrow="SOMETIMES" maxWidth="93.0" minWidth="0.0" prefWidth="0.0" />
-                                    <ColumnConstraints hgrow="SOMETIMES" percentWidth="48.0" />
-                                 </columnConstraints>
-                                 <rowConstraints>
-                                    <RowConstraints />
-                                    <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" vgrow="SOMETIMES" />
-                                    <RowConstraints minHeight="39.0" vgrow="SOMETIMES" />
-                                    <RowConstraints minHeight="0.0" vgrow="SOMETIMES" />
-                                    <RowConstraints minHeight="-Infinity" vgrow="SOMETIMES" />
-                                 </rowConstraints>
-                                 <children>
-                                    <VBox GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
-                                       <children>
-                                          <HBox alignment="BOTTOM_LEFT" spacing="3.0">
-                                             <children>
-                                                <Label styleClass="h3" text="Start location" />
-                                                <Label styleClass="asterisk" text="*" />
-                                             </children>
-                                          </HBox>
-                                          <TextField fx:id="startLocationField" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="route-field" />
-                                       </children>
-                                    </VBox>
-                                    <VBox GridPane.columnIndex="2" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
-                                       <children>
-                                          <Label styleClass="h3" text="End location" />
-                                          <TextField fx:id="endLocationField" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" styleClass="route-field" />
-                                       </children>
-                                    </VBox>
-                                    <Label alignment="BOTTOM_CENTER" styleClass="h3" text="Approx. Distance" GridPane.rowIndex="3" GridPane.valignment="CENTER" />
-                                    <VBox GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
-                                       <children>
-                                          <Label styleClass="h3" text="Bar Features" />
-                                          <CheckComboBox fx:id="barFeaturesCheckComboBox" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="45.0" />
-                                       </children>
-                                    </VBox>
-                                    <VBox GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
-                                       <children>
-                                          <Label styleClass="h3" text="Bar Themes" />
-                                          <CheckComboBox fx:id="barThemesCheckComboBox" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" prefHeight="45.0" />
-                                       </children>
-                                    </VBox>
-                                    <TextField fx:id="approxDistanceField" maxHeight="-Infinity" maxWidth="80.0" minHeight="-Infinity" styleClass="route-field" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
-                                       <GridPane.margin>
-                                          <Insets />
-                                       </GridPane.margin>
-                                       <padding>
-                                          <Insets left="10.0" right="30.0" />
-                                       </padding>
-                                    </TextField>
-                                    <Label prefHeight="18.0" prefWidth="26.0" text="km" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
-                                       <padding>
-                                          <Insets right="5.0" />
-                                       </padding>
-                                       <font>
-                                          <Font size="10.0" />
-                                       </font>
-                                    </Label>
-                                    <Button fx:id="generateRouteButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#generateRoute" styleClass="button1" text="Generate Route" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" />
-                                    <Spinner fx:id="numBarsSpinner" editable="true" maxWidth="80.0" GridPane.columnIndex="2" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
-                                       <valueFactory>
-                                          <SpinnerValueFactory.IntegerSpinnerValueFactory amountToStepBy="1" max="9" min="1" />
-                                       </valueFactory>
-                                    </Spinner>
-                                    <HBox alignment="CENTER_LEFT" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="3.0" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="CENTER">
-                                       <children>
-                                          <Label styleClass="h3" text="Number of Bars:" />
-                                       </children>
-                                    </HBox>
-                                    <Label styleClass="h2" text="Choose your parameters" GridPane.columnSpan="2147483647" />
-                                 </children>
-                              </GridPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab text="Saved Routes">
-                     <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                           <children>
-                              <ScrollPane fx:id="savedScrollPane" fitToWidth="true" hbarPolicy="NEVER" styleClass="route-scrollpane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <content>
-                                    <VBox fx:id="savedRouteVBox" spacing="15.0" styleClass="saved-route-vbox">
-                                       <children>
-                                          <GridPane fx:id="savedGuestGrid">
-                                             <columnConstraints>
-                                                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
-                                                <ColumnConstraints hgrow="SOMETIMES" />
-                                             </columnConstraints>
-                                             <rowConstraints>
-                                                <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
-                                             </rowConstraints>
-                                             <children>
-                                                <Button fx:id="signInSavedButton" alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#returnToSetup" styleClass="button1" text="Sign in" GridPane.columnIndex="1">
-                                                   <font>
-                                                      <Font size="10.0" />
-                                                   </font>
-                                                   <padding>
-                                                      <Insets bottom="5.0" left="15.0" right="15.0" top="5.0" />
-                                                   </padding>
-                                                </Button>
-                                                <Label styleClass="h3" text="Sign in to view saved routes">
-                                                   <GridPane.margin>
-                                                      <Insets left="5.0" />
-                                                   </GridPane.margin></Label>
-                                             </children>
-                                          </GridPane>
-                                       </children>
-                                    </VBox>
-                                 </content>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-                  <Tab fx:id="communityTab" onSelectionChanged="#handleTabSelect" text="Community">
-                     <content>
-                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
-                           <children>
-                              <ScrollPane fx:id="communityScrollPane" fitToWidth="true" styleClass="route-scrollpane" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-                                 <content>
-                                    <VBox fx:id="communityRouteVBox" maxWidth="1.7976931348623157E308" spacing="15.0" styleClass="community-route-vbox" />
-                                 </content>
-                              </ScrollPane>
-                           </children>
-                        </AnchorPane>
-                     </content>
-                  </Tab>
-               </tabs>
-            </TabPane>
-            <VBox fx:id="alcoholSafetyBox" />
-            <GridPane fx:id="routeInfoGrid" hgap="10.0" maxHeight="1.7976931348623157E308" styleClass="route-info-grid" vgap="10.0" VBox.vgrow="ALWAYS">
-               <columnConstraints>
-                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
-                  <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" percentWidth="50.0" />
-               </columnConstraints>
-               <rowConstraints>
-                  <RowConstraints minHeight="10.0" vgrow="NEVER" />
-                  <RowConstraints vgrow="NEVER" />
-                  <RowConstraints vgrow="NEVER" />
-                  <RowConstraints fillHeight="false" vgrow="NEVER" />
-                  <RowConstraints vgrow="ALWAYS" />
-                  <RowConstraints vgrow="NEVER" />
-                  <RowConstraints minHeight="0.0" vgrow="SOMETIMES" />
-               </rowConstraints>
+            <VBox fx:id="menuVBox" alignment="TOP_RIGHT" minWidth="100.0" spacing="10.0" styleClass="menu-vbox" HBox.hgrow="ALWAYS">
                <children>
-                  <ScrollPane fitToWidth="true" styleClass="route-bars-scrollpane" GridPane.columnSpan="2147483647" GridPane.rowIndex="4" GridPane.valignment="TOP">
-                     <content>
-                        <VBox fx:id="routeBarsVBox" spacing="5.0">
-                           <padding>
-                              <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
-                           </padding>
+                  <Button fx:id="tabArrowButton" alignment="CENTER_RIGHT" contentDisplay="RIGHT" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#toggleMenu" prefHeight="90.0" styleClass="menu-button" textFill="TRANSPARENT">
+                     <graphic>
+                        <SVGPath fx:id="arrowSVG" content="M 6,4 L 12,10 L 6,16" fill="TRANSPARENT" rotate="180.0" stroke="BLACK" strokeWidth="4.0" styleClass="menu-arrow" />
+                     </graphic>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Button>
+                  <ToggleButton fx:id="builderTabButton" alignment="CENTER_LEFT" graphicTextGap="20.0" maxWidth="1.7976931348623157E308" minHeight="90.0" mnemonicParsing="false" onAction="#showRouteTab" prefHeight="90.0" text="Route Builder" toggleGroup="$tabButtons" wrapText="true" VBox.vgrow="ALWAYS">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="tabButtons" />
+                     </toggleGroup>
+                     <graphic>
+                        <SVGPath content="M 67.9833 17.037 a 2.2748 2.2748 90 0 0 -3.6545 -0.6142 L 57.4236 23.328 h 0 a 1.5052 1.5052 90 0 1 -2.1141 0 l -3.0348 -3.0348 a 1.5079 1.5079 90 0 1 0 -2.1155 L 59.1435 11.3076 a 2.2748 2.2748 90 0 0 -0.7115 -3.699 c -5.3609 -2.295 -12.0258 -1.0057 -16.2 3.1442 c -3.6193 3.5923 -4.702 9.18 -2.97 15.3495 a 1.485 1.485 90 0 1 -0.4266 1.4985 L 15.4939 49.2885 a 7.6626 7.6626 90 1 0 10.8189 10.8243 L 48.195 36.7308 a 1.485 1.485 90 0 1 1.4715 -0.4279 c 6.075 1.62 11.61 0.54 15.1781 -2.97 c 2.052 -2.025 3.4844 -4.883 4.0352 -8.0609 C 69.3967 22.275 69.0701 19.2726 67.9833 17.037 Z M 59.0396 51.0853 c -1.8819 -1.5646 -5.9022 -5.184 -9.9994 -8.9397 L 40.1206 51.678 c 3.8124 4.05 7.263 7.8098 8.775 9.5688 l 0.0095 0.0108 A 4.05 4.05 90 0 0 51.8022 62.64 l 0.1485 0 a 4.0648 4.0648 90 0 0 2.835 -1.1637 l 0.0095 -0.0095 l 4.513 -4.505 a 3.9771 3.9771 90 0 0 -0.27 -5.8765 Z M 16.0029 28.9642 a 2.7648 2.7648 90 0 0 -0.405 -1.4526 a 0.3726 0.3726 90 0 1 0.3537 -0.5697 h 0.0081 c 0.1134 0.0121 0.7196 0.0999 1.5795 0.6224 c 0.6386 0.3875 2.4611 1.6308 5.6336 4.7979 a 4.6211 4.6211 90 0 0 0.9747 2.9862 l 8.9411 -8.3093 a 4.5535 4.5535 90 0 0 -2.916 -1.242 a 0.3578 0.3578 90 0 1 -0.0284 -0.0351 l -0.0878 -0.0931 L 26.7435 21.1005 a 3.8408 3.8408 90 0 1 -0.54 -3.5249 a 4.7561 4.7561 90 0 1 1.5903 -2.2073 c 0.7681 -0.5954 2.5015 -1.3122 3.9744 -1.4337 a 7.1442 7.1442 90 0 1 2.0507 0.1269 a 8.852 8.852 90 0 1 0.9531 0.2876 a 2.0871 2.0871 90 0 0 0.2903 0.0851 a 2.16 2.16 90 0 0 2.2113 -3.3831 c -0.0351 -0.0473 -0.1782 -0.2417 -0.3901 -0.5036 a 12.3997 12.3997 90 0 0 -1.296 -1.3986 c -1.1002 -0.9936 -3.9515 -2.669 -7.695 -2.669 a 16.6226 16.6226 90 0 0 -6.2505 1.215 C 16.4619 9.7807 13.0734 12.6333 11.5155 14.1467 l -0.0121 0.0121 A 29.9889 29.9889 90 0 0 8.5995 17.4825 A 3.645 3.645 90 0 0 7.965 19.0715 a 0.9896 0.9896 90 0 1 -1.0409 0.8329 c -0.0486 0 -0.0985 0 -0.1472 0 a 2.7877 2.7877 90 0 0 -1.9696 0.7965 L 0.8316 24.5768 l -0.0432 0.0432 a 2.8202 2.8202 90 0 0 -0.0324 3.8772 c 0.0257 0.027 0.05 0.0527 0.077 0.0783 L 7.2454 34.83 A 2.835 2.835 90 0 0 9.2232 35.64 a 2.7877 2.7877 90 0 0 1.9696 -0.7965 l 3.9771 -3.8867 A 2.7689 2.7689 90 0 0 16.0029 28.9642 Z" styleClass="tab-icon" translateX="1.0" />
+                     </graphic>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets right="10.0" />
+                     </padding>
+                     <styleClass>
+                        <String fx:value="tab-buttons" />
+                        <String fx:value="basic-shadow" />
+                     </styleClass>
+                  </ToggleButton>
+                  <ToggleButton fx:id="detailsTabButton" alignment="CENTER_LEFT" graphicTextGap="23.0" maxWidth="1.7976931348623157E308" minHeight="90.0" mnemonicParsing="false" onAction="#showDetailsTab" prefHeight="90.0" text="Route Details" toggleGroup="$tabButtons" wrapText="true" VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <SVGPath content="M 20.8805 11.8224 C 26.406 11.8611 31.6347 14.4757 35.5102 18.413 C 39.3993 22.3642 41.76 27.4782 41.76 32.2837 C 41.76 47.1877 34.2814 58.0075 20.88 68.7912 C 7.4786 58.0075 0.0001 47.1877 0 32.2837 C 0 27.478 2.361 22.3638 6.2503 18.4125 C 10.1259 14.4753 15.3547 11.8608 20.8805 11.8224 Z M 50.4005 0 C 54.7829 0.0308 58.9301 2.1044 62.0035 5.227 C 65.088 8.3608 66.96 12.4168 66.96 16.2281 C 66.96 28.0485 61.0286 36.6298 50.4 45.1824 C 48.3485 43.5314 46.4718 41.8792 44.7792 40.2028 C 45.4601 37.3262 45.8086 34.3 45.8086 31.0837 C 45.8086 26.2782 43.4479 21.1642 39.5588 17.213 C 37.9822 15.6112 36.1815 14.2285 34.2281 13.1489 C 34.9259 10.319 36.535 7.5246 38.797 5.2266 C 41.8707 2.104 46.018 0.0305 50.4005 0 Z M 20.88 25.7419 C 16.506 25.7419 12.96 29.2878 12.96 33.6619 C 12.96 38.036 16.5059 41.5819 20.88 41.5819 C 25.2541 41.5819 28.8 38.036 28.8 33.6619 C 28.8 29.2878 25.254 25.7419 20.88 25.7419 Z M 50.4 11.0395 C 46.9309 11.0395 44.1188 13.8521 44.1188 17.3212 C 44.1189 20.7903 46.9309 23.6025 50.4 23.6025 C 53.869 23.6025 56.6813 20.7903 56.6813 17.3212 C 56.6813 13.8521 53.869 11.0395 50.4 11.0395 Z" styleClass="tab-icon" translateX="3.0" />
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="tab-buttons" />
+                        <String fx:value="basic-shadow" />
+                     </styleClass>
+                  </ToggleButton>
+                  <ToggleButton fx:id="savedTabButton" alignment="CENTER_LEFT" graphicTextGap="30.0" maxWidth="1.7976931348623157E308" minHeight="90.0" mnemonicParsing="false" onAction="#showSavedTab" prefHeight="90.0" text="Saved Routes" toggleGroup="$tabButtons" wrapText="true" VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <SVGPath content="M 38.67 17.6367 H 15.33 C 10.2 17.6367 6 21.8367 6 26.9667 V 61.0467 C 6 65.3967 9.12 67.2567 12.93 65.1267 L 24.72 58.5567 C 25.98 57.8667 28.02 57.8667 29.25 58.5567 L 41.04 65.1267 C 44.88 67.2267 48 65.3967 48 61.0467 V 26.9667 C 48 21.8367 43.8 17.6367 38.67 17.6367 Z M 65.9994 15.33 V 49.41 C 65.9994 53.76 62.8794 55.59 59.0694 53.49 L 53.2794 50.25 C 52.7994 49.98 52.4994 49.47 52.4994 48.93 V 26.97 C 52.4994 19.35 46.2894 13.14 38.6694 13.14 H 26.4595 C 25.3495 13.14 24.5695 11.97 25.0795 11.01 C 26.6395 8.04 29.7595 6 33.3294 6 H 56.6694 C 61.7994 6 65.9994 10.2 65.9994 15.33 Z" styleClass="tab-icon" translateX="8.0" />
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="tab-buttons" />
+                        <String fx:value="basic-shadow" />
+                     </styleClass>
+                  </ToggleButton>
+                  <ToggleButton fx:id="publicTabButton" alignment="CENTER_LEFT" graphicTextGap="10.0" maxWidth="1.7976931348623157E308" minHeight="90.0" mnemonicParsing="false" onAction="#showCommunityTab" prefHeight="90.0" text="Public Routes" toggleGroup="$tabButtons" wrapText="true" VBox.vgrow="ALWAYS">
+                     <graphic>
+                        <SVGPath content="M 46.9178 36.8641 l 0 0 c 3.5144 -2.5905 5.6141 -6.7231 5.6141 -11.0538 c 0 -7.5748 -6.1632 -13.7388 -13.7395 -13.7388 c -7.5756 0 -13.7388 6.1632 -13.7388 13.7388 c 0 4.3907 2.0429 8.4165 5.6041 11.0477 c -14.0114 4.9544 -16.1987 22.0493 -16.5358 27.1703 c -0.0238 0.3679 0.1052 0.7288 0.3571 0.9984 c 0.2519 0.2688 0.6029 0.4216 0.9708 0.4216 h 46.6852 c 0.3679 0 0.7204 -0.1528 0.9723 -0.4216 c 0.2519 -0.2688 0.3809 -0.6298 0.3571 -0.9984 C 63.1802 58.9972 60.9866 41.9284 46.9754 36.9441 z M 66.2088 37.4888 c 2.416 -1.7816 3.8568 -4.6232 3.8568 -7.6016 c 0 -5.2064 -4.2376 -9.444 -9.4456 -9.444 c -1.4936 0 -2.9016 0.3576 -4.1592 0.9784 c 0.276 1.2512 0.4232 2.5472 0.4232 3.8816 c 0 3.744 -1.1872 7.3752 -3.3096 10.3904 c 8.3584 5.2576 11.9848 14.456 13.5552 21.448 h 9.5384 c 0.252 0 0.4944 -0.1048 0.6688 -0.2888 c 0.172 -0.184 0.26 -0.4328 0.244 -0.6856 C 77.3504 52.6496 75.844 40.9152 66.2088 37.4888 z M 23.9808 35.6936 c -2.1232 -2.9984 -3.2832 -6.5904 -3.2832 -10.3904 c 0 -1.3344 0.1504 -2.6296 0.4248 -3.8816 c -1.2576 -0.62 -2.6656 -0.9784 -4.1592 -0.9784 c -5.208 0 -9.4456 4.2376 -9.4456 9.444 c 0 3.02 1.4032 5.7888 3.8528 7.5968 C 1.7376 40.8904 0.2328 52.6448 0.0016 56.1656 c -0.0168 0.2528 0.072 0.5016 0.2456 0.6856 c 0.1736 0.1832 0.416 0.288 0.6688 0.288 H 10.448 C 12.0152 50.148 15.6344 40.9432 23.9808 35.6936 z" fillRule="EVEN_ODD" strokeWidth="0.0" styleClass="tab-icon">
+                           <rotationAxis>
+                              <Point3D />
+                           </rotationAxis>
+                        </SVGPath>
+                     </graphic>
+                     <styleClass>
+                        <String fx:value="tab-buttons" />
+                        <String fx:value="basic-shadow" />
+                     </styleClass>
+                  </ToggleButton>
+                  <Separator maxHeight="1.7976931348623157E308" visible="false" VBox.vgrow="ALWAYS" />
+                  <VBox>
+                     <children>
+                        <VBox fx:id="accountVBox" spacing="5.0" styleClass="account-vbox">
+                           <children>
+                              <Label fx:id="accountLabel" styleClass="h3" text="Username:" wrapText="true">
+                                 <padding>
+                                    <Insets left="5.0" />
+                                 </padding>
+                              </Label>
+                              <Label fx:id="usernameLabel" styleClass="account-text" wrapText="true" />
+                              <Button fx:id="signOutAccButton" alignment="CENTER" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" mnemonicParsing="false" onAction="#returnToSetup" text="Sign out">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                                 <styleClass>
+                                    <String fx:value="small-button" />
+                                    <String fx:value="button-lightbrown" />
+                                    <String fx:value="basic-shadow" />
+                                 </styleClass>
+                              </Button>
+                              <Button fx:id="deleteAccButton" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" minHeight="-Infinity" mnemonicParsing="false" onAction="#deleteAccount" text="Delete account">
+                                 <font>
+                                    <Font size="10.0" />
+                                 </font>
+                                 <styleClass>
+                                    <String fx:value="button1" />
+                                    <String fx:value="basic-shadow" />
+                                 </styleClass>
+                              </Button>
+                           </children>
                         </VBox>
-                     </content>
-                  </ScrollPane>
-                  <HBox spacing="10.0" GridPane.columnSpan="2147483647" GridPane.rowIndex="1">
-                     <children>
-                        <TextField fx:id="routeNameField" promptText="Route Name" styleClass="route-field" HBox.hgrow="ALWAYS" />
-                        <Button fx:id="saveRouteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#callSaveRoute" styleClass="save-route-button" text="Save Route" />
+                        <Button fx:id="accountButton" alignment="BASELINE_LEFT" contentDisplay="GRAPHIC_ONLY" graphicTextGap="0.0" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#toggleMenu" styleClass="account-icon-button">
+                           <graphic>
+                              <SVGPath content="M 12,2 C 6.48,2 2,6.48 2,12 C 2,17.52 6.48,22 12,22 C 17.52,22 22,17.52 22,12 C 22,6.48 17.52,2 12,2 Z M 12,6 C 13.93,6 15.5,7.57 15.5,9.5 C 15.5,11.43 13.93,13 12,13 C 10.07,13 8.5,11.43 8.5,9.5 C 8.5,7.57 10.07,6 12,6 Z M 12,20 C 9.27,20 6.89,18.61 5.48,16.5 C 5.51,14.34 9.83,13.15 12,13.15 C 14.16,13.15 18.49,14.34 18.52,16.5 C 17.11,18.61 14.73,20 12,20 Z" strokeMiterLimit="0.0" styleClass="account-icon" />
+                           </graphic>
+                           <VBox.margin>
+                              <Insets />
+                           </VBox.margin>
+                        </Button>
                      </children>
-                  </HBox>
-                  <TextArea fx:id="routeDescriptionField" prefRowCount="1" prefWidth="550.0" promptText="Enter description" styleClass="route-field" GridPane.columnSpan="2147483647" GridPane.rowIndex="2" />
-                  <HBox alignment="CENTER" fillHeight="false" spacing="2.0" GridPane.rowIndex="3">
-                     <children>
-                        <Label styleClass="h3" text="Walking Distance: " />
-                        <Label fx:id="walkingDistanceLabel" styleClass="h3" text="0" />
-                        <Label styleClass="h3" text="km" />
-                     </children>
-                  </HBox>
-                  <Button fx:id="exportRouteButton" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#exportRoute" styleClass="button1" text="Export Route" GridPane.columnIndex="1" GridPane.rowIndex="5" />
-                  <HBox alignment="CENTER" fillHeight="false" spacing="2.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
-                     <children>
-                        <Label styleClass="h3" text="Estimated Time: " />
-                        <Label fx:id="estTimeLabel" styleClass="h3" text="0" />
-                        <Label styleClass="h3" text="mins" />
-                     </children>
-                  </HBox>
-                  <Button fx:id="clearRouteButton" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#clearRoute" styleClass="button1" text="Clear Route" GridPane.rowIndex="5" />
-                  <Separator styleClass="tab-separator" GridPane.columnSpan="2147483647" />
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </VBox>
                </children>
-            </GridPane>
+            </VBox>
+            <BorderPane fx:id="tabBorderPane" styleClass="main-border-pane">
+               <center>
+                  <VBox prefWidth="500.0">
+                     <children>
+                        <TabPane fx:id="mainTabPane" rotateGraphic="true" side="LEFT" tabClosingPolicy="UNAVAILABLE" tabMaxHeight="0.0" tabMaxWidth="0.0" VBox.vgrow="ALWAYS">
+                           <tabs>
+                              <fx:include fx:id="routeTab" source="route_builder_tab.fxml" />
+                              <fx:include fx:id="viewTab" source="route_details_tab.fxml" />
+                              <fx:include fx:id="savedTab" source="saved_routes_tab.fxml" />
+                              <fx:include fx:id="communityTab" source="community_routes_tab.fxml" />
+                           </tabs>
+                        </TabPane>
+                     </children>
+                  </VBox>
+               </center>
+               <top>
+                  <Label fx:id="titleLabel" alignment="BOTTOM_LEFT" styleClass="tab-title" text="Route Builder" BorderPane.alignment="BOTTOM_LEFT" />
+               </top>
+               <bottom>
+                  <fx:include source="alcohol_safety_popup_left.fxml" />
+               </bottom>
+            </BorderPane>
          </children>
-      </VBox>
+      </HBox>
+      <ImageView disable="true" fitHeight="81.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="15.0">
+         <image>
+            <Image url="@../images/brand/logo.png" />
+         </image>
+      </ImageView>
    </children>
 </AnchorPane>
